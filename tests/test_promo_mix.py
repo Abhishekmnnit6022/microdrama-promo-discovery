@@ -48,3 +48,9 @@ def test_multi_episode_only(show):
 def test_unknown_mix_rejected():
     with pytest.raises(ValueError):
         select_with_mix([], mix="random")
+
+
+def test_include_keeps_single_episode_promos_on_small_show(show):
+    res = _run(show, "include_multi_episode")
+    kinds = {c.structure for c in res.recommended}
+    assert "cross_episode" in kinds and kinds - {"cross_episode"}, kinds

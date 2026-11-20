@@ -266,7 +266,11 @@ def select_with_mix(cands: list, top_k: int = 15, max_per_episode: int = 2, max_
     if mix == "multi_episode_only":
         chosen = select_diverse(cross, top_k, max_per_episode, max_overlap, assign_rank=False)
     elif mix == "include_multi_episode":
-        reserved = select_diverse(cross, min(multi_episode_slots, top_k), max_per_episode, max_overlap, assign_rank=False)
+        # each multi-episode promo uses up two episodes' allowance, so on a small show a fixed quota would crowd out
+        # single-episode promos: reserve at most half the episode count and at most a third of the list
+        n_episodes = len({e for c in cands for e in c.episodes})
+        slots = max(1, min(multi_episode_slots, -(-top_k // 3), n_episodes // 2))
+        reserved = select_diverse(cross, slots, max_per_episode, max_overlap, assign_rank=False)
         chosen = select_diverse(cands, top_k, max_per_episode, max_overlap, assign_rank=False, preselected=reserved)
     else:
         chosen = select_diverse(cands, top_k, max_per_episode, max_overlap, assign_rank=False)

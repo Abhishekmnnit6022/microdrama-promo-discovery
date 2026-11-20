@@ -247,7 +247,7 @@ def page_dataset():
                   "multi_episode_only": "Multi-episode promos only"}
     mix = st.radio("Promo mix", list(mix_labels), format_func=mix_labels.get, horizontal=True,
                    help="Multi-episode promos open on a hook from one episode and end on a cliffhanger from the next "
-                        "one or two episodes. 'Include' reserves up to 5 places for them; scores are not changed. "
+                        "one or two episodes. 'Include' reserves up to 5 places for them (fewer for small uploads); scores are not changed. "
                         "Needs at least 2 uploaded episodes.")
     key = st.text_input("Gemini API key (optional; otherwise the app secret / environment / .env is used)", type="password") if llm else ""
     gemini_key = resolve_api_key(key or _secret_gemini_key(), ROOT / ".env") if llm else ""
