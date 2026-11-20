@@ -1,0 +1,205 @@
+{
+  "show": "I Married a Broken Soldier. He was a Duke",
+  "episode_id": "episode-020-Episode 1671722",
+  "episode_number": 20,
+  "source_path": "C:\\Users\\Dell\\Desktop\\kuku_fm_ass\\kuku_fm_assignment_project\\data\\I Married a Broken Soldier. He was a Duke\\episode-020-Episode 1671722.txt",
+  "status": "ok",
+  "error": "",
+  "traceback": "",
+  "warnings": [],
+  "lines_total": 68,
+  "dialogue_lines": 41,
+  "action_lines": 4,
+  "untimed_lines": 0,
+  "duration_seconds": 114.75,
+  "candidates": 694,
+  "candidates_passed": 221,
+  "best_promo_id": "cont-3edc95fc4b",
+  "best_score": 0.8105,
+  "no_promo_reason": "",
+  "seconds_features": 0.011,
+  "seconds_candidates": 0.074,
+  "logline": "Inside the opulent Ashbury estate, the treacherous Rupert and Catherine plot to seize the ducal title as the Dowager Duchess slowly withers, while in an icy barn, Juliana defiantly prepares remedies to save the fever-stricken villagers.",
+  "best_promo": {
+    "rank": null,
+    "promo_id": "cont-3edc95fc4b",
+    "show": "I Married a Broken Soldier. He was a Duke",
+    "structure": "continuous",
+    "priority_score": 0.8105,
+    "total_duration_seconds": 21.8,
+    "episodes": [
+      "episode-020-Episode 1671722"
+    ],
+    "segments": [
+      {
+        "order": 1,
+        "episode_id": "episode-020-Episode 1671722",
+        "episode_number": 20,
+        "start_seconds": 70.6,
+        "end_seconds": 92.4,
+        "start": "01:10.60",
+        "end": "01:32.40",
+        "duration_seconds": 21.8,
+        "dialogue": [
+          {
+            "start": "01:10.60",
+            "end": "01:12.30",
+            "character": "SEAMUS",
+            "kind": "dialogue",
+            "text": "You are a viscount's daughter!"
+          },
+          {
+            "start": "01:12.40",
+            "end": "01:14.20",
+            "character": "SEAMUS",
+            "kind": "dialogue",
+            "text": "Sleeping on straw, sorting weeds!"
+          },
+          {
+            "start": "01:14.30",
+            "end": "01:16.20",
+            "character": "SEAMUS",
+            "kind": "dialogue",
+            "text": "Let the village tend to itself for once!"
+          },
+          {
+            "start": "01:16.30",
+            "end": "01:19.80",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "The chapel is gone, Seamus. I am the only healer these people have left."
+          },
+          {
+            "start": "01:19.90",
+            "end": "01:21.00",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "I keep the basket."
+          },
+          {
+            "start": "01:22.00",
+            "end": "01:24.40",
+            "character": "SEAMUS",
+            "kind": "dialogue",
+            "text": "They have reduced you to a peasant."
+          },
+          {
+            "start": "01:24.80",
+            "end": "01:26.50",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "They have reduced me to myself."
+          },
+          {
+            "start": "01:26.60",
+            "end": "01:28.00",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "And I am not finished."
+          },
+          {
+            "start": "01:28.20",
+            "end": "01:30.00",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "Catherine's gloved hand sets her fine porcelain teacup down onto the silver tray with a delicate clatter."
+          },
+          {
+            "start": "01:29.90",
+            "end": "01:32.40",
+            "character": "CATHERINE",
+            "kind": "dialogue",
+            "text": "Let the peasants rot in their barns."
+          }
+        ]
+      }
+    ],
+    "opening_hook": {
+      "score": 0.7207,
+      "evidence": [
+        "exclamation",
+        "01:10.60 SEAMUS: “You are a viscount's daughter!”",
+        "model: surprise 0.51, arousal 0.94",
+        "cues: ",
+        "script tag 'Desperate, Grieving' (1.00)",
+        "zero-shot conflict/reveal 0.41",
+        "second strong beat within 3 s (+0.05)"
+      ],
+      "timestamp": 70.6,
+      "episode_id": "episode-020-Episode 1671722",
+      "text": "You are a viscount's daughter!",
+      "timestamp_fmt": "01:10.60"
+    },
+    "ending_cliffhanger": {
+      "score": 0.7711,
+      "evidence": [
+        "zero-shot reads an unresolved threat (0.93)",
+        "01:29.90–01:32.40 CATHERINE: “Let the peasants rot in their barns.”",
+        "closing tension 0.94",
+        "zero-shot suspense/threat/reveal 0.93",
+        "withheld next beat: CATHERINE “Let them pray to their weeds.” (payoff 0.49)"
+      ],
+      "timestamp": 92.4,
+      "episode_id": "episode-020-Episode 1671722",
+      "text": "Let the peasants rot in their barns.",
+      "timestamp_fmt": "01:32.40"
+    },
+    "standalone_coherence": {
+      "score": 0.8,
+      "evidence": [
+        "clear who/what/why",
+        "who: 3 speaking character(s), names on screen: seamus",
+        "what: 9 dialogue lines, 61 words",
+        "why: stakes (daughter); logline overlap 0.00",
+        "structure: continuous, 1 scene switch(es)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "emotional_intensity": {
+      "score": 0.9173,
+      "evidence": [
+        "peak 0.98 at 01:12.40, mean 0.86 (emotion model)"
+      ],
+      "timestamp": 72.4,
+      "episode_id": "episode-020-Episode 1671722",
+      "text": "",
+      "timestamp_fmt": "01:12.40"
+    },
+    "narrative_continuity": {
+      "score": 0.9,
+      "evidence": [
+        "one unbroken stretch, 2 scene(s)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "dialogue_quality": {
+      "score": 1.0,
+      "evidence": [
+        "speech covers 83% of runtime, 0% filler lines, 6.8 words/line"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "score_breakdown": {
+      "hook": 0.7207,
+      "cliffhanger": 0.7711,
+      "coherence": 0.8,
+      "emotion": 0.9173,
+      "continuity": 0.9,
+      "dialogue_quality": 1.0
+    },
+    "passed_quality_gates": true,
+    "rejection_reasons": [],
+    "risk_flags": [],
+    "why_it_works": "Opens on exclamation (ep 20 01:10.60: “You are a viscount's daughter!”) and cuts on zero-shot reads an unresolved threat (0.93) (ep 20 01:32.40: “Let the peasants rot in their barns.”); clear who/what/why.",
+    "llm_review": null
+  }
+}

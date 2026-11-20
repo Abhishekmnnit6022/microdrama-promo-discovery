@@ -1,0 +1,259 @@
+{
+  "show": "I Married a Broken Soldier. He was a Duke",
+  "episode_id": "episode-034-Episode 1681367",
+  "episode_number": 34,
+  "source_path": "C:\\Users\\Dell\\Desktop\\kuku_fm_ass\\kuku_fm_assignment_project\\data\\I Married a Broken Soldier. He was a Duke\\episode-034-Episode 1681367.txt",
+  "status": "ok",
+  "error": "",
+  "traceback": "",
+  "warnings": [],
+  "lines_total": 116,
+  "dialogue_lines": 48,
+  "action_lines": 9,
+  "untimed_lines": 0,
+  "duration_seconds": 190.0,
+  "candidates": 855,
+  "candidates_passed": 454,
+  "best_promo_id": "cont-133b0fbcfd",
+  "best_score": 0.7964,
+  "no_promo_reason": "",
+  "seconds_features": 0.011,
+  "seconds_candidates": 0.066,
+  "logline": "Put on trial for witchcraft and poisoning, Lady Juliana stands proud and defiant in the prisoner's dock, refusing to renounce her mother's herbal medicine even after her coerced maid gives false testimony against her.",
+  "best_promo": {
+    "rank": null,
+    "promo_id": "cont-133b0fbcfd",
+    "show": "I Married a Broken Soldier. He was a Duke",
+    "structure": "continuous",
+    "priority_score": 0.7964,
+    "total_duration_seconds": 54.9,
+    "episodes": [
+      "episode-034-Episode 1681367"
+    ],
+    "segments": [
+      {
+        "order": 1,
+        "episode_id": "episode-034-Episode 1681367",
+        "episode_number": 34,
+        "start_seconds": 35.3,
+        "end_seconds": 90.2,
+        "start": "00:35.30",
+        "end": "01:30.20",
+        "duration_seconds": 54.9,
+        "dialogue": [
+          {
+            "start": "00:35.30",
+            "end": "00:37.40",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "The Judge furiously raises his wooden gavel and strikes the sound block with sharp force."
+          },
+          {
+            "start": "00:35.40",
+            "end": "00:36.60",
+            "character": "JUDGE",
+            "kind": "dialogue",
+            "text": "Silence!"
+          },
+          {
+            "start": "00:37.50",
+            "end": "00:41.20",
+            "character": "JUDGE",
+            "kind": "dialogue",
+            "text": "Prudence. You served beside the accused?"
+          },
+          {
+            "start": "00:41.00",
+            "end": "00:43.00",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "Prudence the young maid stands trembling in the center of the courtroom floor, her head bowed in deep shame, clutching the sides of her apron."
+          },
+          {
+            "start": "00:43.20",
+            "end": "00:44.60",
+            "character": "PRUDENCE",
+            "kind": "dialogue",
+            "text": "Yes, Your Honor."
+          },
+          {
+            "start": "00:45.30",
+            "end": "00:48.80",
+            "character": "JUDGE",
+            "kind": "dialogue",
+            "text": "Did you witness Lady Juliana perform these treatments?"
+          },
+          {
+            "start": "00:49.10",
+            "end": "00:50.50",
+            "character": "LADY JULIANA",
+            "kind": "dialogue",
+            "text": "Tell the truth."
+          },
+          {
+            "start": "00:53.00",
+            "end": "00:54.20",
+            "character": "PRUDENCE",
+            "kind": "dialogue",
+            "text": "Yes."
+          },
+          {
+            "start": "00:58.20",
+            "end": "01:00.10",
+            "character": "JUDGE",
+            "kind": "dialogue",
+            "text": "What did you see?"
+          },
+          {
+            "start": "01:01.30",
+            "end": "01:04.40",
+            "character": "PRUDENCE",
+            "kind": "dialogue",
+            "text": "She used herbs... and her mother's book."
+          },
+          {
+            "start": "01:04.80",
+            "end": "01:06.70",
+            "character": "JUDGE",
+            "kind": "dialogue",
+            "text": "Did she draw strange markings?"
+          },
+          {
+            "start": "01:08.20",
+            "end": "01:11.70",
+            "character": "PRUDENCE",
+            "kind": "dialogue",
+            "text": "She... placed herbs around my brother's bed."
+          },
+          {
+            "start": "01:12.10",
+            "end": "01:15.50",
+            "character": "JUDGE",
+            "kind": "dialogue",
+            "text": "And did she speak words you could not understand?"
+          },
+          {
+            "start": "01:18.80",
+            "end": "01:20.50",
+            "character": "PRUDENCE",
+            "kind": "dialogue",
+            "text": "Yes."
+          },
+          {
+            "start": "01:21.30",
+            "end": "01:24.90",
+            "character": "LORD",
+            "kind": "dialogue",
+            "text": "Your Honor... the witness has confirmed the ritual."
+          },
+          {
+            "start": "01:25.00",
+            "end": "01:27.20",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "Lady Juliana slams her cuffed hands against the wooden railing of the dock, her voice ringing out in indignant fury."
+          },
+          {
+            "start": "01:25.20",
+            "end": "01:27.20",
+            "character": "LADY JULIANA",
+            "kind": "dialogue",
+            "text": "It was not a ritual!"
+          },
+          {
+            "start": "01:27.20",
+            "end": "01:30.20",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "The Judge repeatedly hammers his gavel down onto the desk, roaring over her."
+          }
+        ]
+      }
+    ],
+    "opening_hook": {
+      "score": 0.7104,
+      "evidence": [
+        "physical confrontation",
+        "00:35.30 ACTION: “The Judge furiously raises his wooden gavel and strikes the sound blo…”",
+        "cues: physical ('strikes')",
+        "zero-shot conflict/reveal 0.23",
+        "second strong beat within 3 s (+0.06)"
+      ],
+      "timestamp": 35.3,
+      "episode_id": "episode-034-Episode 1681367",
+      "text": "The Judge furiously raises his wooden gavel and strikes the sound block with sharp force.",
+      "timestamp_fmt": "00:35.30"
+    },
+    "ending_cliffhanger": {
+      "score": 0.6374,
+      "evidence": [
+        "zero-shot reads an unresolved threat (0.76)",
+        "01:27.20–01:30.20 ACTION: “The Judge repeatedly hammers his gavel down onto the desk, roaring ov…”",
+        "closing tension 0.94",
+        "zero-shot suspense/threat/reveal 0.76",
+        "withheld next beat: JUDGE “You will speak when addressed!” (payoff 0.23)"
+      ],
+      "timestamp": 90.2,
+      "episode_id": "episode-034-Episode 1681367",
+      "text": "The Judge repeatedly hammers his gavel down onto the desk, roaring over her.",
+      "timestamp_fmt": "01:30.20"
+    },
+    "standalone_coherence": {
+      "score": 0.9688,
+      "evidence": [
+        "clear who/what/why",
+        "who: 4 speaking character(s), names on screen: judge, juliana, prudence",
+        "what: 14 dialogue lines, 68 words",
+        "why: stakes (honor, shame); conflict cue present; logline overlap 0.58",
+        "structure: continuous, 0 scene switch(es)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "emotional_intensity": {
+      "score": 0.7928,
+      "evidence": [
+        "peak 0.97 at 00:58.20, mean 0.61 (emotion model)"
+      ],
+      "timestamp": 58.2,
+      "episode_id": "episode-034-Episode 1681367",
+      "text": "",
+      "timestamp_fmt": "00:58.20"
+    },
+    "narrative_continuity": {
+      "score": 1.0,
+      "evidence": [
+        "one unbroken stretch, 1 scene(s)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "dialogue_quality": {
+      "score": 0.9357,
+      "evidence": [
+        "speech covers 61% of runtime, 21% filler lines, 4.9 words/line"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "score_breakdown": {
+      "hook": 0.7104,
+      "cliffhanger": 0.6374,
+      "coherence": 0.9688,
+      "emotion": 0.7928,
+      "continuity": 1.0,
+      "dialogue_quality": 0.9357
+    },
+    "passed_quality_gates": true,
+    "rejection_reasons": [],
+    "risk_flags": [],
+    "why_it_works": "Opens on physical confrontation (ep 34 00:35.30: “The Judge furiously raises his wooden gavel and strikes t…”) and cuts on zero-shot reads an unresolved threat (0.76) (ep 34 01:30.20: “The Judge repeatedly hammers his gavel down onto the desk…”); clear who/what/why.",
+    "llm_review": null
+  }
+}

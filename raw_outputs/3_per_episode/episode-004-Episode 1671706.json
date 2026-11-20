@@ -1,0 +1,214 @@
+{
+  "show": "I Married a Broken Soldier. He was a Duke",
+  "episode_id": "episode-004-Episode 1671706",
+  "episode_number": 4,
+  "source_path": "C:\\Users\\Dell\\Desktop\\kuku_fm_ass\\kuku_fm_assignment_project\\data\\I Married a Broken Soldier. He was a Duke\\episode-004-Episode 1671706.txt",
+  "status": "ok",
+  "error": "",
+  "traceback": "",
+  "warnings": [],
+  "lines_total": 110,
+  "dialogue_lines": 40,
+  "action_lines": 9,
+  "untimed_lines": 0,
+  "duration_seconds": 151.4,
+  "candidates": 919,
+  "candidates_passed": 485,
+  "best_promo_id": "cont-0be41404e3",
+  "best_score": 0.7995,
+  "no_promo_reason": "",
+  "seconds_features": 0.009,
+  "seconds_candidates": 0.064,
+  "logline": "Defying Gerald and Clarissa's cruel mockery, Juliana accepts the mysterious scarred warrior's solemn proposal and is officially wed, choosing exile and dignity over her family's cruelty as they walk out into the light together.",
+  "best_promo": {
+    "rank": null,
+    "promo_id": "cont-0be41404e3",
+    "show": "I Married a Broken Soldier. He was a Duke",
+    "structure": "continuous",
+    "priority_score": 0.7995,
+    "total_duration_seconds": 35.6,
+    "episodes": [
+      "episode-004-Episode 1671706"
+    ],
+    "segments": [
+      {
+        "order": 1,
+        "episode_id": "episode-004-Episode 1671706",
+        "episode_number": 4,
+        "start_seconds": 34.0,
+        "end_seconds": 69.6,
+        "start": "00:34.00",
+        "end": "01:09.60",
+        "duration_seconds": 35.6,
+        "dialogue": [
+          {
+            "start": "00:34.00",
+            "end": "00:36.00",
+            "character": "MYSTERIOUS BEARDED MAN",
+            "kind": "dialogue",
+            "text": "A woman who was betrayed."
+          },
+          {
+            "start": "00:36.50",
+            "end": "00:38.80",
+            "character": "MYSTERIOUS BEARDED MAN",
+            "kind": "dialogue",
+            "text": "Not a woman who deserves to be discarded."
+          },
+          {
+            "start": "00:42.00",
+            "end": "00:44.80",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "You don't know what my family has done to me."
+          },
+          {
+            "start": "00:46.00",
+            "end": "00:48.80",
+            "character": "MYSTERIOUS BEARDED MAN",
+            "kind": "dialogue",
+            "text": "I know they have made you stand alone."
+          },
+          {
+            "start": "00:50.00",
+            "end": "00:52.50",
+            "character": "MYSTERIOUS BEARDED MAN",
+            "kind": "dialogue",
+            "text": "You don't have to stand alone now."
+          },
+          {
+            "start": "00:53.60",
+            "end": "00:55.80",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "If this is pity, take back your ring."
+          },
+          {
+            "start": "00:56.80",
+            "end": "00:58.80",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "I will not become anyone's charity."
+          },
+          {
+            "start": "00:59.50",
+            "end": "01:02.50",
+            "character": "MYSTERIOUS BEARDED MAN",
+            "kind": "dialogue",
+            "text": "It is not pity, Lady Juliana."
+          },
+          {
+            "start": "01:03.50",
+            "end": "01:05.50",
+            "character": "MYSTERIOUS BEARDED MAN",
+            "kind": "dialogue",
+            "text": "It is a vow."
+          },
+          {
+            "start": "01:06.00",
+            "end": "01:08.00",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "I don't know this man."
+          },
+          {
+            "start": "01:08.00",
+            "end": "01:09.60",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "I don't know what waits beyond these doors."
+          }
+        ]
+      }
+    ],
+    "opening_hook": {
+      "score": 0.8397,
+      "evidence": [
+        "betrayal/accusation",
+        "00:34.00 MYSTERIOUS BEARDED MAN: “A woman who was betrayed.”",
+        "model: disgust 0.92, arousal 0.99",
+        "cues: betrayal ('betrayed')",
+        "script tag 'Firm, Sincere' (0.33)",
+        "zero-shot conflict/reveal 0.90"
+      ],
+      "timestamp": 34.0,
+      "episode_id": "episode-004-Episode 1671706",
+      "text": "A woman who was betrayed.",
+      "timestamp_fmt": "00:34.00"
+    },
+    "ending_cliffhanger": {
+      "score": 0.5519,
+      "evidence": [
+        "charged statement left hanging",
+        "01:08.00–01:09.60 JULIANA: “I don't know what waits beyond these doors.”",
+        "closing tension 0.94",
+        "zero-shot suspense/threat/reveal 0.14",
+        "withheld next beat: JULIANA “But he looked at me when everyone else turned awa…” (payoff 0.49)"
+      ],
+      "timestamp": 69.6,
+      "episode_id": "episode-004-Episode 1671706",
+      "text": "I don't know what waits beyond these doors.",
+      "timestamp_fmt": "01:09.60"
+    },
+    "standalone_coherence": {
+      "score": 0.8513,
+      "evidence": [
+        "clear who/what/why",
+        "who: 2 speaking character(s), names on screen: juliana",
+        "what: 11 dialogue lines, 75 words",
+        "why: stakes (family); conflict cue present; logline overlap 0.08",
+        "structure: continuous, 0 scene switch(es)",
+        "penalty: opens with an answer to a question the viewer does not hear"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "emotional_intensity": {
+      "score": 0.8754,
+      "evidence": [
+        "peak 1.00 at 00:34.00, mean 0.75 (emotion model)"
+      ],
+      "timestamp": 34.0,
+      "episode_id": "episode-004-Episode 1671706",
+      "text": "",
+      "timestamp_fmt": "00:34.00"
+    },
+    "narrative_continuity": {
+      "score": 1.0,
+      "evidence": [
+        "one unbroken stretch, 1 scene(s)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "dialogue_quality": {
+      "score": 1.0,
+      "evidence": [
+        "speech covers 71% of runtime, 0% filler lines, 6.8 words/line"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "score_breakdown": {
+      "hook": 0.8397,
+      "cliffhanger": 0.5519,
+      "coherence": 0.8513,
+      "emotion": 0.8754,
+      "continuity": 1.0,
+      "dialogue_quality": 1.0
+    },
+    "passed_quality_gates": true,
+    "rejection_reasons": [],
+    "risk_flags": [
+      "coherence: opens with an answer to a question the viewer does not hear"
+    ],
+    "why_it_works": "Opens on betrayal/accusation (ep 4 00:34.00: “A woman who was betrayed.”) and cuts on charged statement left hanging (ep 4 01:09.60: “I don't know what waits beyond these doors.”); clear who/what/why.",
+    "llm_review": null
+  }
+}

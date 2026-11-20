@@ -1,0 +1,209 @@
+{
+  "show": "I Married a Broken Soldier. He was a Duke",
+  "episode_id": "episode-019-Episode 1671721",
+  "episode_number": 19,
+  "source_path": "C:\\Users\\Dell\\Desktop\\kuku_fm_ass\\kuku_fm_assignment_project\\data\\I Married a Broken Soldier. He was a Duke\\episode-019-Episode 1671721.txt",
+  "status": "ok",
+  "error": "",
+  "traceback": "",
+  "warnings": [],
+  "lines_total": 63,
+  "dialogue_lines": 29,
+  "action_lines": 10,
+  "untimed_lines": 0,
+  "duration_seconds": 119.63,
+  "candidates": 621,
+  "candidates_passed": 228,
+  "best_promo_id": "cont-029ae33a28",
+  "best_score": 0.7413,
+  "no_promo_reason": "",
+  "seconds_features": 0.012,
+  "seconds_candidates": 0.046,
+  "logline": "Standing before the smoldering ash of their home, Juliana and Alexander receive shelter and food from grateful villagers before Alexander meets in secret with a loyal spy, learning that his usurping enemies have imprisoned his mother and claimed his ducal seat.",
+  "best_promo": {
+    "rank": null,
+    "promo_id": "cont-029ae33a28",
+    "show": "I Married a Broken Soldier. He was a Duke",
+    "structure": "continuous",
+    "priority_score": 0.7413,
+    "total_duration_seconds": 35.8,
+    "episodes": [
+      "episode-019-Episode 1671721"
+    ],
+    "segments": [
+      {
+        "order": 1,
+        "episode_id": "episode-019-Episode 1671721",
+        "episode_number": 19,
+        "start_seconds": 43.0,
+        "end_seconds": 78.8,
+        "start": "00:43.00",
+        "end": "01:18.80",
+        "duration_seconds": 35.8,
+        "dialogue": [
+          {
+            "start": "00:43.00",
+            "end": "00:46.00",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "A bald, scarred man dressed in a dark coat emerges from between the trees, immediately coming to a halt and bowing with clasped hands in formal deference."
+          },
+          {
+            "start": "00:44.30",
+            "end": "00:45.80",
+            "character": "INFORMANT",
+            "kind": "dialogue",
+            "text": "Your Grace."
+          },
+          {
+            "start": "00:47.10",
+            "end": "00:49.20",
+            "character": "ALEXANDER",
+            "kind": "dialogue",
+            "text": "Tell me what is happening in Ashburg."
+          },
+          {
+            "start": "00:49.50",
+            "end": "00:54.80",
+            "character": "INFORMANT",
+            "kind": "dialogue",
+            "text": "Lord Sterling's influence has grown since your disappearance. He has men in the county offices, the courts, even among the household staff."
+          },
+          {
+            "start": "00:55.30",
+            "end": "01:01.30",
+            "character": "INFORMANT",
+            "kind": "dialogue",
+            "text": "Rupert has become the face of Ashburg. He sits in your father's room, signs your estate papers, gives orders as though the title already belongs to him."
+          },
+          {
+            "start": "01:01.60",
+            "end": "01:04.80",
+            "character": "INFORMANT",
+            "kind": "dialogue",
+            "text": "And Lady Catherine, she behaves as though she is already the future duchess."
+          },
+          {
+            "start": "01:05.10",
+            "end": "01:10.50",
+            "character": "INFORMANT",
+            "kind": "dialogue",
+            "text": "But they have separated her from the household. She is watched constantly. Every letter she sends is checked. Every visitor is questioned."
+          },
+          {
+            "start": "01:10.90",
+            "end": "01:13.20",
+            "character": "INFORMANT",
+            "kind": "dialogue",
+            "text": "There are almost no loyal servants left around her."
+          },
+          {
+            "start": "01:13.50",
+            "end": "01:16.40",
+            "character": "INFORMANT",
+            "kind": "dialogue",
+            "text": "The people who served your family for years have been dismissed, frightened away, or replaced."
+          },
+          {
+            "start": "01:16.20",
+            "end": "01:18.80",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "Alexander lifts his gaze toward the cold forest canopy, his breathing heavy with profound anguish."
+          },
+          {
+            "start": "01:16.50",
+            "end": "01:18.80",
+            "character": "ALEXANDER",
+            "kind": "dialogue",
+            "text": "My mother is a prisoner in her own house."
+          }
+        ]
+      }
+    ],
+    "opening_hook": {
+      "score": 0.4521,
+      "evidence": [
+        "sudden arrival",
+        "00:43.00 ACTION: “A bald, scarred man dressed in a dark coat emerges from between the t…”",
+        "cues: arrival ('emerges')",
+        "zero-shot conflict/reveal 0.09"
+      ],
+      "timestamp": 43.0,
+      "episode_id": "episode-019-Episode 1671721",
+      "text": "A bald, scarred man dressed in a dark coat emerges from between the trees, immediately coming to a halt and bowing with clasped hands in formal deference.",
+      "timestamp_fmt": "00:43.00"
+    },
+    "ending_cliffhanger": {
+      "score": 0.7619,
+      "evidence": [
+        "zero-shot reads an unresolved threat (0.87)",
+        "01:16.50–01:18.80 ALEXANDER: “My mother is a prisoner in her own house.”",
+        "closing tension 0.95",
+        "zero-shot suspense/threat/reveal 0.87",
+        "withheld next beat: INFORMANT “And everyone believes you are dead.” (payoff 0.58)"
+      ],
+      "timestamp": 78.8,
+      "episode_id": "episode-019-Episode 1671721",
+      "text": "My mother is a prisoner in her own house.",
+      "timestamp_fmt": "01:18.80"
+    },
+    "standalone_coherence": {
+      "score": 0.8562,
+      "evidence": [
+        "clear who/what/why",
+        "who: 2 speaking character(s), names on screen: alexander, catherine, rupert",
+        "what: 9 dialogue lines, 126 words",
+        "why: stakes (duchess, estate, family, mother); logline overlap 0.25",
+        "structure: continuous, 0 scene switch(es)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "emotional_intensity": {
+      "score": 0.7882,
+      "evidence": [
+        "peak 0.98 at 01:13.50, mean 0.60 (emotion model)"
+      ],
+      "timestamp": 73.5,
+      "episode_id": "episode-019-Episode 1671721",
+      "text": "",
+      "timestamp_fmt": "01:13.50"
+    },
+    "narrative_continuity": {
+      "score": 1.0,
+      "evidence": [
+        "one unbroken stretch, 1 scene(s)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "dialogue_quality": {
+      "score": 0.9667,
+      "evidence": [
+        "speech covers 87% of runtime, 11% filler lines, 14.0 words/line"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "score_breakdown": {
+      "hook": 0.4521,
+      "cliffhanger": 0.7619,
+      "coherence": 0.8562,
+      "emotion": 0.7882,
+      "continuity": 1.0,
+      "dialogue_quality": 0.9667
+    },
+    "passed_quality_gates": true,
+    "rejection_reasons": [],
+    "risk_flags": [],
+    "why_it_works": "Opens on sudden arrival (ep 19 00:43.00: “A bald, scarred man dressed in a dark coat emerges from b…”) and cuts on zero-shot reads an unresolved threat (0.87) (ep 19 01:18.80: “My mother is a prisoner in her own house.”); clear who/what/why.",
+    "llm_review": null
+  }
+}

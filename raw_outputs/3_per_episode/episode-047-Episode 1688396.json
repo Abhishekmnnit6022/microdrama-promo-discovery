@@ -1,0 +1,183 @@
+{
+  "show": "I Married a Broken Soldier. He was a Duke",
+  "episode_id": "episode-047-Episode 1688396",
+  "episode_number": 47,
+  "source_path": "C:\\Users\\Dell\\Desktop\\kuku_fm_ass\\kuku_fm_assignment_project\\data\\I Married a Broken Soldier. He was a Duke\\episode-047-Episode 1688396.txt",
+  "status": "ok",
+  "error": "",
+  "traceback": "",
+  "warnings": [],
+  "lines_total": 70,
+  "dialogue_lines": 33,
+  "action_lines": 3,
+  "untimed_lines": 0,
+  "duration_seconds": 134.0,
+  "candidates": 689,
+  "candidates_passed": 461,
+  "best_promo_id": "cont-49e2467c1d",
+  "best_score": 0.873,
+  "no_promo_reason": "",
+  "seconds_features": 0.01,
+  "seconds_candidates": 0.036,
+  "logline": "While Alexander reassures Juliana of their unbreakable bond amid the council's opposition, a destitute Catherine begs for sanctuary at Ashbourne—only for Juliana to offer her survival under the strict humiliation of a scullery maid.",
+  "best_promo": {
+    "rank": 11,
+    "promo_id": "cont-49e2467c1d",
+    "show": "I Married a Broken Soldier. He was a Duke",
+    "structure": "continuous",
+    "priority_score": 0.873,
+    "total_duration_seconds": 21.7,
+    "episodes": [
+      "episode-047-Episode 1688396"
+    ],
+    "segments": [
+      {
+        "order": 1,
+        "episode_id": "episode-047-Episode 1688396",
+        "episode_number": 47,
+        "start_seconds": 56.8,
+        "end_seconds": 78.5,
+        "start": "00:56.80",
+        "end": "01:18.50",
+        "duration_seconds": 21.7,
+        "dialogue": [
+          {
+            "start": "00:56.80",
+            "end": "00:59.80",
+            "character": "LADY ASHBOURNE",
+            "kind": "dialogue",
+            "text": "You dare show your face in Ashbourne courtyard?"
+          },
+          {
+            "start": "01:00.50",
+            "end": "01:03.40",
+            "character": "CATHERINE",
+            "kind": "dialogue",
+            "text": "I have nowhere to go, Your Grace."
+          },
+          {
+            "start": "01:03.50",
+            "end": "01:06.80",
+            "character": "CATHERINE",
+            "kind": "dialogue",
+            "text": "London closed its doors! My family disowned me!"
+          },
+          {
+            "start": "01:07.20",
+            "end": "01:11.20",
+            "character": "LADY ASHBOURNE",
+            "kind": "dialogue",
+            "text": "She aided the poison in my veins. Cast her into the road."
+          },
+          {
+            "start": "01:11.80",
+            "end": "01:14.80",
+            "character": "VAUGHN",
+            "kind": "dialogue",
+            "text": "One command, Your Grace, and I drag her past the gates."
+          },
+          {
+            "start": "01:15.20",
+            "end": "01:18.50",
+            "character": "ALEXANDER",
+            "kind": "dialogue",
+            "text": "Do it, Vaughn! Throw her past the estate perimeter!"
+          }
+        ]
+      }
+    ],
+    "opening_hook": {
+      "score": 0.7256,
+      "evidence": [
+        "charged question",
+        "00:56.80 LADY ASHBOURNE: “You dare show your face in Ashbourne courtyard?”",
+        "model: anger 0.97, arousal 1.00",
+        "script tag 'Sharp, Contemptuous' (0.67)",
+        "zero-shot conflict/reveal 0.65"
+      ],
+      "timestamp": 56.8,
+      "episode_id": "episode-047-Episode 1688396",
+      "text": "You dare show your face in Ashbourne courtyard?",
+      "timestamp_fmt": "00:56.80"
+    },
+    "ending_cliffhanger": {
+      "score": 0.8941,
+      "evidence": [
+        "zero-shot reads an unresolved threat (0.97)",
+        "01:15.20–01:18.50 ALEXANDER: “Do it, Vaughn! Throw her past the estate perimeter!”",
+        "closing tension 1.00",
+        "zero-shot suspense/threat/reveal 0.97",
+        "withheld next beat: CATHERINE “Please, Alexander! Have mercy!” (payoff 0.94)"
+      ],
+      "timestamp": 78.5,
+      "episode_id": "episode-047-Episode 1688396",
+      "text": "Do it, Vaughn! Throw her past the estate perimeter!",
+      "timestamp_fmt": "01:18.50"
+    },
+    "standalone_coherence": {
+      "score": 0.9313,
+      "evidence": [
+        "clear who/what/why",
+        "who: 4 speaking character(s), names on screen: ashbourne, vaughn",
+        "what: 6 dialogue lines, 55 words",
+        "why: stakes (estate, family); conflict cue present; logline overlap 0.08",
+        "structure: continuous, 0 scene switch(es)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "emotional_intensity": {
+      "score": 0.879,
+      "evidence": [
+        "peak 1.00 at 00:56.80, mean 0.76 (emotion model)"
+      ],
+      "timestamp": 56.8,
+      "episode_id": "episode-047-Episode 1688396",
+      "text": "",
+      "timestamp_fmt": "00:56.80"
+    },
+    "narrative_continuity": {
+      "score": 1.0,
+      "evidence": [
+        "one unbroken stretch, 1 scene(s)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "dialogue_quality": {
+      "score": 1.0,
+      "evidence": [
+        "speech covers 90% of runtime, 0% filler lines, 9.2 words/line"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "score_breakdown": {
+      "hook": 0.7256,
+      "cliffhanger": 0.8941,
+      "coherence": 0.9313,
+      "emotion": 0.879,
+      "continuity": 1.0,
+      "dialogue_quality": 1.0
+    },
+    "passed_quality_gates": true,
+    "rejection_reasons": [],
+    "risk_flags": [],
+    "why_it_works": "Opens on charged question (ep 47 00:56.80: “You dare show your face in Ashbourne courtyard?”) and cuts on zero-shot reads an unresolved threat (0.97) (ep 47 01:18.50: “Do it, Vaughn! Throw her past the estate perimeter!”); clear who/what/why.",
+    "llm_review": {
+      "hook_works": true,
+      "cliffhanger_works": true,
+      "standalone": true,
+      "one_line": "The clip successfully grabs attention with an intense confrontation and ends on a high-stakes expulsion order that leaves viewers eager to see Catherine's fate.",
+      "concerns": "",
+      "model": "gemini-3.5-flash-lite",
+      "status": "ok"
+    }
+  }
+}

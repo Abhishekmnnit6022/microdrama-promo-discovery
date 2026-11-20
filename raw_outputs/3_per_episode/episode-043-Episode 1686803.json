@@ -1,0 +1,198 @@
+{
+  "show": "I Married a Broken Soldier. He was a Duke",
+  "episode_id": "episode-043-Episode 1686803",
+  "episode_number": 43,
+  "source_path": "C:\\Users\\Dell\\Desktop\\kuku_fm_ass\\kuku_fm_assignment_project\\data\\I Married a Broken Soldier. He was a Duke\\episode-043-Episode 1686803.txt",
+  "status": "ok",
+  "error": "",
+  "traceback": "",
+  "warnings": [],
+  "lines_total": 87,
+  "dialogue_lines": 32,
+  "action_lines": 8,
+  "untimed_lines": 0,
+  "duration_seconds": 114.96,
+  "candidates": 829,
+  "candidates_passed": 501,
+  "best_promo_id": "cont-f214d0796b",
+  "best_score": 0.8778,
+  "no_promo_reason": "",
+  "seconds_features": 0.008,
+  "seconds_candidates": 0.05,
+  "logline": "When Rupert frantically orders Alexander's arrest, the royal guards refuse and salute the true Duke, before damning Crown intelligence documents expose Rupert and Lord Sterling's treasonous plot.",
+  "best_promo": {
+    "rank": 9,
+    "promo_id": "cont-f214d0796b",
+    "show": "I Married a Broken Soldier. He was a Duke",
+    "structure": "continuous",
+    "priority_score": 0.8778,
+    "total_duration_seconds": 23.3,
+    "episodes": [
+      "episode-043-Episode 1686803"
+    ],
+    "segments": [
+      {
+        "order": 1,
+        "episode_id": "episode-043-Episode 1686803",
+        "episode_number": 43,
+        "start_seconds": 24.1,
+        "end_seconds": 47.4,
+        "start": "00:24.10",
+        "end": "00:47.40",
+        "duration_seconds": 23.3,
+        "dialogue": [
+          {
+            "start": "00:24.10",
+            "end": "00:25.80",
+            "character": "BLOND NOBLEMAN",
+            "kind": "dialogue",
+            "text": "You have all been deceived!"
+          },
+          {
+            "start": "00:26.10",
+            "end": "00:28.00",
+            "character": "ALEXANDER",
+            "kind": "dialogue",
+            "text": "Then let the Crown decide."
+          },
+          {
+            "start": "00:28.20",
+            "end": "00:30.00",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "Alexander brings forth the dossier stamped \"WAR OFFICE - TOP SECRET\" with the royal crest."
+          },
+          {
+            "start": "00:30.00",
+            "end": "00:33.40",
+            "character": "ALEXANDER",
+            "kind": "dialogue",
+            "text": "These were delivered to me under the seal of the Crown."
+          },
+          {
+            "start": "00:33.50",
+            "end": "00:34.50",
+            "character": "ALEXANDER",
+            "kind": "dialogue",
+            "text": "Read the first."
+          },
+          {
+            "start": "00:35.20",
+            "end": "00:37.00",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "The Crown Official receives the dossier solemnly with both hands."
+          },
+          {
+            "start": "00:37.80",
+            "end": "00:42.50",
+            "character": "CROWN OFFICIAL",
+            "kind": "dialogue",
+            "text": "Military Intelligence Report, Iberian front, three years ago."
+          },
+          {
+            "start": "00:44.00",
+            "end": "00:47.40",
+            "character": "CROWN OFFICIAL",
+            "kind": "dialogue",
+            "text": "Duke Alexander Ashburn's unit was ambushed after his location was compromised."
+          }
+        ]
+      }
+    ],
+    "opening_hook": {
+      "score": 0.9338,
+      "evidence": [
+        "betrayal/accusation",
+        "00:24.10 BLOND NOBLEMAN: “You have all been deceived!”",
+        "model: anger 0.74, arousal 0.94",
+        "cues: betrayal ('deceived')",
+        "script tag 'Desperate, Flustered' (1.00)",
+        "zero-shot conflict/reveal 0.93"
+      ],
+      "timestamp": 24.1,
+      "episode_id": "episode-043-Episode 1686803",
+      "text": "You have all been deceived!",
+      "timestamp_fmt": "00:24.10"
+    },
+    "ending_cliffhanger": {
+      "score": 0.7782,
+      "evidence": [
+        "zero-shot reads an unresolved threat (0.95)",
+        "00:44.00–00:47.40 CROWN OFFICIAL: “Duke Alexander Ashburn's unit was ambushed after his location was com…”",
+        "closing tension 0.99",
+        "zero-shot suspense/threat/reveal 0.95",
+        "withheld next beat: CROWN OFFICIAL “The report identifies the leak as deliberate.” (payoff 0.43)"
+      ],
+      "timestamp": 47.4,
+      "episode_id": "episode-043-Episode 1686803",
+      "text": "Duke Alexander Ashburn's unit was ambushed after his location was compromised.",
+      "timestamp_fmt": "00:47.40"
+    },
+    "standalone_coherence": {
+      "score": 0.95,
+      "evidence": [
+        "clear who/what/why",
+        "who: 3 speaking character(s), names on screen: alexander, crown, official",
+        "what: 6 dialogue lines, 43 words",
+        "why: stakes (duke, war); conflict cue present; logline overlap 0.33",
+        "structure: continuous, 0 scene switch(es)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "emotional_intensity": {
+      "score": 0.7323,
+      "evidence": [
+        "peak 1.00 at 00:44.00, mean 0.47 (emotion model)"
+      ],
+      "timestamp": 44.0,
+      "episode_id": "episode-043-Episode 1686803",
+      "text": "",
+      "timestamp_fmt": "00:44.00"
+    },
+    "narrative_continuity": {
+      "score": 1.0,
+      "evidence": [
+        "one unbroken stretch, 1 scene(s)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "dialogue_quality": {
+      "score": 1.0,
+      "evidence": [
+        "speech covers 69% of runtime, 0% filler lines, 7.2 words/line"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "score_breakdown": {
+      "hook": 0.9338,
+      "cliffhanger": 0.7782,
+      "coherence": 0.95,
+      "emotion": 0.7323,
+      "continuity": 1.0,
+      "dialogue_quality": 1.0
+    },
+    "passed_quality_gates": true,
+    "rejection_reasons": [],
+    "risk_flags": [],
+    "why_it_works": "Opens on betrayal/accusation (ep 43 00:24.10: “You have all been deceived!”) and cuts on zero-shot reads an unresolved threat (0.95) (ep 43 00:47.40: “Duke Alexander Ashburn's unit was ambushed after his loca…”); clear who/what/why.",
+    "llm_review": {
+      "hook_works": true,
+      "cliffhanger_works": true,
+      "standalone": false,
+      "one_line": "The clip successfully hooks the viewer with a dramatic public accusation and ends right as a damaging wartime secret is revealed, but new viewers lack context on the underlying feud.",
+      "concerns": "A viewer who has never watched the show will not understand who betrayed Duke Alexander or why his unit's compromise matters to the current dispute.",
+      "model": "gemini-3.5-flash-lite",
+      "status": "ok"
+    }
+  }
+}

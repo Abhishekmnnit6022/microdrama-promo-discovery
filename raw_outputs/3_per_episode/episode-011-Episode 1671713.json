@@ -1,0 +1,204 @@
+{
+  "show": "I Married a Broken Soldier. He was a Duke",
+  "episode_id": "episode-011-Episode 1671713",
+  "episode_number": 11,
+  "source_path": "C:\\Users\\Dell\\Desktop\\kuku_fm_ass\\kuku_fm_assignment_project\\data\\I Married a Broken Soldier. He was a Duke\\episode-011-Episode 1671713.txt",
+  "status": "ok",
+  "error": "",
+  "traceback": "",
+  "warnings": [],
+  "lines_total": 85,
+  "dialogue_lines": 33,
+  "action_lines": 6,
+  "untimed_lines": 0,
+  "duration_seconds": 112.75,
+  "candidates": 918,
+  "candidates_passed": 729,
+  "best_promo_id": "cont-0d64fc6067",
+  "best_score": 0.8528,
+  "no_promo_reason": "",
+  "seconds_features": 0.008,
+  "seconds_candidates": 0.051,
+  "logline": "Gerald and Clarissa arrive at the cottage with an armed constable accusing Alexander of grand theft, culminating in a devastating planted discovery that threatens to tear the newlyweds apart.",
+  "best_promo": {
+    "rank": null,
+    "promo_id": "cont-0d64fc6067",
+    "show": "I Married a Broken Soldier. He was a Duke",
+    "structure": "continuous",
+    "priority_score": 0.8528,
+    "total_duration_seconds": 22.7,
+    "episodes": [
+      "episode-011-Episode 1671713"
+    ],
+    "segments": [
+      {
+        "order": 1,
+        "episode_id": "episode-011-Episode 1671713",
+        "episode_number": 11,
+        "start_seconds": 14.4,
+        "end_seconds": 37.1,
+        "start": "00:14.40",
+        "end": "00:37.10",
+        "duration_seconds": 22.7,
+        "dialogue": [
+          {
+            "start": "00:14.40",
+            "end": "00:16.70",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "You have already taken enough from me. Leave!"
+          },
+          {
+            "start": "00:16.80",
+            "end": "00:18.70",
+            "character": "GERALD",
+            "kind": "dialogue",
+            "text": "Your husband stole my gold pocket watch!"
+          },
+          {
+            "start": "00:19.00",
+            "end": "00:20.00",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "What? When?"
+          },
+          {
+            "start": "00:20.90",
+            "end": "00:22.30",
+            "character": "GERALD",
+            "kind": "dialogue",
+            "text": "The last time I came here."
+          },
+          {
+            "start": "00:23.00",
+            "end": "00:24.80",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "You never even entered the cottage!"
+          },
+          {
+            "start": "00:25.20",
+            "end": "00:27.00",
+            "character": "GERALD",
+            "kind": "dialogue",
+            "text": "Then you should have nothing to fear from a search."
+          },
+          {
+            "start": "00:27.30",
+            "end": "00:29.00",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "Alexander would never steal from you."
+          },
+          {
+            "start": "00:29.30",
+            "end": "00:32.80",
+            "character": "GERALD",
+            "kind": "dialogue",
+            "text": "Of course you would defend him. You married a beggar!"
+          },
+          {
+            "start": "00:33.00",
+            "end": "00:34.90",
+            "character": "ALEXANDER",
+            "kind": "dialogue",
+            "text": "Choose your next words carefully."
+          },
+          {
+            "start": "00:35.10",
+            "end": "00:37.10",
+            "character": "GERALD",
+            "kind": "dialogue",
+            "text": "You hear that? He threatens me again!"
+          }
+        ]
+      }
+    ],
+    "opening_hook": {
+      "score": 0.74,
+      "evidence": [
+        "exclamation",
+        "00:14.40 JULIANA: “You have already taken enough from me. Leave!”",
+        "model: anger 0.92, arousal 0.96",
+        "script tag 'Furious, Defiant' (1.00)",
+        "zero-shot conflict/reveal 0.45",
+        "second strong beat within 3 s (+0.06)"
+      ],
+      "timestamp": 14.4,
+      "episode_id": "episode-011-Episode 1671713",
+      "text": "You have already taken enough from me. Leave!",
+      "timestamp_fmt": "00:14.40"
+    },
+    "ending_cliffhanger": {
+      "score": 0.8387,
+      "evidence": [
+        "zero-shot reads an unresolved threat (0.92)",
+        "00:35.10–00:37.10 GERALD: “You hear that? He threatens me again!”",
+        "closing tension 1.00",
+        "zero-shot suspense/threat/reveal 0.92",
+        "withheld next beat: CONSTABLE “I have received a complaint of theft.” (payoff 0.79)"
+      ],
+      "timestamp": 37.1,
+      "episode_id": "episode-011-Episode 1671713",
+      "text": "You hear that? He threatens me again!",
+      "timestamp_fmt": "00:37.10"
+    },
+    "standalone_coherence": {
+      "score": 0.8562,
+      "evidence": [
+        "clear who/what/why",
+        "who: 3 speaking character(s), names on screen: alexander",
+        "what: 10 dialogue lines, 67 words",
+        "why: stakes (husband, married); logline overlap 0.25",
+        "structure: continuous, 0 scene switch(es)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "emotional_intensity": {
+      "score": 0.9224,
+      "evidence": [
+        "peak 0.99 at 00:16.80, mean 0.85 (emotion model)"
+      ],
+      "timestamp": 16.8,
+      "episode_id": "episode-011-Episode 1671713",
+      "text": "",
+      "timestamp_fmt": "00:16.80"
+    },
+    "narrative_continuity": {
+      "score": 1.0,
+      "evidence": [
+        "one unbroken stretch, 1 scene(s)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "dialogue_quality": {
+      "score": 0.97,
+      "evidence": [
+        "speech covers 85% of runtime, 10% filler lines, 6.7 words/line"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "score_breakdown": {
+      "hook": 0.74,
+      "cliffhanger": 0.8387,
+      "coherence": 0.8562,
+      "emotion": 0.9224,
+      "continuity": 1.0,
+      "dialogue_quality": 0.97
+    },
+    "passed_quality_gates": true,
+    "rejection_reasons": [],
+    "risk_flags": [],
+    "why_it_works": "Opens on exclamation (ep 11 00:14.40: “You have already taken enough from me. Leave!”) and cuts on zero-shot reads an unresolved threat (0.92) (ep 11 00:37.10: “You hear that? He threatens me again!”); clear who/what/why.",
+    "llm_review": null
+  }
+}

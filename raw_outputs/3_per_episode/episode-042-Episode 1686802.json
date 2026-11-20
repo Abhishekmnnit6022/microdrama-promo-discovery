@@ -1,0 +1,247 @@
+{
+  "show": "I Married a Broken Soldier. He was a Duke",
+  "episode_id": "episode-042-Episode 1686802",
+  "episode_number": 42,
+  "source_path": "C:\\Users\\Dell\\Desktop\\kuku_fm_ass\\kuku_fm_assignment_project\\data\\I Married a Broken Soldier. He was a Duke\\episode-042-Episode 1686802.txt",
+  "status": "ok",
+  "error": "",
+  "traceback": "",
+  "warnings": [],
+  "lines_total": 37,
+  "dialogue_lines": 19,
+  "action_lines": 4,
+  "untimed_lines": 0,
+  "duration_seconds": 77.8,
+  "candidates": 419,
+  "candidates_passed": 240,
+  "best_promo_id": "cont-990997c6ba",
+  "best_score": 0.8137,
+  "no_promo_reason": "",
+  "seconds_features": 0.005,
+  "seconds_candidates": 0.014,
+  "logline": "Emerging from the smoke of the shattered cathedral gates in full ducal regalia, Alexander confronts Rupert, wins the loyalty of the royal guards, and is proclaimed the rightful Duke of Ashburn by his weeping mother.",
+  "best_promo": {
+    "rank": null,
+    "promo_id": "cont-990997c6ba",
+    "show": "I Married a Broken Soldier. He was a Duke",
+    "structure": "continuous",
+    "priority_score": 0.8137,
+    "total_duration_seconds": 54.0,
+    "episodes": [
+      "episode-042-Episode 1686802"
+    ],
+    "segments": [
+      {
+        "order": 1,
+        "episode_id": "episode-042-Episode 1686802",
+        "episode_number": 42,
+        "start_seconds": 23.5,
+        "end_seconds": 77.5,
+        "start": "00:23.50",
+        "end": "01:17.50",
+        "duration_seconds": 54.0,
+        "dialogue": [
+          {
+            "start": "00:23.50",
+            "end": "00:25.20",
+            "character": "BLOND NOBLEMAN",
+            "kind": "dialogue",
+            "text": "I said arrest him!"
+          },
+          {
+            "start": "00:25.50",
+            "end": "00:26.50",
+            "character": "BLOND NOBLEMAN",
+            "kind": "dialogue",
+            "text": "Why?!"
+          },
+          {
+            "start": "00:26.70",
+            "end": "00:28.80",
+            "character": "ROYAL GUARD",
+            "kind": "dialogue",
+            "text": "Because we know who he is."
+          },
+          {
+            "start": "00:29.00",
+            "end": "00:30.30",
+            "character": "CATHERINE",
+            "kind": "dialogue",
+            "text": "Rupert..."
+          },
+          {
+            "start": "00:30.50",
+            "end": "00:33.80",
+            "character": "BLOND NOBLEMAN",
+            "kind": "dialogue",
+            "text": "You cannot be him. Alexander died!"
+          },
+          {
+            "start": "00:34.00",
+            "end": "00:39.80",
+            "character": "ALEXANDER",
+            "kind": "dialogue",
+            "text": "And yet, here I stand. That is the lie you built your life upon."
+          },
+          {
+            "start": "00:40.20",
+            "end": "00:42.50",
+            "character": "ALEXANDER'S MOTHER",
+            "kind": "dialogue",
+            "text": "Alexander..."
+          },
+          {
+            "start": "00:44.80",
+            "end": "00:48.00",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "Alexander halts his march as his mother reaches him, placing her frail hands gently upon his chest."
+          },
+          {
+            "start": "00:48.00",
+            "end": "00:49.00",
+            "character": "ALEXANDER",
+            "kind": "dialogue",
+            "text": "Mother."
+          },
+          {
+            "start": "00:49.00",
+            "end": "00:54.00",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "His mother gently cradles Alexander's scarred cheek, tears streaming down her face as guests in the background watch in stunned silence."
+          },
+          {
+            "start": "00:49.20",
+            "end": "00:53.80",
+            "character": "ALEXANDER'S MOTHER",
+            "kind": "dialogue",
+            "text": "Look at you... my beautiful boy."
+          },
+          {
+            "start": "00:54.00",
+            "end": "01:01.80",
+            "character": "ALEXANDER'S MOTHER",
+            "kind": "dialogue",
+            "text": "I saw you again... but seeing you like this... I see my son as he was always meant to be."
+          },
+          {
+            "start": "01:02.00",
+            "end": "01:04.00",
+            "character": "ALEXANDER",
+            "kind": "dialogue",
+            "text": "I have come home, Mother."
+          },
+          {
+            "start": "01:04.00",
+            "end": "01:12.50",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "Alexander's mother turns toward the gathered nobility and guards, raising her chin and pointing proudly toward Alexander."
+          },
+          {
+            "start": "01:04.20",
+            "end": "01:12.40",
+            "character": "ALEXANDER'S MOTHER",
+            "kind": "dialogue",
+            "text": "Let everyone hear me! This is my son... Alexander Ashburn. The rightful Duke of Ashburn!"
+          },
+          {
+            "start": "01:13.80",
+            "end": "01:17.50",
+            "character": "ALEXANDER",
+            "kind": "dialogue",
+            "text": "And now, Rupert... we settle what you stole."
+          }
+        ]
+      }
+    ],
+    "opening_hook": {
+      "score": 0.8472,
+      "evidence": [
+        "exclamation",
+        "00:23.50 BLOND NOBLEMAN: “I said arrest him!”",
+        "model: anger 0.86, arousal 0.98",
+        "script tag 'Screaming, Outraged' (1.00)",
+        "zero-shot conflict/reveal 0.87",
+        "second strong beat within 3 s (+0.05)"
+      ],
+      "timestamp": 23.5,
+      "episode_id": "episode-042-Episode 1686802",
+      "text": "I said arrest him!",
+      "timestamp_fmt": "00:23.50"
+    },
+    "ending_cliffhanger": {
+      "score": 0.6065,
+      "evidence": [
+        "charged statement left hanging",
+        "01:13.80–01:17.50 ALEXANDER: “And now, Rupert... we settle what you stole.”",
+        "closing tension 0.67",
+        "zero-shot suspense/threat/reveal 0.14",
+        "cut matches the episode's own final beat (+0.12)",
+        "withheld next beat: BLOND NOBLEMAN “You're lying!” (payoff 0.49)"
+      ],
+      "timestamp": 77.5,
+      "episode_id": "episode-042-Episode 1686802",
+      "text": "And now, Rupert... we settle what you stole.",
+      "timestamp_fmt": "01:17.50"
+    },
+    "standalone_coherence": {
+      "score": 0.8812,
+      "evidence": [
+        "clear who/what/why",
+        "who: 5 speaking character(s), names on screen: alexander, alexander's, rupert",
+        "what: 13 dialogue lines, 88 words",
+        "why: stakes (duke, life, mother, son); logline overlap 0.58",
+        "structure: continuous, 0 scene switch(es)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "emotional_intensity": {
+      "score": 0.8575,
+      "evidence": [
+        "peak 0.99 at 00:23.50, mean 0.72 (emotion model)"
+      ],
+      "timestamp": 23.5,
+      "episode_id": "episode-042-Episode 1686802",
+      "text": "",
+      "timestamp_fmt": "00:23.50"
+    },
+    "narrative_continuity": {
+      "score": 1.0,
+      "evidence": [
+        "one unbroken stretch, 1 scene(s)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "dialogue_quality": {
+      "score": 0.9077,
+      "evidence": [
+        "speech covers 83% of runtime, 31% filler lines, 6.8 words/line"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "score_breakdown": {
+      "hook": 0.8472,
+      "cliffhanger": 0.6065,
+      "coherence": 0.8812,
+      "emotion": 0.8575,
+      "continuity": 1.0,
+      "dialogue_quality": 0.9077
+    },
+    "passed_quality_gates": true,
+    "rejection_reasons": [],
+    "risk_flags": [],
+    "why_it_works": "Opens on exclamation (ep 42 00:23.50: “I said arrest him!”) and cuts on charged statement left hanging (ep 42 01:17.50: “And now, Rupert... we settle what you stole.”); clear who/what/why.",
+    "llm_review": null
+  }
+}

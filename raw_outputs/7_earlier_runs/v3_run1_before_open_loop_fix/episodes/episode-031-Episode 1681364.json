@@ -1,0 +1,188 @@
+{
+  "show": "I Married a Broken Soldier. He was a Duke",
+  "episode_id": "episode-031-Episode 1681364",
+  "episode_number": 31,
+  "source_path": "C:\\Users\\Dell\\Desktop\\kuku_fm_ass\\kuku_fm_assignment_project\\data\\I Married a Broken Soldier. He was a Duke\\episode-031-Episode 1681364.txt",
+  "status": "ok",
+  "error": "",
+  "traceback": "",
+  "warnings": [],
+  "lines_total": 87,
+  "dialogue_lines": 38,
+  "action_lines": 5,
+  "untimed_lines": 0,
+  "duration_seconds": 160.0,
+  "candidates": 719,
+  "candidates_passed": 396,
+  "best_promo_id": "cont-ca422f4b53",
+  "best_score": 0.7887,
+  "no_promo_reason": "",
+  "seconds_features": 0.011,
+  "seconds_candidates": 0.043,
+  "logline": "Catherine enters the wet cells armed with a red-hot iron and Juliana's late mother's botanical book, subjecting the chained heiress to ruthless psychological torment until Juliana's unyielding pride pushes Catherine to a violent brink.",
+  "best_promo": {
+    "rank": null,
+    "promo_id": "cont-ca422f4b53",
+    "show": "I Married a Broken Soldier. He was a Duke",
+    "structure": "continuous",
+    "priority_score": 0.7887,
+    "total_duration_seconds": 23.5,
+    "episodes": [
+      "episode-031-Episode 1681364"
+    ],
+    "segments": [
+      {
+        "order": 1,
+        "episode_id": "episode-031-Episode 1681364",
+        "episode_number": 31,
+        "start_seconds": 122.0,
+        "end_seconds": 145.5,
+        "start": "02:02.00",
+        "end": "02:25.50",
+        "duration_seconds": 23.5,
+        "dialogue": [
+          {
+            "start": "02:02.00",
+            "end": "02:04.00",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "Catherine's smug expression freezes, her eyes widening in momentary shock and fury as the blow lands squarely."
+          },
+          {
+            "start": "02:04.20",
+            "end": "02:10.50",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "If you were truly powerful, Catherine, you wouldn't need me to bow."
+          },
+          {
+            "start": "02:11.00",
+            "end": "02:12.80",
+            "character": "CATHERINE",
+            "kind": "dialogue",
+            "text": "Enough!"
+          },
+          {
+            "start": "02:14.50",
+            "end": "02:18.00",
+            "character": "CATHERINE",
+            "kind": "dialogue",
+            "text": "This pathetic book is the only thing you still have from your mother."
+          },
+          {
+            "start": "02:18.00",
+            "end": "02:20.50",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "Tears spill rapidly down Juliana's cheeks as she reaches forward in vain, restrained by her heavy iron chains."
+          },
+          {
+            "start": "02:18.40",
+            "end": "02:20.40",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "[gasping] Give it back!"
+          },
+          {
+            "start": "02:20.70",
+            "end": "02:23.80",
+            "character": "CATHERINE",
+            "kind": "dialogue",
+            "text": "There. Finally. Something still hurts you."
+          },
+          {
+            "start": "02:24.00",
+            "end": "02:25.50",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "No!"
+          }
+        ]
+      }
+    ],
+    "opening_hook": {
+      "score": 0.7936,
+      "evidence": [
+        "shock reaction",
+        "02:02.00 ACTION: “Catherine's smug expression freezes, her eyes widening in momentary s…”",
+        "cues: shock ('freezes')",
+        "zero-shot conflict/reveal 0.91"
+      ],
+      "timestamp": 122.0,
+      "episode_id": "episode-031-Episode 1681364",
+      "text": "Catherine's smug expression freezes, her eyes widening in momentary shock and fury as the blow lands squarely.",
+      "timestamp_fmt": "02:02.00"
+    },
+    "ending_cliffhanger": {
+      "score": 0.5987,
+      "evidence": [
+        "shock ('no!')",
+        "02:24.00–02:25.50 JULIANA: “No!”",
+        "closing tension 1.00",
+        "zero-shot suspense/threat/reveal 0.05",
+        "withheld next beat: CATHERINE “One flame, and your mother's life's work becomes…” (payoff 0.41)"
+      ],
+      "timestamp": 145.5,
+      "episode_id": "episode-031-Episode 1681364",
+      "text": "No!",
+      "timestamp_fmt": "02:25.50"
+    },
+    "standalone_coherence": {
+      "score": 0.8625,
+      "evidence": [
+        "clear who/what/why",
+        "who: 2 speaking character(s), names on screen: catherine",
+        "what: 6 dialogue lines, 37 words",
+        "why: stakes (mother); logline overlap 0.33",
+        "structure: continuous, 0 scene switch(es)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "emotional_intensity": {
+      "score": 0.8205,
+      "evidence": [
+        "peak 0.96 at 02:24.00, mean 0.68 (emotion model)"
+      ],
+      "timestamp": 144.0,
+      "episode_id": "episode-031-Episode 1681364",
+      "text": "",
+      "timestamp_fmt": "02:24.00"
+    },
+    "narrative_continuity": {
+      "score": 1.0,
+      "evidence": [
+        "one unbroken stretch, 1 scene(s)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "dialogue_quality": {
+      "score": 0.9,
+      "evidence": [
+        "speech covers 77% of runtime, 33% filler lines, 6.2 words/line"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "score_breakdown": {
+      "hook": 0.7936,
+      "cliffhanger": 0.5987,
+      "coherence": 0.8625,
+      "emotion": 0.8205,
+      "continuity": 1.0,
+      "dialogue_quality": 0.9
+    },
+    "passed_quality_gates": true,
+    "rejection_reasons": [],
+    "risk_flags": [],
+    "why_it_works": "Opens on shock reaction (ep 31 02:02.00: “Catherine's smug expression freezes, her eyes widening in…”) and cuts on shock ('no!') (ep 31 02:25.50: “No!”); clear who/what/why.",
+    "llm_review": null
+  }
+}

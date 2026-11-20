@@ -1,0 +1,177 @@
+{
+  "summary": {
+    "status": "ok",
+    "reviewed": 15,
+    "failed": 0,
+    "agree_hook": 15,
+    "agree_cliffhanger": 15,
+    "agree_standalone": 4
+  },
+  "reviews": [
+    {
+      "rank": 1,
+      "promo_id": "cont-de86233235",
+      "hook_works": true,
+      "cliffhanger_works": true,
+      "standalone": true,
+      "one_line": "The promo immediately captures attention with a physical confrontation and successfully builds high stakes by unmasking a disgraced noblewoman forced into servitude.",
+      "concerns": "",
+      "model": "gemini-3.5-flash-lite",
+      "status": "ok"
+    },
+    {
+      "rank": 2,
+      "promo_id": "cont-91e3d6192f",
+      "hook_works": true,
+      "cliffhanger_works": true,
+      "standalone": false,
+      "one_line": "The clip successfully generates high emotional stakes with a dramatic accusation and a physical assault at the end, but fails to provide enough context for a brand-new viewer to understand the character relationships.",
+      "concerns": "A new viewer has no context regarding who Juliana, Rupert, Catherine, or the Dowager Duchess are, nor the underlying politics of the household.",
+      "model": "gemini-3.5-flash-lite",
+      "status": "ok"
+    },
+    {
+      "rank": 3,
+      "promo_id": "cont-ecac2393f3",
+      "hook_works": true,
+      "cliffhanger_works": true,
+      "standalone": false,
+      "one_line": "The promo immediately grabs attention with a dramatic accusation and ends on a high-stakes arrest, though viewers lack context about the characters.",
+      "concerns": "A new viewer has no context regarding who Juliana, Lady Catherine, or the Duchess are, or why Juliana is framed.",
+      "model": "gemini-3.5-flash-lite",
+      "status": "ok"
+    },
+    {
+      "rank": 4,
+      "promo_id": "cont-a53e381a5e",
+      "hook_works": true,
+      "cliffhanger_works": true,
+      "standalone": false,
+      "one_line": "The clip successfully hooks viewers with immediate physical violence and a dramatic rescue by Alexander, though the backstory remains unclear.",
+      "concerns": "A new viewer is given no context regarding who Juliana, Alexander, or the thugs are, or why the plants matter so much.",
+      "model": "gemini-3.5-flash-lite",
+      "status": "ok"
+    },
+    {
+      "rank": 5,
+      "promo_id": "cont-519b3d5ba1",
+      "hook_works": true,
+      "cliffhanger_works": true,
+      "standalone": true,
+      "one_line": "This promo works effectively by immediately establishing high-stakes betrayal, survival against the odds, and a gripping mystery about a hidden traitor.",
+      "concerns": "The specific identity of the traitor remains unrevealed, though the suspense generated effectively drives viewers to watch the full episode.",
+      "model": "gemini-3.5-flash-lite",
+      "status": "ok"
+    },
+    {
+      "rank": 6,
+      "promo_id": "cont-b7695929bb",
+      "hook_works": true,
+      "cliffhanger_works": true,
+      "standalone": false,
+      "one_line": "The violent opening and emotional desperation immediately grab attention, but new viewers lack context regarding who Juliana, the Duchess, and Alexander are.",
+      "concerns": "A first-time viewer has no background on why Juliana is imprisoned, who the Duchess is, or why protecting Alexander matters so much.",
+      "model": "gemini-3.5-flash-lite",
+      "status": "ok"
+    },
+    {
+      "rank": 7,
+      "promo_id": "cont-c52aef732b",
+      "hook_works": true,
+      "cliffhanger_works": true,
+      "standalone": true,
+      "one_line": "The clip successfully hooks viewers with an aggressive act of vandalism against a sympathetic, bandaged lead and ends on a physical assault that demands resolution.",
+      "concerns": "",
+      "model": "gemini-3.5-flash-lite",
+      "status": "ok"
+    },
+    {
+      "rank": 8,
+      "promo_id": "cont-f79bcba9e1",
+      "hook_works": true,
+      "cliffhanger_works": true,
+      "standalone": false,
+      "one_line": "The promo immediately grabs attention with physical conflict and a mysterious stranger stepping in to defend the victim, though the exact stakes and identities remain unclear.",
+      "concerns": "A new viewer is thrown into the scene without knowing who Lady Juliana, the Bearded Stranger, or the hostile family members are.",
+      "model": "gemini-3.5-flash-lite",
+      "status": "ok"
+    },
+    {
+      "rank": 9,
+      "promo_id": "cont-e383bd555e",
+      "hook_works": true,
+      "cliffhanger_works": true,
+      "standalone": false,
+      "one_line": "The promo successfully hooks viewers with immediate action and a strong, heroic stance, but lacks clear context for who the characters are.",
+      "concerns": "A new viewer has no context regarding who the Bearded Stranger, Lady Juliana, or the Noble Matriarch are, or why they are at the church.",
+      "model": "gemini-3.5-flash-lite",
+      "status": "ok"
+    },
+    {
+      "rank": 10,
+      "promo_id": "cros-65ba548972",
+      "hook_works": true,
+      "cliffhanger_works": true,
+      "standalone": false,
+      "one_line": "The promo immediately grabs attention with physical violence and a tense accusation, but a new viewer lacks context to understand the character dynamics.",
+      "concerns": "A new viewer has no context regarding who the noblewoman, Juliana, and Alexander are, or why Alexander is angry at Juliana for someone else poisoning a woman.",
+      "model": "gemini-3.5-flash-lite",
+      "status": "ok"
+    },
+    {
+      "rank": 11,
+      "promo_id": "mult-f9b35d3649",
+      "hook_works": true,
+      "cliffhanger_works": true,
+      "standalone": false,
+      "one_line": "The clip successfully hooks viewers with an immediate betrayal accusation and ends on a suspenseful reveal implicating Sterling, though new viewers lack context on the backstory.",
+      "concerns": "A new viewer jumping in won't fully understand who Duke Alexander Ashburn is, why his men were sold, or who Sterling and Catherine are without prior episodes.",
+      "model": "gemini-3.5-flash-lite",
+      "status": "ok"
+    },
+    {
+      "rank": 12,
+      "promo_id": "cont-b27061f1b8",
+      "hook_works": true,
+      "cliffhanger_works": true,
+      "standalone": true,
+      "one_line": "The clip successfully grabs attention with a poisoning accusation and builds intrigue through a sudden, dramatic ring reveal that creates an immediate cliffhanger.",
+      "concerns": "",
+      "model": "gemini-3.5-flash-lite",
+      "status": "ok"
+    },
+    {
+      "rank": 13,
+      "promo_id": "cont-c9afca610c",
+      "hook_works": true,
+      "cliffhanger_works": true,
+      "standalone": false,
+      "one_line": "The clip successfully grabs attention with a physical threat and a sinister plot to destroy a prisoner using the law, but lacks context for new viewers to understand who the characters are.",
+      "concerns": "A new viewer has no context about who the prisoner is, why the noblemen want to destroy her, or what her connection is to the Duchess.",
+      "model": "gemini-3.5-flash-lite",
+      "status": "ok"
+    },
+    {
+      "rank": 14,
+      "promo_id": "cont-d38c80224f",
+      "hook_works": true,
+      "cliffhanger_works": true,
+      "standalone": false,
+      "one_line": "The promo immediately grabs attention with visceral survival action and high-stakes emotional yelling, but leaves the viewer without context for who the characters are or why she is searching the dirt.",
+      "concerns": "A new viewer has no explanation for who Juliana and Alexander are, why she is desperately crawling through the freezing mud, or what the significance of the ring is.",
+      "model": "gemini-3.5-flash-lite",
+      "status": "ok"
+    },
+    {
+      "rank": 15,
+      "promo_id": "cont-061f890062",
+      "hook_works": true,
+      "cliffhanger_works": true,
+      "standalone": false,
+      "one_line": "The clip immediately captures attention with a dramatic accusation and a tense physical confrontation, ending right as an authority figure searches a coat.",
+      "concerns": "A new viewer has no context regarding who Juliana, Gerald, and Alexander are or what accusation was made.",
+      "model": "gemini-3.5-flash-lite",
+      "status": "ok"
+    }
+  ]
+}

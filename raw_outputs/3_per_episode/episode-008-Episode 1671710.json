@@ -1,0 +1,265 @@
+{
+  "show": "I Married a Broken Soldier. He was a Duke",
+  "episode_id": "episode-008-Episode 1671710",
+  "episode_number": 8,
+  "source_path": "C:\\Users\\Dell\\Desktop\\kuku_fm_ass\\kuku_fm_assignment_project\\data\\I Married a Broken Soldier. He was a Duke\\episode-008-Episode 1671710.txt",
+  "status": "ok",
+  "error": "",
+  "traceback": "",
+  "warnings": [],
+  "lines_total": 63,
+  "dialogue_lines": 26,
+  "action_lines": 3,
+  "untimed_lines": 0,
+  "duration_seconds": 78.0,
+  "candidates": 663,
+  "candidates_passed": 129,
+  "best_promo_id": "cont-653729ae7a",
+  "best_score": 0.6482,
+  "no_promo_reason": "",
+  "seconds_features": 0.005,
+  "seconds_candidates": 0.031,
+  "logline": "As Juliana inspects her late mother's weathered herbal grimoire, Alexander bonds with her over rustic medicinal knowledge and war-worn memories, gently altering her perception of what true wealth means.",
+  "best_promo": {
+    "rank": null,
+    "promo_id": "cont-653729ae7a",
+    "show": "I Married a Broken Soldier. He was a Duke",
+    "structure": "continuous",
+    "priority_score": 0.6482,
+    "total_duration_seconds": 51.2,
+    "episodes": [
+      "episode-008-Episode 1671710"
+    ],
+    "segments": [
+      {
+        "order": 1,
+        "episode_id": "episode-008-Episode 1671710",
+        "episode_number": 8,
+        "start_seconds": 15.1,
+        "end_seconds": 66.3,
+        "start": "00:15.10",
+        "end": "01:06.30",
+        "duration_seconds": 51.2,
+        "dialogue": [
+          {
+            "start": "00:15.10",
+            "end": "00:16.10",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "How do you know that?"
+          },
+          {
+            "start": "00:16.30",
+            "end": "00:18.90",
+            "character": "ALEXANDER",
+            "kind": "dialogue",
+            "text": "Soldiers learn quickly which plants keep a man alive."
+          },
+          {
+            "start": "00:19.40",
+            "end": "00:21.80",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "You know more about healing than you let on."
+          },
+          {
+            "start": "00:22.80",
+            "end": "00:24.20",
+            "character": "ALEXANDER",
+            "kind": "dialogue",
+            "text": "Enough to survive."
+          },
+          {
+            "start": "00:25.00",
+            "end": "00:26.80",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "Your hair and beard..."
+          },
+          {
+            "start": "00:30.10",
+            "end": "00:31.90",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "I could trim them for you."
+          },
+          {
+            "start": "00:33.20",
+            "end": "00:34.50",
+            "character": "ALEXANDER",
+            "kind": "dialogue",
+            "text": "Not yet."
+          },
+          {
+            "start": "00:35.80",
+            "end": "00:36.90",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "Not yet?"
+          },
+          {
+            "start": "00:37.70",
+            "end": "00:38.90",
+            "character": "ALEXANDER",
+            "kind": "dialogue",
+            "text": "Let them grow."
+          },
+          {
+            "start": "00:39.90",
+            "end": "00:42.00",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "You prefer looking like a forest hermit?"
+          },
+          {
+            "start": "00:43.70",
+            "end": "00:44.90",
+            "character": "ALEXANDER",
+            "kind": "dialogue",
+            "text": "It has advantages."
+          },
+          {
+            "start": "00:45.50",
+            "end": "00:46.80",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "Very well."
+          },
+          {
+            "start": "00:48.10",
+            "end": "00:49.60",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "But one day, I am trimming that beard."
+          },
+          {
+            "start": "00:50.10",
+            "end": "00:51.20",
+            "character": "ALEXANDER",
+            "kind": "dialogue",
+            "text": "We'll see."
+          },
+          {
+            "start": "00:53.30",
+            "end": "00:57.00",
+            "character": "ALEXANDER",
+            "kind": "dialogue",
+            "text": "That one grows near the northern stream. Crushed leaves ease swelling."
+          },
+          {
+            "start": "00:58.70",
+            "end": "01:00.20",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "My mother wrote the same thing."
+          },
+          {
+            "start": "01:00.50",
+            "end": "01:02.80",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "And the scars... were they from the war?"
+          },
+          {
+            "start": "01:03.20",
+            "end": "01:04.20",
+            "character": "ALEXANDER",
+            "kind": "dialogue",
+            "text": "Some were."
+          },
+          {
+            "start": "01:04.90",
+            "end": "01:06.30",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "It must have been terrible."
+          }
+        ]
+      }
+    ],
+    "opening_hook": {
+      "score": 0.4896,
+      "evidence": [
+        "charged question",
+        "00:15.10 JULIANA: “How do you know that?”",
+        "model: surprise 0.83, arousal 0.95",
+        "zero-shot conflict/reveal 0.16"
+      ],
+      "timestamp": 15.1,
+      "episode_id": "episode-008-Episode 1671710",
+      "text": "How do you know that?",
+      "timestamp_fmt": "00:15.10"
+    },
+    "ending_cliffhanger": {
+      "score": 0.5259,
+      "evidence": [
+        "charged statement left hanging",
+        "01:04.90–01:06.30 JULIANA: “It must have been terrible.”",
+        "closing tension 0.96",
+        "zero-shot suspense/threat/reveal 0.04",
+        "withheld next beat: ALEXANDER “It was.” (payoff 0.39)"
+      ],
+      "timestamp": 66.3,
+      "episode_id": "episode-008-Episode 1671710",
+      "text": "It must have been terrible.",
+      "timestamp_fmt": "01:06.30"
+    },
+    "standalone_coherence": {
+      "score": 0.7688,
+      "evidence": [
+        "clear who/what/why",
+        "who: 2 speaking character(s), no names said aloud",
+        "what: 19 dialogue lines, 97 words",
+        "why: stakes (mother, war); logline overlap 0.08",
+        "structure: continuous, 0 scene switch(es)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "emotional_intensity": {
+      "score": 0.6301,
+      "evidence": [
+        "peak 0.99 at 01:04.90, mean 0.27 (emotion model)"
+      ],
+      "timestamp": 64.9,
+      "episode_id": "episode-008-Episode 1671710",
+      "text": "",
+      "timestamp_fmt": "01:04.90"
+    },
+    "narrative_continuity": {
+      "score": 1.0,
+      "evidence": [
+        "one unbroken stretch, 1 scene(s)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "dialogue_quality": {
+      "score": 0.9211,
+      "evidence": [
+        "speech covers 62% of runtime, 26% filler lines, 5.1 words/line"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "score_breakdown": {
+      "hook": 0.4896,
+      "cliffhanger": 0.5259,
+      "coherence": 0.7688,
+      "emotion": 0.6301,
+      "continuity": 1.0,
+      "dialogue_quality": 0.9211
+    },
+    "passed_quality_gates": true,
+    "rejection_reasons": [],
+    "risk_flags": [],
+    "why_it_works": "Opens on charged question (ep 8 00:15.10: “How do you know that?”) and cuts on charged statement left hanging (ep 8 01:06.30: “It must have been terrible.”); clear who/what/why.",
+    "llm_review": null
+  }
+}

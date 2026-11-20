@@ -1,0 +1,3051 @@
+{
+  "meta": {
+    "description": "highest-scoring stage-2 candidates that failed a quality gate"
+  },
+  "promos": [
+    {
+      "rank": null,
+      "promo_id": "cont-2444bf2db0",
+      "show": "I Married a Broken Soldier. He was a Duke",
+      "structure": "continuous",
+      "priority_score": 0.8414,
+      "total_duration_seconds": 51.1,
+      "episodes": [
+        "episode-043-Episode 1686803"
+      ],
+      "segments": [
+        {
+          "order": 1,
+          "episode_id": "episode-043-Episode 1686803",
+          "episode_number": 43,
+          "start_seconds": 24.1,
+          "end_seconds": 75.2,
+          "start": "00:24.10",
+          "end": "01:15.20",
+          "duration_seconds": 51.1,
+          "dialogue": [
+            {
+              "start": "00:24.10",
+              "end": "00:25.80",
+              "character": "BLOND NOBLEMAN",
+              "kind": "dialogue",
+              "text": "You have all been deceived!"
+            },
+            {
+              "start": "00:26.10",
+              "end": "00:28.00",
+              "character": "ALEXANDER",
+              "kind": "dialogue",
+              "text": "Then let the Crown decide."
+            },
+            {
+              "start": "00:28.20",
+              "end": "00:30.00",
+              "character": "ACTION",
+              "kind": "action",
+              "text": "Alexander brings forth the dossier stamped \"WAR OFFICE - TOP SECRET\" with the royal crest."
+            },
+            {
+              "start": "00:30.00",
+              "end": "00:33.40",
+              "character": "ALEXANDER",
+              "kind": "dialogue",
+              "text": "These were delivered to me under the seal of the Crown."
+            },
+            {
+              "start": "00:33.50",
+              "end": "00:34.50",
+              "character": "ALEXANDER",
+              "kind": "dialogue",
+              "text": "Read the first."
+            },
+            {
+              "start": "00:35.20",
+              "end": "00:37.00",
+              "character": "ACTION",
+              "kind": "action",
+              "text": "The Crown Official receives the dossier solemnly with both hands."
+            },
+            {
+              "start": "00:37.80",
+              "end": "00:42.50",
+              "character": "CROWN OFFICIAL",
+              "kind": "dialogue",
+              "text": "Military Intelligence Report, Iberian front, three years ago."
+            },
+            {
+              "start": "00:44.00",
+              "end": "00:47.40",
+              "character": "CROWN OFFICIAL",
+              "kind": "dialogue",
+              "text": "Duke Alexander Ashburn's unit was ambushed after his location was compromised."
+            },
+            {
+              "start": "00:47.80",
+              "end": "00:50.80",
+              "character": "CROWN OFFICIAL",
+              "kind": "dialogue",
+              "text": "The report identifies the leak as deliberate."
+            },
+            {
+              "start": "00:51.00",
+              "end": "00:54.40",
+              "character": "CROWN OFFICIAL",
+              "kind": "dialogue",
+              "text": "Information regarding the Duke's position was transmitted through British channels."
+            },
+            {
+              "start": "00:51.80",
+              "end": "00:54.80",
+              "character": "ACTION",
+              "kind": "action",
+              "text": "Rupert staggers backward, his knees buckling as he leans his weight heavily on the stone balustrade."
+            },
+            {
+              "start": "00:55.00",
+              "end": "00:56.50",
+              "character": "BLOND NOBLEMAN",
+              "kind": "dialogue",
+              "text": "No..."
+            },
+            {
+              "start": "00:58.50",
+              "end": "01:00.00",
+              "character": "ALEXANDER",
+              "kind": "dialogue",
+              "text": "Read the names."
+            },
+            {
+              "start": "01:00.60",
+              "end": "01:02.50",
+              "character": "CROWN OFFICIAL",
+              "kind": "dialogue",
+              "text": "Lord Henry Sterling."
+            },
+            {
+              "start": "01:03.10",
+              "end": "01:04.20",
+              "character": "CROWN OFFICIAL",
+              "kind": "dialogue",
+              "text": "Rupert Ashburn."
+            },
+            {
+              "start": "01:06.50",
+              "end": "01:08.00",
+              "character": "DOWAGER DUCHESS",
+              "kind": "dialogue",
+              "text": "My God..."
+            },
+            {
+              "start": "01:09.00",
+              "end": "01:11.30",
+              "character": "ALEXANDER",
+              "kind": "dialogue",
+              "text": "You sold my men to the enemy."
+            },
+            {
+              "start": "01:11.40",
+              "end": "01:12.70",
+              "character": "BLOND NOBLEMAN",
+              "kind": "dialogue",
+              "text": "I didn't!"
+            },
+            {
+              "start": "01:12.80",
+              "end": "01:15.20",
+              "character": "ALEXANDER",
+              "kind": "dialogue",
+              "text": "And when you believed I was dead..."
+            }
+          ]
+        }
+      ],
+      "opening_hook": {
+        "score": 0.9338,
+        "evidence": [
+          "betrayal/accusation",
+          "00:24.10 BLOND NOBLEMAN: “You have all been deceived!”",
+          "model: anger 0.74, arousal 0.94",
+          "cues: betrayal ('deceived')",
+          "script tag 'Desperate, Flustered' (1.00)",
+          "zero-shot conflict/reveal 0.93"
+        ],
+        "timestamp": 24.1,
+        "episode_id": "episode-043-Episode 1686803",
+        "text": "You have all been deceived!",
+        "timestamp_fmt": "00:24.10"
+      },
+      "ending_cliffhanger": {
+        "score": 0.6109,
+        "evidence": [
+          "line breaks off (—/...)",
+          "01:12.80–01:15.20 ALEXANDER: “And when you believed I was dead...”",
+          "closing tension 1.00",
+          "zero-shot suspense/threat/reveal 0.68",
+          "withheld next beat: ALEXANDER “You took my title.” (payoff 0.34)",
+          "penalty: same speaker continues immediately (split line / rhetorical)"
+        ],
+        "timestamp": 75.2,
+        "episode_id": "episode-043-Episode 1686803",
+        "text": "And when you believed I was dead...",
+        "timestamp_fmt": "01:15.20"
+      },
+      "standalone_coherence": {
+        "score": 0.9625,
+        "evidence": [
+          "clear who/what/why",
+          "who: 4 speaking character(s), names on screen: alexander, crown, official, rupert",
+          "what: 16 dialogue lines, 87 words",
+          "why: stakes (duke, war); conflict cue present; logline overlap 0.50",
+          "structure: continuous, 0 scene switch(es)"
+        ],
+        "timestamp": null,
+        "episode_id": "",
+        "text": "",
+        "timestamp_fmt": null
+      },
+      "emotional_intensity": {
+        "score": 0.7763,
+        "evidence": [
+          "peak 1.00 at 00:44.00, mean 0.56 (emotion model)"
+        ],
+        "timestamp": 44.0,
+        "episode_id": "episode-043-Episode 1686803",
+        "text": "",
+        "timestamp_fmt": "00:44.00"
+      },
+      "narrative_continuity": {
+        "score": 1.0,
+        "evidence": [
+          "one unbroken stretch, 1 scene(s)"
+        ],
+        "timestamp": null,
+        "episode_id": "",
+        "text": "",
+        "timestamp_fmt": null
+      },
+      "dialogue_quality": {
+        "score": 0.925,
+        "evidence": [
+          "speech covers 70% of runtime, 25% filler lines, 5.4 words/line"
+        ],
+        "timestamp": null,
+        "episode_id": "",
+        "text": "",
+        "timestamp_fmt": null
+      },
+      "score_breakdown": {
+        "hook": 0.9338,
+        "cliffhanger": 0.6109,
+        "coherence": 0.9625,
+        "emotion": 0.7763,
+        "continuity": 1.0,
+        "dialogue_quality": 0.925
+      },
+      "passed_quality_gates": false,
+      "rejection_reasons": [
+        "no genuine cliffhanger (0.61; open-loop 0.48)"
+      ],
+      "risk_flags": [
+        "the source resolves the cut almost immediately"
+      ],
+      "why_it_works": "Opens on betrayal/accusation (ep 43 00:24.10: “You have all been deceived!”) and cuts on line breaks off (—/...) (ep 43 01:15.20: “And when you believed I was dead...”); clear who/what/why.",
+      "llm_review": null
+    },
+    {
+      "rank": null,
+      "promo_id": "cont-36806c7850",
+      "show": "I Married a Broken Soldier. He was a Duke",
+      "structure": "continuous",
+      "priority_score": 0.8367,
+      "total_duration_seconds": 45.9,
+      "episodes": [
+        "episode-003-Episode 1671705"
+      ],
+      "segments": [
+        {
+          "order": 1,
+          "episode_id": "episode-003-Episode 1671705",
+          "episode_number": 3,
+          "start_seconds": 84.0,
+          "end_seconds": 129.9,
+          "start": "01:24.00",
+          "end": "02:09.90",
+          "duration_seconds": 45.9,
+          "dialogue": [
+            {
+              "start": "01:24.00",
+              "end": "01:25.50",
+              "character": "ACTION",
+              "kind": "action",
+              "text": "The Bearded Stranger effortlessly blocks the guard's strike and drives a devastating strike into him, dropping the armed guard instantly to the floor."
+            },
+            {
+              "start": "01:25.60",
+              "end": "01:28.00",
+              "character": "THE FORMER GROOM",
+              "kind": "dialogue",
+              "text": "What are you waiting for?! He's only one man!"
+            },
+            {
+              "start": "01:30.40",
+              "end": "01:31.60",
+              "character": "THE BEARDED STRANGER",
+              "kind": "dialogue",
+              "text": "Are you hurt?"
+            },
+            {
+              "start": "01:31.80",
+              "end": "01:33.60",
+              "character": "ACTION",
+              "kind": "action",
+              "text": "Juliana softly shakes her head 'no', her wide blue eyes locked onto him."
+            },
+            {
+              "start": "01:34.10",
+              "end": "01:36.30",
+              "character": "THE BEARDED STRANGER",
+              "kind": "dialogue",
+              "text": "Good. Then don't touch her again."
+            },
+            {
+              "start": "01:36.50",
+              "end": "01:38.50",
+              "character": "NOBLE MATRIARCH",
+              "kind": "dialogue",
+              "text": "You cannot interfere in a family matter!"
+            },
+            {
+              "start": "01:38.80",
+              "end": "01:40.80",
+              "character": "THE BEARDED STRANGER",
+              "kind": "dialogue",
+              "text": "I can..."
+            },
+            {
+              "start": "01:40.80",
+              "end": "01:43.80",
+              "character": "THE BEARDED STRANGER",
+              "kind": "dialogue",
+              "text": "...when your family is dragging a defenseless woman from a church."
+            },
+            {
+              "start": "01:44.20",
+              "end": "01:47.40",
+              "character": "THE BEARDED STRANGER",
+              "kind": "dialogue",
+              "text": "You shouldn't have to beg anybody..."
+            },
+            {
+              "start": "01:47.40",
+              "end": "01:49.00",
+              "character": "THE BEARDED STRANGER",
+              "kind": "dialogue",
+              "text": "...to remember your worth."
+            },
+            {
+              "start": "01:50.90",
+              "end": "01:52.50",
+              "character": "LADY JULIANA",
+              "kind": "dialogue",
+              "text": "Why are you doing this?"
+            },
+            {
+              "start": "01:52.80",
+              "end": "01:54.10",
+              "character": "THE BEARDED STRANGER",
+              "kind": "dialogue",
+              "text": "Because I want to."
+            },
+            {
+              "start": "01:59.80",
+              "end": "02:02.10",
+              "character": "THE BEARDED STRANGER",
+              "kind": "dialogue",
+              "text": "You came here to become a wife."
+            },
+            {
+              "start": "02:02.50",
+              "end": "02:04.20",
+              "character": "THE BEARDED STRANGER",
+              "kind": "dialogue",
+              "text": "They took that from you."
+            },
+            {
+              "start": "02:05.30",
+              "end": "02:07.30",
+              "character": "THE BEARDED STRANGER",
+              "kind": "dialogue",
+              "text": "I am offering it back."
+            },
+            {
+              "start": "02:07.70",
+              "end": "02:09.90",
+              "character": "LADY JULIANA",
+              "kind": "dialogue",
+              "text": "You don't even know me."
+            }
+          ]
+        }
+      ],
+      "opening_hook": {
+        "score": 1.0,
+        "evidence": [
+          "physical confrontation",
+          "01:24.00 ACTION: “The Bearded Stranger effortlessly blocks the guard's strike and drive…”",
+          "cues: physical ('strike')",
+          "zero-shot conflict/reveal 0.96",
+          "second strong beat within 3 s (+0.05)"
+        ],
+        "timestamp": 84.0,
+        "episode_id": "episode-003-Episode 1671705",
+        "text": "The Bearded Stranger effortlessly blocks the guard's strike and drives a devastating strike into him, dropping the armed guard instantly to the floor.",
+        "timestamp_fmt": "01:24.00"
+      },
+      "ending_cliffhanger": {
+        "score": 0.4795,
+        "evidence": [
+          "charged statement left hanging",
+          "02:07.70–02:09.90 LADY JULIANA: “You don't even know me.”",
+          "closing tension 0.95",
+          "zero-shot suspense/threat/reveal 0.07",
+          "withheld next beat: THE BEARDED STRANGER “I know enough.” (payoff 0.16)"
+        ],
+        "timestamp": 129.9,
+        "episode_id": "episode-003-Episode 1671705",
+        "text": "You don't even know me.",
+        "timestamp_fmt": "02:09.90"
+      },
+      "standalone_coherence": {
+        "score": 0.9437,
+        "evidence": [
+          "clear who/what/why",
+          "who: 4 speaking character(s), names on screen: juliana, stranger",
+          "what: 14 dialogue lines, 79 words",
+          "why: stakes (family, wife); conflict cue present; logline overlap 0.25",
+          "structure: continuous, 0 scene switch(es)"
+        ],
+        "timestamp": null,
+        "episode_id": "",
+        "text": "",
+        "timestamp_fmt": null
+      },
+      "emotional_intensity": {
+        "score": 0.8611,
+        "evidence": [
+          "peak 1.00 at 01:40.80, mean 0.73 (emotion model)"
+        ],
+        "timestamp": 100.8,
+        "episode_id": "episode-003-Episode 1671705",
+        "text": "",
+        "timestamp_fmt": "01:40.80"
+      },
+      "narrative_continuity": {
+        "score": 1.0,
+        "evidence": [
+          "one unbroken stretch, 1 scene(s)"
+        ],
+        "timestamp": null,
+        "episode_id": "",
+        "text": "",
+        "timestamp_fmt": null
+      },
+      "dialogue_quality": {
+        "score": 0.9786,
+        "evidence": [
+          "speech covers 63% of runtime, 7% filler lines, 5.6 words/line"
+        ],
+        "timestamp": null,
+        "episode_id": "",
+        "text": "",
+        "timestamp_fmt": null
+      },
+      "score_breakdown": {
+        "hook": 1.0,
+        "cliffhanger": 0.4795,
+        "coherence": 0.9437,
+        "emotion": 0.8611,
+        "continuity": 1.0,
+        "dialogue_quality": 0.9786
+      },
+      "passed_quality_gates": false,
+      "rejection_reasons": [
+        "no genuine cliffhanger (0.48; open-loop 0.50)"
+      ],
+      "risk_flags": [],
+      "why_it_works": "Opens on physical confrontation (ep 3 01:24.00: “The Bearded Stranger effortlessly blocks the guard's stri…”) and cuts on charged statement left hanging (ep 3 02:09.90: “You don't even know me.”); clear who/what/why.",
+      "llm_review": null
+    },
+    {
+      "rank": null,
+      "promo_id": "cont-cc756ca258",
+      "show": "I Married a Broken Soldier. He was a Duke",
+      "structure": "continuous",
+      "priority_score": 0.8298,
+      "total_duration_seconds": 21.3,
+      "episodes": [
+        "episode-029-Episode 1678582"
+      ],
+      "segments": [
+        {
+          "order": 1,
+          "episode_id": "episode-029-Episode 1678582",
+          "episode_number": 29,
+          "start_seconds": 84.0,
+          "end_seconds": 105.3,
+          "start": "01:24.00",
+          "end": "01:45.30",
+          "duration_seconds": 21.3,
+          "dialogue": [
+            {
+              "start": "01:24.00",
+              "end": "01:26.50",
+              "character": "ACTION",
+              "kind": "action",
+              "text": "The guards shove Juliana violently into the cell; she falls hard onto all fours across the cold, wet stone floor."
+            },
+            {
+              "start": "01:25.70",
+              "end": "01:26.50",
+              "character": "JULIANA",
+              "kind": "dialogue",
+              "text": "Please!"
+            },
+            {
+              "start": "01:29.50",
+              "end": "01:33.70",
+              "character": "ACTION",
+              "kind": "action",
+              "text": "Juliana trembles uncontrollably, her fingers digging into the collar of her rustic dress as terror washes over her."
+            },
+            {
+              "start": "01:34.20",
+              "end": "01:35.50",
+              "character": "JULIANA",
+              "kind": "dialogue",
+              "text": "Mother..."
+            },
+            {
+              "start": "01:37.30",
+              "end": "01:39.50",
+              "character": "JULIANA",
+              "kind": "dialogue",
+              "text": "I have done nothing!"
+            },
+            {
+              "start": "01:39.70",
+              "end": "01:42.30",
+              "character": "JULIANA",
+              "kind": "dialogue",
+              "text": "I saved her! I healed her!"
+            },
+            {
+              "start": "01:42.60",
+              "end": "01:45.30",
+              "character": "JULIANA",
+              "kind": "dialogue",
+              "text": "I saved the Duchess!"
+            }
+          ]
+        }
+      ],
+      "opening_hook": {
+        "score": 1.0,
+        "evidence": [
+          "physical confrontation",
+          "01:24.00 ACTION: “The guards shove Juliana violently into the cell; she falls hard onto…”",
+          "cues: physical ('shove')",
+          "zero-shot conflict/reveal 0.95",
+          "second strong beat within 3 s (+0.05)"
+        ],
+        "timestamp": 84.0,
+        "episode_id": "episode-029-Episode 1678582",
+        "text": "The guards shove Juliana violently into the cell; she falls hard onto all fours across the cold, wet stone floor.",
+        "timestamp_fmt": "01:24.00"
+      },
+      "ending_cliffhanger": {
+        "score": 0.5813,
+        "evidence": [
+          "zero-shot reads an unresolved threat (0.55)",
+          "01:42.60–01:45.30 JULIANA: “I saved the Duchess!”",
+          "closing tension 1.00",
+          "zero-shot suspense/threat/reveal 0.55",
+          "withheld next beat: JULIANA “They took my mother's ledger...” (payoff 0.36)"
+        ],
+        "timestamp": 105.3,
+        "episode_id": "episode-029-Episode 1678582",
+        "text": "I saved the Duchess!",
+        "timestamp_fmt": "01:45.30"
+      },
+      "standalone_coherence": {
+        "score": 0.8158,
+        "evidence": [
+          "clear who/what/why",
+          "who: 1 speaking character(s), names on screen: juliana",
+          "what: 5 dialogue lines, 16 words",
+          "why: stakes (duchess, mother); conflict cue present; logline overlap 0.17",
+          "structure: continuous, 0 scene switch(es)"
+        ],
+        "timestamp": null,
+        "episode_id": "",
+        "text": "",
+        "timestamp_fmt": null
+      },
+      "emotional_intensity": {
+        "score": 0.89,
+        "evidence": [
+          "peak 1.00 at 01:37.30, mean 0.78 (emotion model)"
+        ],
+        "timestamp": 97.3,
+        "episode_id": "episode-029-Episode 1678582",
+        "text": "",
+        "timestamp_fmt": "01:37.30"
+      },
+      "narrative_continuity": {
+        "score": 1.0,
+        "evidence": [
+          "one unbroken stretch, 1 scene(s)"
+        ],
+        "timestamp": null,
+        "episode_id": "",
+        "text": "",
+        "timestamp_fmt": null
+      },
+      "dialogue_quality": {
+        "score": 0.7556,
+        "evidence": [
+          "speech covers 45% of runtime, 40% filler lines, 3.2 words/line"
+        ],
+        "timestamp": null,
+        "episode_id": "",
+        "text": "",
+        "timestamp_fmt": null
+      },
+      "score_breakdown": {
+        "hook": 1.0,
+        "cliffhanger": 0.5813,
+        "coherence": 0.8158,
+        "emotion": 0.89,
+        "continuity": 1.0,
+        "dialogue_quality": 0.7556
+      },
+      "passed_quality_gates": false,
+      "rejection_reasons": [
+        "no genuine cliffhanger (0.58; open-loop 0.44)"
+      ],
+      "risk_flags": [],
+      "why_it_works": "Opens on physical confrontation (ep 29 01:24.00: “The guards shove Juliana violently into the cell; she fal…”) and cuts on zero-shot reads an unresolved threat (0.55) (ep 29 01:45.30: “I saved the Duchess!”); clear who/what/why.",
+      "llm_review": null
+    },
+    {
+      "rank": null,
+      "promo_id": "cont-15d9523f86",
+      "show": "I Married a Broken Soldier. He was a Duke",
+      "structure": "continuous",
+      "priority_score": 0.8248,
+      "total_duration_seconds": 21.0,
+      "episodes": [
+        "episode-043-Episode 1686803"
+      ],
+      "segments": [
+        {
+          "order": 1,
+          "episode_id": "episode-043-Episode 1686803",
+          "episode_number": 43,
+          "start_seconds": 0.6,
+          "end_seconds": 21.6,
+          "start": "00:00.60",
+          "end": "00:21.60",
+          "duration_seconds": 21.0,
+          "dialogue": [
+            {
+              "start": "00:00.60",
+              "end": "00:02.40",
+              "character": "BLOND NOBLEMAN",
+              "kind": "dialogue",
+              "text": "You're lying!"
+            },
+            {
+              "start": "00:02.40",
+              "end": "00:03.90",
+              "character": "ACTION",
+              "kind": "action",
+              "text": "Rupert lunges forward, his facial features contorting in venomous desperation."
+            },
+            {
+              "start": "00:03.90",
+              "end": "00:07.40",
+              "character": "BLOND NOBLEMAN",
+              "kind": "dialogue",
+              "text": "This man is an imposter! Arrest him!"
+            },
+            {
+              "start": "00:08.20",
+              "end": "00:10.50",
+              "character": "ACTION",
+              "kind": "action",
+              "text": "Alexander stands completely composed in his dark embroidered aristocratic coat, staring Rupert down with unyielding authority."
+            },
+            {
+              "start": "00:10.50",
+              "end": "00:13.20",
+              "character": "BLOND NOBLEMAN",
+              "kind": "dialogue",
+              "text": "I said arrest him!"
+            },
+            {
+              "start": "00:13.80",
+              "end": "00:16.00",
+              "character": "ACTION",
+              "kind": "action",
+              "text": "The Guard Captain brings his ceremonial sword upright to attention, his expression stern and resolute."
+            },
+            {
+              "start": "00:14.20",
+              "end": "00:15.80",
+              "character": "ROYAL GUARD",
+              "kind": "dialogue",
+              "text": "We will not."
+            },
+            {
+              "start": "00:16.20",
+              "end": "00:18.00",
+              "character": "BLOND NOBLEMAN",
+              "kind": "dialogue",
+              "text": "I am Lord Rupert Ashburn!"
+            },
+            {
+              "start": "00:18.10",
+              "end": "00:19.00",
+              "character": "BLOND NOBLEMAN",
+              "kind": "dialogue",
+              "text": "Your Duke!"
+            },
+            {
+              "start": "00:19.20",
+              "end": "00:21.60",
+              "character": "ACTION",
+              "kind": "action",
+              "text": "The Guard Captain snaps a crisp salute toward Alexander."
+            }
+          ]
+        }
+      ],
+      "opening_hook": {
+        "score": 0.7843,
+        "evidence": [
+          "exclamation",
+          "00:00.60 BLOND NOBLEMAN: “You're lying!”",
+          "model: anger 0.80, arousal 0.98",
+          "script tag 'Hysterical, Panicked' (1.00)",
+          "zero-shot conflict/reveal 0.82"
+        ],
+        "timestamp": 0.6,
+        "episode_id": "episode-043-Episode 1686803",
+        "text": "You're lying!",
+        "timestamp_fmt": "00:00.60"
+      },
+      "ending_cliffhanger": {
+        "score": 0.6239,
+        "evidence": [
+          "charged statement left hanging (just before the cut)",
+          "00:19.20–00:21.60 ACTION: “The Guard Captain snaps a crisp salute toward Alexander.”",
+          "closing tension 1.00",
+          "zero-shot suspense/threat/reveal 0.12",
+          "withheld next beat: ROYAL GUARD “No. He is your Duke.” (payoff 0.93)"
+        ],
+        "timestamp": 21.6,
+        "episode_id": "episode-043-Episode 1686803",
+        "text": "The Guard Captain snaps a crisp salute toward Alexander.",
+        "timestamp_fmt": "00:21.60"
+      },
+      "standalone_coherence": {
+        "score": 0.9329,
+        "evidence": [
+          "clear who/what/why",
+          "who: 2 speaking character(s), names on screen: alexander, rupert",
+          "what: 6 dialogue lines, 23 words",
+          "why: stakes (duke); conflict cue present; logline overlap 0.42",
+          "structure: continuous, 0 scene switch(es)"
+        ],
+        "timestamp": null,
+        "episode_id": "",
+        "text": "",
+        "timestamp_fmt": null
+      },
+      "emotional_intensity": {
+        "score": 0.9451,
+        "evidence": [
+          "peak 0.99 at 00:10.50, mean 0.90 (emotion model)"
+        ],
+        "timestamp": 10.5,
+        "episode_id": "episode-043-Episode 1686803",
+        "text": "",
+        "timestamp_fmt": "00:10.50"
+      },
+      "narrative_continuity": {
+        "score": 1.0,
+        "evidence": [
+          "one unbroken stretch, 1 scene(s)"
+        ],
+        "timestamp": null,
+        "episode_id": "",
+        "text": "",
+        "timestamp_fmt": null
+      },
+      "dialogue_quality": {
+        "score": 0.8881,
+        "evidence": [
+          "speech covers 59% of runtime, 33% filler lines, 3.8 words/line"
+        ],
+        "timestamp": null,
+        "episode_id": "",
+        "text": "",
+        "timestamp_fmt": null
+      },
+      "score_breakdown": {
+        "hook": 0.7843,
+        "cliffhanger": 0.6239,
+        "coherence": 0.9329,
+        "emotion": 0.9451,
+        "continuity": 1.0,
+        "dialogue_quality": 0.8881
+      },
+      "passed_quality_gates": false,
+      "rejection_reasons": [
+        "no genuine cliffhanger (0.62; open-loop 0.42)"
+      ],
+      "risk_flags": [],
+      "why_it_works": "Opens on exclamation (ep 43 00:00.60: “You're lying!”) and cuts on charged statement left hanging (just before the cut) (ep 43 00:21.60: “The Guard Captain snaps a crisp salute toward Alexander.”); clear who/what/why.",
+      "llm_review": null
+    },
+    {
+      "rank": null,
+      "promo_id": "cont-87c50b0b7d",
+      "show": "I Married a Broken Soldier. He was a Duke",
+      "structure": "continuous",
+      "priority_score": 0.8002,
+      "total_duration_seconds": 33.5,
+      "episodes": [
+        "episode-002-Episode 1671704"
+      ],
+      "segments": [
+        {
+          "order": 1,
+          "episode_id": "episode-002-Episode 1671704",
+          "episode_number": 2,
+          "start_seconds": 76.5,
+          "end_seconds": 110.0,
+          "start": "01:16.50",
+          "end": "01:50.00",
+          "duration_seconds": 33.5,
+          "dialogue": [
+            {
+              "start": "01:16.50",
+              "end": "01:19.00",
+              "character": "LADY JULIANA",
+              "kind": "dialogue",
+              "text": "You abandoned a woman who trusted you..."
+            },
+            {
+              "start": "01:19.20",
+              "end": "01:22.50",
+              "character": "LADY JULIANA",
+              "kind": "dialogue",
+              "text": "...because another woman promised you greater beauty and wealth."
+            },
+            {
+              "start": "01:23.00",
+              "end": "01:26.50",
+              "character": "LADY JULIANA",
+              "kind": "dialogue",
+              "text": "Do not mistake my heartbreak for your victory, Gerald."
+            },
+            {
+              "start": "01:26.80",
+              "end": "01:33.00",
+              "character": "LADY JULIANA",
+              "kind": "dialogue",
+              "text": "You wanted this entire chapel to believe that I was not worthy of you. But you have shown them something far more valuable."
+            },
+            {
+              "start": "01:33.40",
+              "end": "01:36.60",
+              "character": "LADY JULIANA",
+              "kind": "dialogue",
+              "text": "You have shown them exactly what your word is worth."
+            },
+            {
+              "start": "01:38.20",
+              "end": "01:42.80",
+              "character": "ACTION",
+              "kind": "action",
+              "text": "Juliana lifts her chin high, commanding the space with unassailable dignity."
+            },
+            {
+              "start": "01:38.50",
+              "end": "01:42.40",
+              "character": "LADY JULIANA",
+              "kind": "dialogue",
+              "text": "I may leave this chapel without a husband..."
+            },
+            {
+              "start": "01:43.00",
+              "end": "01:47.40",
+              "character": "LADY JULIANA",
+              "kind": "dialogue",
+              "text": "...but I will not leave it believing I was the one who should be ashamed."
+            },
+            {
+              "start": "01:47.40",
+              "end": "01:50.00",
+              "character": "ACTION",
+              "kind": "action",
+              "text": "Juliana breathes with steady resolve, holding her head high as the solemn orchestral score swells into the final beat."
+            }
+          ]
+        }
+      ],
+      "opening_hook": {
+        "score": 0.8537,
+        "evidence": [
+          "betrayal/accusation",
+          "01:16.50 LADY JULIANA: “You abandoned a woman who trusted you...”",
+          "model: disgust 0.44, arousal 0.85",
+          "cues: betrayal ('abandoned')",
+          "script tag 'Clear, Accusing' (0.67)",
+          "zero-shot conflict/reveal 0.92"
+        ],
+        "timestamp": 76.5,
+        "episode_id": "episode-002-Episode 1671704",
+        "text": "You abandoned a woman who trusted you...",
+        "timestamp_fmt": "01:16.50"
+      },
+      "ending_cliffhanger": {
+        "score": 0.5517,
+        "evidence": [
+          "zero-shot reads an unresolved suspense (0.61)",
+          "01:47.40–01:50.00 ACTION: “Juliana breathes with steady resolve, holding her head high as the so…”",
+          "closing tension 0.67",
+          "zero-shot suspense/threat/reveal 0.61",
+          "withheld next beat: LADY IN GOLD GOWN “Look at you...” (payoff 0.48)"
+        ],
+        "timestamp": 110.0,
+        "episode_id": "episode-002-Episode 1671704",
+        "text": "Juliana breathes with steady resolve, holding her head high as the solemn orchestral score swells into the final beat.",
+        "timestamp_fmt": "01:50.00"
+      },
+      "standalone_coherence": {
+        "score": 0.8687,
+        "evidence": [
+          "clear who/what/why",
+          "who: 1 speaking character(s), names on screen: gerald, juliana",
+          "what: 7 dialogue lines, 81 words",
+          "why: stakes (husband); conflict cue present; logline overlap 0.25",
+          "structure: continuous, 0 scene switch(es)"
+        ],
+        "timestamp": null,
+        "episode_id": "",
+        "text": "",
+        "timestamp_fmt": null
+      },
+      "emotional_intensity": {
+        "score": 0.8343,
+        "evidence": [
+          "peak 0.98 at 01:23.00, mean 0.69 (emotion model)"
+        ],
+        "timestamp": 83.0,
+        "episode_id": "episode-002-Episode 1671704",
+        "text": "",
+        "timestamp_fmt": "01:23.00"
+      },
+      "narrative_continuity": {
+        "score": 1.0,
+        "evidence": [
+          "one unbroken stretch, 1 scene(s)"
+        ],
+        "timestamp": null,
+        "episode_id": "",
+        "text": "",
+        "timestamp_fmt": null
+      },
+      "dialogue_quality": {
+        "score": 1.0,
+        "evidence": [
+          "speech covers 81% of runtime, 0% filler lines, 11.6 words/line"
+        ],
+        "timestamp": null,
+        "episode_id": "",
+        "text": "",
+        "timestamp_fmt": null
+      },
+      "score_breakdown": {
+        "hook": 0.8537,
+        "cliffhanger": 0.5517,
+        "coherence": 0.8687,
+        "emotion": 0.8343,
+        "continuity": 1.0,
+        "dialogue_quality": 1.0
+      },
+      "passed_quality_gates": false,
+      "rejection_reasons": [
+        "no genuine cliffhanger (0.55; open-loop 0.49)"
+      ],
+      "risk_flags": [],
+      "why_it_works": "Opens on betrayal/accusation (ep 2 01:16.50: “You abandoned a woman who trusted you...”) and cuts on zero-shot reads an unresolved suspense (0.61) (ep 2 01:50.00: “Juliana breathes with steady resolve, holding her head hi…”); clear who/what/why.",
+      "llm_review": null
+    },
+    {
+      "rank": null,
+      "promo_id": "cont-7e2be5bfec",
+      "show": "I Married a Broken Soldier. He was a Duke",
+      "structure": "continuous",
+      "priority_score": 0.7976,
+      "total_duration_seconds": 35.0,
+      "episodes": [
+        "episode-024-Episode 1678577"
+      ],
+      "segments": [
+        {
+          "order": 1,
+          "episode_id": "episode-024-Episode 1678577",
+          "episode_number": 24,
+          "start_seconds": 31.0,
+          "end_seconds": 66.0,
+          "start": "00:31.00",
+          "end": "01:06.00",
+          "duration_seconds": 35.0,
+          "dialogue": [
+            {
+              "start": "00:31.00",
+              "end": "00:32.50",
+              "character": "LADY JULIANA",
+              "kind": "dialogue",
+              "text": "I cannot do that."
+            },
+            {
+              "start": "00:32.50",
+              "end": "00:34.50",
+              "character": "ACTION",
+              "kind": "action",
+              "text": "The noblewoman suddenly rears back her riding crop and strikes Juliana violently across the torso."
+            },
+            {
+              "start": "00:33.80",
+              "end": "00:36.50",
+              "character": "ACTION",
+              "kind": "action",
+              "text": "Juliana gasps in pain, clutching her stomach and bending over as she absorbs the brutal strike."
+            },
+            {
+              "start": "00:35.00",
+              "end": "00:36.80",
+              "character": "NOBLEWOMAN",
+              "kind": "dialogue",
+              "text": "You are a maid."
+            },
+            {
+              "start": "00:37.00",
+              "end": "00:38.80",
+              "character": "NOBLEWOMAN",
+              "kind": "dialogue",
+              "text": "Not a physician. Not a lady."
+            },
+            {
+              "start": "00:39.00",
+              "end": "00:42.80",
+              "character": "NOBLEWOMAN",
+              "kind": "dialogue",
+              "text": "And certainly not a woman whose opinion matters."
+            },
+            {
+              "start": "00:43.20",
+              "end": "00:44.80",
+              "character": "LADY JULIANA",
+              "kind": "dialogue",
+              "text": "Yes, my lady."
+            },
+            {
+              "start": "00:45.50",
+              "end": "00:48.00",
+              "character": "NOBLEWOMAN",
+              "kind": "dialogue",
+              "text": "Good. Perhaps we can teach you your place."
+            },
+            {
+              "start": "00:48.50",
+              "end": "00:51.50",
+              "character": "ACTION",
+              "kind": "action",
+              "text": "The noblewoman leads Juliana and a frightened Prudence down a dark flagstone hallway."
+            },
+            {
+              "start": "00:51.50",
+              "end": "00:53.50",
+              "character": "ACTION",
+              "kind": "action",
+              "text": "Juliana's boots step down into a dark, rustic chamber dominated by an enormous, blackened stone hearth."
+            },
+            {
+              "start": "00:53.60",
+              "end": "00:55.20",
+              "character": "NOBLEWOMAN",
+              "kind": "dialogue",
+              "text": "Clean it."
+            },
+            {
+              "start": "00:56.20",
+              "end": "00:57.60",
+              "character": "LADY JULIANA",
+              "kind": "dialogue",
+              "text": "All of it, my lady?"
+            },
+            {
+              "start": "00:57.80",
+              "end": "01:03.50",
+              "character": "NOBLEWOMAN",
+              "kind": "dialogue",
+              "text": "Every stone. Perhaps when your hands are black enough, you will finally remember what you are."
+            },
+            {
+              "start": "01:03.80",
+              "end": "01:06.00",
+              "character": "ACTION",
+              "kind": "action",
+              "text": "Juliana slowly drops to her knees on the cold flagstones before the soot-filled fireplace."
+            }
+          ]
+        }
+      ],
+      "opening_hook": {
+        "score": 1.0,
+        "evidence": [
+          "physical confrontation",
+          "00:32.50 ACTION: “The noblewoman suddenly rears back her riding crop and strikes Julian…”",
+          "cues: physical ('strikes')",
+          "zero-shot conflict/reveal 0.89",
+          "second strong beat within 3 s (+0.08)"
+        ],
+        "timestamp": 32.5,
+        "episode_id": "episode-024-Episode 1678577",
+        "text": "The noblewoman suddenly rears back her riding crop and strikes Juliana violently across the torso.",
+        "timestamp_fmt": "00:32.50"
+      },
+      "ending_cliffhanger": {
+        "score": 0.5409,
+        "evidence": [
+          "charged statement left hanging (just before the cut)",
+          "01:03.80–01:06.00 ACTION: “Juliana slowly drops to her knees on the cold flagstones before the s…”",
+          "closing tension 1.00",
+          "zero-shot suspense/threat/reveal 0.27",
+          "withheld next beat: ACTION “Prudence steps toward the noblewoman in distress,…” (payoff 0.40)"
+        ],
+        "timestamp": 66.0,
+        "episode_id": "episode-024-Episode 1678577",
+        "text": "Juliana slowly drops to her knees on the cold flagstones before the soot-filled fireplace.",
+        "timestamp_fmt": "01:06.00"
+      },
+      "standalone_coherence": {
+        "score": 0.8375,
+        "evidence": [
+          "clear who/what/why",
+          "who: 2 speaking character(s), names on screen: juliana, prudence",
+          "what: 9 dialogue lines, 56 words",
+          "why: no explicit stakes words; conflict cue present; logline overlap 0.50",
+          "structure: continuous, 1 scene switch(es)"
+        ],
+        "timestamp": null,
+        "episode_id": "",
+        "text": "",
+        "timestamp_fmt": null
+      },
+      "emotional_intensity": {
+        "score": 0.7104,
+        "evidence": [
+          "peak 0.98 at 00:35.00, mean 0.44 (emotion model)"
+        ],
+        "timestamp": 35.0,
+        "episode_id": "episode-024-Episode 1678577",
+        "text": "",
+        "timestamp_fmt": "00:35.00"
+      },
+      "narrative_continuity": {
+        "score": 0.9,
+        "evidence": [
+          "one unbroken stretch, 2 scene(s)"
+        ],
+        "timestamp": null,
+        "episode_id": "",
+        "text": "",
+        "timestamp_fmt": null
+      },
+      "dialogue_quality": {
+        "score": 0.9667,
+        "evidence": [
+          "speech covers 62% of runtime, 11% filler lines, 6.2 words/line"
+        ],
+        "timestamp": null,
+        "episode_id": "",
+        "text": "",
+        "timestamp_fmt": null
+      },
+      "score_breakdown": {
+        "hook": 1.0,
+        "cliffhanger": 0.5409,
+        "coherence": 0.8375,
+        "emotion": 0.7104,
+        "continuity": 0.9,
+        "dialogue_quality": 0.9667
+      },
+      "passed_quality_gates": false,
+      "rejection_reasons": [
+        "no genuine cliffhanger (0.54; open-loop 0.42)"
+      ],
+      "risk_flags": [],
+      "why_it_works": "Opens on physical confrontation (ep 24 00:32.50: “The noblewoman suddenly rears back her riding crop and st…”) and cuts on charged statement left hanging (just before the cut) (ep 24 01:06.00: “Juliana slowly drops to her knees on the cold flagstones …”); clear who/what/why.",
+      "llm_review": null
+    },
+    {
+      "rank": null,
+      "promo_id": "cont-bb31dc4fbd",
+      "show": "I Married a Broken Soldier. He was a Duke",
+      "structure": "continuous",
+      "priority_score": 0.7953,
+      "total_duration_seconds": 28.0,
+      "episodes": [
+        "episode-036-Episode 1681369"
+      ],
+      "segments": [
+        {
+          "order": 1,
+          "episode_id": "episode-036-Episode 1681369",
+          "episode_number": 36,
+          "start_seconds": 117.5,
+          "end_seconds": 145.5,
+          "start": "01:57.50",
+          "end": "02:25.50",
+          "duration_seconds": 28.0,
+          "dialogue": [
+            {
+              "start": "01:57.50",
+              "end": "01:59.30",
+              "character": "ALEXANDER",
+              "kind": "dialogue",
+              "text": "You told them the truth!"
+            },
+            {
+              "start": "01:59.80",
+              "end": "02:02.50",
+              "character": "ALEXANDER'S MOTHER",
+              "kind": "dialogue",
+              "text": "They called her a witch!"
+            },
+            {
+              "start": "02:03.80",
+              "end": "02:06.80",
+              "character": "ALEXANDER",
+              "kind": "dialogue",
+              "text": "Juliana... is in a cell?"
+            },
+            {
+              "start": "02:07.80",
+              "end": "02:10.50",
+              "character": "ALEXANDER'S MOTHER",
+              "kind": "dialogue",
+              "text": "She was taken before a magistrate."
+            },
+            {
+              "start": "02:10.90",
+              "end": "02:11.80",
+              "character": "ALEXANDER",
+              "kind": "dialogue",
+              "text": "And?!"
+            },
+            {
+              "start": "02:12.20",
+              "end": "02:14.40",
+              "character": "ALEXANDER'S MOTHER",
+              "kind": "dialogue",
+              "text": "They condemned her."
+            },
+            {
+              "start": "02:14.50",
+              "end": "02:15.20",
+              "character": "ALEXANDER",
+              "kind": "dialogue",
+              "text": "No."
+            },
+            {
+              "start": "02:16.00",
+              "end": "02:18.80",
+              "character": "ALEXANDER'S MOTHER",
+              "kind": "dialogue",
+              "text": "She is to be executed."
+            },
+            {
+              "start": "02:20.20",
+              "end": "02:21.50",
+              "character": "ALEXANDER",
+              "kind": "dialogue",
+              "text": "When?"
+            },
+            {
+              "start": "02:23.20",
+              "end": "02:25.50",
+              "character": "ALEXANDER'S MOTHER",
+              "kind": "dialogue",
+              "text": "After the wedding."
+            }
+          ]
+        }
+      ],
+      "opening_hook": {
+        "score": 0.822,
+        "evidence": [
+          "revelation",
+          "01:57.50 ALEXANDER: “You told them the truth!”",
+          "model: anger 0.82, arousal 0.96",
+          "cues: revelation ('the truth')",
+          "script tag 'Furious' (1.00)",
+          "zero-shot conflict/reveal 0.30",
+          "second strong beat within 3 s (+0.05)"
+        ],
+        "timestamp": 117.5,
+        "episode_id": "episode-036-Episode 1681369",
+        "text": "You told them the truth!",
+        "timestamp_fmt": "01:57.50"
+      },
+      "ending_cliffhanger": {
+        "score": 0.4542,
+        "evidence": [
+          "charged statement left hanging",
+          "02:23.20–02:25.50 ALEXANDER'S MOTHER: “After the wedding.”",
+          "closing tension 0.67",
+          "zero-shot suspense/threat/reveal 0.04",
+          "withheld next beat: ALEXANDER “What wedding?” (payoff 0.41)"
+        ],
+        "timestamp": 145.5,
+        "episode_id": "episode-036-Episode 1681369",
+        "text": "After the wedding.",
+        "timestamp_fmt": "02:25.50"
+      },
+      "standalone_coherence": {
+        "score": 0.9437,
+        "evidence": [
+          "clear who/what/why",
+          "who: 2 speaking character(s), names on screen: juliana",
+          "what: 10 dialogue lines, 35 words",
+          "why: stakes (wedding); conflict cue present; logline overlap 0.25",
+          "structure: continuous, 0 scene switch(es)"
+        ],
+        "timestamp": null,
+        "episode_id": "",
+        "text": "",
+        "timestamp_fmt": null
+      },
+      "emotional_intensity": {
+        "score": 0.9466,
+        "evidence": [
+          "peak 0.99 at 01:59.80, mean 0.91 (emotion model)"
+        ],
+        "timestamp": 119.8,
+        "episode_id": "episode-036-Episode 1681369",
+        "text": "",
+        "timestamp_fmt": "01:59.80"
+      },
+      "narrative_continuity": {
+        "score": 1.0,
+        "evidence": [
+          "one unbroken stretch, 1 scene(s)"
+        ],
+        "timestamp": null,
+        "episode_id": "",
+        "text": "",
+        "timestamp_fmt": null
+      },
+      "dialogue_quality": {
+        "score": 0.91,
+        "evidence": [
+          "speech covers 73% of runtime, 30% filler lines, 3.5 words/line"
+        ],
+        "timestamp": null,
+        "episode_id": "",
+        "text": "",
+        "timestamp_fmt": null
+      },
+      "score_breakdown": {
+        "hook": 0.822,
+        "cliffhanger": 0.4542,
+        "coherence": 0.9437,
+        "emotion": 0.9466,
+        "continuity": 1.0,
+        "dialogue_quality": 0.91
+      },
+      "passed_quality_gates": false,
+      "rejection_reasons": [
+        "no genuine cliffhanger (0.45; open-loop 0.50)"
+      ],
+      "risk_flags": [],
+      "why_it_works": "Opens on revelation (ep 36 01:57.50: “You told them the truth!”) and cuts on charged statement left hanging (ep 36 02:25.50: “After the wedding.”); clear who/what/why.",
+      "llm_review": null
+    },
+    {
+      "rank": null,
+      "promo_id": "cont-7b5f625891",
+      "show": "I Married a Broken Soldier. He was a Duke",
+      "structure": "continuous",
+      "priority_score": 0.7949,
+      "total_duration_seconds": 33.5,
+      "episodes": [
+        "episode-024-Episode 1678577"
+      ],
+      "segments": [
+        {
+          "order": 1,
+          "episode_id": "episode-024-Episode 1678577",
+          "episode_number": 24,
+          "start_seconds": 32.5,
+          "end_seconds": 66.0,
+          "start": "00:32.50",
+          "end": "01:06.00",
+          "duration_seconds": 33.5,
+          "dialogue": [
+            {
+              "start": "00:32.50",
+              "end": "00:34.50",
+              "character": "ACTION",
+              "kind": "action",
+              "text": "The noblewoman suddenly rears back her riding crop and strikes Juliana violently across the torso."
+            },
+            {
+              "start": "00:33.80",
+              "end": "00:36.50",
+              "character": "ACTION",
+              "kind": "action",
+              "text": "Juliana gasps in pain, clutching her stomach and bending over as she absorbs the brutal strike."
+            },
+            {
+              "start": "00:35.00",
+              "end": "00:36.80",
+              "character": "NOBLEWOMAN",
+              "kind": "dialogue",
+              "text": "You are a maid."
+            },
+            {
+              "start": "00:37.00",
+              "end": "00:38.80",
+              "character": "NOBLEWOMAN",
+              "kind": "dialogue",
+              "text": "Not a physician. Not a lady."
+            },
+            {
+              "start": "00:39.00",
+              "end": "00:42.80",
+              "character": "NOBLEWOMAN",
+              "kind": "dialogue",
+              "text": "And certainly not a woman whose opinion matters."
+            },
+            {
+              "start": "00:43.20",
+              "end": "00:44.80",
+              "character": "LADY JULIANA",
+              "kind": "dialogue",
+              "text": "Yes, my lady."
+            },
+            {
+              "start": "00:45.50",
+              "end": "00:48.00",
+              "character": "NOBLEWOMAN",
+              "kind": "dialogue",
+              "text": "Good. Perhaps we can teach you your place."
+            },
+            {
+              "start": "00:48.50",
+              "end": "00:51.50",
+              "character": "ACTION",
+              "kind": "action",
+              "text": "The noblewoman leads Juliana and a frightened Prudence down a dark flagstone hallway."
+            },
+            {
+              "start": "00:51.50",
+              "end": "00:53.50",
+              "character": "ACTION",
+              "kind": "action",
+              "text": "Juliana's boots step down into a dark, rustic chamber dominated by an enormous, blackened stone hearth."
+            },
+            {
+              "start": "00:53.60",
+              "end": "00:55.20",
+              "character": "NOBLEWOMAN",
+              "kind": "dialogue",
+              "text": "Clean it."
+            },
+            {
+              "start": "00:56.20",
+              "end": "00:57.60",
+              "character": "LADY JULIANA",
+              "kind": "dialogue",
+              "text": "All of it, my lady?"
+            },
+            {
+              "start": "00:57.80",
+              "end": "01:03.50",
+              "character": "NOBLEWOMAN",
+              "kind": "dialogue",
+              "text": "Every stone. Perhaps when your hands are black enough, you will finally remember what you are."
+            },
+            {
+              "start": "01:03.80",
+              "end": "01:06.00",
+              "character": "ACTION",
+              "kind": "action",
+              "text": "Juliana slowly drops to her knees on the cold flagstones before the soot-filled fireplace."
+            }
+          ]
+        }
+      ],
+      "opening_hook": {
+        "score": 1.0,
+        "evidence": [
+          "physical confrontation",
+          "00:32.50 ACTION: “The noblewoman suddenly rears back her riding crop and strikes Julian…”",
+          "cues: physical ('strikes')",
+          "zero-shot conflict/reveal 0.89",
+          "second strong beat within 3 s (+0.09)"
+        ],
+        "timestamp": 32.5,
+        "episode_id": "episode-024-Episode 1678577",
+        "text": "The noblewoman suddenly rears back her riding crop and strikes Juliana violently across the torso.",
+        "timestamp_fmt": "00:32.50"
+      },
+      "ending_cliffhanger": {
+        "score": 0.5409,
+        "evidence": [
+          "charged statement left hanging (just before the cut)",
+          "01:03.80–01:06.00 ACTION: “Juliana slowly drops to her knees on the cold flagstones before the s…”",
+          "closing tension 1.00",
+          "zero-shot suspense/threat/reveal 0.27",
+          "withheld next beat: ACTION “Prudence steps toward the noblewoman in distress,…” (payoff 0.40)"
+        ],
+        "timestamp": 66.0,
+        "episode_id": "episode-024-Episode 1678577",
+        "text": "Juliana slowly drops to her knees on the cold flagstones before the soot-filled fireplace.",
+        "timestamp_fmt": "01:06.00"
+      },
+      "standalone_coherence": {
+        "score": 0.8375,
+        "evidence": [
+          "clear who/what/why",
+          "who: 2 speaking character(s), names on screen: juliana, prudence",
+          "what: 8 dialogue lines, 52 words",
+          "why: no explicit stakes words; conflict cue present; logline overlap 0.50",
+          "structure: continuous, 1 scene switch(es)"
+        ],
+        "timestamp": null,
+        "episode_id": "",
+        "text": "",
+        "timestamp_fmt": null
+      },
+      "emotional_intensity": {
+        "score": 0.6935,
+        "evidence": [
+          "peak 0.98 at 00:35.00, mean 0.40 (emotion model)"
+        ],
+        "timestamp": 35.0,
+        "episode_id": "episode-024-Episode 1678577",
+        "text": "",
+        "timestamp_fmt": "00:35.00"
+      },
+      "narrative_continuity": {
+        "score": 0.9,
+        "evidence": [
+          "one unbroken stretch, 2 scene(s)"
+        ],
+        "timestamp": null,
+        "episode_id": "",
+        "text": "",
+        "timestamp_fmt": null
+      },
+      "dialogue_quality": {
+        "score": 0.9625,
+        "evidence": [
+          "speech covers 60% of runtime, 12% filler lines, 6.5 words/line"
+        ],
+        "timestamp": null,
+        "episode_id": "",
+        "text": "",
+        "timestamp_fmt": null
+      },
+      "score_breakdown": {
+        "hook": 1.0,
+        "cliffhanger": 0.5409,
+        "coherence": 0.8375,
+        "emotion": 0.6935,
+        "continuity": 0.9,
+        "dialogue_quality": 0.9625
+      },
+      "passed_quality_gates": false,
+      "rejection_reasons": [
+        "no genuine cliffhanger (0.54; open-loop 0.42)"
+      ],
+      "risk_flags": [],
+      "why_it_works": "Opens on physical confrontation (ep 24 00:32.50: “The noblewoman suddenly rears back her riding crop and st…”) and cuts on charged statement left hanging (just before the cut) (ep 24 01:06.00: “Juliana slowly drops to her knees on the cold flagstones …”); clear who/what/why.",
+      "llm_review": null
+    },
+    {
+      "rank": null,
+      "promo_id": "cont-ae9160cc1d",
+      "show": "I Married a Broken Soldier. He was a Duke",
+      "structure": "continuous",
+      "priority_score": 0.7933,
+      "total_duration_seconds": 26.6,
+      "episodes": [
+        "episode-024-Episode 1678577"
+      ],
+      "segments": [
+        {
+          "order": 1,
+          "episode_id": "episode-024-Episode 1678577",
+          "episode_number": 24,
+          "start_seconds": 31.0,
+          "end_seconds": 57.6,
+          "start": "00:31.00",
+          "end": "00:57.60",
+          "duration_seconds": 26.6,
+          "dialogue": [
+            {
+              "start": "00:31.00",
+              "end": "00:32.50",
+              "character": "LADY JULIANA",
+              "kind": "dialogue",
+              "text": "I cannot do that."
+            },
+            {
+              "start": "00:32.50",
+              "end": "00:34.50",
+              "character": "ACTION",
+              "kind": "action",
+              "text": "The noblewoman suddenly rears back her riding crop and strikes Juliana violently across the torso."
+            },
+            {
+              "start": "00:33.80",
+              "end": "00:36.50",
+              "character": "ACTION",
+              "kind": "action",
+              "text": "Juliana gasps in pain, clutching her stomach and bending over as she absorbs the brutal strike."
+            },
+            {
+              "start": "00:35.00",
+              "end": "00:36.80",
+              "character": "NOBLEWOMAN",
+              "kind": "dialogue",
+              "text": "You are a maid."
+            },
+            {
+              "start": "00:37.00",
+              "end": "00:38.80",
+              "character": "NOBLEWOMAN",
+              "kind": "dialogue",
+              "text": "Not a physician. Not a lady."
+            },
+            {
+              "start": "00:39.00",
+              "end": "00:42.80",
+              "character": "NOBLEWOMAN",
+              "kind": "dialogue",
+              "text": "And certainly not a woman whose opinion matters."
+            },
+            {
+              "start": "00:43.20",
+              "end": "00:44.80",
+              "character": "LADY JULIANA",
+              "kind": "dialogue",
+              "text": "Yes, my lady."
+            },
+            {
+              "start": "00:45.50",
+              "end": "00:48.00",
+              "character": "NOBLEWOMAN",
+              "kind": "dialogue",
+              "text": "Good. Perhaps we can teach you your place."
+            },
+            {
+              "start": "00:48.50",
+              "end": "00:51.50",
+              "character": "ACTION",
+              "kind": "action",
+              "text": "The noblewoman leads Juliana and a frightened Prudence down a dark flagstone hallway."
+            },
+            {
+              "start": "00:51.50",
+              "end": "00:53.50",
+              "character": "ACTION",
+              "kind": "action",
+              "text": "Juliana's boots step down into a dark, rustic chamber dominated by an enormous, blackened stone hearth."
+            },
+            {
+              "start": "00:53.60",
+              "end": "00:55.20",
+              "character": "NOBLEWOMAN",
+              "kind": "dialogue",
+              "text": "Clean it."
+            },
+            {
+              "start": "00:56.20",
+              "end": "00:57.60",
+              "character": "LADY JULIANA",
+              "kind": "dialogue",
+              "text": "All of it, my lady?"
+            }
+          ]
+        }
+      ],
+      "opening_hook": {
+        "score": 1.0,
+        "evidence": [
+          "physical confrontation",
+          "00:32.50 ACTION: “The noblewoman suddenly rears back her riding crop and strikes Julian…”",
+          "cues: physical ('strikes')",
+          "zero-shot conflict/reveal 0.89",
+          "second strong beat within 3 s (+0.08)"
+        ],
+        "timestamp": 32.5,
+        "episode_id": "episode-024-Episode 1678577",
+        "text": "The noblewoman suddenly rears back her riding crop and strikes Juliana violently across the torso.",
+        "timestamp_fmt": "00:32.50"
+      },
+      "ending_cliffhanger": {
+        "score": 0.4833,
+        "evidence": [
+          "unanswered question (charged)",
+          "00:56.20–00:57.60 LADY JULIANA: “All of it, my lady?”",
+          "closing tension 0.85",
+          "zero-shot suspense/threat/reveal 0.03",
+          "withheld next beat: NOBLEWOMAN “Every stone. Perhaps when your hands are black en…” (payoff 0.03)"
+        ],
+        "timestamp": 57.6,
+        "episode_id": "episode-024-Episode 1678577",
+        "text": "All of it, my lady?",
+        "timestamp_fmt": "00:57.60"
+      },
+      "standalone_coherence": {
+        "score": 0.8375,
+        "evidence": [
+          "clear who/what/why",
+          "who: 2 speaking character(s), names on screen: juliana, prudence",
+          "what: 8 dialogue lines, 40 words",
+          "why: no explicit stakes words; conflict cue present; logline overlap 0.50",
+          "structure: continuous, 1 scene switch(es)"
+        ],
+        "timestamp": null,
+        "episode_id": "",
+        "text": "",
+        "timestamp_fmt": null
+      },
+      "emotional_intensity": {
+        "score": 0.7791,
+        "evidence": [
+          "peak 0.98 at 00:35.00, mean 0.57 (emotion model)"
+        ],
+        "timestamp": 35.0,
+        "episode_id": "episode-024-Episode 1678577",
+        "text": "",
+        "timestamp_fmt": "00:35.00"
+      },
+      "narrative_continuity": {
+        "score": 0.9,
+        "evidence": [
+          "one unbroken stretch, 2 scene(s)"
+        ],
+        "timestamp": null,
+        "episode_id": "",
+        "text": "",
+        "timestamp_fmt": null
+      },
+      "dialogue_quality": {
+        "score": 0.9625,
+        "evidence": [
+          "speech covers 60% of runtime, 12% filler lines, 5.0 words/line"
+        ],
+        "timestamp": null,
+        "episode_id": "",
+        "text": "",
+        "timestamp_fmt": null
+      },
+      "score_breakdown": {
+        "hook": 1.0,
+        "cliffhanger": 0.4833,
+        "coherence": 0.8375,
+        "emotion": 0.7791,
+        "continuity": 0.9,
+        "dialogue_quality": 0.9625
+      },
+      "passed_quality_gates": false,
+      "rejection_reasons": [
+        "no genuine cliffhanger (0.48; open-loop 0.65)"
+      ],
+      "risk_flags": [],
+      "why_it_works": "Opens on physical confrontation (ep 24 00:32.50: “The noblewoman suddenly rears back her riding crop and st…”) and cuts on unanswered question (charged) (ep 24 00:57.60: “All of it, my lady?”); clear who/what/why.",
+      "llm_review": null
+    },
+    {
+      "rank": null,
+      "promo_id": "cont-054d51a0c4",
+      "show": "I Married a Broken Soldier. He was a Duke",
+      "structure": "continuous",
+      "priority_score": 0.7922,
+      "total_duration_seconds": 43.5,
+      "episodes": [
+        "episode-024-Episode 1678577"
+      ],
+      "segments": [
+        {
+          "order": 1,
+          "episode_id": "episode-024-Episode 1678577",
+          "episode_number": 24,
+          "start_seconds": 31.0,
+          "end_seconds": 74.5,
+          "start": "00:31.00",
+          "end": "01:14.50",
+          "duration_seconds": 43.5,
+          "dialogue": [
+            {
+              "start": "00:31.00",
+              "end": "00:32.50",
+              "character": "LADY JULIANA",
+              "kind": "dialogue",
+              "text": "I cannot do that."
+            },
+            {
+              "start": "00:32.50",
+              "end": "00:34.50",
+              "character": "ACTION",
+              "kind": "action",
+              "text": "The noblewoman suddenly rears back her riding crop and strikes Juliana violently across the torso."
+            },
+            {
+              "start": "00:33.80",
+              "end": "00:36.50",
+              "character": "ACTION",
+              "kind": "action",
+              "text": "Juliana gasps in pain, clutching her stomach and bending over as she absorbs the brutal strike."
+            },
+            {
+              "start": "00:35.00",
+              "end": "00:36.80",
+              "character": "NOBLEWOMAN",
+              "kind": "dialogue",
+              "text": "You are a maid."
+            },
+            {
+              "start": "00:37.00",
+              "end": "00:38.80",
+              "character": "NOBLEWOMAN",
+              "kind": "dialogue",
+              "text": "Not a physician. Not a lady."
+            },
+            {
+              "start": "00:39.00",
+              "end": "00:42.80",
+              "character": "NOBLEWOMAN",
+              "kind": "dialogue",
+              "text": "And certainly not a woman whose opinion matters."
+            },
+            {
+              "start": "00:43.20",
+              "end": "00:44.80",
+              "character": "LADY JULIANA",
+              "kind": "dialogue",
+              "text": "Yes, my lady."
+            },
+            {
+              "start": "00:45.50",
+              "end": "00:48.00",
+              "character": "NOBLEWOMAN",
+              "kind": "dialogue",
+              "text": "Good. Perhaps we can teach you your place."
+            },
+            {
+              "start": "00:48.50",
+              "end": "00:51.50",
+              "character": "ACTION",
+              "kind": "action",
+              "text": "The noblewoman leads Juliana and a frightened Prudence down a dark flagstone hallway."
+            },
+            {
+              "start": "00:51.50",
+              "end": "00:53.50",
+              "character": "ACTION",
+              "kind": "action",
+              "text": "Juliana's boots step down into a dark, rustic chamber dominated by an enormous, blackened stone hearth."
+            },
+            {
+              "start": "00:53.60",
+              "end": "00:55.20",
+              "character": "NOBLEWOMAN",
+              "kind": "dialogue",
+              "text": "Clean it."
+            },
+            {
+              "start": "00:56.20",
+              "end": "00:57.60",
+              "character": "LADY JULIANA",
+              "kind": "dialogue",
+              "text": "All of it, my lady?"
+            },
+            {
+              "start": "00:57.80",
+              "end": "01:03.50",
+              "character": "NOBLEWOMAN",
+              "kind": "dialogue",
+              "text": "Every stone. Perhaps when your hands are black enough, you will finally remember what you are."
+            },
+            {
+              "start": "01:03.80",
+              "end": "01:06.00",
+              "character": "ACTION",
+              "kind": "action",
+              "text": "Juliana slowly drops to her knees on the cold flagstones before the soot-filled fireplace."
+            },
+            {
+              "start": "01:06.00",
+              "end": "01:07.50",
+              "character": "ACTION",
+              "kind": "action",
+              "text": "Prudence steps toward the noblewoman in distress, her hands clasped tightly."
+            },
+            {
+              "start": "01:06.20",
+              "end": "01:07.50",
+              "character": "PRUDENCE",
+              "kind": "dialogue",
+              "text": "My lady—"
+            },
+            {
+              "start": "01:07.50",
+              "end": "01:09.50",
+              "character": "ACTION",
+              "kind": "action",
+              "text": "The noblewoman whips around sharply, thrusting the tip of her riding crop directly into Prudence's face."
+            },
+            {
+              "start": "01:08.00",
+              "end": "01:10.50",
+              "character": "NOBLEWOMAN",
+              "kind": "dialogue",
+              "text": "Do you want the same punishment?"
+            },
+            {
+              "start": "01:10.60",
+              "end": "01:12.40",
+              "character": "PRUDENCE",
+              "kind": "dialogue",
+              "text": "No, my lady."
+            },
+            {
+              "start": "01:12.50",
+              "end": "01:14.50",
+              "character": "ACTION",
+              "kind": "action",
+              "text": "Juliana grips a coarse scrubbing brush with both hands and begins vigorously scraping the thick black ash across the hearthstones."
+            }
+          ]
+        }
+      ],
+      "opening_hook": {
+        "score": 1.0,
+        "evidence": [
+          "physical confrontation",
+          "00:32.50 ACTION: “The noblewoman suddenly rears back her riding crop and strikes Julian…”",
+          "cues: physical ('strikes')",
+          "zero-shot conflict/reveal 0.89",
+          "second strong beat within 3 s (+0.08)"
+        ],
+        "timestamp": 32.5,
+        "episode_id": "episode-024-Episode 1678577",
+        "text": "The noblewoman suddenly rears back her riding crop and strikes Juliana violently across the torso.",
+        "timestamp_fmt": "00:32.50"
+      },
+      "ending_cliffhanger": {
+        "score": 0.4992,
+        "evidence": [
+          "charged statement left hanging (just before the cut)",
+          "01:12.50–01:14.50 ACTION: “Juliana grips a coarse scrubbing brush with both hands and begins vig…”",
+          "closing tension 1.00",
+          "zero-shot suspense/threat/reveal 0.12",
+          "withheld next beat: NOBLEWOMAN “That is where clever little servants belong.” (payoff 0.30)"
+        ],
+        "timestamp": 74.5,
+        "episode_id": "episode-024-Episode 1678577",
+        "text": "Juliana grips a coarse scrubbing brush with both hands and begins vigorously scraping the thick black ash across the hearthstones.",
+        "timestamp_fmt": "01:14.50"
+      },
+      "standalone_coherence": {
+        "score": 0.8375,
+        "evidence": [
+          "clear who/what/why",
+          "who: 3 speaking character(s), names on screen: juliana, prudence",
+          "what: 12 dialogue lines, 67 words",
+          "why: no explicit stakes words; conflict cue present; logline overlap 0.50",
+          "structure: continuous, 1 scene switch(es)"
+        ],
+        "timestamp": null,
+        "episode_id": "",
+        "text": "",
+        "timestamp_fmt": null
+      },
+      "emotional_intensity": {
+        "score": 0.7491,
+        "evidence": [
+          "peak 0.98 at 00:35.00, mean 0.51 (emotion model)"
+        ],
+        "timestamp": 35.0,
+        "episode_id": "episode-024-Episode 1678577",
+        "text": "",
+        "timestamp_fmt": "00:35.00"
+      },
+      "narrative_continuity": {
+        "score": 0.9,
+        "evidence": [
+          "one unbroken stretch, 2 scene(s)"
+        ],
+        "timestamp": null,
+        "episode_id": "",
+        "text": "",
+        "timestamp_fmt": null
+      },
+      "dialogue_quality": {
+        "score": 0.95,
+        "evidence": [
+          "speech covers 63% of runtime, 17% filler lines, 5.6 words/line"
+        ],
+        "timestamp": null,
+        "episode_id": "",
+        "text": "",
+        "timestamp_fmt": null
+      },
+      "score_breakdown": {
+        "hook": 1.0,
+        "cliffhanger": 0.4992,
+        "coherence": 0.8375,
+        "emotion": 0.7491,
+        "continuity": 0.9,
+        "dialogue_quality": 0.95
+      },
+      "passed_quality_gates": false,
+      "rejection_reasons": [
+        "no genuine cliffhanger (0.50; open-loop 0.42)"
+      ],
+      "risk_flags": [],
+      "why_it_works": "Opens on physical confrontation (ep 24 00:32.50: “The noblewoman suddenly rears back her riding crop and st…”) and cuts on charged statement left hanging (just before the cut) (ep 24 01:14.50: “Juliana grips a coarse scrubbing brush with both hands an…”); clear who/what/why.",
+      "llm_review": null
+    },
+    {
+      "rank": null,
+      "promo_id": "cont-a8d527bb87",
+      "show": "I Married a Broken Soldier. He was a Duke",
+      "structure": "continuous",
+      "priority_score": 0.7903,
+      "total_duration_seconds": 42.0,
+      "episodes": [
+        "episode-024-Episode 1678577"
+      ],
+      "segments": [
+        {
+          "order": 1,
+          "episode_id": "episode-024-Episode 1678577",
+          "episode_number": 24,
+          "start_seconds": 32.5,
+          "end_seconds": 74.5,
+          "start": "00:32.50",
+          "end": "01:14.50",
+          "duration_seconds": 42.0,
+          "dialogue": [
+            {
+              "start": "00:32.50",
+              "end": "00:34.50",
+              "character": "ACTION",
+              "kind": "action",
+              "text": "The noblewoman suddenly rears back her riding crop and strikes Juliana violently across the torso."
+            },
+            {
+              "start": "00:33.80",
+              "end": "00:36.50",
+              "character": "ACTION",
+              "kind": "action",
+              "text": "Juliana gasps in pain, clutching her stomach and bending over as she absorbs the brutal strike."
+            },
+            {
+              "start": "00:35.00",
+              "end": "00:36.80",
+              "character": "NOBLEWOMAN",
+              "kind": "dialogue",
+              "text": "You are a maid."
+            },
+            {
+              "start": "00:37.00",
+              "end": "00:38.80",
+              "character": "NOBLEWOMAN",
+              "kind": "dialogue",
+              "text": "Not a physician. Not a lady."
+            },
+            {
+              "start": "00:39.00",
+              "end": "00:42.80",
+              "character": "NOBLEWOMAN",
+              "kind": "dialogue",
+              "text": "And certainly not a woman whose opinion matters."
+            },
+            {
+              "start": "00:43.20",
+              "end": "00:44.80",
+              "character": "LADY JULIANA",
+              "kind": "dialogue",
+              "text": "Yes, my lady."
+            },
+            {
+              "start": "00:45.50",
+              "end": "00:48.00",
+              "character": "NOBLEWOMAN",
+              "kind": "dialogue",
+              "text": "Good. Perhaps we can teach you your place."
+            },
+            {
+              "start": "00:48.50",
+              "end": "00:51.50",
+              "character": "ACTION",
+              "kind": "action",
+              "text": "The noblewoman leads Juliana and a frightened Prudence down a dark flagstone hallway."
+            },
+            {
+              "start": "00:51.50",
+              "end": "00:53.50",
+              "character": "ACTION",
+              "kind": "action",
+              "text": "Juliana's boots step down into a dark, rustic chamber dominated by an enormous, blackened stone hearth."
+            },
+            {
+              "start": "00:53.60",
+              "end": "00:55.20",
+              "character": "NOBLEWOMAN",
+              "kind": "dialogue",
+              "text": "Clean it."
+            },
+            {
+              "start": "00:56.20",
+              "end": "00:57.60",
+              "character": "LADY JULIANA",
+              "kind": "dialogue",
+              "text": "All of it, my lady?"
+            },
+            {
+              "start": "00:57.80",
+              "end": "01:03.50",
+              "character": "NOBLEWOMAN",
+              "kind": "dialogue",
+              "text": "Every stone. Perhaps when your hands are black enough, you will finally remember what you are."
+            },
+            {
+              "start": "01:03.80",
+              "end": "01:06.00",
+              "character": "ACTION",
+              "kind": "action",
+              "text": "Juliana slowly drops to her knees on the cold flagstones before the soot-filled fireplace."
+            },
+            {
+              "start": "01:06.00",
+              "end": "01:07.50",
+              "character": "ACTION",
+              "kind": "action",
+              "text": "Prudence steps toward the noblewoman in distress, her hands clasped tightly."
+            },
+            {
+              "start": "01:06.20",
+              "end": "01:07.50",
+              "character": "PRUDENCE",
+              "kind": "dialogue",
+              "text": "My lady—"
+            },
+            {
+              "start": "01:07.50",
+              "end": "01:09.50",
+              "character": "ACTION",
+              "kind": "action",
+              "text": "The noblewoman whips around sharply, thrusting the tip of her riding crop directly into Prudence's face."
+            },
+            {
+              "start": "01:08.00",
+              "end": "01:10.50",
+              "character": "NOBLEWOMAN",
+              "kind": "dialogue",
+              "text": "Do you want the same punishment?"
+            },
+            {
+              "start": "01:10.60",
+              "end": "01:12.40",
+              "character": "PRUDENCE",
+              "kind": "dialogue",
+              "text": "No, my lady."
+            },
+            {
+              "start": "01:12.50",
+              "end": "01:14.50",
+              "character": "ACTION",
+              "kind": "action",
+              "text": "Juliana grips a coarse scrubbing brush with both hands and begins vigorously scraping the thick black ash across the hearthstones."
+            }
+          ]
+        }
+      ],
+      "opening_hook": {
+        "score": 1.0,
+        "evidence": [
+          "physical confrontation",
+          "00:32.50 ACTION: “The noblewoman suddenly rears back her riding crop and strikes Julian…”",
+          "cues: physical ('strikes')",
+          "zero-shot conflict/reveal 0.89",
+          "second strong beat within 3 s (+0.09)"
+        ],
+        "timestamp": 32.5,
+        "episode_id": "episode-024-Episode 1678577",
+        "text": "The noblewoman suddenly rears back her riding crop and strikes Juliana violently across the torso.",
+        "timestamp_fmt": "00:32.50"
+      },
+      "ending_cliffhanger": {
+        "score": 0.4992,
+        "evidence": [
+          "charged statement left hanging (just before the cut)",
+          "01:12.50–01:14.50 ACTION: “Juliana grips a coarse scrubbing brush with both hands and begins vig…”",
+          "closing tension 1.00",
+          "zero-shot suspense/threat/reveal 0.12",
+          "withheld next beat: NOBLEWOMAN “That is where clever little servants belong.” (payoff 0.30)"
+        ],
+        "timestamp": 74.5,
+        "episode_id": "episode-024-Episode 1678577",
+        "text": "Juliana grips a coarse scrubbing brush with both hands and begins vigorously scraping the thick black ash across the hearthstones.",
+        "timestamp_fmt": "01:14.50"
+      },
+      "standalone_coherence": {
+        "score": 0.8375,
+        "evidence": [
+          "clear who/what/why",
+          "who: 3 speaking character(s), names on screen: juliana, prudence",
+          "what: 11 dialogue lines, 63 words",
+          "why: no explicit stakes words; conflict cue present; logline overlap 0.50",
+          "structure: continuous, 1 scene switch(es)"
+        ],
+        "timestamp": null,
+        "episode_id": "",
+        "text": "",
+        "timestamp_fmt": null
+      },
+      "emotional_intensity": {
+        "score": 0.7381,
+        "evidence": [
+          "peak 0.98 at 00:35.00, mean 0.49 (emotion model)"
+        ],
+        "timestamp": 35.0,
+        "episode_id": "episode-024-Episode 1678577",
+        "text": "",
+        "timestamp_fmt": "00:35.00"
+      },
+      "narrative_continuity": {
+        "score": 0.9,
+        "evidence": [
+          "one unbroken stretch, 2 scene(s)"
+        ],
+        "timestamp": null,
+        "episode_id": "",
+        "text": "",
+        "timestamp_fmt": null
+      },
+      "dialogue_quality": {
+        "score": 0.9455,
+        "evidence": [
+          "speech covers 61% of runtime, 18% filler lines, 5.7 words/line"
+        ],
+        "timestamp": null,
+        "episode_id": "",
+        "text": "",
+        "timestamp_fmt": null
+      },
+      "score_breakdown": {
+        "hook": 1.0,
+        "cliffhanger": 0.4992,
+        "coherence": 0.8375,
+        "emotion": 0.7381,
+        "continuity": 0.9,
+        "dialogue_quality": 0.9455
+      },
+      "passed_quality_gates": false,
+      "rejection_reasons": [
+        "no genuine cliffhanger (0.50; open-loop 0.42)"
+      ],
+      "risk_flags": [],
+      "why_it_works": "Opens on physical confrontation (ep 24 00:32.50: “The noblewoman suddenly rears back her riding crop and st…”) and cuts on charged statement left hanging (just before the cut) (ep 24 01:14.50: “Juliana grips a coarse scrubbing brush with both hands an…”); clear who/what/why.",
+      "llm_review": null
+    },
+    {
+      "rank": null,
+      "promo_id": "cont-d78a639031",
+      "show": "I Married a Broken Soldier. He was a Duke",
+      "structure": "continuous",
+      "priority_score": 0.7897,
+      "total_duration_seconds": 25.1,
+      "episodes": [
+        "episode-024-Episode 1678577"
+      ],
+      "segments": [
+        {
+          "order": 1,
+          "episode_id": "episode-024-Episode 1678577",
+          "episode_number": 24,
+          "start_seconds": 32.5,
+          "end_seconds": 57.6,
+          "start": "00:32.50",
+          "end": "00:57.60",
+          "duration_seconds": 25.1,
+          "dialogue": [
+            {
+              "start": "00:32.50",
+              "end": "00:34.50",
+              "character": "ACTION",
+              "kind": "action",
+              "text": "The noblewoman suddenly rears back her riding crop and strikes Juliana violently across the torso."
+            },
+            {
+              "start": "00:33.80",
+              "end": "00:36.50",
+              "character": "ACTION",
+              "kind": "action",
+              "text": "Juliana gasps in pain, clutching her stomach and bending over as she absorbs the brutal strike."
+            },
+            {
+              "start": "00:35.00",
+              "end": "00:36.80",
+              "character": "NOBLEWOMAN",
+              "kind": "dialogue",
+              "text": "You are a maid."
+            },
+            {
+              "start": "00:37.00",
+              "end": "00:38.80",
+              "character": "NOBLEWOMAN",
+              "kind": "dialogue",
+              "text": "Not a physician. Not a lady."
+            },
+            {
+              "start": "00:39.00",
+              "end": "00:42.80",
+              "character": "NOBLEWOMAN",
+              "kind": "dialogue",
+              "text": "And certainly not a woman whose opinion matters."
+            },
+            {
+              "start": "00:43.20",
+              "end": "00:44.80",
+              "character": "LADY JULIANA",
+              "kind": "dialogue",
+              "text": "Yes, my lady."
+            },
+            {
+              "start": "00:45.50",
+              "end": "00:48.00",
+              "character": "NOBLEWOMAN",
+              "kind": "dialogue",
+              "text": "Good. Perhaps we can teach you your place."
+            },
+            {
+              "start": "00:48.50",
+              "end": "00:51.50",
+              "character": "ACTION",
+              "kind": "action",
+              "text": "The noblewoman leads Juliana and a frightened Prudence down a dark flagstone hallway."
+            },
+            {
+              "start": "00:51.50",
+              "end": "00:53.50",
+              "character": "ACTION",
+              "kind": "action",
+              "text": "Juliana's boots step down into a dark, rustic chamber dominated by an enormous, blackened stone hearth."
+            },
+            {
+              "start": "00:53.60",
+              "end": "00:55.20",
+              "character": "NOBLEWOMAN",
+              "kind": "dialogue",
+              "text": "Clean it."
+            },
+            {
+              "start": "00:56.20",
+              "end": "00:57.60",
+              "character": "LADY JULIANA",
+              "kind": "dialogue",
+              "text": "All of it, my lady?"
+            }
+          ]
+        }
+      ],
+      "opening_hook": {
+        "score": 1.0,
+        "evidence": [
+          "physical confrontation",
+          "00:32.50 ACTION: “The noblewoman suddenly rears back her riding crop and strikes Julian…”",
+          "cues: physical ('strikes')",
+          "zero-shot conflict/reveal 0.89",
+          "second strong beat within 3 s (+0.09)"
+        ],
+        "timestamp": 32.5,
+        "episode_id": "episode-024-Episode 1678577",
+        "text": "The noblewoman suddenly rears back her riding crop and strikes Juliana violently across the torso.",
+        "timestamp_fmt": "00:32.50"
+      },
+      "ending_cliffhanger": {
+        "score": 0.4833,
+        "evidence": [
+          "unanswered question (charged)",
+          "00:56.20–00:57.60 LADY JULIANA: “All of it, my lady?”",
+          "closing tension 0.85",
+          "zero-shot suspense/threat/reveal 0.03",
+          "withheld next beat: NOBLEWOMAN “Every stone. Perhaps when your hands are black en…” (payoff 0.03)"
+        ],
+        "timestamp": 57.6,
+        "episode_id": "episode-024-Episode 1678577",
+        "text": "All of it, my lady?",
+        "timestamp_fmt": "00:57.60"
+      },
+      "standalone_coherence": {
+        "score": 0.8375,
+        "evidence": [
+          "clear who/what/why",
+          "who: 2 speaking character(s), names on screen: juliana, prudence",
+          "what: 7 dialogue lines, 36 words",
+          "why: no explicit stakes words; conflict cue present; logline overlap 0.50",
+          "structure: continuous, 1 scene switch(es)"
+        ],
+        "timestamp": null,
+        "episode_id": "",
+        "text": "",
+        "timestamp_fmt": null
+      },
+      "emotional_intensity": {
+        "score": 0.7627,
+        "evidence": [
+          "peak 0.98 at 00:35.00, mean 0.54 (emotion model)"
+        ],
+        "timestamp": 35.0,
+        "episode_id": "episode-024-Episode 1678577",
+        "text": "",
+        "timestamp_fmt": "00:35.00"
+      },
+      "narrative_continuity": {
+        "score": 0.9,
+        "evidence": [
+          "one unbroken stretch, 2 scene(s)"
+        ],
+        "timestamp": null,
+        "episode_id": "",
+        "text": "",
+        "timestamp_fmt": null
+      },
+      "dialogue_quality": {
+        "score": 0.9386,
+        "evidence": [
+          "speech covers 58% of runtime, 14% filler lines, 5.1 words/line"
+        ],
+        "timestamp": null,
+        "episode_id": "",
+        "text": "",
+        "timestamp_fmt": null
+      },
+      "score_breakdown": {
+        "hook": 1.0,
+        "cliffhanger": 0.4833,
+        "coherence": 0.8375,
+        "emotion": 0.7627,
+        "continuity": 0.9,
+        "dialogue_quality": 0.9386
+      },
+      "passed_quality_gates": false,
+      "rejection_reasons": [
+        "no genuine cliffhanger (0.48; open-loop 0.65)"
+      ],
+      "risk_flags": [],
+      "why_it_works": "Opens on physical confrontation (ep 24 00:32.50: “The noblewoman suddenly rears back her riding crop and st…”) and cuts on unanswered question (charged) (ep 24 00:57.60: “All of it, my lady?”); clear who/what/why.",
+      "llm_review": null
+    },
+    {
+      "rank": null,
+      "promo_id": "cont-b2be0368a4",
+      "show": "I Married a Broken Soldier. He was a Duke",
+      "structure": "continuous",
+      "priority_score": 0.7893,
+      "total_duration_seconds": 28.5,
+      "episodes": [
+        "episode-004-Episode 1671706"
+      ],
+      "segments": [
+        {
+          "order": 1,
+          "episode_id": "episode-004-Episode 1671706",
+          "episode_number": 4,
+          "start_seconds": 34.0,
+          "end_seconds": 62.5,
+          "start": "00:34.00",
+          "end": "01:02.50",
+          "duration_seconds": 28.5,
+          "dialogue": [
+            {
+              "start": "00:34.00",
+              "end": "00:36.00",
+              "character": "MYSTERIOUS BEARDED MAN",
+              "kind": "dialogue",
+              "text": "A woman who was betrayed."
+            },
+            {
+              "start": "00:36.50",
+              "end": "00:38.80",
+              "character": "MYSTERIOUS BEARDED MAN",
+              "kind": "dialogue",
+              "text": "Not a woman who deserves to be discarded."
+            },
+            {
+              "start": "00:42.00",
+              "end": "00:44.80",
+              "character": "JULIANA",
+              "kind": "dialogue",
+              "text": "You don't know what my family has done to me."
+            },
+            {
+              "start": "00:46.00",
+              "end": "00:48.80",
+              "character": "MYSTERIOUS BEARDED MAN",
+              "kind": "dialogue",
+              "text": "I know they have made you stand alone."
+            },
+            {
+              "start": "00:50.00",
+              "end": "00:52.50",
+              "character": "MYSTERIOUS BEARDED MAN",
+              "kind": "dialogue",
+              "text": "You don't have to stand alone now."
+            },
+            {
+              "start": "00:53.60",
+              "end": "00:55.80",
+              "character": "JULIANA",
+              "kind": "dialogue",
+              "text": "If this is pity, take back your ring."
+            },
+            {
+              "start": "00:56.80",
+              "end": "00:58.80",
+              "character": "JULIANA",
+              "kind": "dialogue",
+              "text": "I will not become anyone's charity."
+            },
+            {
+              "start": "00:59.50",
+              "end": "01:02.50",
+              "character": "MYSTERIOUS BEARDED MAN",
+              "kind": "dialogue",
+              "text": "It is not pity, Lady Juliana."
+            }
+          ]
+        }
+      ],
+      "opening_hook": {
+        "score": 0.8397,
+        "evidence": [
+          "betrayal/accusation",
+          "00:34.00 MYSTERIOUS BEARDED MAN: “A woman who was betrayed.”",
+          "model: disgust 0.92, arousal 0.99",
+          "cues: betrayal ('betrayed')",
+          "script tag 'Firm, Sincere' (0.33)",
+          "zero-shot conflict/reveal 0.90"
+        ],
+        "timestamp": 34.0,
+        "episode_id": "episode-004-Episode 1671706",
+        "text": "A woman who was betrayed.",
+        "timestamp_fmt": "00:34.00"
+      },
+      "ending_cliffhanger": {
+        "score": 0.4994,
+        "evidence": [
+          "charged statement left hanging",
+          "00:59.50–01:02.50 MYSTERIOUS BEARDED MAN: “It is not pity, Lady Juliana.”",
+          "closing tension 0.79",
+          "zero-shot suspense/threat/reveal 0.05",
+          "withheld next beat: MYSTERIOUS BEARDED MAN “It is a vow.” (payoff 0.48)"
+        ],
+        "timestamp": 62.5,
+        "episode_id": "episode-004-Episode 1671706",
+        "text": "It is not pity, Lady Juliana.",
+        "timestamp_fmt": "01:02.50"
+      },
+      "standalone_coherence": {
+        "score": 0.8513,
+        "evidence": [
+          "clear who/what/why",
+          "who: 2 speaking character(s), names on screen: juliana",
+          "what: 8 dialogue lines, 58 words",
+          "why: stakes (family); conflict cue present; logline overlap 0.08",
+          "structure: continuous, 0 scene switch(es)",
+          "penalty: opens with an answer to a question the viewer does not hear"
+        ],
+        "timestamp": null,
+        "episode_id": "",
+        "text": "",
+        "timestamp_fmt": null
+      },
+      "emotional_intensity": {
+        "score": 0.8953,
+        "evidence": [
+          "peak 1.00 at 00:34.00, mean 0.79 (emotion model)"
+        ],
+        "timestamp": 34.0,
+        "episode_id": "episode-004-Episode 1671706",
+        "text": "",
+        "timestamp_fmt": "00:34.00"
+      },
+      "narrative_continuity": {
+        "score": 1.0,
+        "evidence": [
+          "one unbroken stretch, 1 scene(s)"
+        ],
+        "timestamp": null,
+        "episode_id": "",
+        "text": "",
+        "timestamp_fmt": null
+      },
+      "dialogue_quality": {
+        "score": 1.0,
+        "evidence": [
+          "speech covers 69% of runtime, 0% filler lines, 7.2 words/line"
+        ],
+        "timestamp": null,
+        "episode_id": "",
+        "text": "",
+        "timestamp_fmt": null
+      },
+      "score_breakdown": {
+        "hook": 0.8397,
+        "cliffhanger": 0.4994,
+        "coherence": 0.8513,
+        "emotion": 0.8953,
+        "continuity": 1.0,
+        "dialogue_quality": 1.0
+      },
+      "passed_quality_gates": false,
+      "rejection_reasons": [
+        "no genuine cliffhanger (0.50; open-loop 0.50)"
+      ],
+      "risk_flags": [
+        "coherence: opens with an answer to a question the viewer does not hear"
+      ],
+      "why_it_works": "Opens on betrayal/accusation (ep 4 00:34.00: “A woman who was betrayed.”) and cuts on charged statement left hanging (ep 4 01:02.50: “It is not pity, Lady Juliana.”); clear who/what/why.",
+      "llm_review": null
+    },
+    {
+      "rank": null,
+      "promo_id": "cont-2819e94ce0",
+      "show": "I Married a Broken Soldier. He was a Duke",
+      "structure": "continuous",
+      "priority_score": 0.7853,
+      "total_duration_seconds": 55.7,
+      "episodes": [
+        "episode-036-Episode 1681369"
+      ],
+      "segments": [
+        {
+          "order": 1,
+          "episode_id": "episode-036-Episode 1681369",
+          "episode_number": 36,
+          "start_seconds": 123.8,
+          "end_seconds": 179.5,
+          "start": "02:03.80",
+          "end": "02:59.50",
+          "duration_seconds": 55.7,
+          "dialogue": [
+            {
+              "start": "02:03.80",
+              "end": "02:06.80",
+              "character": "ALEXANDER",
+              "kind": "dialogue",
+              "text": "Juliana... is in a cell?"
+            },
+            {
+              "start": "02:07.80",
+              "end": "02:10.50",
+              "character": "ALEXANDER'S MOTHER",
+              "kind": "dialogue",
+              "text": "She was taken before a magistrate."
+            },
+            {
+              "start": "02:10.90",
+              "end": "02:11.80",
+              "character": "ALEXANDER",
+              "kind": "dialogue",
+              "text": "And?!"
+            },
+            {
+              "start": "02:12.20",
+              "end": "02:14.40",
+              "character": "ALEXANDER'S MOTHER",
+              "kind": "dialogue",
+              "text": "They condemned her."
+            },
+            {
+              "start": "02:14.50",
+              "end": "02:15.20",
+              "character": "ALEXANDER",
+              "kind": "dialogue",
+              "text": "No."
+            },
+            {
+              "start": "02:16.00",
+              "end": "02:18.80",
+              "character": "ALEXANDER'S MOTHER",
+              "kind": "dialogue",
+              "text": "She is to be executed."
+            },
+            {
+              "start": "02:20.20",
+              "end": "02:21.50",
+              "character": "ALEXANDER",
+              "kind": "dialogue",
+              "text": "When?"
+            },
+            {
+              "start": "02:23.20",
+              "end": "02:25.50",
+              "character": "ALEXANDER'S MOTHER",
+              "kind": "dialogue",
+              "text": "After the wedding."
+            },
+            {
+              "start": "02:26.50",
+              "end": "02:28.00",
+              "character": "ALEXANDER",
+              "kind": "dialogue",
+              "text": "What wedding?"
+            },
+            {
+              "start": "02:28.80",
+              "end": "02:31.50",
+              "character": "ALEXANDER'S MOTHER",
+              "kind": "dialogue",
+              "text": "Rupert... and Catherine's."
+            },
+            {
+              "start": "02:33.50",
+              "end": "02:36.00",
+              "character": "ALEXANDER'S MOTHER",
+              "kind": "dialogue",
+              "text": "Two days from now."
+            },
+            {
+              "start": "02:36.80",
+              "end": "02:39.80",
+              "character": "ALEXANDER",
+              "kind": "dialogue",
+              "text": "They are marrying in two days..."
+            },
+            {
+              "start": "02:40.50",
+              "end": "02:43.00",
+              "character": "ALEXANDER",
+              "kind": "dialogue",
+              "text": "...and killing my wife afterward."
+            },
+            {
+              "start": "02:43.20",
+              "end": "02:46.80",
+              "character": "ALEXANDER'S MOTHER",
+              "kind": "dialogue",
+              "text": "Alexander, you cannot go back there alone!"
+            },
+            {
+              "start": "02:48.50",
+              "end": "02:50.80",
+              "character": "ALEXANDER",
+              "kind": "dialogue",
+              "text": "They already took my name."
+            },
+            {
+              "start": "02:51.60",
+              "end": "02:53.60",
+              "character": "ALEXANDER",
+              "kind": "dialogue",
+              "text": "They stole my home!"
+            },
+            {
+              "start": "02:54.20",
+              "end": "02:56.80",
+              "character": "ALEXANDER",
+              "kind": "dialogue",
+              "text": "And now they have taken Juliana!"
+            },
+            {
+              "start": "02:57.00",
+              "end": "02:59.50",
+              "character": "ACTION",
+              "kind": "action",
+              "text": "Close-up of Alexander's gloved hand clenching into a tight, leather-creaking fist."
+            }
+          ]
+        }
+      ],
+      "opening_hook": {
+        "score": 0.7576,
+        "evidence": [
+          "charged question",
+          "02:03.80 ALEXANDER: “Juliana... is in a cell?”",
+          "model: surprise 0.77, arousal 0.80",
+          "script tag 'Horrified' (1.00)",
+          "zero-shot conflict/reveal 0.81"
+        ],
+        "timestamp": 123.8,
+        "episode_id": "episode-036-Episode 1681369",
+        "text": "Juliana... is in a cell?",
+        "timestamp_fmt": "02:03.80"
+      },
+      "ending_cliffhanger": {
+        "score": 0.5787,
+        "evidence": [
+          "zero-shot reads an unresolved threat (0.65) (just before the cut)",
+          "02:57.00–02:59.50 ACTION: “Close-up of Alexander's gloved hand clenching into a tight, leather-c…”",
+          "closing tension 1.00",
+          "zero-shot suspense/threat/reveal 0.42",
+          "withheld next beat: ACTION “Alexander stands framed in the doorway, staring o…” (payoff 0.45)"
+        ],
+        "timestamp": 179.5,
+        "episode_id": "episode-036-Episode 1681369",
+        "text": "Close-up of Alexander's gloved hand clenching into a tight, leather-creaking fist.",
+        "timestamp_fmt": "02:59.50"
+      },
+      "standalone_coherence": {
+        "score": 0.8688,
+        "evidence": [
+          "clear who/what/why",
+          "who: 2 speaking character(s), names on screen: alexander, alexander's, juliana, rupert",
+          "what: 17 dialogue lines, 67 words",
+          "why: stakes (wedding, wife); logline overlap 0.42",
+          "structure: continuous, 0 scene switch(es)"
+        ],
+        "timestamp": null,
+        "episode_id": "",
+        "text": "",
+        "timestamp_fmt": null
+      },
+      "emotional_intensity": {
+        "score": 0.8735,
+        "evidence": [
+          "peak 0.99 at 02:51.60, mean 0.76 (emotion model)"
+        ],
+        "timestamp": 171.6,
+        "episode_id": "episode-036-Episode 1681369",
+        "text": "",
+        "timestamp_fmt": "02:51.60"
+      },
+      "narrative_continuity": {
+        "score": 1.0,
+        "evidence": [
+          "one unbroken stretch, 1 scene(s)"
+        ],
+        "timestamp": null,
+        "episode_id": "",
+        "text": "",
+        "timestamp_fmt": null
+      },
+      "dialogue_quality": {
+        "score": 0.9294,
+        "evidence": [
+          "speech covers 69% of runtime, 24% filler lines, 3.9 words/line"
+        ],
+        "timestamp": null,
+        "episode_id": "",
+        "text": "",
+        "timestamp_fmt": null
+      },
+      "score_breakdown": {
+        "hook": 0.7576,
+        "cliffhanger": 0.5787,
+        "coherence": 0.8688,
+        "emotion": 0.8735,
+        "continuity": 1.0,
+        "dialogue_quality": 0.9294
+      },
+      "passed_quality_gates": false,
+      "rejection_reasons": [
+        "no genuine cliffhanger (0.58; open-loop 0.44)"
+      ],
+      "risk_flags": [],
+      "why_it_works": "Opens on charged question (ep 36 02:03.80: “Juliana... is in a cell?”) and cuts on zero-shot reads an unresolved threat (0.65) (just before the cut) (ep 36 02:59.50: “Close-up of Alexander's gloved hand clenching into a tigh…”); clear who/what/why.",
+      "llm_review": null
+    },
+    {
+      "rank": null,
+      "promo_id": "cont-7c5bccff43",
+      "show": "I Married a Broken Soldier. He was a Duke",
+      "structure": "continuous",
+      "priority_score": 0.7837,
+      "total_duration_seconds": 23.6,
+      "episodes": [
+        "episode-046-Episode 1688395"
+      ],
+      "segments": [
+        {
+          "order": 1,
+          "episode_id": "episode-046-Episode 1688395",
+          "episode_number": 46,
+          "start_seconds": 76.8,
+          "end_seconds": 100.4,
+          "start": "01:16.80",
+          "end": "01:40.40",
+          "duration_seconds": 23.6,
+          "dialogue": [
+            {
+              "start": "01:16.80",
+              "end": "01:18.00",
+              "character": "JULIANA",
+              "kind": "dialogue",
+              "text": "A church chained me."
+            },
+            {
+              "start": "01:18.10",
+              "end": "01:21.00",
+              "character": "JULIANA",
+              "kind": "dialogue",
+              "text": "Now a church calls my marriage a lie!"
+            },
+            {
+              "start": "01:21.10",
+              "end": "01:25.50",
+              "character": "JULIANA",
+              "kind": "dialogue",
+              "text": "God married us, Father! You are just angry no one asked you first!"
+            },
+            {
+              "start": "01:26.10",
+              "end": "01:29.00",
+              "character": "CATHERINE",
+              "kind": "dialogue",
+              "text": "Careful, healer. The floor isn't finished with you."
+            },
+            {
+              "start": "01:29.30",
+              "end": "01:32.40",
+              "character": "HIGH PRIEST",
+              "kind": "dialogue",
+              "text": "Careful, girl. You mistake my patience for weakness."
+            },
+            {
+              "start": "01:32.20",
+              "end": "01:36.20",
+              "character": "HIGH PRIEST",
+              "kind": "dialogue",
+              "text": "God did not marry you. A frightened parishioner did, without leave, without license, without the Crown's blessing!"
+            },
+            {
+              "start": "01:36.80",
+              "end": "01:40.40",
+              "character": "HIGH PRIEST",
+              "kind": "dialogue",
+              "text": "And I have the power to undo in one hearing what took you three years to steal!"
+            }
+          ]
+        }
+      ],
+      "opening_hook": {
+        "score": 0.8647,
+        "evidence": [
+          "exclamation",
+          "01:18.10 JULIANA: “Now a church calls my marriage a lie!”",
+          "model: anger 0.83, arousal 0.98",
+          "cues: ",
+          "script tag 'Furious, Resolute' (1.00)",
+          "zero-shot conflict/reveal 0.90",
+          "second strong beat within 3 s (+0.06)"
+        ],
+        "timestamp": 78.1,
+        "episode_id": "episode-046-Episode 1688395",
+        "text": "Now a church calls my marriage a lie!",
+        "timestamp_fmt": "01:18.10"
+      },
+      "ending_cliffhanger": {
+        "score": 0.4888,
+        "evidence": [
+          "charged statement left hanging",
+          "01:36.80–01:40.40 HIGH PRIEST: “And I have the power to undo in one hearing what took you three years…”",
+          "closing tension 1.00",
+          "zero-shot suspense/threat/reveal 0.05",
+          "withheld next beat: ALEXANDER “A Duke's marriage is judged by the Crown's peerag…” (payoff 0.16)"
+        ],
+        "timestamp": 100.4,
+        "episode_id": "episode-046-Episode 1688395",
+        "text": "And I have the power to undo in one hearing what took you three years to steal!",
+        "timestamp_fmt": "01:40.40"
+      },
+      "standalone_coherence": {
+        "score": 0.7688,
+        "evidence": [
+          "clear who/what/why",
+          "who: 3 speaking character(s), no names said aloud",
+          "what: 7 dialogue lines, 75 words",
+          "why: stakes (father, marriage, married, marry); logline overlap 0.08",
+          "structure: continuous, 0 scene switch(es)"
+        ],
+        "timestamp": null,
+        "episode_id": "",
+        "text": "",
+        "timestamp_fmt": null
+      },
+      "emotional_intensity": {
+        "score": 0.9438,
+        "evidence": [
+          "peak 1.00 at 01:32.20, mean 0.89 (emotion model)"
+        ],
+        "timestamp": 92.2,
+        "episode_id": "episode-046-Episode 1688395",
+        "text": "",
+        "timestamp_fmt": "01:32.20"
+      },
+      "narrative_continuity": {
+        "score": 1.0,
+        "evidence": [
+          "one unbroken stretch, 1 scene(s)"
+        ],
+        "timestamp": null,
+        "episode_id": "",
+        "text": "",
+        "timestamp_fmt": null
+      },
+      "dialogue_quality": {
+        "score": 1.0,
+        "evidence": [
+          "speech covers 94% of runtime, 0% filler lines, 10.7 words/line"
+        ],
+        "timestamp": null,
+        "episode_id": "",
+        "text": "",
+        "timestamp_fmt": null
+      },
+      "score_breakdown": {
+        "hook": 0.8647,
+        "cliffhanger": 0.4888,
+        "coherence": 0.7688,
+        "emotion": 0.9438,
+        "continuity": 1.0,
+        "dialogue_quality": 1.0
+      },
+      "passed_quality_gates": false,
+      "rejection_reasons": [
+        "no genuine cliffhanger (0.49; open-loop 0.50)"
+      ],
+      "risk_flags": [],
+      "why_it_works": "Opens on exclamation (ep 46 01:18.10: “Now a church calls my marriage a lie!”) and cuts on charged statement left hanging (ep 46 01:40.40: “And I have the power to undo in one hearing what took you…”); clear who/what/why.",
+      "llm_review": null
+    }
+  ]
+}

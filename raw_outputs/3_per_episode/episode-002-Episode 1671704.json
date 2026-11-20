@@ -1,0 +1,191 @@
+{
+  "show": "I Married a Broken Soldier. He was a Duke",
+  "episode_id": "episode-002-Episode 1671704",
+  "episode_number": 2,
+  "source_path": "C:\\Users\\Dell\\Desktop\\kuku_fm_ass\\kuku_fm_assignment_project\\data\\I Married a Broken Soldier. He was a Duke\\episode-002-Episode 1671704.txt",
+  "status": "ok",
+  "error": "",
+  "traceback": "",
+  "warnings": [],
+  "lines_total": 74,
+  "dialogue_lines": 31,
+  "action_lines": 4,
+  "untimed_lines": 0,
+  "duration_seconds": 110.0,
+  "candidates": 690,
+  "candidates_passed": 451,
+  "best_promo_id": "cont-09af116f46",
+  "best_score": 0.8091,
+  "no_promo_reason": "",
+  "seconds_features": 0.009,
+  "seconds_candidates": 0.038,
+  "logline": "Publicly cast aside at the altar by Gerald for her sister Clarissa and abandoned by her own family, Juliana stands tall and turns her public humiliation into an unyielding indictment of Gerald's honor.",
+  "best_promo": {
+    "rank": null,
+    "promo_id": "cont-09af116f46",
+    "show": "I Married a Broken Soldier. He was a Duke",
+    "structure": "continuous",
+    "priority_score": 0.8091,
+    "total_duration_seconds": 30.9,
+    "episodes": [
+      "episode-002-Episode 1671704"
+    ],
+    "segments": [
+      {
+        "order": 1,
+        "episode_id": "episode-002-Episode 1671704",
+        "episode_number": 2,
+        "start_seconds": 76.5,
+        "end_seconds": 107.4,
+        "start": "01:16.50",
+        "end": "01:47.40",
+        "duration_seconds": 30.9,
+        "dialogue": [
+          {
+            "start": "01:16.50",
+            "end": "01:19.00",
+            "character": "LADY JULIANA",
+            "kind": "dialogue",
+            "text": "You abandoned a woman who trusted you..."
+          },
+          {
+            "start": "01:19.20",
+            "end": "01:22.50",
+            "character": "LADY JULIANA",
+            "kind": "dialogue",
+            "text": "...because another woman promised you greater beauty and wealth."
+          },
+          {
+            "start": "01:23.00",
+            "end": "01:26.50",
+            "character": "LADY JULIANA",
+            "kind": "dialogue",
+            "text": "Do not mistake my heartbreak for your victory, Gerald."
+          },
+          {
+            "start": "01:26.80",
+            "end": "01:33.00",
+            "character": "LADY JULIANA",
+            "kind": "dialogue",
+            "text": "You wanted this entire chapel to believe that I was not worthy of you. But you have shown them something far more valuable."
+          },
+          {
+            "start": "01:33.40",
+            "end": "01:36.60",
+            "character": "LADY JULIANA",
+            "kind": "dialogue",
+            "text": "You have shown them exactly what your word is worth."
+          },
+          {
+            "start": "01:38.20",
+            "end": "01:42.80",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "Juliana lifts her chin high, commanding the space with unassailable dignity."
+          },
+          {
+            "start": "01:38.50",
+            "end": "01:42.40",
+            "character": "LADY JULIANA",
+            "kind": "dialogue",
+            "text": "I may leave this chapel without a husband..."
+          },
+          {
+            "start": "01:43.00",
+            "end": "01:47.40",
+            "character": "LADY JULIANA",
+            "kind": "dialogue",
+            "text": "...but I will not leave it believing I was the one who should be ashamed."
+          }
+        ]
+      }
+    ],
+    "opening_hook": {
+      "score": 0.8537,
+      "evidence": [
+        "betrayal/accusation",
+        "01:16.50 LADY JULIANA: “You abandoned a woman who trusted you...”",
+        "model: disgust 0.44, arousal 0.85",
+        "cues: betrayal ('abandoned')",
+        "script tag 'Clear, Accusing' (0.67)",
+        "zero-shot conflict/reveal 0.92"
+      ],
+      "timestamp": 76.5,
+      "episode_id": "episode-002-Episode 1671704",
+      "text": "You abandoned a woman who trusted you...",
+      "timestamp_fmt": "01:16.50"
+    },
+    "ending_cliffhanger": {
+      "score": 0.5872,
+      "evidence": [
+        "charged statement left hanging",
+        "01:43.00–01:47.40 LADY JULIANA: “...but I will not leave it believing I was the one who should be asha…”",
+        "closing tension 0.67",
+        "zero-shot suspense/threat/reveal 0.04",
+        "cut matches the episode's own final beat (+0.12)",
+        "withheld next beat: ACTION “Juliana breathes with steady resolve, holding her…” (payoff 0.47)"
+      ],
+      "timestamp": 107.4,
+      "episode_id": "episode-002-Episode 1671704",
+      "text": "...but I will not leave it believing I was the one who should be ashamed.",
+      "timestamp_fmt": "01:47.40"
+    },
+    "standalone_coherence": {
+      "score": 0.8687,
+      "evidence": [
+        "clear who/what/why",
+        "who: 1 speaking character(s), names on screen: gerald, juliana",
+        "what: 7 dialogue lines, 81 words",
+        "why: stakes (husband); conflict cue present; logline overlap 0.25",
+        "structure: continuous, 0 scene switch(es)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "emotional_intensity": {
+      "score": 0.8343,
+      "evidence": [
+        "peak 0.98 at 01:23.00, mean 0.69 (emotion model)"
+      ],
+      "timestamp": 83.0,
+      "episode_id": "episode-002-Episode 1671704",
+      "text": "",
+      "timestamp_fmt": "01:23.00"
+    },
+    "narrative_continuity": {
+      "score": 1.0,
+      "evidence": [
+        "one unbroken stretch, 1 scene(s)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "dialogue_quality": {
+      "score": 1.0,
+      "evidence": [
+        "speech covers 87% of runtime, 0% filler lines, 11.6 words/line"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "score_breakdown": {
+      "hook": 0.8537,
+      "cliffhanger": 0.5872,
+      "coherence": 0.8687,
+      "emotion": 0.8343,
+      "continuity": 1.0,
+      "dialogue_quality": 1.0
+    },
+    "passed_quality_gates": true,
+    "rejection_reasons": [],
+    "risk_flags": [],
+    "why_it_works": "Opens on betrayal/accusation (ep 2 01:16.50: “You abandoned a woman who trusted you...”) and cuts on charged statement left hanging (ep 2 01:47.40: “...but I will not leave it believing I was the one who sh…”); clear who/what/why.",
+    "llm_review": null
+  }
+}

@@ -1,0 +1,260 @@
+{
+  "show": "I Married a Broken Soldier. He was a Duke",
+  "episode_id": "episode-043-Episode 1686803",
+  "episode_number": 43,
+  "source_path": "C:\\Users\\Dell\\Desktop\\kuku_fm_ass\\kuku_fm_assignment_project\\data\\I Married a Broken Soldier. He was a Duke\\episode-043-Episode 1686803.txt",
+  "status": "ok",
+  "error": "",
+  "traceback": "",
+  "warnings": [],
+  "lines_total": 87,
+  "dialogue_lines": 32,
+  "action_lines": 8,
+  "untimed_lines": 0,
+  "duration_seconds": 114.96,
+  "candidates": 840,
+  "candidates_passed": 490,
+  "best_promo_id": "mult-f9b35d3649",
+  "best_score": 0.8658,
+  "no_promo_reason": "",
+  "seconds_features": 0.009,
+  "seconds_candidates": 0.046,
+  "logline": "When Rupert frantically orders Alexander's arrest, the royal guards refuse and salute the true Duke, before damning Crown intelligence documents expose Rupert and Lord Sterling's treasonous plot.",
+  "best_promo": {
+    "rank": 11,
+    "promo_id": "mult-f9b35d3649",
+    "show": "I Married a Broken Soldier. He was a Duke",
+    "structure": "multi_segment",
+    "priority_score": 0.8658,
+    "total_duration_seconds": 46.5,
+    "episodes": [
+      "episode-043-Episode 1686803"
+    ],
+    "segments": [
+      {
+        "order": 1,
+        "episode_id": "episode-043-Episode 1686803",
+        "episode_number": 43,
+        "start_seconds": 24.1,
+        "end_seconds": 33.4,
+        "start": "00:24.10",
+        "end": "00:33.40",
+        "duration_seconds": 9.3,
+        "dialogue": [
+          {
+            "start": "00:24.10",
+            "end": "00:25.80",
+            "character": "BLOND NOBLEMAN",
+            "kind": "dialogue",
+            "text": "You have all been deceived!"
+          },
+          {
+            "start": "00:26.10",
+            "end": "00:28.00",
+            "character": "ALEXANDER",
+            "kind": "dialogue",
+            "text": "Then let the Crown decide."
+          },
+          {
+            "start": "00:28.20",
+            "end": "00:30.00",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "Alexander brings forth the dossier stamped \"WAR OFFICE - TOP SECRET\" with the royal crest."
+          },
+          {
+            "start": "00:30.00",
+            "end": "00:33.40",
+            "character": "ALEXANDER",
+            "kind": "dialogue",
+            "text": "These were delivered to me under the seal of the Crown."
+          }
+        ]
+      },
+      {
+        "order": 2,
+        "episode_id": "episode-043-Episode 1686803",
+        "episode_number": 43,
+        "start_seconds": 69.0,
+        "end_seconds": 106.2,
+        "start": "01:09.00",
+        "end": "01:46.20",
+        "duration_seconds": 37.2,
+        "dialogue": [
+          {
+            "start": "01:09.00",
+            "end": "01:11.30",
+            "character": "ALEXANDER",
+            "kind": "dialogue",
+            "text": "You sold my men to the enemy."
+          },
+          {
+            "start": "01:11.40",
+            "end": "01:12.70",
+            "character": "BLOND NOBLEMAN",
+            "kind": "dialogue",
+            "text": "I didn't!"
+          },
+          {
+            "start": "01:12.80",
+            "end": "01:15.20",
+            "character": "ALEXANDER",
+            "kind": "dialogue",
+            "text": "And when you believed I was dead..."
+          },
+          {
+            "start": "01:16.10",
+            "end": "01:17.60",
+            "character": "ALEXANDER",
+            "kind": "dialogue",
+            "text": "You took my title."
+          },
+          {
+            "start": "01:21.50",
+            "end": "01:25.80",
+            "character": "CROWN OFFICIAL",
+            "kind": "dialogue",
+            "text": "Official death confirmation was filed three months after the ambush."
+          },
+          {
+            "start": "01:26.00",
+            "end": "01:28.50",
+            "character": "CROWN OFFICIAL",
+            "kind": "dialogue",
+            "text": "Duke Alexander Ashburn was declared dead."
+          },
+          {
+            "start": "01:28.60",
+            "end": "01:33.00",
+            "character": "CROWN OFFICIAL",
+            "kind": "dialogue",
+            "text": "His estate and title were subsequently transferred under false authority."
+          },
+          {
+            "start": "01:33.40",
+            "end": "01:36.40",
+            "character": "BLOND NOBLEMAN",
+            "kind": "dialogue",
+            "text": "I was told he was dead!"
+          },
+          {
+            "start": "01:36.80",
+            "end": "01:39.80",
+            "character": "ALEXANDER",
+            "kind": "dialogue",
+            "text": "You were told exactly what you needed to hear."
+          },
+          {
+            "start": "01:40.00",
+            "end": "01:42.20",
+            "character": "BLOND NOBLEMAN",
+            "kind": "dialogue",
+            "text": "Sterling handled the report!"
+          },
+          {
+            "start": "01:44.80",
+            "end": "01:46.20",
+            "character": "CATHERINE",
+            "kind": "dialogue",
+            "text": "My Lord?"
+          }
+        ]
+      }
+    ],
+    "opening_hook": {
+      "score": 0.9338,
+      "evidence": [
+        "betrayal/accusation",
+        "00:24.10 BLOND NOBLEMAN: “You have all been deceived!”",
+        "model: anger 0.74, arousal 0.94",
+        "cues: betrayal ('deceived')",
+        "script tag 'Desperate, Flustered' (1.00)",
+        "zero-shot conflict/reveal 0.93"
+      ],
+      "timestamp": 24.1,
+      "episode_id": "episode-043-Episode 1686803",
+      "text": "You have all been deceived!",
+      "timestamp_fmt": "00:24.10"
+    },
+    "ending_cliffhanger": {
+      "score": 0.7449,
+      "evidence": [
+        "unanswered question (charged)",
+        "01:44.80–01:46.20 CATHERINE: “My Lord?”",
+        "closing tension 1.00",
+        "zero-shot suspense/threat/reveal 0.17",
+        "cut matches the episode's own final beat (+0.12)",
+        "withheld next beat: POLICE CONSTABLE “Going somewhere, Lord Sterling?” (payoff 0.44)"
+      ],
+      "timestamp": 106.2,
+      "episode_id": "episode-043-Episode 1686803",
+      "text": "My Lord?",
+      "timestamp_fmt": "01:46.20"
+    },
+    "standalone_coherence": {
+      "score": 0.95,
+      "evidence": [
+        "clear who/what/why",
+        "who: 4 speaking character(s), names on screen: alexander, crown, official, sterling",
+        "what: 14 dialogue lines, 88 words",
+        "why: stakes (death, duke, estate, title); conflict cue present; logline overlap 0.33",
+        "structure: 2 segments, shared characters ['alexander', 'blond', 'blond nobleman'], vocab overlap 0.02"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "emotional_intensity": {
+      "score": 0.8548,
+      "evidence": [
+        "peak 0.99 at 01:44.80, mean 0.72 (emotion model)"
+      ],
+      "timestamp": 104.8,
+      "episode_id": "episode-043-Episode 1686803",
+      "text": "",
+      "timestamp_fmt": "01:44.80"
+    },
+    "narrative_continuity": {
+      "score": 0.8,
+      "evidence": [
+        "same episode, 35.6s skipped between segments"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "dialogue_quality": {
+      "score": 0.9571,
+      "evidence": [
+        "speech covers 76% of runtime, 14% filler lines, 6.3 words/line"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "score_breakdown": {
+      "hook": 0.9338,
+      "cliffhanger": 0.7449,
+      "coherence": 0.95,
+      "emotion": 0.8548,
+      "continuity": 0.8,
+      "dialogue_quality": 0.9571
+    },
+    "passed_quality_gates": true,
+    "rejection_reasons": [],
+    "risk_flags": [],
+    "why_it_works": "Opens on betrayal/accusation (ep 43 00:24.10: “You have all been deceived!”) and cuts on unanswered question (charged) (ep 43 01:46.20: “My Lord?”); clear who/what/why.",
+    "llm_review": {
+      "hook_works": true,
+      "cliffhanger_works": true,
+      "standalone": false,
+      "one_line": "The clip successfully hooks viewers with an immediate betrayal accusation and ends on a suspenseful reveal implicating Sterling, though new viewers lack context on the backstory.",
+      "concerns": "A new viewer jumping in won't fully understand who Duke Alexander Ashburn is, why his men were sold, or who Sterling and Catherine are without prior episodes.",
+      "model": "gemini-3.5-flash-lite",
+      "status": "ok"
+    }
+  }
+}

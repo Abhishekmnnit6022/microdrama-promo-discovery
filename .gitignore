@@ -1,0 +1,21 @@
+# secrets — never commit (copy .env.example to .env and add your own key)
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# caches and local runs (re-created automatically)
+.cache/
+outputs/
+feedback/
+data/uploads/
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+
+# editor / tool folders
+.vscode/
+.idea/
+.claude/

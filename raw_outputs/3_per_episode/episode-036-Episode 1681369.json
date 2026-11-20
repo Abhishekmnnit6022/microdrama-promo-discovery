@@ -1,0 +1,269 @@
+{
+  "show": "I Married a Broken Soldier. He was a Duke",
+  "episode_id": "episode-036-Episode 1681369",
+  "episode_number": 36,
+  "source_path": "C:\\Users\\Dell\\Desktop\\kuku_fm_ass\\kuku_fm_assignment_project\\data\\I Married a Broken Soldier. He was a Duke\\episode-036-Episode 1681369.txt",
+  "status": "ok",
+  "error": "",
+  "traceback": "",
+  "warnings": [],
+  "lines_total": 121,
+  "dialogue_lines": 57,
+  "action_lines": 5,
+  "untimed_lines": 0,
+  "duration_seconds": 200.75,
+  "candidates": 865,
+  "candidates_passed": 396,
+  "best_promo_id": "cont-b026a8a6b9",
+  "best_score": 0.8655,
+  "no_promo_reason": "",
+  "seconds_features": 0.01,
+  "seconds_candidates": 0.067,
+  "logline": "Learning from his mother that Rupert and Catherine framed Juliana for witchcraft and sentenced her to death right after their upcoming wedding, Alexander vows to return from the dead and reclaim everything stolen from him.",
+  "best_promo": {
+    "rank": 14,
+    "promo_id": "cont-b026a8a6b9",
+    "show": "I Married a Broken Soldier. He was a Duke",
+    "structure": "continuous",
+    "priority_score": 0.8655,
+    "total_duration_seconds": 56.1,
+    "episodes": [
+      "episode-036-Episode 1681369"
+    ],
+    "segments": [
+      {
+        "order": 1,
+        "episode_id": "episode-036-Episode 1681369",
+        "episode_number": 36,
+        "start_seconds": 117.5,
+        "end_seconds": 173.6,
+        "start": "01:57.50",
+        "end": "02:53.60",
+        "duration_seconds": 56.1,
+        "dialogue": [
+          {
+            "start": "01:57.50",
+            "end": "01:59.30",
+            "character": "ALEXANDER",
+            "kind": "dialogue",
+            "text": "You told them the truth!"
+          },
+          {
+            "start": "01:59.80",
+            "end": "02:02.50",
+            "character": "ALEXANDER'S MOTHER",
+            "kind": "dialogue",
+            "text": "They called her a witch!"
+          },
+          {
+            "start": "02:03.80",
+            "end": "02:06.80",
+            "character": "ALEXANDER",
+            "kind": "dialogue",
+            "text": "Juliana... is in a cell?"
+          },
+          {
+            "start": "02:07.80",
+            "end": "02:10.50",
+            "character": "ALEXANDER'S MOTHER",
+            "kind": "dialogue",
+            "text": "She was taken before a magistrate."
+          },
+          {
+            "start": "02:10.90",
+            "end": "02:11.80",
+            "character": "ALEXANDER",
+            "kind": "dialogue",
+            "text": "And?!"
+          },
+          {
+            "start": "02:12.20",
+            "end": "02:14.40",
+            "character": "ALEXANDER'S MOTHER",
+            "kind": "dialogue",
+            "text": "They condemned her."
+          },
+          {
+            "start": "02:14.50",
+            "end": "02:15.20",
+            "character": "ALEXANDER",
+            "kind": "dialogue",
+            "text": "No."
+          },
+          {
+            "start": "02:16.00",
+            "end": "02:18.80",
+            "character": "ALEXANDER'S MOTHER",
+            "kind": "dialogue",
+            "text": "She is to be executed."
+          },
+          {
+            "start": "02:20.20",
+            "end": "02:21.50",
+            "character": "ALEXANDER",
+            "kind": "dialogue",
+            "text": "When?"
+          },
+          {
+            "start": "02:23.20",
+            "end": "02:25.50",
+            "character": "ALEXANDER'S MOTHER",
+            "kind": "dialogue",
+            "text": "After the wedding."
+          },
+          {
+            "start": "02:26.50",
+            "end": "02:28.00",
+            "character": "ALEXANDER",
+            "kind": "dialogue",
+            "text": "What wedding?"
+          },
+          {
+            "start": "02:28.80",
+            "end": "02:31.50",
+            "character": "ALEXANDER'S MOTHER",
+            "kind": "dialogue",
+            "text": "Rupert... and Catherine's."
+          },
+          {
+            "start": "02:33.50",
+            "end": "02:36.00",
+            "character": "ALEXANDER'S MOTHER",
+            "kind": "dialogue",
+            "text": "Two days from now."
+          },
+          {
+            "start": "02:36.80",
+            "end": "02:39.80",
+            "character": "ALEXANDER",
+            "kind": "dialogue",
+            "text": "They are marrying in two days..."
+          },
+          {
+            "start": "02:40.50",
+            "end": "02:43.00",
+            "character": "ALEXANDER",
+            "kind": "dialogue",
+            "text": "...and killing my wife afterward."
+          },
+          {
+            "start": "02:43.20",
+            "end": "02:46.80",
+            "character": "ALEXANDER'S MOTHER",
+            "kind": "dialogue",
+            "text": "Alexander, you cannot go back there alone!"
+          },
+          {
+            "start": "02:48.50",
+            "end": "02:50.80",
+            "character": "ALEXANDER",
+            "kind": "dialogue",
+            "text": "They already took my name."
+          },
+          {
+            "start": "02:51.60",
+            "end": "02:53.60",
+            "character": "ALEXANDER",
+            "kind": "dialogue",
+            "text": "They stole my home!"
+          }
+        ]
+      }
+    ],
+    "opening_hook": {
+      "score": 0.822,
+      "evidence": [
+        "revelation",
+        "01:57.50 ALEXANDER: “You told them the truth!”",
+        "model: anger 0.82, arousal 0.96",
+        "cues: revelation ('the truth')",
+        "script tag 'Furious' (1.00)",
+        "zero-shot conflict/reveal 0.30",
+        "second strong beat within 3 s (+0.05)"
+      ],
+      "timestamp": 117.5,
+      "episode_id": "episode-036-Episode 1681369",
+      "text": "You told them the truth!",
+      "timestamp_fmt": "01:57.50"
+    },
+    "ending_cliffhanger": {
+      "score": 0.7604,
+      "evidence": [
+        "zero-shot reads an unresolved threat (0.88)",
+        "02:51.60–02:53.60 ALEXANDER: “They stole my home!”",
+        "closing tension 1.00",
+        "zero-shot suspense/threat/reveal 0.88",
+        "withheld next beat: ALEXANDER “And now they have taken Juliana!” (payoff 0.48)"
+      ],
+      "timestamp": 173.6,
+      "episode_id": "episode-036-Episode 1681369",
+      "text": "They stole my home!",
+      "timestamp_fmt": "02:53.60"
+    },
+    "standalone_coherence": {
+      "score": 0.9563,
+      "evidence": [
+        "clear who/what/why",
+        "who: 2 speaking character(s), names on screen: alexander, juliana, rupert",
+        "what: 18 dialogue lines, 71 words",
+        "why: stakes (wedding, wife); conflict cue present; logline overlap 0.42",
+        "structure: continuous, 0 scene switch(es)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "emotional_intensity": {
+      "score": 0.8796,
+      "evidence": [
+        "peak 0.99 at 02:51.60, mean 0.77 (emotion model)"
+      ],
+      "timestamp": 171.6,
+      "episode_id": "episode-036-Episode 1681369",
+      "text": "",
+      "timestamp_fmt": "02:51.60"
+    },
+    "narrative_continuity": {
+      "score": 1.0,
+      "evidence": [
+        "one unbroken stretch, 1 scene(s)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "dialogue_quality": {
+      "score": 0.9333,
+      "evidence": [
+        "speech covers 72% of runtime, 22% filler lines, 3.9 words/line"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "score_breakdown": {
+      "hook": 0.822,
+      "cliffhanger": 0.7604,
+      "coherence": 0.9563,
+      "emotion": 0.8796,
+      "continuity": 1.0,
+      "dialogue_quality": 0.9333
+    },
+    "passed_quality_gates": true,
+    "rejection_reasons": [],
+    "risk_flags": [],
+    "why_it_works": "Opens on revelation (ep 36 01:57.50: “You told them the truth!”) and cuts on zero-shot reads an unresolved threat (0.88) (ep 36 02:53.60: “They stole my home!”); clear who/what/why.",
+    "llm_review": {
+      "hook_works": true,
+      "cliffhanger_works": true,
+      "standalone": false,
+      "one_line": "The clip successfully builds high stakes around an impending execution and betrayal, but fails to establish who Juliana or Rupert are for a new viewer.",
+      "concerns": "A viewer with no prior knowledge of the show will be confused about who Juliana, Rupert, and Catherine are, as well as why Alexander lost his home and name.",
+      "model": "gemini-3.5-flash-lite",
+      "status": "ok"
+    }
+  }
+}

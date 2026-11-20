@@ -1,0 +1,208 @@
+{
+  "show": "I Married a Broken Soldier. He was a Duke",
+  "episode_id": "episode-027-Episode 1678580",
+  "episode_number": 27,
+  "source_path": "C:\\Users\\Dell\\Desktop\\kuku_fm_ass\\kuku_fm_assignment_project\\data\\I Married a Broken Soldier. He was a Duke\\episode-027-Episode 1678580.txt",
+  "status": "ok",
+  "error": "",
+  "traceback": "",
+  "warnings": [],
+  "lines_total": 95,
+  "dialogue_lines": 44,
+  "action_lines": 3,
+  "untimed_lines": 0,
+  "duration_seconds": 150.5,
+  "candidates": 942,
+  "candidates_passed": 707,
+  "best_promo_id": "cont-ecac2393f3",
+  "best_score": 0.9013,
+  "no_promo_reason": "",
+  "seconds_features": 0.009,
+  "seconds_candidates": 0.056,
+  "logline": "The Dowager Duchess realizes Juliana's wedding ring bears the Ashbourne crest belonging to her lost son, but before Juliana can reveal Alexander's name, Rupert and Catherine storm the bedchamber and frame her for poisoning the Duchess.",
+  "best_promo": {
+    "rank": 4,
+    "promo_id": "cont-ecac2393f3",
+    "show": "I Married a Broken Soldier. He was a Duke",
+    "structure": "continuous",
+    "priority_score": 0.9013,
+    "total_duration_seconds": 24.9,
+    "episodes": [
+      "episode-027-Episode 1678580"
+    ],
+    "segments": [
+      {
+        "order": 1,
+        "episode_id": "episode-027-Episode 1678580",
+        "episode_number": 27,
+        "start_seconds": 123.1,
+        "end_seconds": 148.0,
+        "start": "02:03.10",
+        "end": "02:28.00",
+        "duration_seconds": 24.9,
+        "dialogue": [
+          {
+            "start": "02:03.10",
+            "end": "02:04.50",
+            "character": "LADY CATHERINE",
+            "kind": "dialogue",
+            "text": "You hear that?!"
+          },
+          {
+            "start": "02:04.80",
+            "end": "02:08.40",
+            "character": "LADY CATHERINE",
+            "kind": "dialogue",
+            "text": "She admits she has been giving the Duchess poison in secret!"
+          },
+          {
+            "start": "02:08.70",
+            "end": "02:10.80",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "That is not what I said!"
+          },
+          {
+            "start": "02:11.20",
+            "end": "02:12.60",
+            "character": "BLOND NOBLEMAN",
+            "kind": "dialogue",
+            "text": "Enough."
+          },
+          {
+            "start": "02:14.80",
+            "end": "02:18.50",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "The Blond Nobleman takes the medicine vial from Juliana's grasp, inspecting it under the candlelight."
+          },
+          {
+            "start": "02:16.20",
+            "end": "02:19.30",
+            "character": "BLOND NOBLEMAN",
+            "kind": "dialogue",
+            "text": "An unknown servant enters a restricted chamber."
+          },
+          {
+            "start": "02:19.60",
+            "end": "02:23.80",
+            "character": "BLOND NOBLEMAN",
+            "kind": "dialogue",
+            "text": "She secretly administers an unidentified substance to a helpless woman."
+          },
+          {
+            "start": "02:24.00",
+            "end": "02:24.90",
+            "character": "BLOND NOBLEMAN",
+            "kind": "dialogue",
+            "text": "Take her."
+          },
+          {
+            "start": "02:25.00",
+            "end": "02:28.00",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "The guard twists Juliana around and drags her forcibly toward the doorway as she struggles against his grip."
+          }
+        ]
+      }
+    ],
+    "opening_hook": {
+      "score": 0.8556,
+      "evidence": [
+        "threat",
+        "02:04.80 LADY CATHERINE: “She admits she has been giving the Duchess poison in secret!”",
+        "model: disgust 0.51, arousal 0.92",
+        "cues: threat ('poison'); revelation ('secret')",
+        "script tag 'Venomous, Accusing' (1.00)",
+        "zero-shot conflict/reveal 0.95",
+        "second strong beat within 3 s (+0.06)",
+        "penalty: first line starts 1.7s in"
+      ],
+      "timestamp": 124.8,
+      "episode_id": "episode-027-Episode 1678580",
+      "text": "She admits she has been giving the Duchess poison in secret!",
+      "timestamp_fmt": "02:04.80"
+    },
+    "ending_cliffhanger": {
+      "score": 0.8515,
+      "evidence": [
+        "zero-shot reads an unresolved threat (0.92)",
+        "02:25.00–02:28.00 ACTION: “The guard twists Juliana around and drags her forcibly toward the doo…”",
+        "closing tension 0.80",
+        "zero-shot suspense/threat/reveal 0.92",
+        "cut matches the episode's own final beat (+0.12)",
+        "withheld next beat: ACTION “Juliana struggles against the guard's grip; the l…” (payoff 0.49)"
+      ],
+      "timestamp": 148.0,
+      "episode_id": "episode-027-Episode 1678580",
+      "text": "The guard twists Juliana around and drags her forcibly toward the doorway as she struggles against his grip.",
+      "timestamp_fmt": "02:28.00"
+    },
+    "standalone_coherence": {
+      "score": 0.9437,
+      "evidence": [
+        "clear who/what/why",
+        "who: 3 speaking character(s), names on screen: juliana",
+        "what: 7 dialogue lines, 40 words",
+        "why: stakes (duchess); conflict cue present; logline overlap 0.25",
+        "structure: continuous, 0 scene switch(es)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "emotional_intensity": {
+      "score": 0.9336,
+      "evidence": [
+        "peak 0.99 at 02:19.60, mean 0.88 (emotion model)"
+      ],
+      "timestamp": 139.6,
+      "episode_id": "episode-027-Episode 1678580",
+      "text": "",
+      "timestamp_fmt": "02:19.60"
+    },
+    "narrative_continuity": {
+      "score": 1.0,
+      "evidence": [
+        "one unbroken stretch, 1 scene(s)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "dialogue_quality": {
+      "score": 0.9143,
+      "evidence": [
+        "speech covers 67% of runtime, 29% filler lines, 5.7 words/line"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "score_breakdown": {
+      "hook": 0.8556,
+      "cliffhanger": 0.8515,
+      "coherence": 0.9437,
+      "emotion": 0.9336,
+      "continuity": 1.0,
+      "dialogue_quality": 0.9143
+    },
+    "passed_quality_gates": true,
+    "rejection_reasons": [],
+    "risk_flags": [],
+    "why_it_works": "Opens on threat (ep 27 02:04.80: “She admits she has been giving the Duchess poison in secret!”) and cuts on zero-shot reads an unresolved threat (0.92) (ep 27 02:28.00: “The guard twists Juliana around and drags her forcibly to…”); clear who/what/why.",
+    "llm_review": {
+      "hook_works": true,
+      "cliffhanger_works": true,
+      "standalone": true,
+      "one_line": "The promo immediately grabs attention with a high-stakes accusation of poisoning and ends on an intense cliffhanger as the protagonist is dragged away.",
+      "concerns": "It is not entirely clear who the Duchess or the main characters are, relying heavily on melodramatic tropes to carry the narrative.",
+      "model": "gemini-3.5-flash-lite",
+      "status": "ok"
+    }
+  }
+}

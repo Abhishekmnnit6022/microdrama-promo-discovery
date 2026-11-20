@@ -1,0 +1,246 @@
+{
+  "show": "I Married a Broken Soldier. He was a Duke",
+  "episode_id": "episode-009-Episode 1671711",
+  "episode_number": 9,
+  "source_path": "C:\\Users\\Dell\\Desktop\\kuku_fm_ass\\kuku_fm_assignment_project\\data\\I Married a Broken Soldier. He was a Duke\\episode-009-Episode 1671711.txt",
+  "status": "ok",
+  "error": "",
+  "traceback": "",
+  "warnings": [],
+  "lines_total": 89,
+  "dialogue_lines": 33,
+  "action_lines": 13,
+  "untimed_lines": 0,
+  "duration_seconds": 115.5,
+  "candidates": 967,
+  "candidates_passed": 410,
+  "best_promo_id": "cont-b9b2f8f8d7",
+  "best_score": 0.7715,
+  "no_promo_reason": "",
+  "seconds_features": 0.011,
+  "seconds_candidates": 0.076,
+  "logline": "When a frantic mother brings her critically ill child to the woodland cottage, Juliana successfully cures him with her mother's herbal remedies, unknowingly igniting dangerous rumors that reach the ears of the Blond Nobleman.",
+  "best_promo": {
+    "rank": null,
+    "promo_id": "cont-b9b2f8f8d7",
+    "show": "I Married a Broken Soldier. He was a Duke",
+    "structure": "continuous",
+    "priority_score": 0.7715,
+    "total_duration_seconds": 36.7,
+    "episodes": [
+      "episode-009-Episode 1671711"
+    ],
+    "segments": [
+      {
+        "order": 1,
+        "episode_id": "episode-009-Episode 1671711",
+        "episode_number": 9,
+        "start_seconds": 74.5,
+        "end_seconds": 111.2,
+        "start": "01:14.50",
+        "end": "01:51.20",
+        "duration_seconds": 36.7,
+        "dialogue": [
+          {
+            "start": "01:14.50",
+            "end": "01:15.50",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "The mother exits into the rainy twilight as Alexander pushes the door shut."
+          },
+          {
+            "start": "01:15.10",
+            "end": "01:17.50",
+            "character": "ALEXANDER",
+            "kind": "dialogue",
+            "text": "You cannot let the whole village start talking about you."
+          },
+          {
+            "start": "01:17.60",
+            "end": "01:19.40",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "A child's life matters more than gossip."
+          },
+          {
+            "start": "01:19.60",
+            "end": "01:21.60",
+            "character": "ALEXANDER",
+            "kind": "dialogue",
+            "text": "Gossip has a way of becoming dangerous."
+          },
+          {
+            "start": "01:22.00",
+            "end": "01:23.80",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "Then we will face it together."
+          },
+          {
+            "start": "01:24.00",
+            "end": "01:26.50",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "The Former Groom, soaked from the rain and clutching his hat, walks nervously through the double doors into the study."
+          },
+          {
+            "start": "01:26.60",
+            "end": "01:27.40",
+            "character": "BLOND NOBLEMAN",
+            "kind": "dialogue",
+            "text": "What is it?"
+          },
+          {
+            "start": "01:28.00",
+            "end": "01:30.30",
+            "character": "THE FORMER GROOM",
+            "kind": "dialogue",
+            "text": "There is a rumor going around, my Lord."
+          },
+          {
+            "start": "01:30.60",
+            "end": "01:31.40",
+            "character": "BLOND NOBLEMAN",
+            "kind": "dialogue",
+            "text": "What rumor?"
+          },
+          {
+            "start": "01:32.10",
+            "end": "01:35.10",
+            "character": "THE FORMER GROOM",
+            "kind": "dialogue",
+            "text": "About a war veteran. Some say he resembles the late Duke."
+          },
+          {
+            "start": "01:35.30",
+            "end": "01:37.30",
+            "character": "BLOND NOBLEMAN",
+            "kind": "dialogue",
+            "text": "People see ghosts whenever they want a story."
+          },
+          {
+            "start": "01:37.50",
+            "end": "01:41.20",
+            "character": "THE FORMER GROOM",
+            "kind": "dialogue",
+            "text": "The man is said to have the same kind of scar the Duke carried after the war."
+          },
+          {
+            "start": "01:41.40",
+            "end": "01:41.90",
+            "character": "BLOND NOBLEMAN",
+            "kind": "dialogue",
+            "text": "Where?"
+          },
+          {
+            "start": "01:42.30",
+            "end": "01:43.60",
+            "character": "THE FORMER GROOM",
+            "kind": "dialogue",
+            "text": "No one seems certain."
+          },
+          {
+            "start": "01:44.20",
+            "end": "01:45.90",
+            "character": "BLOND NOBLEMAN",
+            "kind": "dialogue",
+            "text": "Then let it remain a rumor."
+          },
+          {
+            "start": "01:49.80",
+            "end": "01:51.20",
+            "character": "BLOND NOBLEMAN",
+            "kind": "dialogue",
+            "text": "Impossible."
+          }
+        ]
+      }
+    ],
+    "opening_hook": {
+      "score": 0.7096,
+      "evidence": [
+        "physical confrontation",
+        "01:14.50 ACTION: “The mother exits into the rainy twilight as Alexander pushes the door…”",
+        "cues: physical ('pushes')",
+        "zero-shot conflict/reveal 0.27",
+        "second strong beat within 3 s (+0.04)"
+      ],
+      "timestamp": 74.5,
+      "episode_id": "episode-009-Episode 1671711",
+      "text": "The mother exits into the rainy twilight as Alexander pushes the door shut.",
+      "timestamp_fmt": "01:14.50"
+    },
+    "ending_cliffhanger": {
+      "score": 0.6737,
+      "evidence": [
+        "shock ('impossible')",
+        "01:49.80–01:51.20 BLOND NOBLEMAN: “Impossible.”",
+        "closing tension 0.78",
+        "zero-shot suspense/threat/reveal 0.04",
+        "cut matches the episode's own final beat (+0.12)",
+        "withheld next beat: ACTION “Juliana quietly studies the botanical illustratio…” (payoff 0.46)"
+      ],
+      "timestamp": 111.2,
+      "episode_id": "episode-009-Episode 1671711",
+      "text": "Impossible.",
+      "timestamp_fmt": "01:51.20"
+    },
+    "standalone_coherence": {
+      "score": 0.9,
+      "evidence": [
+        "clear who/what/why",
+        "who: 4 speaking character(s), names on screen: alexander, former, groom",
+        "what: 14 dialogue lines, 91 words",
+        "why: stakes (duke, life, mother, war); conflict cue present; logline overlap 0.17",
+        "structure: continuous, 1 scene switch(es)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "emotional_intensity": {
+      "score": 0.7257,
+      "evidence": [
+        "peak 0.92 at 01:15.10, mean 0.54 (emotion model)"
+      ],
+      "timestamp": 75.1,
+      "episode_id": "episode-009-Episode 1671711",
+      "text": "",
+      "timestamp_fmt": "01:15.10"
+    },
+    "narrative_continuity": {
+      "score": 0.9,
+      "evidence": [
+        "one unbroken stretch, 2 scene(s)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "dialogue_quality": {
+      "score": 0.9357,
+      "evidence": [
+        "speech covers 69% of runtime, 21% filler lines, 6.5 words/line"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "score_breakdown": {
+      "hook": 0.7096,
+      "cliffhanger": 0.6737,
+      "coherence": 0.9,
+      "emotion": 0.7257,
+      "continuity": 0.9,
+      "dialogue_quality": 0.9357
+    },
+    "passed_quality_gates": true,
+    "rejection_reasons": [],
+    "risk_flags": [],
+    "why_it_works": "Opens on physical confrontation (ep 9 01:14.50: “The mother exits into the rainy twilight as Alexander pus…”) and cuts on shock ('impossible') (ep 9 01:51.20: “Impossible.”); clear who/what/why.",
+    "llm_review": null
+  }
+}

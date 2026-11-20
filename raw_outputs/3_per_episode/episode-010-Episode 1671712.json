@@ -1,0 +1,239 @@
+{
+  "show": "I Married a Broken Soldier. He was a Duke",
+  "episode_id": "episode-010-Episode 1671712",
+  "episode_number": 10,
+  "source_path": "C:\\Users\\Dell\\Desktop\\kuku_fm_ass\\kuku_fm_assignment_project\\data\\I Married a Broken Soldier. He was a Duke\\episode-010-Episode 1671712.txt",
+  "status": "ok",
+  "error": "",
+  "traceback": "",
+  "warnings": [],
+  "lines_total": 60,
+  "dialogue_lines": 22,
+  "action_lines": 2,
+  "untimed_lines": 0,
+  "duration_seconds": 94.0,
+  "candidates": 638,
+  "candidates_passed": 357,
+  "best_promo_id": "cont-65d8c035c4",
+  "best_score": 0.7171,
+  "no_promo_reason": "",
+  "seconds_features": 0.004,
+  "seconds_candidates": 0.014,
+  "logline": "When Alexander returns to the cottage gravely wounded and soaked in blood, Juliana tends to his injuries, leading to an intimate confrontation where their unspoken feelings and scarred pasts finally collide.",
+  "best_promo": {
+    "rank": null,
+    "promo_id": "cont-65d8c035c4",
+    "show": "I Married a Broken Soldier. He was a Duke",
+    "structure": "continuous",
+    "priority_score": 0.7171,
+    "total_duration_seconds": 56.95,
+    "episodes": [
+      "episode-010-Episode 1671712"
+    ],
+    "segments": [
+      {
+        "order": 1,
+        "episode_id": "episode-010-Episode 1671712",
+        "episode_number": 10,
+        "start_seconds": 9.15,
+        "end_seconds": 66.1,
+        "start": "00:09.15",
+        "end": "01:06.10",
+        "duration_seconds": 56.95,
+        "dialogue": [
+          {
+            "start": "00:09.15",
+            "end": "00:11.45",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "There is blood running down your arm."
+          },
+          {
+            "start": "00:11.90",
+            "end": "00:14.30",
+            "character": "ALEXANDER",
+            "kind": "dialogue",
+            "text": "A cut from the tenant fields."
+          },
+          {
+            "start": "00:14.50",
+            "end": "00:16.00",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "Sit down."
+          },
+          {
+            "start": "00:16.20",
+            "end": "00:17.30",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "Now."
+          },
+          {
+            "start": "00:20.90",
+            "end": "00:22.90",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "I need to see the wound."
+          },
+          {
+            "start": "00:23.20",
+            "end": "00:24.90",
+            "character": "ALEXANDER",
+            "kind": "dialogue",
+            "text": "It is only a scratch."
+          },
+          {
+            "start": "00:25.50",
+            "end": "00:28.00",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "Then removing your shirt should not trouble you."
+          },
+          {
+            "start": "00:38.10",
+            "end": "00:38.90",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "Dear God."
+          },
+          {
+            "start": "00:45.30",
+            "end": "00:47.10",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "You have suffered terribly."
+          },
+          {
+            "start": "00:47.80",
+            "end": "00:49.00",
+            "character": "ALEXANDER",
+            "kind": "dialogue",
+            "text": "It is over."
+          },
+          {
+            "start": "00:49.70",
+            "end": "00:51.30",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "Your scars disagree."
+          },
+          {
+            "start": "00:52.00",
+            "end": "00:53.30",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "Does it hurt?"
+          },
+          {
+            "start": "00:54.00",
+            "end": "00:55.20",
+            "character": "ALEXANDER",
+            "kind": "dialogue",
+            "text": "Not much."
+          },
+          {
+            "start": "00:55.60",
+            "end": "00:57.60",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "You are a terrible liar."
+          },
+          {
+            "start": "01:03.90",
+            "end": "01:06.10",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "Why do you look at me like that?"
+          }
+        ]
+      }
+    ],
+    "opening_hook": {
+      "score": 0.5687,
+      "evidence": [
+        "physical confrontation",
+        "00:09.15 JULIANA: “There is blood running down your arm.”",
+        "model: disgust 0.48, arousal 0.57",
+        "cues: physical ('blood')",
+        "script tag 'Urgent, Worried' (0.67)",
+        "zero-shot conflict/reveal 0.59"
+      ],
+      "timestamp": 9.15,
+      "episode_id": "episode-010-Episode 1671712",
+      "text": "There is blood running down your arm.",
+      "timestamp_fmt": "00:09.15"
+    },
+    "ending_cliffhanger": {
+      "score": 0.6198,
+      "evidence": [
+        "unanswered question (charged)",
+        "01:03.90–01:06.10 JULIANA: “Why do you look at me like that?”",
+        "closing tension 0.94",
+        "zero-shot suspense/threat/reveal 0.05",
+        "withheld next beat: ALEXANDER “Because you are looking at me.” (payoff 0.49)"
+      ],
+      "timestamp": 66.1,
+      "episode_id": "episode-010-Episode 1671712",
+      "text": "Why do you look at me like that?",
+      "timestamp_fmt": "01:06.10"
+    },
+    "standalone_coherence": {
+      "score": 0.7688,
+      "evidence": [
+        "clear who/what/why",
+        "who: 2 speaking character(s), no names said aloud",
+        "what: 15 dialogue lines, 65 words",
+        "why: no explicit stakes words; conflict cue present; logline overlap 0.08",
+        "structure: continuous, 0 scene switch(es)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "emotional_intensity": {
+      "score": 0.8431,
+      "evidence": [
+        "peak 0.99 at 00:11.90, mean 0.70 (emotion model)"
+      ],
+      "timestamp": 11.9,
+      "episode_id": "episode-010-Episode 1671712",
+      "text": "",
+      "timestamp_fmt": "00:11.90"
+    },
+    "narrative_continuity": {
+      "score": 1.0,
+      "evidence": [
+        "one unbroken stretch, 1 scene(s)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "dialogue_quality": {
+      "score": 0.7946,
+      "evidence": [
+        "speech covers 45% of runtime, 27% filler lines, 4.3 words/line"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "score_breakdown": {
+      "hook": 0.5687,
+      "cliffhanger": 0.6198,
+      "coherence": 0.7688,
+      "emotion": 0.8431,
+      "continuity": 1.0,
+      "dialogue_quality": 0.7946
+    },
+    "passed_quality_gates": true,
+    "rejection_reasons": [],
+    "risk_flags": [],
+    "why_it_works": "Opens on physical confrontation (ep 10 00:09.15: “There is blood running down your arm.”) and cuts on unanswered question (charged) (ep 10 01:06.10: “Why do you look at me like that?”); clear who/what/why.",
+    "llm_review": null
+  }
+}

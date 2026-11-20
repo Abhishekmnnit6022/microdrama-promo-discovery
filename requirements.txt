@@ -1,0 +1,10 @@
+# CPU-only PyTorch (avoids ~2 GB of CUDA libraries on Linux hosts such as Streamlit Community Cloud)
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch>=2.2
+transformers>=4.44
+streamlit>=1.40
+google-genai>=1.0       # optional Gemini review
+python-dotenv>=1.0
+pandas>=2.0
+altair>=5.0
+pytest>=8.0

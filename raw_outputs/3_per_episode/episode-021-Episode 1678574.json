@@ -1,0 +1,212 @@
+{
+  "show": "I Married a Broken Soldier. He was a Duke",
+  "episode_id": "episode-021-Episode 1678574",
+  "episode_number": 21,
+  "source_path": "C:\\Users\\Dell\\Desktop\\kuku_fm_ass\\kuku_fm_assignment_project\\data\\I Married a Broken Soldier. He was a Duke\\episode-021-Episode 1678574.txt",
+  "status": "ok",
+  "error": "",
+  "traceback": "",
+  "warnings": [],
+  "lines_total": 76,
+  "dialogue_lines": 28,
+  "action_lines": 15,
+  "untimed_lines": 0,
+  "duration_seconds": 114.0,
+  "candidates": 766,
+  "candidates_passed": 342,
+  "best_promo_id": "cont-400831c351",
+  "best_score": 0.873,
+  "no_promo_reason": "",
+  "seconds_features": 0.016,
+  "seconds_candidates": 0.069,
+  "logline": "After defying her own despair to cure a fever-stricken village boy with her mother's herbal remedies, Lady Juliana learns that the Dowager Duchess is secretly withering away from a mysterious illness inside Ashbury Manor.",
+  "best_promo": {
+    "rank": 12,
+    "promo_id": "cont-400831c351",
+    "show": "I Married a Broken Soldier. He was a Duke",
+    "structure": "continuous",
+    "priority_score": 0.873,
+    "total_duration_seconds": 29.2,
+    "episodes": [
+      "episode-021-Episode 1678574"
+    ],
+    "segments": [
+      {
+        "order": 1,
+        "episode_id": "episode-021-Episode 1678574",
+        "episode_number": 21,
+        "start_seconds": 11.2,
+        "end_seconds": 40.4,
+        "start": "00:11.20",
+        "end": "00:40.40",
+        "duration_seconds": 29.2,
+        "dialogue": [
+          {
+            "start": "00:11.20",
+            "end": "00:15.00",
+            "character": "PRUDENCE",
+            "kind": "dialogue",
+            "text": "My little brother Toby... his chest is burning! He cannot breathe!"
+          },
+          {
+            "start": "00:15.00",
+            "end": "00:18.20",
+            "character": "LADY JULIANA",
+            "kind": "dialogue",
+            "text": "Tell me what the apothecary said. Did he not give you medicine?"
+          },
+          {
+            "start": "00:18.20",
+            "end": "00:21.70",
+            "character": "PRUDENCE",
+            "kind": "dialogue",
+            "text": "He shut the door in my face because we have no silver!"
+          },
+          {
+            "start": "00:21.80",
+            "end": "00:25.30",
+            "character": "PRUDENCE",
+            "kind": "dialogue",
+            "text": "The manor doctor laughed! He said village boys are not worth his time!"
+          },
+          {
+            "start": "00:25.10",
+            "end": "00:27.40",
+            "character": "LADY JULIANA",
+            "kind": "dialogue",
+            "text": "We have no clinic now."
+          },
+          {
+            "start": "00:27.50",
+            "end": "00:30.80",
+            "character": "LADY JULIANA",
+            "kind": "dialogue",
+            "text": "Our cottage is ashes. I have nothing left but this coltsfoot."
+          },
+          {
+            "start": "00:31.00",
+            "end": "00:33.00",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "Prudence drops desperately to her knees onto the hay-strewn barn floor, clasping her hands in tearful supplication."
+          },
+          {
+            "start": "00:31.00",
+            "end": "00:35.80",
+            "character": "PRUDENCE",
+            "kind": "dialogue",
+            "text": "He is only seven! If you do not come, he will die! You are his only hope, Lady Juliana!"
+          },
+          {
+            "start": "00:35.80",
+            "end": "00:39.50",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "Lady Juliana immediately reaches down and pulls Prudence firmly back to her feet, then turns to snatch her heavy leather-bound herbal ledger from the wooden workbench."
+          },
+          {
+            "start": "00:35.90",
+            "end": "00:40.40",
+            "character": "LADY JULIANA",
+            "kind": "dialogue",
+            "text": "Stand up. Sinking to your knees will not save him. Let me grab my ledger. We go now."
+          }
+        ]
+      }
+    ],
+    "opening_hook": {
+      "score": 0.7716,
+      "evidence": [
+        "exclamation",
+        "00:11.20 PRUDENCE: “My little brother Toby... his chest is burning! He cannot breathe!”",
+        "model: anger 0.77, arousal 0.92",
+        "cues: ",
+        "script tag 'Sobbing, Breathless' (1.00)",
+        "zero-shot conflict/reveal 0.85"
+      ],
+      "timestamp": 11.2,
+      "episode_id": "episode-021-Episode 1678574",
+      "text": "My little brother Toby... his chest is burning! He cannot breathe!",
+      "timestamp_fmt": "00:11.20"
+    },
+    "ending_cliffhanger": {
+      "score": 0.7826,
+      "evidence": [
+        "zero-shot reads an unresolved threat (0.97)",
+        "00:35.90–00:40.40 LADY JULIANA: “Stand up. Sinking to your knees will not save him. Let me grab my led…”",
+        "closing tension 0.92",
+        "zero-shot suspense/threat/reveal 0.97",
+        "withheld next beat: ACTION “Lady Juliana clutches the thick book to her chest…” (payoff 0.49)"
+      ],
+      "timestamp": 40.4,
+      "episode_id": "episode-021-Episode 1678574",
+      "text": "Stand up. Sinking to your knees will not save him. Let me grab my ledger. We go now.",
+      "timestamp_fmt": "00:40.40"
+    },
+    "standalone_coherence": {
+      "score": 0.9563,
+      "evidence": [
+        "clear who/what/why",
+        "who: 2 speaking character(s), names on screen: juliana, prudence",
+        "what: 8 dialogue lines, 101 words",
+        "why: stakes (brother, die); conflict cue present; logline overlap 0.42",
+        "structure: continuous, 0 scene switch(es)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "emotional_intensity": {
+      "score": 0.9548,
+      "evidence": [
+        "peak 0.99 at 00:18.20, mean 0.92 (emotion model)"
+      ],
+      "timestamp": 18.2,
+      "episode_id": "episode-021-Episode 1678574",
+      "text": "",
+      "timestamp_fmt": "00:18.20"
+    },
+    "narrative_continuity": {
+      "score": 1.0,
+      "evidence": [
+        "one unbroken stretch, 1 scene(s)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "dialogue_quality": {
+      "score": 1.0,
+      "evidence": [
+        "speech covers 99% of runtime, 0% filler lines, 12.6 words/line"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "score_breakdown": {
+      "hook": 0.7716,
+      "cliffhanger": 0.7826,
+      "coherence": 0.9563,
+      "emotion": 0.9548,
+      "continuity": 1.0,
+      "dialogue_quality": 1.0
+    },
+    "passed_quality_gates": true,
+    "rejection_reasons": [],
+    "risk_flags": [],
+    "why_it_works": "Opens on exclamation (ep 21 00:11.20: “My little brother Toby... his chest is burning! He cannot…”) and cuts on zero-shot reads an unresolved threat (0.97) (ep 21 00:40.40: “Stand up. Sinking to your knees will not save him. Let me…”); clear who/what/why.",
+    "llm_review": {
+      "hook_works": true,
+      "cliffhanger_works": false,
+      "standalone": true,
+      "one_line": "The clip successfully grabs attention with a high-stakes medical emergency and a desperate plea, but it loses momentum by resolving the immediate crisis at the end rather than cutting on a cliffhanger.",
+      "concerns": "The clip ends on a resolution (\"We go now\") instead of a cliffhanger, reducing the urgency for viewers to click through to the app.",
+      "model": "gemini-3.5-flash-lite",
+      "status": "ok"
+    }
+  }
+}

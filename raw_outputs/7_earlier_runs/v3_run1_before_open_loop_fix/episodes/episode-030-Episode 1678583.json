@@ -1,0 +1,212 @@
+{
+  "show": "I Married a Broken Soldier. He was a Duke",
+  "episode_id": "episode-030-Episode 1678583",
+  "episode_number": 30,
+  "source_path": "C:\\Users\\Dell\\Desktop\\kuku_fm_ass\\kuku_fm_assignment_project\\data\\I Married a Broken Soldier. He was a Duke\\episode-030-Episode 1678583.txt",
+  "status": "ok",
+  "error": "",
+  "traceback": "",
+  "warnings": [],
+  "lines_total": 71,
+  "dialogue_lines": 28,
+  "action_lines": 4,
+  "untimed_lines": 0,
+  "duration_seconds": 151.21,
+  "candidates": 480,
+  "candidates_passed": 311,
+  "best_promo_id": "cont-c9afca610c",
+  "best_score": 0.8544,
+  "no_promo_reason": "",
+  "seconds_features": 0.01,
+  "seconds_candidates": 0.025,
+  "logline": "When rumors of the poisoned Duchess begin spreading among the servants, Rupert and Catherine conspire with an elder nobleman to fabricate a witchcraft charge against Juliana, sealing her fate for the gallows.",
+  "best_promo": {
+    "rank": 13,
+    "promo_id": "cont-c9afca610c",
+    "show": "I Married a Broken Soldier. He was a Duke",
+    "structure": "continuous",
+    "priority_score": 0.8544,
+    "total_duration_seconds": 40.7,
+    "episodes": [
+      "episode-030-Episode 1678583"
+    ],
+    "segments": [
+      {
+        "order": 1,
+        "episode_id": "episode-030-Episode 1678583",
+        "episode_number": 30,
+        "start_seconds": 32.1,
+        "end_seconds": 72.8,
+        "start": "00:32.10",
+        "end": "01:12.80",
+        "duration_seconds": 40.7,
+        "dialogue": [
+          {
+            "start": "00:32.10",
+            "end": "00:33.30",
+            "character": "RUPERT",
+            "kind": "dialogue",
+            "text": "If she speaks..."
+          },
+          {
+            "start": "00:33.40",
+            "end": "00:35.20",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "The Elder Nobleman thrusts the gold knob of his walking stick directly against Rupert's chest, pinning him against the wall."
+          },
+          {
+            "start": "00:33.60",
+            "end": "00:39.80",
+            "character": "ELDER NOBLEMAN",
+            "kind": "dialogue",
+            "text": "Then make certain she isn't! A peasant weed, Rupert! You do not store weeds in your cellar, you burn them!"
+          },
+          {
+            "start": "00:41.80",
+            "end": "00:43.50",
+            "character": "RUPERT",
+            "kind": "dialogue",
+            "text": "What are you suggesting?"
+          },
+          {
+            "start": "00:44.80",
+            "end": "00:47.30",
+            "character": "ELDER NOBLEMAN",
+            "kind": "dialogue",
+            "text": "We stop hiding the prisoner."
+          },
+          {
+            "start": "00:51.20",
+            "end": "00:54.00",
+            "character": "ELDER NOBLEMAN",
+            "kind": "dialogue",
+            "text": "We give them a reason to condemn her."
+          },
+          {
+            "start": "00:57.00",
+            "end": "00:58.80",
+            "character": "CATHERINE",
+            "kind": "dialogue",
+            "text": "You have a solution?"
+          },
+          {
+            "start": "00:59.40",
+            "end": "01:02.50",
+            "character": "ELDER NOBLEMAN",
+            "kind": "dialogue",
+            "text": "We use the law to destroy her."
+          },
+          {
+            "start": "01:03.10",
+            "end": "01:04.30",
+            "character": "RUPERT",
+            "kind": "dialogue",
+            "text": "The law?"
+          },
+          {
+            "start": "01:05.30",
+            "end": "01:12.80",
+            "character": "ELDER NOBLEMAN",
+            "kind": "dialogue",
+            "text": "A maid with herbs in her possession, a secret medicine, an unauthorized visit to the Duchess's chamber."
+          }
+        ]
+      }
+    ],
+    "opening_hook": {
+      "score": 0.8604,
+      "evidence": [
+        "exclamation",
+        "00:33.60 ELDER NOBLEMAN: “Then make certain she isn't! A peasant weed, Rupert! You do not store…”",
+        "model: anger 0.76, arousal 0.98",
+        "script tag 'Fierce, Venomous' (1.00)",
+        "zero-shot conflict/reveal 0.96",
+        "second strong beat within 3 s (+0.04)"
+      ],
+      "timestamp": 33.6,
+      "episode_id": "episode-030-Episode 1678583",
+      "text": "Then make certain she isn't! A peasant weed, Rupert! You do not store weeds in your cellar, you burn them!",
+      "timestamp_fmt": "00:33.60"
+    },
+    "ending_cliffhanger": {
+      "score": 0.7747,
+      "evidence": [
+        "revelation ('secret')",
+        "01:05.30–01:12.80 ELDER NOBLEMAN: “A maid with herbs in her possession, a secret medicine, an unauthoriz…”",
+        "closing tension 1.00",
+        "zero-shot suspense/threat/reveal 0.91",
+        "withheld next beat: ACTION “The Elder Nobleman leans both hands against the d…” (payoff 0.45)"
+      ],
+      "timestamp": 72.8,
+      "episode_id": "episode-030-Episode 1678583",
+      "text": "A maid with herbs in her possession, a secret medicine, an unauthorized visit to the Duchess's chamber.",
+      "timestamp_fmt": "01:12.80"
+    },
+    "standalone_coherence": {
+      "score": 0.825,
+      "evidence": [
+        "clear who/what/why",
+        "who: 3 speaking character(s), names on screen: elder, rupert",
+        "what: 9 dialogue lines, 70 words",
+        "why: no explicit stakes words; conflict cue present; logline overlap 0.33",
+        "structure: continuous, 1 scene switch(es)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "emotional_intensity": {
+      "score": 0.9485,
+      "evidence": [
+        "peak 1.00 at 01:05.30, mean 0.90 (emotion model)"
+      ],
+      "timestamp": 65.3,
+      "episode_id": "episode-030-Episode 1678583",
+      "text": "",
+      "timestamp_fmt": "01:05.30"
+    },
+    "narrative_continuity": {
+      "score": 0.9,
+      "evidence": [
+        "one unbroken stretch, 2 scene(s)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "dialogue_quality": {
+      "score": 0.9667,
+      "evidence": [
+        "speech covers 69% of runtime, 11% filler lines, 7.8 words/line"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "score_breakdown": {
+      "hook": 0.8604,
+      "cliffhanger": 0.7747,
+      "coherence": 0.825,
+      "emotion": 0.9485,
+      "continuity": 0.9,
+      "dialogue_quality": 0.9667
+    },
+    "passed_quality_gates": true,
+    "rejection_reasons": [],
+    "risk_flags": [],
+    "why_it_works": "Opens on exclamation (ep 30 00:33.60: “Then make certain she isn't! A peasant weed, Rupert! You …”) and cuts on revelation ('secret') (ep 30 01:12.80: “A maid with herbs in her possession, a secret medicine, a…”); clear who/what/why.",
+    "llm_review": {
+      "hook_works": true,
+      "cliffhanger_works": true,
+      "standalone": false,
+      "one_line": "The clip successfully grabs attention with a physical threat and a sinister plot to destroy a prisoner using the law, but lacks context for new viewers to understand who the characters are.",
+      "concerns": "A new viewer has no context about who the prisoner is, why the noblemen want to destroy her, or what her connection is to the Duchess.",
+      "model": "gemini-3.5-flash-lite",
+      "status": "ok"
+    }
+  }
+}

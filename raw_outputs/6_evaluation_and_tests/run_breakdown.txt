@@ -1,0 +1,79 @@
+== summary ==
+shows                              1
+episodes_discovered                50
+episodes_processed_ok              50
+episodes_failed                    0
+episodes_without_valid_promo       2
+candidates_total                   25771
+candidates_continuous              15790
+candidates_multi_segment           1649
+candidates_cross_episode           8332
+passed_duration                    25771
+valid_hook                         14621
+valid_cliffhanger                  18925
+rejected_poor_coherence            155
+passed_all_gates                   12096
+stage2_shortlisted                 1550
+stage2_passed                      1141
+recommended                        15
+
+== per structure (all candidates) ==
+continuous      n= 15790 passed=  3405 (21.6%) mean_score=0.637 max=0.915
+multi_segment   n=  1649 passed=  1391 (84.4%) mean_score=0.747 max=0.879
+cross_episode   n=  8332 passed=  7300 (87.6%) mean_score=0.721 max=0.866
+
+== stage-2 shortlist ==
+shortlisted=1550 passed=1141
+rejection reasons (stage 2): [('weak opening hook', 249), ('no genuine cliffhanger', 227)]
+
+== rejection reasons (all) ==
+  11150  weak opening hook
+   6846  no genuine cliffhanger
+    155  poor standalone coherence
+
+== component score distribution (all candidates) ==
+hook         p25=0.24 median=0.51 p75=0.72
+cliffhanger  p25=0.53 median=0.64 p75=0.70
+coherence    p25=0.74 median=0.81 p75=0.86
+emotion      p25=0.77 median=0.82 p75=0.87
+
+== recommended ==
+# 1 0.915  57.9s continuous    ep28 01:10.80-02:08.70
+     hook: physical confrontation | cliff: zero-shot reads an unresolved threat (0.88) | coh 0.97 | LLM hook=True cliff=True standalone=True
+# 2 0.913  54.9s continuous    ep28 00:15.30-01:10.20
+     hook: threat | cliff: zero-shot reads an unresolved threat (0.96) | coh 0.95 | LLM hook=True cliff=True standalone=True
+# 3 0.907  43.3s continuous    ep3 01:00.50-01:43.80
+     hook: physical confrontation | cliff: zero-shot reads an unresolved threat (0.93) | coh 0.93 | LLM hook=True cliff=False standalone=True
+# 4 0.901  24.9s continuous    ep27 02:03.10-02:28.00
+     hook: threat | cliff: zero-shot reads an unresolved threat (0.92) | coh 0.94 | LLM hook=True cliff=True standalone=True
+# 5 0.894  28.6s continuous    ep29 01:24.00-01:52.60
+     hook: physical confrontation | cliff: zero-shot reads an unresolved threat (0.91) | coh 0.88 | LLM hook=True cliff=True standalone=False
+# 6 0.893  35.0s continuous    ep15 00:47.40-01:22.40
+     hook: physical confrontation | cliff: zero-shot reads an unresolved threat (0.88) | coh 0.83 | LLM hook=True cliff=True standalone=True
+# 7 0.890  55.2s continuous    ep35 01:29.80-02:25.00
+     hook: betrayal/accusation | cliff: unanswered question (charged) | coh 0.94 | LLM hook=True cliff=True standalone=True
+# 8 0.879  41.9s continuous    ep15 00:07.60-00:49.50
+     hook: sudden arrival | cliff: zero-shot reads an unresolved threat (0.97) | coh 0.85 | LLM hook=True cliff=True standalone=True
+# 9 0.878  23.3s continuous    ep43 00:24.10-00:47.40
+     hook: betrayal/accusation | cliff: zero-shot reads an unresolved threat (0.95) | coh 0.95 | LLM hook=True cliff=True standalone=False
+#10 0.875  54.6s continuous    ep26 00:56.00-01:50.60
+     hook: charged question | cliff: zero-shot reads an unresolved threat (0.70) | coh 0.97 | LLM hook=True cliff=True standalone=True
+#11 0.873  21.7s continuous    ep47 00:56.80-01:18.50
+     hook: charged question | cliff: zero-shot reads an unresolved threat (0.97) | coh 0.93 | LLM hook=True cliff=True standalone=True
+#12 0.873  29.2s continuous    ep21 00:11.20-00:40.40
+     hook: exclamation | cliff: zero-shot reads an unresolved threat (0.97) | coh 0.96 | LLM hook=True cliff=False standalone=True
+#13 0.866  20.6s cross_episode ep24 00:31.00-00:38.80 + ep25 02:01.00-02:13.80
+     hook: physical confrontation | cliff: revelation ('never told') | coh 0.81 | LLM hook=True cliff=True standalone=False
+     flags: coherence: jumps between episodes; spans episodes 24, 25 — verify continuity of costumes/locations
+#14 0.866  56.1s continuous    ep36 01:57.50-02:53.60
+     hook: revelation | cliff: zero-shot reads an unresolved threat (0.88) | coh 0.96 | LLM hook=True cliff=True standalone=False
+#15 0.860  30.4s continuous    ep30 00:32.10-01:02.50
+     hook: exclamation | cliff: zero-shot reads an unresolved threat (0.94) | coh 0.74 | LLM hook=True cliff=True standalone=False
+
+hook reasons: [('physical confrontation', 5), ('threat', 2), ('betrayal/accusation', 2), ('charged question', 2), ('exclamation', 2), ('sudden arrival', 1), ('revelation', 1)]
+cliff reasons: [('zero-shot reads an unresolved threat', 13), ('unanswered question', 1), ('revelation', 1)]
+episodes covered: [3, 15, 21, 24, 25, 26, 27, 28, 29, 30, 35, 36, 43, 47]
+
+== episodes without a valid single-episode promo ==
+ep 40: no_valid_promo  weak opening hook: 258/359 candidates; no genuine cliffhanger: 151/359 candidates; poor standalone coherence: 2/359 candidates
+ep 41: no_valid_promo  weak opening hook: 288/328 candidates; no genuine cliffhanger: 117/328 candidates

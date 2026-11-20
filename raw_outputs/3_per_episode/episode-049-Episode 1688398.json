@@ -1,0 +1,188 @@
+{
+  "show": "I Married a Broken Soldier. He was a Duke",
+  "episode_id": "episode-049-Episode 1688398",
+  "episode_number": 49,
+  "source_path": "C:\\Users\\Dell\\Desktop\\kuku_fm_ass\\kuku_fm_assignment_project\\data\\I Married a Broken Soldier. He was a Duke\\episode-049-Episode 1688398.txt",
+  "status": "ok",
+  "error": "",
+  "traceback": "",
+  "warnings": [],
+  "lines_total": 63,
+  "dialogue_lines": 26,
+  "action_lines": 5,
+  "untimed_lines": 0,
+  "duration_seconds": 144.75,
+  "candidates": 600,
+  "candidates_passed": 273,
+  "best_promo_id": "cont-47d0ea6b0e",
+  "best_score": 0.7662,
+  "no_promo_reason": "",
+  "seconds_features": 0.012,
+  "seconds_candidates": 0.048,
+  "logline": "Meeting Father Thomas in an abandoned wing of the manor before dawn, Catherine orchestrates a calculated conspiracy to stall the council hearing and extract inside intelligence, sealing their treasonous alliance with intimate assurance.",
+  "best_promo": {
+    "rank": null,
+    "promo_id": "cont-47d0ea6b0e",
+    "show": "I Married a Broken Soldier. He was a Duke",
+    "structure": "continuous",
+    "priority_score": 0.7662,
+    "total_duration_seconds": 39.7,
+    "episodes": [
+      "episode-049-Episode 1688398"
+    ],
+    "segments": [
+      {
+        "order": 1,
+        "episode_id": "episode-049-Episode 1688398",
+        "episode_number": 49,
+        "start_seconds": 1.8,
+        "end_seconds": 41.5,
+        "start": "00:01.80",
+        "end": "00:41.50",
+        "duration_seconds": 39.7,
+        "dialogue": [
+          {
+            "start": "00:01.80",
+            "end": "00:05.20",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "Father Thomas, clad in a hooded dark mantle over priestly black robes, secures the door behind him and steps into the shadows of the abandoned corridor."
+          },
+          {
+            "start": "00:05.40",
+            "end": "00:06.80",
+            "character": "CATHERINE",
+            "kind": "dialogue",
+            "text": "You took your time."
+          },
+          {
+            "start": "00:09.00",
+            "end": "00:15.20",
+            "character": "FATHER THOMAS",
+            "kind": "dialogue",
+            "text": "Agnes is thorough. She made me wait for a groom to finish his rounds before she'd let me past the stables."
+          },
+          {
+            "start": "00:15.80",
+            "end": "00:18.80",
+            "character": "CATHERINE",
+            "kind": "dialogue",
+            "text": "Good. That's what I pay her for."
+          },
+          {
+            "start": "00:20.00",
+            "end": "00:22.00",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "Catherine sets down the brass candleholder, the flame flickering across their faces."
+          },
+          {
+            "start": "00:22.20",
+            "end": "00:27.20",
+            "character": "FATHER THOMAS",
+            "kind": "dialogue",
+            "text": "No shadows tonight, Catherine. Just us and an empty wing."
+          },
+          {
+            "start": "00:27.80",
+            "end": "00:33.00",
+            "character": "CATHERINE",
+            "kind": "dialogue",
+            "text": "You didn't need them the first time, either. I just prefer my secrets thorough."
+          },
+          {
+            "start": "00:33.50",
+            "end": "00:41.50",
+            "character": "FATHER THOMAS",
+            "kind": "dialogue",
+            "text": "A priest and a disgraced bride meeting before dawn in her bedchamber. I'd say thoroughness served us both rather well."
+          }
+        ]
+      }
+    ],
+    "opening_hook": {
+      "score": 0.6291,
+      "evidence": [
+        "betrayal/accusation",
+        "00:01.80 ACTION: “Father Thomas, clad in a hooded dark mantle over priestly black robes…”",
+        "cues: betrayal ('abandoned')",
+        "zero-shot conflict/reveal 0.30"
+      ],
+      "timestamp": 1.8,
+      "episode_id": "episode-049-Episode 1688398",
+      "text": "Father Thomas, clad in a hooded dark mantle over priestly black robes, secures the door behind him and steps into the shadows of the abandoned corridor.",
+      "timestamp_fmt": "00:01.80"
+    },
+    "ending_cliffhanger": {
+      "score": 0.6236,
+      "evidence": [
+        "charged statement left hanging",
+        "00:33.50–00:41.50 FATHER THOMAS: “A priest and a disgraced bride meeting before dawn in her bedchamber.…”",
+        "closing tension 0.96",
+        "zero-shot suspense/threat/reveal 0.57",
+        "withheld next beat: CATHERINE “It will keep serving us as long as neither of us…” (payoff 0.49)"
+      ],
+      "timestamp": 41.5,
+      "episode_id": "episode-049-Episode 1688398",
+      "text": "A priest and a disgraced bride meeting before dawn in her bedchamber. I'd say thoroughness served us both rather well.",
+      "timestamp_fmt": "00:41.50"
+    },
+    "standalone_coherence": {
+      "score": 0.975,
+      "evidence": [
+        "clear who/what/why",
+        "who: 2 speaking character(s), names on screen: agnes, catherine, thomas",
+        "what: 6 dialogue lines, 76 words",
+        "why: stakes (bride, father); conflict cue present; logline overlap 0.67",
+        "structure: continuous, 0 scene switch(es)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "emotional_intensity": {
+      "score": 0.7204,
+      "evidence": [
+        "peak 0.97 at 00:33.50, mean 0.47 (emotion model)"
+      ],
+      "timestamp": 33.5,
+      "episode_id": "episode-049-Episode 1688398",
+      "text": "",
+      "timestamp_fmt": "00:33.50"
+    },
+    "narrative_continuity": {
+      "score": 1.0,
+      "evidence": [
+        "one unbroken stretch, 1 scene(s)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "dialogue_quality": {
+      "score": 1.0,
+      "evidence": [
+        "speech covers 73% of runtime, 0% filler lines, 12.7 words/line"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "score_breakdown": {
+      "hook": 0.6291,
+      "cliffhanger": 0.6236,
+      "coherence": 0.975,
+      "emotion": 0.7204,
+      "continuity": 1.0,
+      "dialogue_quality": 1.0
+    },
+    "passed_quality_gates": true,
+    "rejection_reasons": [],
+    "risk_flags": [],
+    "why_it_works": "Opens on betrayal/accusation (ep 49 00:01.80: “Father Thomas, clad in a hooded dark mantle over priestly…”) and cuts on charged statement left hanging (ep 49 00:41.50: “A priest and a disgraced bride meeting before dawn in her…”); clear who/what/why.",
+    "llm_review": null
+  }
+}

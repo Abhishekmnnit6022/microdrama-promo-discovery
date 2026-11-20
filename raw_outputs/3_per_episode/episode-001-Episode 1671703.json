@@ -1,0 +1,232 @@
+{
+  "show": "I Married a Broken Soldier. He was a Duke",
+  "episode_id": "episode-001-Episode 1671703",
+  "episode_number": 1,
+  "source_path": "C:\\Users\\Dell\\Desktop\\kuku_fm_ass\\kuku_fm_assignment_project\\data\\I Married a Broken Soldier. He was a Duke\\episode-001-Episode 1671703.txt",
+  "status": "ok",
+  "error": "",
+  "traceback": "",
+  "warnings": [],
+  "lines_total": 95,
+  "dialogue_lines": 37,
+  "action_lines": 7,
+  "untimed_lines": 0,
+  "duration_seconds": 138.0,
+  "candidates": 744,
+  "candidates_passed": 445,
+  "best_promo_id": "cont-232c43c169",
+  "best_score": 0.801,
+  "no_promo_reason": "",
+  "seconds_features": 0.019,
+  "seconds_candidates": 0.05,
+  "logline": "Lady Juliana arrives at the cathedral in her late mother's bridal gown, only to suffer the ultimate betrayal when her fiancé Gerald abandons her at the altar for her cruel sister Clarissa with her family's full blessing.",
+  "best_promo": {
+    "rank": null,
+    "promo_id": "cont-232c43c169",
+    "show": "I Married a Broken Soldier. He was a Duke",
+    "structure": "continuous",
+    "priority_score": 0.801,
+    "total_duration_seconds": 34.8,
+    "episodes": [
+      "episode-001-Episode 1671703"
+    ],
+    "segments": [
+      {
+        "order": 1,
+        "episode_id": "episode-001-Episode 1671703",
+        "episode_number": 1,
+        "start_seconds": 63.4,
+        "end_seconds": 98.2,
+        "start": "01:03.40",
+        "end": "01:38.20",
+        "duration_seconds": 34.8,
+        "dialogue": [
+          {
+            "start": "01:03.40",
+            "end": "01:05.60",
+            "character": "LADY JULIANA",
+            "kind": "dialogue",
+            "text": "You swore you loved me!"
+          },
+          {
+            "start": "01:06.50",
+            "end": "01:08.80",
+            "character": "LADY IN GOLD GOWN",
+            "kind": "dialogue",
+            "text": "People change their minds, sister."
+          },
+          {
+            "start": "01:09.10",
+            "end": "01:10.40",
+            "character": "LADY JULIANA",
+            "kind": "dialogue",
+            "text": "And you knew?"
+          },
+          {
+            "start": "01:10.60",
+            "end": "01:12.10",
+            "character": "LADY IN GOLD GOWN",
+            "kind": "dialogue",
+            "text": "Of course I knew."
+          },
+          {
+            "start": "01:13.10",
+            "end": "01:14.30",
+            "character": "LADY JULIANA",
+            "kind": "dialogue",
+            "text": "How long?"
+          },
+          {
+            "start": "01:15.00",
+            "end": "01:18.50",
+            "character": "LADY IN GOLD GOWN",
+            "kind": "dialogue",
+            "text": "Long enough to know he was never going to marry you."
+          },
+          {
+            "start": "01:19.00",
+            "end": "01:21.00",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "Juliana turns abruptly toward the first row of pews, where her elderly father sits gripping an ornate brass cane."
+          },
+          {
+            "start": "01:20.10",
+            "end": "01:21.20",
+            "character": "LADY JULIANA",
+            "kind": "dialogue",
+            "text": "Father..."
+          },
+          {
+            "start": "01:21.40",
+            "end": "01:23.60",
+            "character": "LADY JULIANA",
+            "kind": "dialogue",
+            "text": "Tell them this is a mistake."
+          },
+          {
+            "start": "01:26.00",
+            "end": "01:28.90",
+            "character": "LADY JULIANA",
+            "kind": "dialogue",
+            "text": "Father... please look at me."
+          },
+          {
+            "start": "01:29.50",
+            "end": "01:30.80",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "The father tightens his jaw and stony expression, refusing to offer a single word or look."
+          },
+          {
+            "start": "01:30.90",
+            "end": "01:31.90",
+            "character": "MATRIARCH",
+            "kind": "dialogue",
+            "text": "Enough!"
+          },
+          {
+            "start": "01:32.10",
+            "end": "01:35.50",
+            "character": "MATRIARCH",
+            "kind": "dialogue",
+            "text": "You have embarrassed this family long enough."
+          },
+          {
+            "start": "01:36.20",
+            "end": "01:38.20",
+            "character": "LADY JULIANA",
+            "kind": "dialogue",
+            "text": "Embarrassed you?"
+          }
+        ]
+      }
+    ],
+    "opening_hook": {
+      "score": 0.7569,
+      "evidence": [
+        "betrayal/accusation",
+        "01:03.40 LADY JULIANA: “You swore you loved me!”",
+        "model: anger 0.61, arousal 0.73",
+        "cues: betrayal ('you swore')",
+        "script tag 'Betrayed, Piercing' (1.00)",
+        "zero-shot conflict/reveal 0.48"
+      ],
+      "timestamp": 63.4,
+      "episode_id": "episode-001-Episode 1671703",
+      "text": "You swore you loved me!",
+      "timestamp_fmt": "01:03.40"
+    },
+    "ending_cliffhanger": {
+      "score": 0.6097,
+      "evidence": [
+        "unanswered question (charged)",
+        "01:36.20–01:38.20 LADY JULIANA: “Embarrassed you?”",
+        "closing tension 0.96",
+        "zero-shot suspense/threat/reveal 0.08",
+        "withheld next beat: MATRIARCH “Clarissa knows how to carry herself.” (payoff 0.49)"
+      ],
+      "timestamp": 98.2,
+      "episode_id": "episode-001-Episode 1671703",
+      "text": "Embarrassed you?",
+      "timestamp_fmt": "01:38.20"
+    },
+    "standalone_coherence": {
+      "score": 0.9375,
+      "evidence": [
+        "clear who/what/why",
+        "who: 3 speaking character(s), names on screen: juliana",
+        "what: 12 dialogue lines, 52 words",
+        "why: stakes (family, father, marry, sister); conflict cue present; logline overlap 0.17",
+        "structure: continuous, 0 scene switch(es)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "emotional_intensity": {
+      "score": 0.8457,
+      "evidence": [
+        "peak 0.98 at 01:36.20, mean 0.71 (emotion model)"
+      ],
+      "timestamp": 96.2,
+      "episode_id": "episode-001-Episode 1671703",
+      "text": "",
+      "timestamp_fmt": "01:36.20"
+    },
+    "narrative_continuity": {
+      "score": 1.0,
+      "evidence": [
+        "one unbroken stretch, 1 scene(s)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "dialogue_quality": {
+      "score": 0.9,
+      "evidence": [
+        "speech covers 71% of runtime, 33% filler lines, 4.3 words/line"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "score_breakdown": {
+      "hook": 0.7569,
+      "cliffhanger": 0.6097,
+      "coherence": 0.9375,
+      "emotion": 0.8457,
+      "continuity": 1.0,
+      "dialogue_quality": 0.9
+    },
+    "passed_quality_gates": true,
+    "rejection_reasons": [],
+    "risk_flags": [],
+    "why_it_works": "Opens on betrayal/accusation (ep 1 01:03.40: “You swore you loved me!”) and cuts on unanswered question (charged) (ep 1 01:38.20: “Embarrassed you?”); clear who/what/why.",
+    "llm_review": null
+  }
+}

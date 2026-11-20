@@ -1,0 +1,246 @@
+{
+  "show": "I Married a Broken Soldier. He was a Duke",
+  "episode_id": "episode-005-Episode 1671707",
+  "episode_number": 5,
+  "source_path": "C:\\Users\\Dell\\Desktop\\kuku_fm_ass\\kuku_fm_assignment_project\\data\\I Married a Broken Soldier. He was a Duke\\episode-005-Episode 1671707.txt",
+  "status": "ok",
+  "error": "",
+  "traceback": "",
+  "warnings": [],
+  "lines_total": 62,
+  "dialogue_lines": 29,
+  "action_lines": 6,
+  "untimed_lines": 0,
+  "duration_seconds": 110.5,
+  "candidates": 706,
+  "candidates_passed": 410,
+  "best_promo_id": "cont-808ce439b4",
+  "best_score": 0.7527,
+  "no_promo_reason": "",
+  "seconds_features": 0.007,
+  "seconds_candidates": 0.035,
+  "logline": "Formally disowned and stripped of her inheritance, Juliana is publicly humiliated when her stepmother throws her late mother's treasured ledger into the mud, but her rugged new husband defends her dignity and guides her away from her callous family.",
+  "best_promo": {
+    "rank": null,
+    "promo_id": "cont-808ce439b4",
+    "show": "I Married a Broken Soldier. He was a Duke",
+    "structure": "continuous",
+    "priority_score": 0.7527,
+    "total_duration_seconds": 52.5,
+    "episodes": [
+      "episode-005-Episode 1671707"
+    ],
+    "segments": [
+      {
+        "order": 1,
+        "episode_id": "episode-005-Episode 1671707",
+        "episode_number": 5,
+        "start_seconds": 29.5,
+        "end_seconds": 82.0,
+        "start": "00:29.50",
+        "end": "01:22.00",
+        "duration_seconds": 52.5,
+        "dialogue": [
+          {
+            "start": "00:29.50",
+            "end": "00:33.40",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "You truly mean it? You are my father!"
+          },
+          {
+            "start": "00:33.80",
+            "end": "00:36.80",
+            "character": "LORD ASHCROFT",
+            "kind": "dialogue",
+            "text": "And you have chosen to become a stranger."
+          },
+          {
+            "start": "00:37.60",
+            "end": "00:41.50",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "No, Father. You chose that long before today."
+          },
+          {
+            "start": "00:42.50",
+            "end": "00:44.20",
+            "character": "LADY ASHCROFT",
+            "kind": "dialogue",
+            "text": "Enough sentiment."
+          },
+          {
+            "start": "00:44.30",
+            "end": "00:45.80",
+            "character": "LADY ASHCROFT",
+            "kind": "dialogue",
+            "text": "And the ledger..."
+          },
+          {
+            "start": "00:46.80",
+            "end": "00:48.80",
+            "character": "LADY ASHCROFT",
+            "kind": "dialogue",
+            "text": "...that belongs to this family."
+          },
+          {
+            "start": "00:49.00",
+            "end": "00:51.80",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "It belonged to my mother! It is all I have left of her."
+          },
+          {
+            "start": "00:52.00",
+            "end": "00:54.00",
+            "character": "LADY ASHCROFT",
+            "kind": "dialogue",
+            "text": "Then you should have guarded it better."
+          },
+          {
+            "start": "00:54.50",
+            "end": "00:57.50",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "Lady Ashcroft snatches the heavy book away and flings it disdainfully into the rain-soaked courtyard."
+          },
+          {
+            "start": "00:55.50",
+            "end": "00:56.80",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "Barbara, don't!"
+          },
+          {
+            "start": "00:59.00",
+            "end": "01:02.50",
+            "character": "CLARISSA",
+            "kind": "dialogue",
+            "text": "Even your mother's precious legacy has been cast into the dirt!"
+          },
+          {
+            "start": "01:02.40",
+            "end": "01:04.60",
+            "character": "GERALD",
+            "kind": "dialogue",
+            "text": "Perhaps that is where it belongs."
+          },
+          {
+            "start": "01:05.50",
+            "end": "01:08.50",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "Juliana drops to her knees onto the wet courtyard pavement, oblivious to the dirt soaking through her white bridal gown."
+          },
+          {
+            "start": "01:10.50",
+            "end": "01:14.50",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "The Mysterious Bearded Man bends his knees and kneels down beside Juliana, extending his scarred hand to retrieve the fallen ledger."
+          },
+          {
+            "start": "01:17.80",
+            "end": "01:19.00",
+            "character": "MYSTERIOUS BEARDED MAN",
+            "kind": "dialogue",
+            "text": "Here you go."
+          },
+          {
+            "start": "01:20.50",
+            "end": "01:22.00",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "They destroyed it."
+          }
+        ]
+      }
+    ],
+    "opening_hook": {
+      "score": 0.6928,
+      "evidence": [
+        "charged question",
+        "00:29.50 JULIANA: “You truly mean it? You are my father!”",
+        "model: surprise 0.87, arousal 0.98",
+        "cues: ",
+        "script tag 'Shaking, Tearful' (0.67)",
+        "zero-shot conflict/reveal 0.54"
+      ],
+      "timestamp": 29.5,
+      "episode_id": "episode-005-Episode 1671707",
+      "text": "You truly mean it? You are my father!",
+      "timestamp_fmt": "00:29.50"
+    },
+    "ending_cliffhanger": {
+      "score": 0.5931,
+      "evidence": [
+        "charged statement left hanging",
+        "01:20.50–01:22.00 JULIANA: “They destroyed it.”",
+        "closing tension 0.93",
+        "zero-shot suspense/threat/reveal 0.50",
+        "withheld next beat: MYSTERIOUS BEARDED MAN “They dirtied it. That is not the same thing.” (payoff 0.43)"
+      ],
+      "timestamp": 82.0,
+      "episode_id": "episode-005-Episode 1671707",
+      "text": "They destroyed it.",
+      "timestamp_fmt": "01:22.00"
+    },
+    "standalone_coherence": {
+      "score": 0.8688,
+      "evidence": [
+        "clear who/what/why",
+        "who: 6 speaking character(s), names on screen: ashcroft, juliana",
+        "what: 13 dialogue lines, 79 words",
+        "why: stakes (family, father, mother); logline overlap 0.42",
+        "structure: continuous, 0 scene switch(es)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "emotional_intensity": {
+      "score": 0.7369,
+      "evidence": [
+        "peak 0.99 at 00:29.50, mean 0.49 (emotion model)"
+      ],
+      "timestamp": 29.5,
+      "episode_id": "episode-005-Episode 1671707",
+      "text": "",
+      "timestamp_fmt": "00:29.50"
+    },
+    "narrative_continuity": {
+      "score": 1.0,
+      "evidence": [
+        "one unbroken stretch, 1 scene(s)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "dialogue_quality": {
+      "score": 0.938,
+      "evidence": [
+        "speech covers 58% of runtime, 15% filler lines, 6.1 words/line"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "score_breakdown": {
+      "hook": 0.6928,
+      "cliffhanger": 0.5931,
+      "coherence": 0.8688,
+      "emotion": 0.7369,
+      "continuity": 1.0,
+      "dialogue_quality": 0.938
+    },
+    "passed_quality_gates": true,
+    "rejection_reasons": [],
+    "risk_flags": [],
+    "why_it_works": "Opens on charged question (ep 5 00:29.50: “You truly mean it? You are my father!”) and cuts on charged statement left hanging (ep 5 01:22.00: “They destroyed it.”); clear who/what/why.",
+    "llm_review": null
+  }
+}

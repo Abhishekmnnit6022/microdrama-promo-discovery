@@ -1,0 +1,198 @@
+{
+  "show": "I Married a Broken Soldier. He was a Duke",
+  "episode_id": "episode-030-Episode 1678583",
+  "episode_number": 30,
+  "source_path": "C:\\Users\\Dell\\Desktop\\kuku_fm_ass\\kuku_fm_assignment_project\\data\\I Married a Broken Soldier. He was a Duke\\episode-030-Episode 1678583.txt",
+  "status": "ok",
+  "error": "",
+  "traceback": "",
+  "warnings": [],
+  "lines_total": 71,
+  "dialogue_lines": 28,
+  "action_lines": 4,
+  "untimed_lines": 0,
+  "duration_seconds": 151.21,
+  "candidates": 476,
+  "candidates_passed": 343,
+  "best_promo_id": "cont-f57a5950c4",
+  "best_score": 0.8595,
+  "no_promo_reason": "",
+  "seconds_features": 0.01,
+  "seconds_candidates": 0.024,
+  "logline": "When rumors of the poisoned Duchess begin spreading among the servants, Rupert and Catherine conspire with an elder nobleman to fabricate a witchcraft charge against Juliana, sealing her fate for the gallows.",
+  "best_promo": {
+    "rank": 15,
+    "promo_id": "cont-f57a5950c4",
+    "show": "I Married a Broken Soldier. He was a Duke",
+    "structure": "continuous",
+    "priority_score": 0.8595,
+    "total_duration_seconds": 30.4,
+    "episodes": [
+      "episode-030-Episode 1678583"
+    ],
+    "segments": [
+      {
+        "order": 1,
+        "episode_id": "episode-030-Episode 1678583",
+        "episode_number": 30,
+        "start_seconds": 32.1,
+        "end_seconds": 62.5,
+        "start": "00:32.10",
+        "end": "01:02.50",
+        "duration_seconds": 30.4,
+        "dialogue": [
+          {
+            "start": "00:32.10",
+            "end": "00:33.30",
+            "character": "RUPERT",
+            "kind": "dialogue",
+            "text": "If she speaks..."
+          },
+          {
+            "start": "00:33.40",
+            "end": "00:35.20",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "The Elder Nobleman thrusts the gold knob of his walking stick directly against Rupert's chest, pinning him against the wall."
+          },
+          {
+            "start": "00:33.60",
+            "end": "00:39.80",
+            "character": "ELDER NOBLEMAN",
+            "kind": "dialogue",
+            "text": "Then make certain she isn't! A peasant weed, Rupert! You do not store weeds in your cellar, you burn them!"
+          },
+          {
+            "start": "00:41.80",
+            "end": "00:43.50",
+            "character": "RUPERT",
+            "kind": "dialogue",
+            "text": "What are you suggesting?"
+          },
+          {
+            "start": "00:44.80",
+            "end": "00:47.30",
+            "character": "ELDER NOBLEMAN",
+            "kind": "dialogue",
+            "text": "We stop hiding the prisoner."
+          },
+          {
+            "start": "00:51.20",
+            "end": "00:54.00",
+            "character": "ELDER NOBLEMAN",
+            "kind": "dialogue",
+            "text": "We give them a reason to condemn her."
+          },
+          {
+            "start": "00:57.00",
+            "end": "00:58.80",
+            "character": "CATHERINE",
+            "kind": "dialogue",
+            "text": "You have a solution?"
+          },
+          {
+            "start": "00:59.40",
+            "end": "01:02.50",
+            "character": "ELDER NOBLEMAN",
+            "kind": "dialogue",
+            "text": "We use the law to destroy her."
+          }
+        ]
+      }
+    ],
+    "opening_hook": {
+      "score": 0.8604,
+      "evidence": [
+        "exclamation",
+        "00:33.60 ELDER NOBLEMAN: “Then make certain she isn't! A peasant weed, Rupert! You do not store…”",
+        "model: anger 0.76, arousal 0.98",
+        "script tag 'Fierce, Venomous' (1.00)",
+        "zero-shot conflict/reveal 0.96",
+        "second strong beat within 3 s (+0.04)"
+      ],
+      "timestamp": 33.6,
+      "episode_id": "episode-030-Episode 1678583",
+      "text": "Then make certain she isn't! A peasant weed, Rupert! You do not store weeds in your cellar, you burn them!",
+      "timestamp_fmt": "00:33.60"
+    },
+    "ending_cliffhanger": {
+      "score": 0.8703,
+      "evidence": [
+        "zero-shot reads an unresolved threat (0.94)",
+        "00:59.40–01:02.50 ELDER NOBLEMAN: “We use the law to destroy her.”",
+        "closing tension 0.98",
+        "zero-shot suspense/threat/reveal 0.94",
+        "withheld next beat: RUPERT “The law?” (payoff 0.92)"
+      ],
+      "timestamp": 62.5,
+      "episode_id": "episode-030-Episode 1678583",
+      "text": "We use the law to destroy her.",
+      "timestamp_fmt": "01:02.50"
+    },
+    "standalone_coherence": {
+      "score": 0.7375,
+      "evidence": [
+        "clear who/what/why",
+        "who: 3 speaking character(s), names on screen: elder, rupert",
+        "what: 7 dialogue lines, 51 words",
+        "why: no explicit stakes words; logline overlap 0.33",
+        "structure: continuous, 1 scene switch(es)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "emotional_intensity": {
+      "score": 0.929,
+      "evidence": [
+        "peak 0.98 at 00:59.40, mean 0.87 (emotion model)"
+      ],
+      "timestamp": 59.4,
+      "episode_id": "episode-030-Episode 1678583",
+      "text": "",
+      "timestamp_fmt": "00:59.40"
+    },
+    "narrative_continuity": {
+      "score": 0.9,
+      "evidence": [
+        "one unbroken stretch, 2 scene(s)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "dialogue_quality": {
+      "score": 1.0,
+      "evidence": [
+        "speech covers 63% of runtime, 0% filler lines, 7.3 words/line"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "score_breakdown": {
+      "hook": 0.8604,
+      "cliffhanger": 0.8703,
+      "coherence": 0.7375,
+      "emotion": 0.929,
+      "continuity": 0.9,
+      "dialogue_quality": 1.0
+    },
+    "passed_quality_gates": true,
+    "rejection_reasons": [],
+    "risk_flags": [],
+    "why_it_works": "Opens on exclamation (ep 30 00:33.60: “Then make certain she isn't! A peasant weed, Rupert! You …”) and cuts on zero-shot reads an unresolved threat (0.94) (ep 30 01:02.50: “We use the law to destroy her.”); clear who/what/why.",
+    "llm_review": {
+      "hook_works": true,
+      "cliffhanger_works": true,
+      "standalone": false,
+      "one_line": "The promo successfully hooks viewers with immediate physical conflict and a sinister plot to destroy the prisoner, but lacks necessary context for a completely new audience.",
+      "concerns": "A new viewer has no context about who the prisoner is, what the law being used against her is, or why the noblemen want her destroyed.",
+      "model": "gemini-3.5-flash-lite",
+      "status": "ok"
+    }
+  }
+}

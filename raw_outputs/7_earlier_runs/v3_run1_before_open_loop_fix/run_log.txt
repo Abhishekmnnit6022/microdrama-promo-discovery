@@ -1,0 +1,166 @@
+2026-11-20 16:05:50,592 INFO    promo: Discovered 1 show(s) in C:\Users\Dell\Desktop\kuku_fm_ass\kuku_fm_assignment_project\data
+2026-11-20 16:05:50,596 INFO    promo: [I Married a Broken Soldier. He was a Duke] parsed episode-001-Episode 1671703.txt: 95 lines (37 dialogue, 0 untimed) [cache]
+2026-11-20 16:05:50,615 INFO    promo: [I Married a Broken Soldier. He was a Duke] parsed episode-002-Episode 1671704.txt: 74 lines (31 dialogue, 0 untimed) [cache]
+2026-11-20 16:05:50,625 INFO    promo: [I Married a Broken Soldier. He was a Duke] parsed episode-003-Episode 1671705.txt: 118 lines (46 dialogue, 0 untimed) [cache]
+2026-11-20 16:05:50,629 INFO    promo: [I Married a Broken Soldier. He was a Duke] parsed episode-004-Episode 1671706.txt: 110 lines (40 dialogue, 0 untimed) [cache]
+2026-11-20 16:05:50,648 INFO    promo: [I Married a Broken Soldier. He was a Duke] parsed episode-005-Episode 1671707.txt: 62 lines (29 dialogue, 0 untimed) [cache]
+2026-11-20 16:05:50,658 INFO    promo: [I Married a Broken Soldier. He was a Duke] parsed episode-006-Episode 1671708.txt: 97 lines (28 dialogue, 0 untimed) [cache]
+2026-11-20 16:05:50,665 INFO    promo: [I Married a Broken Soldier. He was a Duke] parsed episode-007-Episode 1671709.txt: 58 lines (20 dialogue, 0 untimed) [cache]
+2026-11-20 16:05:50,680 INFO    promo: [I Married a Broken Soldier. He was a Duke] parsed episode-008-Episode 1671710.txt: 63 lines (26 dialogue, 0 untimed) [cache]
+2026-11-20 16:05:50,692 INFO    promo: [I Married a Broken Soldier. He was a Duke] parsed episode-009-Episode 1671711.txt: 89 lines (33 dialogue, 0 untimed) [cache]
+2026-11-20 16:05:50,696 INFO    promo: [I Married a Broken Soldier. He was a Duke] parsed episode-010-Episode 1671712.txt: 60 lines (22 dialogue, 0 untimed) [cache]
+2026-11-20 16:05:50,714 INFO    promo: [I Married a Broken Soldier. He was a Duke] parsed episode-011-Episode 1671713.txt: 85 lines (33 dialogue, 0 untimed) [cache]
+2026-11-20 16:05:50,723 INFO    promo: [I Married a Broken Soldier. He was a Duke] parsed episode-012-Episode 1671714.txt: 55 lines (24 dialogue, 0 untimed) [cache]
+2026-11-20 16:05:50,729 INFO    promo: [I Married a Broken Soldier. He was a Duke] parsed episode-013-Episode 1671715.txt: 75 lines (22 dialogue, 0 untimed) [cache]
+2026-11-20 16:05:50,745 INFO    promo: [I Married a Broken Soldier. He was a Duke] parsed episode-014-Episode 1671716.txt: 51 lines (14 dialogue, 0 untimed) [cache]
+2026-11-20 16:05:50,756 INFO    promo: [I Married a Broken Soldier. He was a Duke] parsed episode-015-Episode 1671717.txt: 55 lines (17 dialogue, 0 untimed) [cache]
+2026-11-20 16:05:50,763 INFO    promo: [I Married a Broken Soldier. He was a Duke] parsed episode-016-Episode 1671718.txt: 64 lines (22 dialogue, 0 untimed) [cache]
+2026-11-20 16:05:50,777 INFO    promo: [I Married a Broken Soldier. He was a Duke] parsed episode-017-Episode 1671719.txt: 75 lines (26 dialogue, 0 untimed) [cache]
+2026-11-20 16:05:50,794 INFO    promo: [I Married a Broken Soldier. He was a Duke] parsed episode-018-Episode 1671720.txt: 81 lines (28 dialogue, 0 untimed) [cache]
+2026-11-20 16:05:50,803 INFO    promo: [I Married a Broken Soldier. He was a Duke] parsed episode-019-Episode 1671721.txt: 63 lines (29 dialogue, 0 untimed) [cache]
+2026-11-20 16:05:50,829 INFO    promo: [I Married a Broken Soldier. He was a Duke] parsed episode-020-Episode 1671722.txt: 68 lines (41 dialogue, 0 untimed) [cache]
+2026-11-20 16:05:50,861 INFO    promo: [I Married a Broken Soldier. He was a Duke] parsed episode-021-Episode 1678574.txt: 76 lines (28 dialogue, 0 untimed) [cache]
+2026-11-20 16:05:50,890 INFO    promo: [I Married a Broken Soldier. He was a Duke] parsed episode-022-Episode 1678575.txt: 81 lines (30 dialogue, 0 untimed) [cache]
+2026-11-20 16:05:50,921 INFO    promo: [I Married a Broken Soldier. He was a Duke] parsed episode-023-Episode 1678576.txt: 67 lines (20 dialogue, 0 untimed) [cache]
+2026-11-20 16:05:50,961 INFO    promo: [I Married a Broken Soldier. He was a Duke] parsed episode-024-Episode 1678577.txt: 69 lines (23 dialogue, 0 untimed) [cache]
+2026-11-20 16:05:51,045 INFO    promo: [I Married a Broken Soldier. He was a Duke] parsed episode-025-Episode 1678578.txt: 95 lines (42 dialogue, 0 untimed) [cache]
+2026-11-20 16:05:51,072 INFO    promo: [I Married a Broken Soldier. He was a Duke] parsed episode-026-Episode 1678579.txt: 51 lines (14 dialogue, 0 untimed) [cache]
+2026-11-20 16:05:51,096 INFO    promo: [I Married a Broken Soldier. He was a Duke] parsed episode-027-Episode 1678580.txt: 95 lines (44 dialogue, 0 untimed) [cache]
+2026-11-20 16:05:51,128 INFO    promo: [I Married a Broken Soldier. He was a Duke] parsed episode-028-Episode 1678581.txt: 96 lines (50 dialogue, 0 untimed) [cache]
+2026-11-20 16:05:51,165 INFO    promo: [I Married a Broken Soldier. He was a Duke] parsed episode-029-Episode 1678582.txt: 74 lines (29 dialogue, 0 untimed) [cache]
+2026-11-20 16:05:51,185 INFO    promo: [I Married a Broken Soldier. He was a Duke] parsed episode-030-Episode 1678583.txt: 71 lines (28 dialogue, 0 untimed) [cache]
+2026-11-20 16:05:51,207 INFO    promo: [I Married a Broken Soldier. He was a Duke] parsed episode-031-Episode 1681364.txt: 87 lines (38 dialogue, 0 untimed) [cache]
+2026-11-20 16:05:51,229 INFO    promo: [I Married a Broken Soldier. He was a Duke] parsed episode-032-Episode 1681365.txt: 117 lines (50 dialogue, 0 untimed) [cache]
+2026-11-20 16:05:51,283 INFO    promo: [I Married a Broken Soldier. He was a Duke] parsed episode-033-Episode 1681366.txt: 99 lines (50 dialogue, 0 untimed) [cache]
+2026-11-20 16:05:51,329 INFO    promo: [I Married a Broken Soldier. He was a Duke] parsed episode-034-Episode 1681367.txt: 116 lines (48 dialogue, 0 untimed) [cache]
+2026-11-20 16:05:51,374 INFO    promo: [I Married a Broken Soldier. He was a Duke] parsed episode-035-Episode 1681368.txt: 72 lines (33 dialogue, 0 untimed) [cache]
+2026-11-20 16:05:51,398 INFO    promo: [I Married a Broken Soldier. He was a Duke] parsed episode-036-Episode 1681369.txt: 121 lines (57 dialogue, 0 untimed) [cache]
+2026-11-20 16:05:51,450 INFO    promo: [I Married a Broken Soldier. He was a Duke] parsed episode-037-Episode 1681370.txt: 79 lines (33 dialogue, 0 untimed) [cache]
+2026-11-20 16:05:51,489 INFO    promo: [I Married a Broken Soldier. He was a Duke] parsed episode-038-Episode 1681371.txt: 57 lines (21 dialogue, 0 untimed) [cache]
+2026-11-20 16:05:51,518 INFO    promo: [I Married a Broken Soldier. He was a Duke] parsed episode-039-Episode 1686799.txt: 59 lines (18 dialogue, 0 untimed) [cache]
+2026-11-20 16:05:51,544 INFO    promo: [I Married a Broken Soldier. He was a Duke] parsed episode-040-Episode 1686800.txt: 51 lines (20 dialogue, 0 untimed) [cache]
+2026-11-20 16:05:51,565 INFO    promo: [I Married a Broken Soldier. He was a Duke] parsed episode-041-Episode 1686801.txt: 53 lines (18 dialogue, 0 untimed) [cache]
+2026-11-20 16:05:51,604 INFO    promo: [I Married a Broken Soldier. He was a Duke] parsed episode-042-Episode 1686802.txt: 37 lines (19 dialogue, 0 untimed) [cache]
+2026-11-20 16:05:51,629 INFO    promo: [I Married a Broken Soldier. He was a Duke] parsed episode-043-Episode 1686803.txt: 87 lines (32 dialogue, 0 untimed) [cache]
+2026-11-20 16:05:51,666 INFO    promo: [I Married a Broken Soldier. He was a Duke] parsed episode-044-Episode 1686804.txt: 54 lines (20 dialogue, 0 untimed) [cache]
+2026-11-20 16:05:51,696 INFO    promo: [I Married a Broken Soldier. He was a Duke] parsed episode-045-Episode 1686805.txt: 74 lines (29 dialogue, 0 untimed) [cache]
+2026-11-20 16:05:51,732 INFO    promo: [I Married a Broken Soldier. He was a Duke] parsed episode-046-Episode 1688395.txt: 75 lines (31 dialogue, 0 untimed) [cache]
+2026-11-20 16:05:51,762 INFO    promo: [I Married a Broken Soldier. He was a Duke] parsed episode-047-Episode 1688396.txt: 70 lines (33 dialogue, 0 untimed) [cache]
+2026-11-20 16:05:51,799 INFO    promo: [I Married a Broken Soldier. He was a Duke] parsed episode-048-Episode 1688397.txt: 43 lines (21 dialogue, 0 untimed) [cache]
+2026-11-20 16:05:51,829 INFO    promo: [I Married a Broken Soldier. He was a Duke] parsed episode-049-Episode 1688398.txt: 63 lines (26 dialogue, 0 untimed) [cache]
+2026-11-20 16:05:51,862 INFO    promo: [I Married a Broken Soldier. He was a Duke] parsed episode-050-Episode 1697563.txt: 40 lines (14 dialogue, 0 untimed) [cache]
+2026-11-20 16:05:51,862 INFO    promo.progress:   6% I Married a Broken Soldier. He was a Duke: emotion features for episode 1
+2026-11-20 16:05:51,889 INFO    promo.progress:   7% I Married a Broken Soldier. He was a Duke: emotion features for episode 2
+2026-11-20 16:05:51,896 INFO    promo.progress:   8% I Married a Broken Soldier. He was a Duke: emotion features for episode 3
+2026-11-20 16:05:51,907 INFO    promo.progress:   9% I Married a Broken Soldier. He was a Duke: emotion features for episode 4
+2026-11-20 16:05:51,916 INFO    promo.progress:  11% I Married a Broken Soldier. He was a Duke: emotion features for episode 5
+2026-11-20 16:05:51,925 INFO    promo.progress:  12% I Married a Broken Soldier. He was a Duke: emotion features for episode 6
+2026-11-20 16:05:51,933 INFO    promo.progress:  13% I Married a Broken Soldier. He was a Duke: emotion features for episode 7
+2026-11-20 16:05:51,938 INFO    promo.progress:  14% I Married a Broken Soldier. He was a Duke: emotion features for episode 8
+2026-11-20 16:05:51,946 INFO    promo.progress:  15% I Married a Broken Soldier. He was a Duke: emotion features for episode 9
+2026-11-20 16:05:51,956 INFO    promo.progress:  16% I Married a Broken Soldier. He was a Duke: emotion features for episode 10
+2026-11-20 16:05:51,960 INFO    promo.progress:  17% I Married a Broken Soldier. He was a Duke: emotion features for episode 11
+2026-11-20 16:05:51,962 INFO    promo.progress:  18% I Married a Broken Soldier. He was a Duke: emotion features for episode 12
+2026-11-20 16:05:51,977 INFO    promo.progress:  19% I Married a Broken Soldier. He was a Duke: emotion features for episode 13
+2026-11-20 16:05:51,987 INFO    promo.progress:  20% I Married a Broken Soldier. He was a Duke: emotion features for episode 14
+2026-11-20 16:05:51,993 INFO    promo.progress:  22% I Married a Broken Soldier. He was a Duke: emotion features for episode 15
+2026-11-20 16:05:52,001 INFO    promo.progress:  23% I Married a Broken Soldier. He was a Duke: emotion features for episode 16
+2026-11-20 16:05:52,005 INFO    promo.progress:  24% I Married a Broken Soldier. He was a Duke: emotion features for episode 17
+2026-11-20 16:05:52,020 INFO    promo.progress:  25% I Married a Broken Soldier. He was a Duke: emotion features for episode 18
+2026-11-20 16:05:52,029 INFO    promo.progress:  26% I Married a Broken Soldier. He was a Duke: emotion features for episode 19
+2026-11-20 16:05:52,037 INFO    promo.progress:  27% I Married a Broken Soldier. He was a Duke: emotion features for episode 20
+2026-11-20 16:05:52,054 INFO    promo.progress:  28% I Married a Broken Soldier. He was a Duke: emotion features for episode 21
+2026-11-20 16:05:52,062 INFO    promo.progress:  29% I Married a Broken Soldier. He was a Duke: emotion features for episode 22
+2026-11-20 16:05:52,080 INFO    promo.progress:  30% I Married a Broken Soldier. He was a Duke: emotion features for episode 23
+2026-11-20 16:05:52,084 INFO    promo.progress:  31% I Married a Broken Soldier. He was a Duke: emotion features for episode 24
+2026-11-20 16:05:52,094 INFO    promo.progress:  32% I Married a Broken Soldier. He was a Duke: emotion features for episode 25
+2026-11-20 16:05:52,096 INFO    promo.progress:  34% I Married a Broken Soldier. He was a Duke: emotion features for episode 26
+2026-11-20 16:05:52,112 INFO    promo.progress:  35% I Married a Broken Soldier. He was a Duke: emotion features for episode 27
+2026-11-20 16:05:52,122 INFO    promo.progress:  36% I Married a Broken Soldier. He was a Duke: emotion features for episode 28
+2026-11-20 16:05:52,132 INFO    promo.progress:  37% I Married a Broken Soldier. He was a Duke: emotion features for episode 29
+2026-11-20 16:05:52,134 INFO    promo.progress:  38% I Married a Broken Soldier. He was a Duke: emotion features for episode 30
+2026-11-20 16:05:52,149 INFO    promo.progress:  39% I Married a Broken Soldier. He was a Duke: emotion features for episode 31
+2026-11-20 16:05:52,160 INFO    promo.progress:  40% I Married a Broken Soldier. He was a Duke: emotion features for episode 32
+2026-11-20 16:05:52,162 INFO    promo.progress:  41% I Married a Broken Soldier. He was a Duke: emotion features for episode 33
+2026-11-20 16:05:52,180 INFO    promo.progress:  42% I Married a Broken Soldier. He was a Duke: emotion features for episode 34
+2026-11-20 16:05:52,193 INFO    promo.progress:  44% I Married a Broken Soldier. He was a Duke: emotion features for episode 35
+2026-11-20 16:05:52,195 INFO    promo.progress:  45% I Married a Broken Soldier. He was a Duke: emotion features for episode 36
+2026-11-20 16:05:52,214 INFO    promo.progress:  46% I Married a Broken Soldier. He was a Duke: emotion features for episode 37
+2026-11-20 16:05:52,223 INFO    promo.progress:  47% I Married a Broken Soldier. He was a Duke: emotion features for episode 38
+2026-11-20 16:05:52,230 INFO    promo.progress:  48% I Married a Broken Soldier. He was a Duke: emotion features for episode 39
+2026-11-20 16:05:52,237 INFO    promo.progress:  49% I Married a Broken Soldier. He was a Duke: emotion features for episode 40
+2026-11-20 16:05:52,240 INFO    promo.progress:  50% I Married a Broken Soldier. He was a Duke: emotion features for episode 41
+2026-11-20 16:05:52,249 INFO    promo.progress:  51% I Married a Broken Soldier. He was a Duke: emotion features for episode 42
+2026-11-20 16:05:52,255 INFO    promo.progress:  52% I Married a Broken Soldier. He was a Duke: emotion features for episode 43
+2026-11-20 16:05:52,262 INFO    promo.progress:  53% I Married a Broken Soldier. He was a Duke: emotion features for episode 44
+2026-11-20 16:05:52,262 INFO    promo.progress:  55% I Married a Broken Soldier. He was a Duke: emotion features for episode 45
+2026-11-20 16:05:52,280 INFO    promo.progress:  56% I Married a Broken Soldier. He was a Duke: emotion features for episode 46
+2026-11-20 16:05:52,292 INFO    promo.progress:  57% I Married a Broken Soldier. He was a Duke: emotion features for episode 47
+2026-11-20 16:05:52,295 INFO    promo.progress:  58% I Married a Broken Soldier. He was a Duke: emotion features for episode 48
+2026-11-20 16:05:52,295 INFO    promo.progress:  59% I Married a Broken Soldier. He was a Duke: emotion features for episode 49
+2026-11-20 16:05:52,322 INFO    promo.progress:  60% I Married a Broken Soldier. He was a Duke: emotion features for episode 50
+2026-11-20 16:05:52,329 INFO    promo.progress:  62% I Married a Broken Soldier. He was a Duke: generating and scoring candidates
+2026-11-20 16:05:56,262 INFO    promo: [I Married a Broken Soldier. He was a Duke] stage 1: 25534 candidates (15790 continuous, 1566 multi-segment, 8178 cross-episode); 3838 unrelated pairs discarded
+2026-11-20 16:05:56,262 INFO    promo.progress:  75% I Married a Broken Soldier. He was a Duke: zero-shot NLI on 1047 boundary lines
+2026-11-20 16:06:06,107 INFO    httpx2: HTTP Request: GET https://huggingface.co/api/models/MoritzLaurer/deberta-v3-xsmall-zeroshot-v1.1-all-33 "HTTP/1.1 200 OK"
+2026-11-20 16:06:06,650 INFO    httpx2: HTTP Request: GET https://huggingface.co/api/models/MoritzLaurer/deberta-v3-xsmall-zeroshot-v1.1-all-33/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-11-20 16:06:06,894 INFO    httpx2: HTTP Request: GET https://huggingface.co/api/models/MoritzLaurer/deberta-v3-xsmall-zeroshot-v1.1-all-33/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-11-20 16:06:07,910 INFO    httpx2: HTTP Request: GET https://huggingface.co/api/models/MoritzLaurer/deberta-v3-xsmall-zeroshot-v1.1-all-33 "HTTP/1.1 200 OK"
+2026-11-20 16:06:20,633 INFO    promo: [I Married a Broken Soldier. He was a Duke] stage 2: re-scored 1550 shortlisted candidates; zero-shot scores for 1047/1047 boundary lines
+2026-11-20 16:06:20,659 WARNING promo: [I Married a Broken Soldier. He was a Duke] episode-005-Episode 1671707: no valid promo (no genuine cliffhanger: 388/712 candidates; weak opening hook: 241/712 candidates; poor standalone coherence: 2/712 candidates)
+2026-11-20 16:06:20,666 WARNING promo: [I Married a Broken Soldier. He was a Duke] episode-008-Episode 1671710: no valid promo (weak opening hook: 462/657 candidates; no genuine cliffhanger: 391/657 candidates; poor standalone coherence: 9/657 candidates)
+2026-11-20 16:06:20,700 WARNING promo: [I Married a Broken Soldier. He was a Duke] episode-019-Episode 1671721: no valid promo (no genuine cliffhanger: 497/604 candidates; weak opening hook: 367/604 candidates; poor standalone coherence: 7/604 candidates)
+2026-11-20 16:06:20,788 WARNING promo: [I Married a Broken Soldier. He was a Duke] episode-040-Episode 1686800: no valid promo (weak opening hook: 256/382 candidates; no genuine cliffhanger: 245/382 candidates; poor standalone coherence: 2/382 candidates)
+2026-11-20 16:06:20,792 WARNING promo: [I Married a Broken Soldier. He was a Duke] episode-041-Episode 1686801: no valid promo (weak opening hook: 292/331 candidates; no genuine cliffhanger: 127/331 candidates)
+2026-11-20 16:06:20,813 WARNING promo: [I Married a Broken Soldier. He was a Duke] episode-046-Episode 1688395: no valid promo (no genuine cliffhanger: 387/496 candidates; weak opening hook: 208/496 candidates)
+2026-11-20 16:06:20,826 WARNING promo: [I Married a Broken Soldier. He was a Duke] episode-049-Episode 1688398: no valid promo (weak opening hook: 262/511 candidates; no genuine cliffhanger: 259/511 candidates)
+2026-11-20 16:06:20,832 INFO    promo.progress:  92% Gemini review of 15 final promos
+2026-11-20 16:06:21,823 INFO    google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-20 16:06:21,823 INFO    google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-20 16:06:21,838 INFO    google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-20 16:06:21,838 INFO    google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-20 16:06:23,632 WARNING src.llm_review: Gemini review failed (gemini-3.8-flash: ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}})
+2026-11-20 16:06:23,632 INFO    google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-20 16:06:28,073 WARNING src.llm_review: Gemini review failed (gemini-3.8-flash: ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}})
+2026-11-20 16:06:28,073 INFO    google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-20 16:06:28,598 INFO    google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-20 16:06:29,240 INFO    google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-20 16:06:32,086 WARNING src.llm_review: Gemini review failed (gemini-3.8-flash: ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}})
+2026-11-20 16:06:32,087 INFO    google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-20 16:06:32,886 INFO    google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-20 16:06:34,031 WARNING src.llm_review: Gemini review failed (gemini-3.8-flash: ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}})
+2026-11-20 16:06:34,031 INFO    google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-20 16:06:34,813 INFO    google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-20 16:06:35,068 WARNING src.llm_review: Gemini review failed (gemini-3.8-flash: ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.g)
+2026-11-20 16:06:35,070 INFO    google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-20 16:06:36,373 INFO    google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-20 16:06:36,630 WARNING src.llm_review: Gemini review failed (gemini-3.8-flash: ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.g)
+2026-11-20 16:06:36,632 INFO    google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-20 16:06:42,229 INFO    google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-20 16:06:42,496 WARNING src.llm_review: Gemini review failed (gemini-3.8-flash: ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.g)
+2026-11-20 16:06:42,496 INFO    google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-20 16:06:47,579 INFO    google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-20 16:06:47,829 WARNING src.llm_review: Gemini review failed (gemini-3.8-flash: ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.g)
+2026-11-20 16:06:47,829 INFO    google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-20 16:06:50,162 WARNING src.llm_review: Gemini review failed (gemini-3.8-flash: ServerError: 504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}})
+2026-11-20 16:06:50,162 INFO    google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-20 16:06:50,481 WARNING src.llm_review: Gemini review failed (gemini-3.8-flash: ServerError: 504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}})
+2026-11-20 16:06:50,482 INFO    google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-20 16:06:51,213 INFO    google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-20 16:06:51,473 WARNING src.llm_review: Gemini review failed (gemini-3.8-flash: ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.g)
+2026-11-20 16:06:51,473 INFO    google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-20 16:06:52,526 INFO    google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-20 16:06:53,310 INFO    google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-20 16:06:53,556 WARNING src.llm_review: Gemini review failed (gemini-3.8-flash: ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.g)
+2026-11-20 16:06:53,556 INFO    google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-20 16:06:54,329 WARNING src.llm_review: Gemini review failed (gemini-3.8-flash: ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}})
+2026-11-20 16:06:54,329 INFO    google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-20 16:06:54,462 INFO    google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-20 16:06:56,825 WARNING src.llm_review: Gemini review failed (gemini-3.8-flash: ServerError: 504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}})
+2026-11-20 16:06:56,826 INFO    google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-20 16:07:02,808 WARNING src.llm_review: Gemini review failed (gemini-3.8-flash: ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}})
+2026-11-20 16:07:02,808 INFO    google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-20 16:07:09,038 INFO    promo: Gemini review: {'status': 'ok', 'reviewed': 15, 'failed': 0, 'agree_hook': 15, 'agree_cliffhanger': 15, 'agree_standalone': 4}
+2026-11-20 16:07:09,085 INFO    promo.progress: 100% Done
+2026-11-20 16:07:09,085 INFO    promo: Run finished in 78.5s: {"shows": 1, "episodes_discovered": 50, "episodes_processed_ok": 50, "episodes_failed": 0, "episodes_without_valid_promo": 7, "candidates_total": 25534, "candidates_continuous": 15790, "candidates_multi_segment": 1566, "candidates_cross_episode": 8178, "passed_duration": 25534, "valid_hook": 14420, "valid_cliffhanger": 13824, "rejected_poor_coherence": 151, "passed_all_gates": 9784, "stage2_shortlisted": 1550, "stage2_passed": 966, "recommended": 15}
+2026-11-20 16:07:09,525 INFO    root: Wrote 63 files to raw_outputs

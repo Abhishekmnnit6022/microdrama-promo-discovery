@@ -1,0 +1,15 @@
+{
+  "description": "Schema for human promo labels. Put labelled files (a JSON list of objects) in eval/labels/. No human labels exist yet; the row below is a FORMAT EXAMPLE only and is not used by eval/evaluate.py.",
+  "fields": {
+    "episode_id": "exact file stem, e.g. 'episode-001-Episode 1671703'",
+    "start": "seconds from the source script where a good promo stretch begins",
+    "end": "seconds where it ends",
+    "grade": "0 = not a usable promo, 1 = usable, 2 = strong",
+    "hook_ok": "optional bool: does the system's opening hook for this promo work?",
+    "cliffhanger_ok": "optional bool: does the system's ending cliffhanger work?",
+    "annotator": "annotator initials"
+  },
+  "format_example_not_real_data": [
+    {"episode_id": "episode-001-Episode 1671703", "start": 46.8, "end": 70.4, "grade": 2, "hook_ok": true, "cliffhanger_ok": true, "annotator": "XX"}
+  ]
+}

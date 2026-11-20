@@ -1,0 +1,131 @@
+2026-11-20 15:54:38,667 INFO    promo: Discovered 1 show(s) in C:\Users\Dell\Desktop\kuku_fm_ass\kuku_fm_assignment_project\data
+2026-11-20 15:54:38,675 INFO    promo: [I Married a Broken Soldier. He was a Duke] parsed episode-001-Episode 1671703.txt: 95 lines (37 dialogue, 0 untimed)
+2026-11-20 15:54:38,678 INFO    promo: [I Married a Broken Soldier. He was a Duke] parsed episode-002-Episode 1671704.txt: 74 lines (31 dialogue, 0 untimed)
+2026-11-20 15:54:38,680 INFO    promo: [I Married a Broken Soldier. He was a Duke] parsed episode-003-Episode 1671705.txt: 118 lines (46 dialogue, 0 untimed)
+2026-11-20 15:54:38,682 INFO    promo: [I Married a Broken Soldier. He was a Duke] parsed episode-004-Episode 1671706.txt: 110 lines (40 dialogue, 0 untimed)
+2026-11-20 15:54:38,685 INFO    promo: [I Married a Broken Soldier. He was a Duke] parsed episode-005-Episode 1671707.txt: 62 lines (29 dialogue, 0 untimed)
+2026-11-20 15:54:38,688 INFO    promo: [I Married a Broken Soldier. He was a Duke] parsed episode-006-Episode 1671708.txt: 97 lines (28 dialogue, 0 untimed)
+2026-11-20 15:54:38,690 INFO    promo: [I Married a Broken Soldier. He was a Duke] parsed episode-007-Episode 1671709.txt: 58 lines (20 dialogue, 0 untimed)
+2026-11-20 15:54:38,692 INFO    promo: [I Married a Broken Soldier. He was a Duke] parsed episode-008-Episode 1671710.txt: 63 lines (26 dialogue, 0 untimed)
+2026-11-20 15:54:38,692 INFO    promo: [I Married a Broken Soldier. He was a Duke] parsed episode-009-Episode 1671711.txt: 89 lines (33 dialogue, 0 untimed)
+2026-11-20 15:54:38,692 INFO    promo: [I Married a Broken Soldier. He was a Duke] parsed episode-010-Episode 1671712.txt: 60 lines (22 dialogue, 0 untimed)
+2026-11-20 15:54:38,692 INFO    promo: [I Married a Broken Soldier. He was a Duke] parsed episode-011-Episode 1671713.txt: 85 lines (33 dialogue, 0 untimed)
+2026-11-20 15:54:38,699 INFO    promo: [I Married a Broken Soldier. He was a Duke] parsed episode-012-Episode 1671714.txt: 55 lines (24 dialogue, 0 untimed)
+2026-11-20 15:54:38,702 INFO    promo: [I Married a Broken Soldier. He was a Duke] parsed episode-013-Episode 1671715.txt: 75 lines (22 dialogue, 0 untimed)
+2026-11-20 15:54:38,703 INFO    promo: [I Married a Broken Soldier. He was a Duke] parsed episode-014-Episode 1671716.txt: 51 lines (14 dialogue, 0 untimed)
+2026-11-20 15:54:38,703 INFO    promo: [I Married a Broken Soldier. He was a Duke] parsed episode-015-Episode 1671717.txt: 55 lines (17 dialogue, 0 untimed)
+2026-11-20 15:54:38,709 INFO    promo: [I Married a Broken Soldier. He was a Duke] parsed episode-016-Episode 1671718.txt: 64 lines (22 dialogue, 0 untimed)
+2026-11-20 15:54:38,711 INFO    promo: [I Married a Broken Soldier. He was a Duke] parsed episode-017-Episode 1671719.txt: 75 lines (26 dialogue, 0 untimed)
+2026-11-20 15:54:38,713 INFO    promo: [I Married a Broken Soldier. He was a Duke] parsed episode-018-Episode 1671720.txt: 81 lines (28 dialogue, 0 untimed)
+2026-11-20 15:54:38,715 INFO    promo: [I Married a Broken Soldier. He was a Duke] parsed episode-019-Episode 1671721.txt: 63 lines (29 dialogue, 0 untimed)
+2026-11-20 15:54:38,717 INFO    promo: [I Married a Broken Soldier. He was a Duke] parsed episode-020-Episode 1671722.txt: 68 lines (41 dialogue, 0 untimed)
+2026-11-20 15:54:38,719 INFO    promo: [I Married a Broken Soldier. He was a Duke] parsed episode-021-Episode 1678574.txt: 76 lines (28 dialogue, 0 untimed)
+2026-11-20 15:54:38,721 INFO    promo: [I Married a Broken Soldier. He was a Duke] parsed episode-022-Episode 1678575.txt: 81 lines (30 dialogue, 0 untimed)
+2026-11-20 15:54:38,723 INFO    promo: [I Married a Broken Soldier. He was a Duke] parsed episode-023-Episode 1678576.txt: 67 lines (20 dialogue, 0 untimed)
+2026-11-20 15:54:38,725 INFO    promo: [I Married a Broken Soldier. He was a Duke] parsed episode-024-Episode 1678577.txt: 69 lines (23 dialogue, 0 untimed)
+2026-11-20 15:54:38,725 INFO    promo: [I Married a Broken Soldier. He was a Duke] parsed episode-025-Episode 1678578.txt: 95 lines (42 dialogue, 0 untimed)
+2026-11-20 15:54:38,725 INFO    promo: [I Married a Broken Soldier. He was a Duke] parsed episode-026-Episode 1678579.txt: 51 lines (14 dialogue, 0 untimed)
+2026-11-20 15:54:38,733 INFO    promo: [I Married a Broken Soldier. He was a Duke] parsed episode-027-Episode 1678580.txt: 95 lines (44 dialogue, 0 untimed)
+2026-11-20 15:54:38,735 INFO    promo: [I Married a Broken Soldier. He was a Duke] parsed episode-028-Episode 1678581.txt: 96 lines (50 dialogue, 0 untimed)
+2026-11-20 15:54:38,738 INFO    promo: [I Married a Broken Soldier. He was a Duke] parsed episode-029-Episode 1678582.txt: 74 lines (29 dialogue, 0 untimed)
+2026-11-20 15:54:38,740 INFO    promo: [I Married a Broken Soldier. He was a Duke] parsed episode-030-Episode 1678583.txt: 71 lines (28 dialogue, 0 untimed)
+2026-11-20 15:54:38,742 INFO    promo: [I Married a Broken Soldier. He was a Duke] parsed episode-031-Episode 1681364.txt: 87 lines (38 dialogue, 0 untimed)
+2026-11-20 15:54:38,745 INFO    promo: [I Married a Broken Soldier. He was a Duke] parsed episode-032-Episode 1681365.txt: 117 lines (50 dialogue, 0 untimed)
+2026-11-20 15:54:38,748 INFO    promo: [I Married a Broken Soldier. He was a Duke] parsed episode-033-Episode 1681366.txt: 99 lines (50 dialogue, 0 untimed)
+2026-11-20 15:54:38,751 INFO    promo: [I Married a Broken Soldier. He was a Duke] parsed episode-034-Episode 1681367.txt: 116 lines (48 dialogue, 0 untimed)
+2026-11-20 15:54:38,752 INFO    promo: [I Married a Broken Soldier. He was a Duke] parsed episode-035-Episode 1681368.txt: 72 lines (33 dialogue, 0 untimed)
+2026-11-20 15:54:38,755 INFO    promo: [I Married a Broken Soldier. He was a Duke] parsed episode-036-Episode 1681369.txt: 121 lines (57 dialogue, 0 untimed)
+2026-11-20 15:54:38,757 INFO    promo: [I Married a Broken Soldier. He was a Duke] parsed episode-037-Episode 1681370.txt: 79 lines (33 dialogue, 0 untimed)
+2026-11-20 15:54:38,759 INFO    promo: [I Married a Broken Soldier. He was a Duke] parsed episode-038-Episode 1681371.txt: 57 lines (21 dialogue, 0 untimed)
+2026-11-20 15:54:38,759 INFO    promo: [I Married a Broken Soldier. He was a Duke] parsed episode-039-Episode 1686799.txt: 59 lines (18 dialogue, 0 untimed)
+2026-11-20 15:54:38,762 INFO    promo: [I Married a Broken Soldier. He was a Duke] parsed episode-040-Episode 1686800.txt: 51 lines (20 dialogue, 0 untimed)
+2026-11-20 15:54:38,762 INFO    promo: [I Married a Broken Soldier. He was a Duke] parsed episode-041-Episode 1686801.txt: 53 lines (18 dialogue, 0 untimed)
+2026-11-20 15:54:38,762 INFO    promo: [I Married a Broken Soldier. He was a Duke] parsed episode-042-Episode 1686802.txt: 37 lines (19 dialogue, 0 untimed)
+2026-11-20 15:54:38,762 INFO    promo: [I Married a Broken Soldier. He was a Duke] parsed episode-043-Episode 1686803.txt: 87 lines (32 dialogue, 0 untimed)
+2026-11-20 15:54:38,762 INFO    promo: [I Married a Broken Soldier. He was a Duke] parsed episode-044-Episode 1686804.txt: 54 lines (20 dialogue, 0 untimed)
+2026-11-20 15:54:38,774 INFO    promo: [I Married a Broken Soldier. He was a Duke] parsed episode-045-Episode 1686805.txt: 74 lines (29 dialogue, 0 untimed)
+2026-11-20 15:54:38,776 INFO    promo: [I Married a Broken Soldier. He was a Duke] parsed episode-046-Episode 1688395.txt: 75 lines (31 dialogue, 0 untimed)
+2026-11-20 15:54:38,778 INFO    promo: [I Married a Broken Soldier. He was a Duke] parsed episode-047-Episode 1688396.txt: 70 lines (33 dialogue, 0 untimed)
+2026-11-20 15:54:38,779 INFO    promo: [I Married a Broken Soldier. He was a Duke] parsed episode-048-Episode 1688397.txt: 43 lines (21 dialogue, 0 untimed)
+2026-11-20 15:54:38,782 INFO    promo: [I Married a Broken Soldier. He was a Duke] parsed episode-049-Episode 1688398.txt: 63 lines (26 dialogue, 0 untimed)
+2026-11-20 15:54:38,784 INFO    promo: [I Married a Broken Soldier. He was a Duke] parsed episode-050-Episode 1697563.txt: 40 lines (14 dialogue, 0 untimed)
+2026-11-20 15:54:38,784 INFO    promo.progress:   6% I Married a Broken Soldier. He was a Duke: emotion features for episode 1
+2026-11-20 15:54:45,711 INFO    httpx2: HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base "HTTP/1.1 200 OK"
+2026-11-20 15:54:46,044 INFO    httpx2: HTTP Request: HEAD https://huggingface.co/j-hartmann/emotion-english-distilroberta-base/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+2026-11-20 15:54:46,044 WARNING huggingface_hub.utils._http: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-11-20 15:54:46,310 INFO    httpx2: HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base "HTTP/1.1 200 OK"
+2026-11-20 15:54:46,583 INFO    httpx2: HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/commits/main "HTTP/1.1 200 OK"
+2026-11-20 15:54:46,633 INFO    httpx2: HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-11-20 15:54:46,838 INFO    httpx2: HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/commits/main?p=1&limit=50 "HTTP/1.1 200 OK"
+2026-11-20 15:54:46,921 INFO    httpx2: HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-11-20 15:54:47,118 INFO    httpx2: HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/discussions?p=0 "HTTP/1.1 200 OK"
+2026-11-20 15:54:47,379 INFO    httpx2: HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/commits/refs%2Fpr%2F3017 "HTTP/1.1 200 OK"
+2026-11-20 15:54:47,390 INFO    promo.progress:   7% I Married a Broken Soldier. He was a Duke: emotion features for episode 2
+2026-11-20 15:54:47,618 INFO    promo.progress:   8% I Married a Broken Soldier. He was a Duke: emotion features for episode 3
+2026-11-20 15:54:47,654 INFO    httpx2: HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/commits/refs%2Fpr%2F3017?p=1&limit=50 "HTTP/1.1 200 OK"
+2026-11-20 15:54:47,884 INFO    promo.progress:   9% I Married a Broken Soldier. He was a Duke: emotion features for episode 4
+2026-11-20 15:54:47,901 INFO    httpx2: HTTP Request: HEAD https://huggingface.co/j-hartmann/emotion-english-distilroberta-base/resolve/refs%2Fpr%2F3017/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+2026-11-20 15:54:48,075 INFO    promo.progress:  11% I Married a Broken Soldier. He was a Duke: emotion features for episode 5
+2026-11-20 15:54:48,146 INFO    httpx2: HTTP Request: HEAD https://huggingface.co/j-hartmann/emotion-english-distilroberta-base/resolve/refs%2Fpr%2F3017/model.safetensors "HTTP/1.1 302 Found"
+2026-11-20 15:54:48,233 INFO    promo.progress:  12% I Married a Broken Soldier. He was a Duke: emotion features for episode 6
+2026-11-20 15:54:48,378 INFO    promo.progress:  13% I Married a Broken Soldier. He was a Duke: emotion features for episode 7
+2026-11-20 15:54:48,505 INFO    promo.progress:  14% I Married a Broken Soldier. He was a Duke: emotion features for episode 8
+2026-11-20 15:54:48,628 INFO    promo.progress:  15% I Married a Broken Soldier. He was a Duke: emotion features for episode 9
+2026-11-20 15:54:48,892 INFO    promo.progress:  16% I Married a Broken Soldier. He was a Duke: emotion features for episode 10
+2026-11-20 15:54:49,003 INFO    promo.progress:  17% I Married a Broken Soldier. He was a Duke: emotion features for episode 11
+2026-11-20 15:54:49,195 INFO    promo.progress:  18% I Married a Broken Soldier. He was a Duke: emotion features for episode 12
+2026-11-20 15:54:49,426 INFO    promo.progress:  19% I Married a Broken Soldier. He was a Duke: emotion features for episode 13
+2026-11-20 15:54:49,560 INFO    promo.progress:  20% I Married a Broken Soldier. He was a Duke: emotion features for episode 14
+2026-11-20 15:54:49,635 INFO    promo.progress:  22% I Married a Broken Soldier. He was a Duke: emotion features for episode 15
+2026-11-20 15:54:49,726 INFO    promo.progress:  23% I Married a Broken Soldier. He was a Duke: emotion features for episode 16
+2026-11-20 15:54:49,826 INFO    promo.progress:  24% I Married a Broken Soldier. He was a Duke: emotion features for episode 17
+2026-11-20 15:54:49,965 INFO    promo.progress:  25% I Married a Broken Soldier. He was a Duke: emotion features for episode 18
+2026-11-20 15:54:50,103 INFO    promo.progress:  26% I Married a Broken Soldier. He was a Duke: emotion features for episode 19
+2026-11-20 15:54:50,417 INFO    promo.progress:  27% I Married a Broken Soldier. He was a Duke: emotion features for episode 20
+2026-11-20 15:54:50,676 INFO    promo.progress:  28% I Married a Broken Soldier. He was a Duke: emotion features for episode 21
+2026-11-20 15:54:50,910 INFO    promo.progress:  29% I Married a Broken Soldier. He was a Duke: emotion features for episode 22
+2026-11-20 15:54:51,122 INFO    promo.progress:  30% I Married a Broken Soldier. He was a Duke: emotion features for episode 23
+2026-11-20 15:54:51,238 INFO    promo.progress:  31% I Married a Broken Soldier. He was a Duke: emotion features for episode 24
+2026-11-20 15:54:51,393 INFO    promo.progress:  32% I Married a Broken Soldier. He was a Duke: emotion features for episode 25
+2026-11-20 15:54:51,680 INFO    promo.progress:  34% I Married a Broken Soldier. He was a Duke: emotion features for episode 26
+2026-11-20 15:54:51,785 INFO    promo.progress:  35% I Married a Broken Soldier. He was a Duke: emotion features for episode 27
+2026-11-20 15:54:52,075 INFO    promo.progress:  36% I Married a Broken Soldier. He was a Duke: emotion features for episode 28
+2026-11-20 15:54:52,370 INFO    promo.progress:  37% I Married a Broken Soldier. He was a Duke: emotion features for episode 29
+2026-11-20 15:54:52,565 INFO    promo.progress:  38% I Married a Broken Soldier. He was a Duke: emotion features for episode 30
+2026-11-20 15:54:52,849 INFO    promo.progress:  39% I Married a Broken Soldier. He was a Duke: emotion features for episode 31
+2026-11-20 15:54:53,183 INFO    promo.progress:  40% I Married a Broken Soldier. He was a Duke: emotion features for episode 32
+2026-11-20 15:54:53,536 INFO    promo.progress:  41% I Married a Broken Soldier. He was a Duke: emotion features for episode 33
+2026-11-20 15:54:53,776 INFO    promo.progress:  42% I Married a Broken Soldier. He was a Duke: emotion features for episode 34
+2026-11-20 15:54:54,042 INFO    promo.progress:  44% I Married a Broken Soldier. He was a Duke: emotion features for episode 35
+2026-11-20 15:54:54,241 INFO    promo.progress:  45% I Married a Broken Soldier. He was a Duke: emotion features for episode 36
+2026-11-20 15:54:54,498 INFO    promo.progress:  46% I Married a Broken Soldier. He was a Duke: emotion features for episode 37
+2026-11-20 15:54:54,789 INFO    promo.progress:  47% I Married a Broken Soldier. He was a Duke: emotion features for episode 38
+2026-11-20 15:54:54,886 INFO    promo.progress:  48% I Married a Broken Soldier. He was a Duke: emotion features for episode 39
+2026-11-20 15:54:54,971 INFO    promo.progress:  49% I Married a Broken Soldier. He was a Duke: emotion features for episode 40
+2026-11-20 15:54:55,094 INFO    promo.progress:  50% I Married a Broken Soldier. He was a Duke: emotion features for episode 41
+2026-11-20 15:54:55,205 INFO    promo.progress:  51% I Married a Broken Soldier. He was a Duke: emotion features for episode 42
+2026-11-20 15:54:55,297 INFO    promo.progress:  52% I Married a Broken Soldier. He was a Duke: emotion features for episode 43
+2026-11-20 15:54:55,524 INFO    promo.progress:  53% I Married a Broken Soldier. He was a Duke: emotion features for episode 44
+2026-11-20 15:54:55,646 INFO    promo.progress:  55% I Married a Broken Soldier. He was a Duke: emotion features for episode 45
+2026-11-20 15:54:55,864 INFO    promo.progress:  56% I Married a Broken Soldier. He was a Duke: emotion features for episode 46
+2026-11-20 15:54:56,167 INFO    promo.progress:  57% I Married a Broken Soldier. He was a Duke: emotion features for episode 47
+2026-11-20 15:54:56,521 INFO    promo.progress:  58% I Married a Broken Soldier. He was a Duke: emotion features for episode 48
+2026-11-20 15:54:56,670 INFO    promo.progress:  59% I Married a Broken Soldier. He was a Duke: emotion features for episode 49
+2026-11-20 15:54:56,982 INFO    promo.progress:  60% I Married a Broken Soldier. He was a Duke: emotion features for episode 50
+2026-11-20 15:54:57,102 INFO    promo.progress:  62% I Married a Broken Soldier. He was a Duke: generating and scoring candidates
+2026-11-20 15:55:03,515 INFO    promo: [I Married a Broken Soldier. He was a Duke] stage 1: 25503 candidates (15790 continuous, 1553 multi-segment, 8160 cross-episode); 3819 unrelated pairs discarded
+2026-11-20 15:55:03,532 INFO    promo.progress:  75% I Married a Broken Soldier. He was a Duke: zero-shot NLI on 1041 boundary lines
+2026-11-20 15:55:03,850 INFO    httpx2: HTTP Request: GET https://huggingface.co/api/models/MoritzLaurer/deberta-v3-xsmall-zeroshot-v1.1-all-33 "HTTP/1.1 200 OK"
+2026-11-20 15:55:04,415 INFO    httpx2: HTTP Request: GET https://huggingface.co/api/models/MoritzLaurer/deberta-v3-xsmall-zeroshot-v1.1-all-33/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-11-20 15:55:04,677 INFO    httpx2: HTTP Request: GET https://huggingface.co/api/models/MoritzLaurer/deberta-v3-xsmall-zeroshot-v1.1-all-33/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-11-20 15:55:05,838 INFO    httpx2: HTTP Request: GET https://huggingface.co/api/models/MoritzLaurer/deberta-v3-xsmall-zeroshot-v1.1-all-33 "HTTP/1.1 200 OK"
+2026-11-20 16:04:48,117 INFO    promo: [I Married a Broken Soldier. He was a Duke] stage 2: re-scored 1550 shortlisted candidates; zero-shot scores for 1041/1041 boundary lines
+2026-11-20 16:04:48,131 WARNING promo: [I Married a Broken Soldier. He was a Duke] episode-005-Episode 1671707: no valid promo (no genuine cliffhanger: 388/712 candidates; weak opening hook: 241/712 candidates; poor standalone coherence: 2/712 candidates)
+2026-11-20 16:04:48,150 WARNING promo: [I Married a Broken Soldier. He was a Duke] episode-008-Episode 1671710: no valid promo (weak opening hook: 442/633 candidates; no genuine cliffhanger: 361/633 candidates; poor standalone coherence: 6/633 candidates)
+2026-11-20 16:04:48,188 WARNING promo: [I Married a Broken Soldier. He was a Duke] episode-019-Episode 1671721: no valid promo (no genuine cliffhanger: 489/604 candidates; weak opening hook: 347/604 candidates; poor standalone coherence: 6/604 candidates)
+2026-11-20 16:04:48,261 WARNING promo: [I Married a Broken Soldier. He was a Duke] episode-040-Episode 1686800: no valid promo (weak opening hook: 256/382 candidates; no genuine cliffhanger: 245/382 candidates; poor standalone coherence: 2/382 candidates)
+2026-11-20 16:04:48,264 WARNING promo: [I Married a Broken Soldier. He was a Duke] episode-041-Episode 1686801: no valid promo (weak opening hook: 292/331 candidates; no genuine cliffhanger: 127/331 candidates)
+2026-11-20 16:04:48,300 WARNING promo: [I Married a Broken Soldier. He was a Duke] episode-049-Episode 1688398: no valid promo (no genuine cliffhanger: 233/497 candidates; weak opening hook: 214/497 candidates)
+2026-11-20 16:04:48,350 INFO    promo.progress: 100% Done
+2026-11-20 16:04:48,350 INFO    promo: Run finished in 609.6s: {"shows": 1, "episodes_discovered": 50, "episodes_processed_ok": 50, "episodes_failed": 0, "episodes_without_valid_promo": 6, "candidates_total": 25503, "candidates_continuous": 15790, "candidates_multi_segment": 1553, "candidates_cross_episode": 8160, "passed_duration": 25503, "valid_hook": 14620, "valid_cliffhanger": 14163, "rejected_poor_coherence": 147, "passed_all_gates": 10173, "stage2_shortlisted": 1550, "stage2_passed": 997, "recommended": 15}
+2026-11-20 16:04:48,761 INFO    root: Wrote 63 files to C:\Users\Dell\AppData\Local\Temp\warm

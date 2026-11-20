@@ -1,0 +1,212 @@
+{
+  "show": "I Married a Broken Soldier. He was a Duke",
+  "episode_id": "episode-038-Episode 1681371",
+  "episode_number": 38,
+  "source_path": "C:\\Users\\Dell\\Desktop\\kuku_fm_ass\\kuku_fm_assignment_project\\data\\I Married a Broken Soldier. He was a Duke\\episode-038-Episode 1681371.txt",
+  "status": "ok",
+  "error": "",
+  "traceback": "",
+  "warnings": [],
+  "lines_total": 57,
+  "dialogue_lines": 21,
+  "action_lines": 12,
+  "untimed_lines": 0,
+  "duration_seconds": 87.91,
+  "candidates": 458,
+  "candidates_passed": 200,
+  "best_promo_id": "cont-53ddaa8816",
+  "best_score": 0.827,
+  "no_promo_reason": "",
+  "seconds_features": 0.008,
+  "seconds_candidates": 0.035,
+  "logline": "A compassionate guard secretly feeds Juliana bread in the dungeon, strengthening her resolve to protect Alexander's secrets just as distant wedding bells signal the start of Rupert's nuptials and her impending execution.",
+  "best_promo": {
+    "rank": null,
+    "promo_id": "cont-53ddaa8816",
+    "show": "I Married a Broken Soldier. He was a Duke",
+    "structure": "continuous",
+    "priority_score": 0.827,
+    "total_duration_seconds": 27.0,
+    "episodes": [
+      "episode-038-Episode 1681371"
+    ],
+    "segments": [
+      {
+        "order": 1,
+        "episode_id": "episode-038-Episode 1681371",
+        "episode_number": 38,
+        "start_seconds": 20.5,
+        "end_seconds": 47.5,
+        "start": "00:20.50",
+        "end": "00:47.50",
+        "duration_seconds": 27.0,
+        "dialogue": [
+          {
+            "start": "00:20.50",
+            "end": "00:22.00",
+            "character": "GUARD",
+            "kind": "dialogue",
+            "text": "Eat it before they see."
+          },
+          {
+            "start": "00:21.80",
+            "end": "00:23.20",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "The Guard's silhouette retreats into the shadows."
+          },
+          {
+            "start": "00:23.50",
+            "end": "00:27.50",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "Juliana clutches the bread tightly with both hands, tears welling in her eyes."
+          },
+          {
+            "start": "00:26.00",
+            "end": "00:27.50",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "Thank you."
+          },
+          {
+            "start": "00:27.80",
+            "end": "00:31.00",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "Starving and overcome with emotion, Juliana presses the bread to her lips and tears off a desperate, ravenous bite."
+          },
+          {
+            "start": "00:31.00",
+            "end": "00:34.50",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "Juliana chews hungrily, closing her eyes as the agonizing reality of her plight hits her anew."
+          },
+          {
+            "start": "00:34.50",
+            "end": "00:36.50",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "Alexander..."
+          },
+          {
+            "start": "00:36.80",
+            "end": "00:39.00",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "...are you safe?"
+          },
+          {
+            "start": "00:40.00",
+            "end": "00:43.00",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "Do you even know what happened to me?"
+          },
+          {
+            "start": "00:43.20",
+            "end": "00:45.20",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "Do you know they condemned me?"
+          },
+          {
+            "start": "00:45.50",
+            "end": "00:47.50",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "What if I die here?"
+          }
+        ]
+      }
+    ],
+    "opening_hook": {
+      "score": 0.7848,
+      "evidence": [
+        "sudden arrival",
+        "00:21.80 ACTION: “The Guard's silhouette retreats into the shadows.”",
+        "cues: arrival ('silhouette')",
+        "zero-shot conflict/reveal 0.83"
+      ],
+      "timestamp": 21.8,
+      "episode_id": "episode-038-Episode 1681371",
+      "text": "The Guard's silhouette retreats into the shadows.",
+      "timestamp_fmt": "00:21.80"
+    },
+    "ending_cliffhanger": {
+      "score": 0.698,
+      "evidence": [
+        "zero-shot reads an unresolved threat (0.95)",
+        "00:45.50–00:47.50 JULIANA: “What if I die here?”",
+        "closing tension 0.98",
+        "zero-shot suspense/threat/reveal 0.95",
+        "withheld next beat: JULIANA “What if I never see you again?” (payoff 0.34)",
+        "penalty: same speaker continues immediately (split line / rhetorical)"
+      ],
+      "timestamp": 47.5,
+      "episode_id": "episode-038-Episode 1681371",
+      "text": "What if I die here?",
+      "timestamp_fmt": "00:47.50"
+    },
+    "standalone_coherence": {
+      "score": 0.9375,
+      "evidence": [
+        "clear who/what/why",
+        "who: 2 speaking character(s), names on screen: alexander, juliana",
+        "what: 7 dialogue lines, 30 words",
+        "why: stakes (die); conflict cue present; logline overlap 0.17",
+        "structure: continuous, 0 scene switch(es)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "emotional_intensity": {
+      "score": 0.8413,
+      "evidence": [
+        "peak 0.99 at 00:45.50, mean 0.69 (emotion model)"
+      ],
+      "timestamp": 45.5,
+      "episode_id": "episode-038-Episode 1681371",
+      "text": "",
+      "timestamp_fmt": "00:45.50"
+    },
+    "narrative_continuity": {
+      "score": 1.0,
+      "evidence": [
+        "one unbroken stretch, 1 scene(s)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "dialogue_quality": {
+      "score": 0.8526,
+      "evidence": [
+        "speech covers 53% of runtime, 29% filler lines, 4.3 words/line"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "score_breakdown": {
+      "hook": 0.7848,
+      "cliffhanger": 0.698,
+      "coherence": 0.9375,
+      "emotion": 0.8413,
+      "continuity": 1.0,
+      "dialogue_quality": 0.8526
+    },
+    "passed_quality_gates": true,
+    "rejection_reasons": [],
+    "risk_flags": [
+      "the source resolves the cut almost immediately"
+    ],
+    "why_it_works": "Opens on sudden arrival (ep 38 00:21.80: “The Guard's silhouette retreats into the shadows.”) and cuts on zero-shot reads an unresolved threat (0.95) (ep 38 00:47.50: “What if I die here?”); clear who/what/why.",
+    "llm_review": null
+  }
+}

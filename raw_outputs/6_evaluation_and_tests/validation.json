@@ -1,0 +1,97 @@
+{
+  "promos_checked": 15,
+  "promos_valid": 15,
+  "duplicate_or_overlapping_pairs": 0,
+  "details": [
+    {
+      "promo_id": "cont-de86233235",
+      "rank": 1,
+      "ok": true,
+      "problems": []
+    },
+    {
+      "promo_id": "cont-3dfb23cf98",
+      "rank": 2,
+      "ok": true,
+      "problems": []
+    },
+    {
+      "promo_id": "cont-9982cfce4a",
+      "rank": 3,
+      "ok": true,
+      "problems": []
+    },
+    {
+      "promo_id": "cont-ecac2393f3",
+      "rank": 4,
+      "ok": true,
+      "problems": []
+    },
+    {
+      "promo_id": "cont-b7695929bb",
+      "rank": 5,
+      "ok": true,
+      "problems": []
+    },
+    {
+      "promo_id": "cont-a53e381a5e",
+      "rank": 6,
+      "ok": true,
+      "problems": []
+    },
+    {
+      "promo_id": "cont-519b3d5ba1",
+      "rank": 7,
+      "ok": true,
+      "problems": []
+    },
+    {
+      "promo_id": "cont-c52aef732b",
+      "rank": 8,
+      "ok": true,
+      "problems": []
+    },
+    {
+      "promo_id": "cont-f214d0796b",
+      "rank": 9,
+      "ok": true,
+      "problems": []
+    },
+    {
+      "promo_id": "cont-77f9424e8a",
+      "rank": 10,
+      "ok": true,
+      "problems": []
+    },
+    {
+      "promo_id": "cont-49e2467c1d",
+      "rank": 11,
+      "ok": true,
+      "problems": []
+    },
+    {
+      "promo_id": "cont-400831c351",
+      "rank": 12,
+      "ok": true,
+      "problems": []
+    },
+    {
+      "promo_id": "cros-65ba548972",
+      "rank": 13,
+      "ok": true,
+      "problems": []
+    },
+    {
+      "promo_id": "cont-b026a8a6b9",
+      "rank": 14,
+      "ok": true,
+      "problems": []
+    },
+    {
+      "promo_id": "cont-f57a5950c4",
+      "rank": 15,
+      "ok": true,
+      "problems": []
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "show": "I Married a Broken Soldier. He was a Duke",
+  "episode_id": "episode-047-Episode 1688396",
+  "episode_number": 47,
+  "source_path": "C:\\Users\\Dell\\Desktop\\kuku_fm_ass\\kuku_fm_assignment_project\\data\\I Married a Broken Soldier. He was a Duke\\episode-047-Episode 1688396.txt",
+  "status": "ok",
+  "error": "",
+  "traceback": "",
+  "warnings": [],
+  "lines_total": 70,
+  "dialogue_lines": 33,
+  "action_lines": 3,
+  "untimed_lines": 0,
+  "duration_seconds": 134.0,
+  "candidates": 703,
+  "candidates_passed": 404,
+  "best_promo_id": "cont-7e3280beb2",
+  "best_score": 0.8444,
+  "no_promo_reason": "",
+  "seconds_features": 0.01,
+  "seconds_candidates": 0.036,
+  "logline": "While Alexander reassures Juliana of their unbreakable bond amid the council's opposition, a destitute Catherine begs for sanctuary at Ashbourne—only for Juliana to offer her survival under the strict humiliation of a scullery maid.",
+  "best_promo": {
+    "rank": null,
+    "promo_id": "cont-7e3280beb2",
+    "show": "I Married a Broken Soldier. He was a Duke",
+    "structure": "continuous",
+    "priority_score": 0.8444,
+    "total_duration_seconds": 23.0,
+    "episodes": [
+      "episode-047-Episode 1688396"
+    ],
+    "segments": [
+      {
+        "order": 1,
+        "episode_id": "episode-047-Episode 1688396",
+        "episode_number": 47,
+        "start_seconds": 63.5,
+        "end_seconds": 86.5,
+        "start": "01:03.50",
+        "end": "01:26.50",
+        "duration_seconds": 23.0,
+        "dialogue": [
+          {
+            "start": "01:03.50",
+            "end": "01:06.80",
+            "character": "CATHERINE",
+            "kind": "dialogue",
+            "text": "London closed its doors! My family disowned me!"
+          },
+          {
+            "start": "01:07.20",
+            "end": "01:11.20",
+            "character": "LADY ASHBOURNE",
+            "kind": "dialogue",
+            "text": "She aided the poison in my veins. Cast her into the road."
+          },
+          {
+            "start": "01:11.80",
+            "end": "01:14.80",
+            "character": "VAUGHN",
+            "kind": "dialogue",
+            "text": "One command, Your Grace, and I drag her past the gates."
+          },
+          {
+            "start": "01:15.20",
+            "end": "01:18.50",
+            "character": "ALEXANDER",
+            "kind": "dialogue",
+            "text": "Do it, Vaughn! Throw her past the estate perimeter!"
+          },
+          {
+            "start": "01:18.80",
+            "end": "01:21.80",
+            "character": "CATHERINE",
+            "kind": "dialogue",
+            "text": "Please, Alexander! Have mercy!"
+          },
+          {
+            "start": "01:22.20",
+            "end": "01:23.40",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "Stop."
+          },
+          {
+            "start": "01:24.00",
+            "end": "01:26.50",
+            "character": "ALEXANDER",
+            "kind": "dialogue",
+            "text": "Juliana, she tried to destroy you!"
+          }
+        ]
+      }
+    ],
+    "opening_hook": {
+      "score": 0.7741,
+      "evidence": [
+        "exclamation",
+        "01:03.50 CATHERINE: “London closed its doors! My family disowned me!”",
+        "model: anger 0.82, arousal 0.92",
+        "cues: ",
+        "script tag 'Sobbing, Pleading' (1.00)",
+        "zero-shot conflict/reveal 0.86"
+      ],
+      "timestamp": 63.5,
+      "episode_id": "episode-047-Episode 1688396",
+      "text": "London closed its doors! My family disowned me!",
+      "timestamp_fmt": "01:03.50"
+    },
+    "ending_cliffhanger": {
+      "score": 0.7728,
+      "evidence": [
+        "threat ('destroy you')",
+        "01:24.00–01:26.50 ALEXANDER: “Juliana, she tried to destroy you!”",
+        "closing tension 0.95",
+        "zero-shot suspense/threat/reveal 0.97",
+        "withheld next beat: JULIANA “She did.” (payoff 0.25)"
+      ],
+      "timestamp": 86.5,
+      "episode_id": "episode-047-Episode 1688396",
+      "text": "Juliana, she tried to destroy you!",
+      "timestamp_fmt": "01:26.50"
+    },
+    "standalone_coherence": {
+      "score": 0.9,
+      "evidence": [
+        "clear who/what/why",
+        "who: 5 speaking character(s), names on screen: alexander, juliana, vaughn",
+        "what: 7 dialogue lines, 51 words",
+        "why: stakes (estate, family); conflict cue present; logline overlap 0.17",
+        "structure: continuous, 1 scene switch(es)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "emotional_intensity": {
+      "score": 0.9321,
+      "evidence": [
+        "peak 0.99 at 01:03.50, mean 0.87 (emotion model)"
+      ],
+      "timestamp": 63.5,
+      "episode_id": "episode-047-Episode 1688396",
+      "text": "",
+      "timestamp_fmt": "01:03.50"
+    },
+    "narrative_continuity": {
+      "score": 0.9,
+      "evidence": [
+        "one unbroken stretch, 2 scene(s)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "dialogue_quality": {
+      "score": 0.9571,
+      "evidence": [
+        "speech covers 88% of runtime, 14% filler lines, 7.3 words/line"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "score_breakdown": {
+      "hook": 0.7741,
+      "cliffhanger": 0.7728,
+      "coherence": 0.9,
+      "emotion": 0.9321,
+      "continuity": 0.9,
+      "dialogue_quality": 0.9571
+    },
+    "passed_quality_gates": true,
+    "rejection_reasons": [],
+    "risk_flags": [],
+    "why_it_works": "Opens on exclamation (ep 47 01:03.50: “London closed its doors! My family disowned me!”) and cuts on threat ('destroy you') (ep 47 01:26.50: “Juliana, she tried to destroy you!”); clear who/what/why.",
+    "llm_review": null
+  }
+}

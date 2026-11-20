@@ -1,0 +1,295 @@
+{
+  "show": "I Married a Broken Soldier. He was a Duke",
+  "episode_id": "episode-028-Episode 1678581",
+  "episode_number": 28,
+  "source_path": "C:\\Users\\Dell\\Desktop\\kuku_fm_ass\\kuku_fm_assignment_project\\data\\I Married a Broken Soldier. He was a Duke\\episode-028-Episode 1678581.txt",
+  "status": "ok",
+  "error": "",
+  "traceback": "",
+  "warnings": [],
+  "lines_total": 96,
+  "dialogue_lines": 50,
+  "action_lines": 6,
+  "untimed_lines": 0,
+  "duration_seconds": 138.5,
+  "candidates": 1116,
+  "candidates_passed": 787,
+  "best_promo_id": "cont-de86233235",
+  "best_score": 0.915,
+  "no_promo_reason": "",
+  "seconds_features": 0.01,
+  "seconds_candidates": 0.087,
+  "logline": "Rupert and Catherine frame Juliana for poisoning the Duchess despite the bedridden matriarch's protests, uncovering Juliana's true noble identity and her mother's herbarium before ordering her to the castle dungeons.",
+  "best_promo": {
+    "rank": 1,
+    "promo_id": "cont-de86233235",
+    "show": "I Married a Broken Soldier. He was a Duke",
+    "structure": "continuous",
+    "priority_score": 0.915,
+    "total_duration_seconds": 57.9,
+    "episodes": [
+      "episode-028-Episode 1678581"
+    ],
+    "segments": [
+      {
+        "order": 1,
+        "episode_id": "episode-028-Episode 1678581",
+        "episode_number": 28,
+        "start_seconds": 70.8,
+        "end_seconds": 128.7,
+        "start": "01:10.80",
+        "end": "02:08.70",
+        "duration_seconds": 57.9,
+        "dialogue": [
+          {
+            "start": "01:10.80",
+            "end": "01:12.00",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "Catherine ruthlessly yanks the silver locket off Juliana's neck."
+          },
+          {
+            "start": "01:11.20",
+            "end": "01:12.00",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "No!"
+          },
+          {
+            "start": "01:12.20",
+            "end": "01:15.10",
+            "character": "CATHERINE",
+            "kind": "dialogue",
+            "text": "Where did a gutter rat like you find a silver locket?"
+          },
+          {
+            "start": "01:15.40",
+            "end": "01:16.40",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "Give it back!"
+          },
+          {
+            "start": "01:16.80",
+            "end": "01:18.60",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "It belonged to my mother!"
+          },
+          {
+            "start": "01:19.00",
+            "end": "01:21.90",
+            "character": "CATHERINE",
+            "kind": "dialogue",
+            "text": "A witch has no need for family heirlooms in the gallows."
+          },
+          {
+            "start": "01:22.50",
+            "end": "01:24.40",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "My mother's locket!"
+          },
+          {
+            "start": "01:28.00",
+            "end": "01:31.00",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "Catherine lifts the heavy herbarium, dusting off the cover before opening its aged parchment pages."
+          },
+          {
+            "start": "01:31.20",
+            "end": "01:32.80",
+            "character": "CATHERINE",
+            "kind": "dialogue",
+            "text": "Juliana..."
+          },
+          {
+            "start": "01:35.20",
+            "end": "01:37.00",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "Juliana gasps in horror, realizing her secret identity has been laid bare."
+          },
+          {
+            "start": "01:38.20",
+            "end": "01:40.80",
+            "character": "CATHERINE",
+            "kind": "dialogue",
+            "text": "Lady Juliana Ashcroft."
+          },
+          {
+            "start": "01:41.50",
+            "end": "01:43.70",
+            "character": "CATHERINE",
+            "kind": "dialogue",
+            "text": "I knew I had seen those eyes before."
+          },
+          {
+            "start": "01:44.20",
+            "end": "01:45.60",
+            "character": "CATHERINE",
+            "kind": "dialogue",
+            "text": "The disgraced daughter..."
+          },
+          {
+            "start": "01:45.60",
+            "end": "01:47.80",
+            "character": "CATHERINE",
+            "kind": "dialogue",
+            "text": "...the girl thrown out of her own family home."
+          },
+          {
+            "start": "01:48.10",
+            "end": "01:51.00",
+            "character": "CATHERINE",
+            "kind": "dialogue",
+            "text": "The bride who married a penniless war veteran..."
+          },
+          {
+            "start": "01:51.10",
+            "end": "01:53.00",
+            "character": "CATHERINE",
+            "kind": "dialogue",
+            "text": "...because no respectable man would have her."
+          },
+          {
+            "start": "01:53.30",
+            "end": "01:55.80",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "Do not speak about my husband!"
+          },
+          {
+            "start": "01:56.40",
+            "end": "01:59.10",
+            "character": "CATHERINE",
+            "kind": "dialogue",
+            "text": "And look at you now. Scrubbing fireplaces in my house."
+          },
+          {
+            "start": "01:59.20",
+            "end": "02:01.80",
+            "character": "CATHERINE",
+            "kind": "dialogue",
+            "text": "What a magnificent fall, Lady Juliana."
+          },
+          {
+            "start": "02:02.00",
+            "end": "02:04.70",
+            "character": "BLOND NOBLEMAN",
+            "kind": "dialogue",
+            "text": "Drag her to the wet cells beneath the south tower."
+          },
+          {
+            "start": "02:05.00",
+            "end": "02:05.70",
+            "character": "CATHERINE",
+            "kind": "dialogue",
+            "text": "And this?"
+          },
+          {
+            "start": "02:05.90",
+            "end": "02:08.70",
+            "character": "CATHERINE",
+            "kind": "dialogue",
+            "text": "This book of weeds will hang her before the magistrate."
+          }
+        ]
+      }
+    ],
+    "opening_hook": {
+      "score": 0.9913,
+      "evidence": [
+        "physical confrontation",
+        "01:10.80 ACTION: “Catherine ruthlessly yanks the silver locket off Juliana's neck.”",
+        "cues: physical ('yanks')",
+        "zero-shot conflict/reveal 0.85",
+        "second strong beat within 3 s (+0.06)"
+      ],
+      "timestamp": 70.8,
+      "episode_id": "episode-028-Episode 1678581",
+      "text": "Catherine ruthlessly yanks the silver locket off Juliana's neck.",
+      "timestamp_fmt": "01:10.80"
+    },
+    "ending_cliffhanger": {
+      "score": 0.749,
+      "evidence": [
+        "zero-shot reads an unresolved threat (0.88)",
+        "02:05.90–02:08.70 CATHERINE: “This book of weeds will hang her before the magistrate.”",
+        "closing tension 0.97",
+        "zero-shot suspense/threat/reveal 0.88",
+        "withheld next beat: JULIANA “That book is my mother's life's work!” (payoff 0.47)"
+      ],
+      "timestamp": 128.7,
+      "episode_id": "episode-028-Episode 1678581",
+      "text": "This book of weeds will hang her before the magistrate.",
+      "timestamp_fmt": "02:08.70"
+    },
+    "standalone_coherence": {
+      "score": 0.9688,
+      "evidence": [
+        "clear who/what/why",
+        "who: 3 speaking character(s), names on screen: ashcroft, catherine, juliana",
+        "what: 19 dialogue lines, 117 words",
+        "why: stakes (bride, daughter, family, husband); conflict cue present; logline overlap 0.58",
+        "structure: continuous, 0 scene switch(es)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "emotional_intensity": {
+      "score": 0.9234,
+      "evidence": [
+        "peak 1.00 at 01:53.30, mean 0.85 (emotion model)"
+      ],
+      "timestamp": 113.3,
+      "episode_id": "episode-028-Episode 1678581",
+      "text": "",
+      "timestamp_fmt": "01:53.30"
+    },
+    "narrative_continuity": {
+      "score": 1.0,
+      "evidence": [
+        "one unbroken stretch, 1 scene(s)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "dialogue_quality": {
+      "score": 0.9526,
+      "evidence": [
+        "speech covers 69% of runtime, 16% filler lines, 6.2 words/line"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "score_breakdown": {
+      "hook": 0.9913,
+      "cliffhanger": 0.749,
+      "coherence": 0.9688,
+      "emotion": 0.9234,
+      "continuity": 1.0,
+      "dialogue_quality": 0.9526
+    },
+    "passed_quality_gates": true,
+    "rejection_reasons": [],
+    "risk_flags": [],
+    "why_it_works": "Opens on physical confrontation (ep 28 01:10.80: “Catherine ruthlessly yanks the silver locket off Juliana'…”) and cuts on zero-shot reads an unresolved threat (0.88) (ep 28 02:08.70: “This book of weeds will hang her before the magistrate.”); clear who/what/why.",
+    "llm_review": {
+      "hook_works": true,
+      "cliffhanger_works": true,
+      "standalone": true,
+      "one_line": "The clip instantly grabs attention with a violent confrontation and a dramatic identity reveal that sets up high-stakes revenge.",
+      "concerns": "It does not fully explain how Lady Juliana ended up working as a servant or the exact nature of the false accusation.",
+      "model": "gemini-3.5-flash-lite",
+      "status": "ok"
+    }
+  }
+}

@@ -1,0 +1,204 @@
+{
+  "show": "I Married a Broken Soldier. He was a Duke",
+  "episode_id": "episode-045-Episode 1686805",
+  "episode_number": 45,
+  "source_path": "C:\\Users\\Dell\\Desktop\\kuku_fm_ass\\kuku_fm_assignment_project\\data\\I Married a Broken Soldier. He was a Duke\\episode-045-Episode 1686805.txt",
+  "status": "ok",
+  "error": "",
+  "traceback": "",
+  "warnings": [],
+  "lines_total": 74,
+  "dialogue_lines": 29,
+  "action_lines": 12,
+  "untimed_lines": 0,
+  "duration_seconds": 121.75,
+  "candidates": 775,
+  "candidates_passed": 345,
+  "best_promo_id": "cont-2e5e7fad15",
+  "best_score": 0.8034,
+  "no_promo_reason": "",
+  "seconds_features": 0.011,
+  "seconds_candidates": 0.044,
+  "logline": "Alexander frees Juliana from her chains and proclaims her the Duchess of Ashburton before the stunned congregation, only for an ecclesiastical authority to burst in and declare their marriage legally invalid.",
+  "best_promo": {
+    "rank": null,
+    "promo_id": "cont-2e5e7fad15",
+    "show": "I Married a Broken Soldier. He was a Duke",
+    "structure": "continuous",
+    "priority_score": 0.8034,
+    "total_duration_seconds": 29.0,
+    "episodes": [
+      "episode-045-Episode 1686805"
+    ],
+    "segments": [
+      {
+        "order": 1,
+        "episode_id": "episode-045-Episode 1686805",
+        "episode_number": 45,
+        "start_seconds": 54.0,
+        "end_seconds": 83.0,
+        "start": "00:54.00",
+        "end": "01:23.00",
+        "duration_seconds": 29.0,
+        "dialogue": [
+          {
+            "start": "00:54.00",
+            "end": "00:58.00",
+            "character": "ALEXANDER",
+            "kind": "dialogue",
+            "text": "You poisoned my mother. You tortured my wife."
+          },
+          {
+            "start": "00:58.20",
+            "end": "00:59.80",
+            "character": "CATHERINE",
+            "kind": "dialogue",
+            "text": "I didn't know!"
+          },
+          {
+            "start": "01:00.00",
+            "end": "01:02.40",
+            "character": "ALEXANDER",
+            "kind": "dialogue",
+            "text": "You knew exactly what you were doing!"
+          },
+          {
+            "start": "01:02.60",
+            "end": "01:06.80",
+            "character": "ALEXANDER",
+            "kind": "dialogue",
+            "text": "You hurt the two women who mattered most to me: my mother, and my wife."
+          },
+          {
+            "start": "01:08.80",
+            "end": "01:10.50",
+            "character": "CATHERINE",
+            "kind": "dialogue",
+            "text": "Wife?!"
+          },
+          {
+            "start": "01:11.20",
+            "end": "01:14.50",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "Alexander and Juliana advance side-by-side between the rows of shocked aristocratic guests."
+          },
+          {
+            "start": "01:11.50",
+            "end": "01:14.00",
+            "character": "ALEXANDER",
+            "kind": "dialogue",
+            "text": "Before the Crown and before God..."
+          },
+          {
+            "start": "01:14.60",
+            "end": "01:20.00",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "Alexander hoists Juliana's hand triumphantly into the air, presenting her to the nobility."
+          },
+          {
+            "start": "01:14.80",
+            "end": "01:20.40",
+            "character": "ALEXANDER",
+            "kind": "dialogue",
+            "text": "Lady Juliana Ashcroft is my lawful wife... and the Duchess of Ashburton!"
+          },
+          {
+            "start": "01:21.50",
+            "end": "01:23.00",
+            "character": "RUPERT",
+            "kind": "dialogue",
+            "text": "Juliana?!"
+          }
+        ]
+      }
+    ],
+    "opening_hook": {
+      "score": 0.6818,
+      "evidence": [
+        "high-arousal line",
+        "00:54.00 ALEXANDER: “You poisoned my mother. You tortured my wife.”",
+        "model: anger 0.73, arousal 0.98",
+        "cues: ",
+        "script tag 'Furious, Cold' (1.00)",
+        "zero-shot conflict/reveal 0.96"
+      ],
+      "timestamp": 54.0,
+      "episode_id": "episode-045-Episode 1686805",
+      "text": "You poisoned my mother. You tortured my wife.",
+      "timestamp_fmt": "00:54.00"
+    },
+    "ending_cliffhanger": {
+      "score": 0.6045,
+      "evidence": [
+        "unanswered question (charged)",
+        "01:21.50–01:23.00 RUPERT: “Juliana?!”",
+        "closing tension 0.96",
+        "zero-shot suspense/threat/reveal 0.11",
+        "withheld next beat: ACTION “A Catholic Bishop in dark vestments steps through…” (payoff 0.43)"
+      ],
+      "timestamp": 83.0,
+      "episode_id": "episode-045-Episode 1686805",
+      "text": "Juliana?!",
+      "timestamp_fmt": "01:23.00"
+    },
+    "standalone_coherence": {
+      "score": 0.9563,
+      "evidence": [
+        "clear who/what/why",
+        "who: 3 speaking character(s), names on screen: alexander, ashcroft, crown, juliana",
+        "what: 8 dialogue lines, 53 words",
+        "why: stakes (duchess, mother, wife); conflict cue present; logline overlap 0.42",
+        "structure: continuous, 0 scene switch(es)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "emotional_intensity": {
+      "score": 0.9621,
+      "evidence": [
+        "peak 1.00 at 00:54.00, mean 0.93 (emotion model)"
+      ],
+      "timestamp": 54.0,
+      "episode_id": "episode-045-Episode 1686805",
+      "text": "",
+      "timestamp_fmt": "00:54.00"
+    },
+    "narrative_continuity": {
+      "score": 1.0,
+      "evidence": [
+        "one unbroken stretch, 1 scene(s)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "dialogue_quality": {
+      "score": 0.925,
+      "evidence": [
+        "speech covers 81% of runtime, 25% filler lines, 6.6 words/line"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "score_breakdown": {
+      "hook": 0.6818,
+      "cliffhanger": 0.6045,
+      "coherence": 0.9563,
+      "emotion": 0.9621,
+      "continuity": 1.0,
+      "dialogue_quality": 0.925
+    },
+    "passed_quality_gates": true,
+    "rejection_reasons": [],
+    "risk_flags": [],
+    "why_it_works": "Opens on high-arousal line (ep 45 00:54.00: “You poisoned my mother. You tortured my wife.”) and cuts on unanswered question (charged) (ep 45 01:23.00: “Juliana?!”); clear who/what/why.",
+    "llm_review": null
+  }
+}

@@ -1,0 +1,299 @@
+{
+  "show": "I Married a Broken Soldier. He was a Duke",
+  "episode_id": "episode-034-Episode 1681367",
+  "episode_number": 34,
+  "source_path": "C:\\Users\\Dell\\Desktop\\kuku_fm_ass\\kuku_fm_assignment_project\\data\\I Married a Broken Soldier. He was a Duke\\episode-034-Episode 1681367.txt",
+  "status": "ok",
+  "error": "",
+  "traceback": "",
+  "warnings": [],
+  "lines_total": 116,
+  "dialogue_lines": 48,
+  "action_lines": 9,
+  "untimed_lines": 0,
+  "duration_seconds": 190.0,
+  "candidates": 862,
+  "candidates_passed": 400,
+  "best_promo_id": "mult-11dd62d2f3",
+  "best_score": 0.794,
+  "no_promo_reason": "",
+  "seconds_features": 0.012,
+  "seconds_candidates": 0.063,
+  "logline": "Put on trial for witchcraft and poisoning, Lady Juliana stands proud and defiant in the prisoner's dock, refusing to renounce her mother's herbal medicine even after her coerced maid gives false testimony against her.",
+  "best_promo": {
+    "rank": null,
+    "promo_id": "mult-11dd62d2f3",
+    "show": "I Married a Broken Soldier. He was a Duke",
+    "structure": "multi_segment",
+    "priority_score": 0.794,
+    "total_duration_seconds": 57.9,
+    "episodes": [
+      "episode-034-Episode 1681367"
+    ],
+    "segments": [
+      {
+        "order": 1,
+        "episode_id": "episode-034-Episode 1681367",
+        "episode_number": 34,
+        "start_seconds": 35.3,
+        "end_seconds": 43.0,
+        "start": "00:35.30",
+        "end": "00:43.00",
+        "duration_seconds": 7.7,
+        "dialogue": [
+          {
+            "start": "00:35.30",
+            "end": "00:37.40",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "The Judge furiously raises his wooden gavel and strikes the sound block with sharp force."
+          },
+          {
+            "start": "00:35.40",
+            "end": "00:36.60",
+            "character": "JUDGE",
+            "kind": "dialogue",
+            "text": "Silence!"
+          },
+          {
+            "start": "00:37.50",
+            "end": "00:41.20",
+            "character": "JUDGE",
+            "kind": "dialogue",
+            "text": "Prudence. You served beside the accused?"
+          },
+          {
+            "start": "00:41.00",
+            "end": "00:43.00",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "Prudence the young maid stands trembling in the center of the courtroom floor, her head bowed in deep shame, clutching the sides of her apron."
+          }
+        ]
+      },
+      {
+        "order": 2,
+        "episode_id": "episode-034-Episode 1681367",
+        "episode_number": 34,
+        "start_seconds": 64.8,
+        "end_seconds": 115.0,
+        "start": "01:04.80",
+        "end": "01:55.00",
+        "duration_seconds": 50.2,
+        "dialogue": [
+          {
+            "start": "01:04.80",
+            "end": "01:06.70",
+            "character": "JUDGE",
+            "kind": "dialogue",
+            "text": "Did she draw strange markings?"
+          },
+          {
+            "start": "01:08.20",
+            "end": "01:11.70",
+            "character": "PRUDENCE",
+            "kind": "dialogue",
+            "text": "She... placed herbs around my brother's bed."
+          },
+          {
+            "start": "01:12.10",
+            "end": "01:15.50",
+            "character": "JUDGE",
+            "kind": "dialogue",
+            "text": "And did she speak words you could not understand?"
+          },
+          {
+            "start": "01:18.80",
+            "end": "01:20.50",
+            "character": "PRUDENCE",
+            "kind": "dialogue",
+            "text": "Yes."
+          },
+          {
+            "start": "01:21.30",
+            "end": "01:24.90",
+            "character": "LORD",
+            "kind": "dialogue",
+            "text": "Your Honor... the witness has confirmed the ritual."
+          },
+          {
+            "start": "01:25.00",
+            "end": "01:27.20",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "Lady Juliana slams her cuffed hands against the wooden railing of the dock, her voice ringing out in indignant fury."
+          },
+          {
+            "start": "01:25.20",
+            "end": "01:27.20",
+            "character": "LADY JULIANA",
+            "kind": "dialogue",
+            "text": "It was not a ritual!"
+          },
+          {
+            "start": "01:27.20",
+            "end": "01:30.20",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "The Judge repeatedly hammers his gavel down onto the desk, roaring over her."
+          },
+          {
+            "start": "01:27.90",
+            "end": "01:30.00",
+            "character": "JUDGE",
+            "kind": "dialogue",
+            "text": "You will speak when addressed!"
+          },
+          {
+            "start": "01:31.00",
+            "end": "01:33.20",
+            "character": "LORD",
+            "kind": "dialogue",
+            "text": "We have further witnesses."
+          },
+          {
+            "start": "01:34.20",
+            "end": "01:38.00",
+            "character": "TOWNSMAN",
+            "kind": "dialogue",
+            "text": "My wife took one of Lady Juliana's mixtures..."
+          },
+          {
+            "start": "01:38.30",
+            "end": "01:39.10",
+            "character": "JUDGE",
+            "kind": "dialogue",
+            "text": "And?"
+          },
+          {
+            "start": "01:39.80",
+            "end": "01:41.80",
+            "character": "TOWNSMAN",
+            "kind": "dialogue",
+            "text": "She became violently ill."
+          },
+          {
+            "start": "01:42.30",
+            "end": "01:47.00",
+            "character": "OLD WOMAN",
+            "kind": "dialogue",
+            "text": "My daughter drank one of her herbal preparations! She was sick for three days!"
+          },
+          {
+            "start": "01:48.00",
+            "end": "01:49.80",
+            "character": "LORD",
+            "kind": "dialogue",
+            "text": "She calls it healing."
+          },
+          {
+            "start": "01:50.00",
+            "end": "01:52.80",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "The Lord turns dramatically to face the entire assembly, gesturing toward the spectators."
+          },
+          {
+            "start": "01:50.10",
+            "end": "01:52.60",
+            "character": "LORD",
+            "kind": "dialogue",
+            "text": "The people call it poisoning!"
+          },
+          {
+            "start": "01:53.20",
+            "end": "01:55.00",
+            "character": "LADY JULIANA",
+            "kind": "dialogue",
+            "text": "What were their illnesses?"
+          }
+        ]
+      }
+    ],
+    "opening_hook": {
+      "score": 0.7104,
+      "evidence": [
+        "physical confrontation",
+        "00:35.30 ACTION: “The Judge furiously raises his wooden gavel and strikes the sound blo…”",
+        "cues: physical ('strikes')",
+        "zero-shot conflict/reveal 0.23",
+        "second strong beat within 3 s (+0.06)"
+      ],
+      "timestamp": 35.3,
+      "episode_id": "episode-034-Episode 1681367",
+      "text": "The Judge furiously raises his wooden gavel and strikes the sound block with sharp force.",
+      "timestamp_fmt": "00:35.30"
+    },
+    "ending_cliffhanger": {
+      "score": 0.6929,
+      "evidence": [
+        "unanswered question (charged)",
+        "01:53.20–01:55.00 LADY JULIANA: “What were their illnesses?”",
+        "closing tension 0.96",
+        "zero-shot suspense/threat/reveal 0.55",
+        "withheld next beat: LORD “Irrelevant.” (payoff 0.45)"
+      ],
+      "timestamp": 115.0,
+      "episode_id": "episode-034-Episode 1681367",
+      "text": "What were their illnesses?",
+      "timestamp_fmt": "01:55.00"
+    },
+    "standalone_coherence": {
+      "score": 0.975,
+      "evidence": [
+        "clear who/what/why",
+        "who: 6 speaking character(s), names on screen: judge, juliana, prudence",
+        "what: 17 dialogue lines, 91 words",
+        "why: stakes (daughter, honor, shame, wife); conflict cue present; logline overlap 0.67",
+        "structure: 2 segments, shared characters ['judge', 'prudence'], vocab overlap 0.03"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "emotional_intensity": {
+      "score": 0.8053,
+      "evidence": [
+        "peak 0.99 at 01:39.80, mean 0.62 (emotion model)"
+      ],
+      "timestamp": 99.8,
+      "episode_id": "episode-034-Episode 1681367",
+      "text": "",
+      "timestamp_fmt": "01:39.80"
+    },
+    "narrative_continuity": {
+      "score": 0.8,
+      "evidence": [
+        "same episode, 21.8s skipped between segments"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "dialogue_quality": {
+      "score": 0.9471,
+      "evidence": [
+        "speech covers 74% of runtime, 18% filler lines, 5.4 words/line"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "score_breakdown": {
+      "hook": 0.7104,
+      "cliffhanger": 0.6929,
+      "coherence": 0.975,
+      "emotion": 0.8053,
+      "continuity": 0.8,
+      "dialogue_quality": 0.9471
+    },
+    "passed_quality_gates": true,
+    "rejection_reasons": [],
+    "risk_flags": [],
+    "why_it_works": "Opens on physical confrontation (ep 34 00:35.30: “The Judge furiously raises his wooden gavel and strikes t…”) and cuts on unanswered question (charged) (ep 34 01:55.00: “What were their illnesses?”); clear who/what/why.",
+    "llm_review": null
+  }
+}

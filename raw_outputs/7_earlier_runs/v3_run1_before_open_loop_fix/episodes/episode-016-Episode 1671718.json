@@ -1,0 +1,237 @@
+{
+  "show": "I Married a Broken Soldier. He was a Duke",
+  "episode_id": "episode-016-Episode 1671718",
+  "episode_number": 16,
+  "source_path": "C:\\Users\\Dell\\Desktop\\kuku_fm_ass\\kuku_fm_assignment_project\\data\\I Married a Broken Soldier. He was a Duke\\episode-016-Episode 1671718.txt",
+  "status": "ok",
+  "error": "",
+  "traceback": "",
+  "warnings": [],
+  "lines_total": 64,
+  "dialogue_lines": 22,
+  "action_lines": 10,
+  "untimed_lines": 0,
+  "duration_seconds": 83.19,
+  "candidates": 671,
+  "candidates_passed": 449,
+  "best_promo_id": "cont-02c762e20c",
+  "best_score": 0.8292,
+  "no_promo_reason": "",
+  "seconds_features": 0.007,
+  "seconds_candidates": 0.028,
+  "logline": "When hired thugs attack Juliana's medicinal garden, Alexander unleashes his combat training to effortlessly overpower them, extracting a shocking confession that unmasks Gerald Harrington as the mastermind.",
+  "best_promo": {
+    "rank": null,
+    "promo_id": "cont-02c762e20c",
+    "show": "I Married a Broken Soldier. He was a Duke",
+    "structure": "continuous",
+    "priority_score": 0.8292,
+    "total_duration_seconds": 36.5,
+    "episodes": [
+      "episode-016-Episode 1671718"
+    ],
+    "segments": [
+      {
+        "order": 1,
+        "episode_id": "episode-016-Episode 1671718",
+        "episode_number": 16,
+        "start_seconds": 26.5,
+        "end_seconds": 63.0,
+        "start": "00:26.50",
+        "end": "01:03.00",
+        "duration_seconds": 36.5,
+        "dialogue": [
+          {
+            "start": "00:26.50",
+            "end": "00:28.50",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "Alexander deflects the strike with his forearm, drives a swift counter-blow into the thug's torso, and spins him violently to the ground."
+          },
+          {
+            "start": "00:32.00",
+            "end": "00:33.80",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "Alexander..."
+          },
+          {
+            "start": "00:36.20",
+            "end": "00:37.80",
+            "character": "ALEXANDER",
+            "kind": "dialogue",
+            "text": "Are you hurt?"
+          },
+          {
+            "start": "00:38.20",
+            "end": "00:40.00",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "Only my hands."
+          },
+          {
+            "start": "00:41.20",
+            "end": "00:44.00",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "Alexander lifts the thug onto his tiptoes against the cottage wall, glaring with lethal intensity."
+          },
+          {
+            "start": "00:42.50",
+            "end": "00:44.00",
+            "character": "ALEXANDER",
+            "kind": "dialogue",
+            "text": "Who sent you?"
+          },
+          {
+            "start": "00:44.20",
+            "end": "00:45.30",
+            "character": "THUG WITH CAP",
+            "kind": "dialogue",
+            "text": "No one!"
+          },
+          {
+            "start": "00:46.30",
+            "end": "00:47.40",
+            "character": "ALEXANDER",
+            "kind": "dialogue",
+            "text": "Wrong answer."
+          },
+          {
+            "start": "00:48.00",
+            "end": "00:50.00",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "Alexander tightens his grip on the thug's throat, lifting him higher against the stone wall."
+          },
+          {
+            "start": "00:48.80",
+            "end": "00:49.60",
+            "character": "ALEXANDER",
+            "kind": "dialogue",
+            "text": "Who?!"
+          },
+          {
+            "start": "00:49.80",
+            "end": "00:52.20",
+            "character": "THUG WITH CAP",
+            "kind": "dialogue",
+            "text": "Harrington! Gerald Harrington paid us!"
+          },
+          {
+            "start": "00:53.20",
+            "end": "00:54.40",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "Gerald..."
+          },
+          {
+            "start": "00:55.50",
+            "end": "00:58.50",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "The Thug with Cap scrambles to his feet and sprints into the dark woods alongside his two limping accomplices."
+          },
+          {
+            "start": "00:56.00",
+            "end": "00:58.20",
+            "character": "THUG WITH CAP",
+            "kind": "dialogue",
+            "text": "We were only paid to destroy the garden, that's all!"
+          },
+          {
+            "start": "01:00.00",
+            "end": "01:03.00",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "Alexander flexes his bleeding hand, showing no sign of pain."
+          }
+        ]
+      }
+    ],
+    "opening_hook": {
+      "score": 0.9852,
+      "evidence": [
+        "physical confrontation",
+        "00:26.50 ACTION: “Alexander deflects the strike with his forearm, drives a swift counte…”",
+        "cues: physical ('strike')",
+        "zero-shot conflict/reveal 0.97"
+      ],
+      "timestamp": 26.5,
+      "episode_id": "episode-016-Episode 1671718",
+      "text": "Alexander deflects the strike with his forearm, drives a swift counter-blow into the thug's torso, and spins him violently to the ground.",
+      "timestamp_fmt": "00:26.50"
+    },
+    "ending_cliffhanger": {
+      "score": 0.6114,
+      "evidence": [
+        "physical ('bleeding')",
+        "01:00.00–01:03.00 ACTION: “Alexander flexes his bleeding hand, showing no sign of pain.”",
+        "closing tension 0.80",
+        "zero-shot suspense/threat/reveal 0.17",
+        "withheld next beat: JULIANA “You knew exactly what to do.” (payoff 0.53)"
+      ],
+      "timestamp": 63.0,
+      "episode_id": "episode-016-Episode 1671718",
+      "text": "Alexander flexes his bleeding hand, showing no sign of pain.",
+      "timestamp_fmt": "01:03.00"
+    },
+    "standalone_coherence": {
+      "score": 0.8625,
+      "evidence": [
+        "clear who/what/why",
+        "who: 3 speaking character(s), names on screen: alexander, cap, gerald, harrington",
+        "what: 10 dialogue lines, 31 words",
+        "why: no explicit stakes words; conflict cue present; logline overlap 0.33",
+        "structure: continuous, 0 scene switch(es)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "emotional_intensity": {
+      "score": 0.8156,
+      "evidence": [
+        "peak 0.98 at 00:48.80, mean 0.65 (emotion model)"
+      ],
+      "timestamp": 48.8,
+      "episode_id": "episode-016-Episode 1671718",
+      "text": "",
+      "timestamp_fmt": "00:48.80"
+    },
+    "narrative_continuity": {
+      "score": 1.0,
+      "evidence": [
+        "one unbroken stretch, 1 scene(s)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "dialogue_quality": {
+      "score": 0.7039,
+      "evidence": [
+        "speech covers 42% of runtime, 50% filler lines, 3.1 words/line"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "score_breakdown": {
+      "hook": 0.9852,
+      "cliffhanger": 0.6114,
+      "coherence": 0.8625,
+      "emotion": 0.8156,
+      "continuity": 1.0,
+      "dialogue_quality": 0.7039
+    },
+    "passed_quality_gates": true,
+    "rejection_reasons": [],
+    "risk_flags": [],
+    "why_it_works": "Opens on physical confrontation (ep 16 00:26.50: “Alexander deflects the strike with his forearm, drives a …”) and cuts on physical ('bleeding') (ep 16 01:03.00: “Alexander flexes his bleeding hand, showing no sign of pain.”); clear who/what/why.",
+    "llm_review": null
+  }
+}

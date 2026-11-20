@@ -1,0 +1,217 @@
+{
+  "show": "I Married a Broken Soldier. He was a Duke",
+  "episode_id": "episode-037-Episode 1681370",
+  "episode_number": 37,
+  "source_path": "C:\\Users\\Dell\\Desktop\\kuku_fm_ass\\kuku_fm_assignment_project\\data\\I Married a Broken Soldier. He was a Duke\\episode-037-Episode 1681370.txt",
+  "status": "ok",
+  "error": "",
+  "traceback": "",
+  "warnings": [],
+  "lines_total": 79,
+  "dialogue_lines": 33,
+  "action_lines": 5,
+  "untimed_lines": 0,
+  "duration_seconds": 156.47,
+  "candidates": 345,
+  "candidates_passed": 53,
+  "best_promo_id": "cont-c02b8f604c",
+  "best_score": 0.7378,
+  "no_promo_reason": "",
+  "seconds_features": 0.009,
+  "seconds_candidates": 0.032,
+  "logline": "As Rupert and Catherine issue wedding invitations paired with Juliana's public execution decree to terrorize the county, Juliana endures starvation in the dungeon, refusing to break her spirit.",
+  "best_promo": {
+    "rank": null,
+    "promo_id": "cont-c02b8f604c",
+    "show": "I Married a Broken Soldier. He was a Duke",
+    "structure": "continuous",
+    "priority_score": 0.7378,
+    "total_duration_seconds": 53.3,
+    "episodes": [
+      "episode-037-Episode 1681370"
+    ],
+    "segments": [
+      {
+        "order": 1,
+        "episode_id": "episode-037-Episode 1681370",
+        "episode_number": 37,
+        "start_seconds": 66.5,
+        "end_seconds": 119.8,
+        "start": "01:06.50",
+        "end": "01:59.80",
+        "duration_seconds": 53.3,
+        "dialogue": [
+          {
+            "start": "01:06.50",
+            "end": "01:08.80",
+            "character": "NOBLEMAN",
+            "kind": "dialogue",
+            "text": "A public execution after a wedding."
+          },
+          {
+            "start": "01:09.50",
+            "end": "01:12.20",
+            "character": "LADY CLARISSA",
+            "kind": "dialogue",
+            "text": "Not just an execution. A warning."
+          },
+          {
+            "start": "01:13.00",
+            "end": "01:14.20",
+            "character": "NOBLEMAN",
+            "kind": "dialogue",
+            "text": "To whom?"
+          },
+          {
+            "start": "01:17.00",
+            "end": "01:21.80",
+            "character": "LADY CLARISSA",
+            "kind": "dialogue",
+            "text": "To every woman who thinks she can rise above the place she was given."
+          },
+          {
+            "start": "01:23.00",
+            "end": "01:27.50",
+            "character": "LADY CLARISSA",
+            "kind": "dialogue",
+            "text": "Juliana's ruin will be a lesson. And we will be there to watch."
+          },
+          {
+            "start": "01:33.50",
+            "end": "01:35.50",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "Juliana curls her fingers back, pulling away from the foul sustenance in defiance."
+          },
+          {
+            "start": "01:36.00",
+            "end": "01:39.50",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "They think hunger will make me surrender."
+          },
+          {
+            "start": "01:40.80",
+            "end": "01:43.20",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "They think fear will make me beg."
+          },
+          {
+            "start": "01:45.50",
+            "end": "01:47.80",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "I will not!"
+          },
+          {
+            "start": "01:49.00",
+            "end": "01:52.50",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "They can take my name. They can take my home."
+          },
+          {
+            "start": "01:53.60",
+            "end": "01:56.20",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "They cannot take who I am!"
+          },
+          {
+            "start": "01:57.20",
+            "end": "01:59.80",
+            "character": "NOBLEMAN",
+            "kind": "dialogue",
+            "text": "Do you think she'll actually be executed?"
+          }
+        ]
+      }
+    ],
+    "opening_hook": {
+      "score": 0.5349,
+      "evidence": [
+        "high-arousal line",
+        "01:06.50 NOBLEMAN: “A public execution after a wedding.”",
+        "model: disgust 0.95, arousal 0.99",
+        "cues: ",
+        "zero-shot conflict/reveal 0.95"
+      ],
+      "timestamp": 66.5,
+      "episode_id": "episode-037-Episode 1681370",
+      "text": "A public execution after a wedding.",
+      "timestamp_fmt": "01:06.50"
+    },
+    "ending_cliffhanger": {
+      "score": 0.7557,
+      "evidence": [
+        "unanswered question (charged)",
+        "01:57.20–01:59.80 NOBLEMAN: “Do you think she'll actually be executed?”",
+        "closing tension 0.99",
+        "zero-shot suspense/threat/reveal 0.92",
+        "withheld next beat: LADY CLARISSA “After what she has been accused of? Of course.” (payoff 0.46)"
+      ],
+      "timestamp": 119.8,
+      "episode_id": "episode-037-Episode 1681370",
+      "text": "Do you think she'll actually be executed?",
+      "timestamp_fmt": "01:59.80"
+    },
+    "standalone_coherence": {
+      "score": 0.7937,
+      "evidence": [
+        "clear who/what/why",
+        "who: 3 speaking character(s), names on screen: juliana",
+        "what: 11 dialogue lines, 81 words",
+        "why: stakes (wedding); logline overlap 0.42",
+        "structure: continuous, 2 scene switch(es)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "emotional_intensity": {
+      "score": 0.8517,
+      "evidence": [
+        "peak 1.00 at 01:06.50, mean 0.70 (emotion model)"
+      ],
+      "timestamp": 66.5,
+      "episode_id": "episode-037-Episode 1681370",
+      "text": "",
+      "timestamp_fmt": "01:06.50"
+    },
+    "narrative_continuity": {
+      "score": 0.8,
+      "evidence": [
+        "one unbroken stretch, 3 scene(s)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "dialogue_quality": {
+      "score": 0.9727,
+      "evidence": [
+        "speech covers 61% of runtime, 9% filler lines, 7.4 words/line"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "score_breakdown": {
+      "hook": 0.5349,
+      "cliffhanger": 0.7557,
+      "coherence": 0.7937,
+      "emotion": 0.8517,
+      "continuity": 0.8,
+      "dialogue_quality": 0.9727
+    },
+    "passed_quality_gates": true,
+    "rejection_reasons": [],
+    "risk_flags": [],
+    "why_it_works": "Opens on high-arousal line (ep 37 01:06.50: “A public execution after a wedding.”) and cuts on unanswered question (charged) (ep 37 01:59.80: “Do you think she'll actually be executed?”); clear who/what/why.",
+    "llm_review": null
+  }
+}

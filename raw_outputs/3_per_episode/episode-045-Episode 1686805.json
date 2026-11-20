@@ -1,0 +1,239 @@
+{
+  "show": "I Married a Broken Soldier. He was a Duke",
+  "episode_id": "episode-045-Episode 1686805",
+  "episode_number": 45,
+  "source_path": "C:\\Users\\Dell\\Desktop\\kuku_fm_ass\\kuku_fm_assignment_project\\data\\I Married a Broken Soldier. He was a Duke\\episode-045-Episode 1686805.txt",
+  "status": "ok",
+  "error": "",
+  "traceback": "",
+  "warnings": [],
+  "lines_total": 74,
+  "dialogue_lines": 29,
+  "action_lines": 12,
+  "untimed_lines": 0,
+  "duration_seconds": 121.75,
+  "candidates": 785,
+  "candidates_passed": 465,
+  "best_promo_id": "cont-f4f1fb144b",
+  "best_score": 0.8186,
+  "no_promo_reason": "",
+  "seconds_features": 0.011,
+  "seconds_candidates": 0.046,
+  "logline": "Alexander frees Juliana from her chains and proclaims her the Duchess of Ashburton before the stunned congregation, only for an ecclesiastical authority to burst in and declare their marriage legally invalid.",
+  "best_promo": {
+    "rank": null,
+    "promo_id": "cont-f4f1fb144b",
+    "show": "I Married a Broken Soldier. He was a Duke",
+    "structure": "continuous",
+    "priority_score": 0.8186,
+    "total_duration_seconds": 36.1,
+    "episodes": [
+      "episode-045-Episode 1686805"
+    ],
+    "segments": [
+      {
+        "order": 1,
+        "episode_id": "episode-045-Episode 1686805",
+        "episode_number": 45,
+        "start_seconds": 21.9,
+        "end_seconds": 58.0,
+        "start": "00:21.90",
+        "end": "00:58.00",
+        "duration_seconds": 36.1,
+        "dialogue": [
+          {
+            "start": "00:21.90",
+            "end": "00:24.20",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "Alexander places the ducal cloak over Juliana's rustic gown, adjusting it gently over her shoulders."
+          },
+          {
+            "start": "00:22.90",
+            "end": "00:24.40",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "You're the Duke?"
+          },
+          {
+            "start": "00:24.60",
+            "end": "00:27.40",
+            "character": "ALEXANDER",
+            "kind": "dialogue",
+            "text": "Alexander Ashburton. The rightful Duke of Ashburton."
+          },
+          {
+            "start": "00:27.60",
+            "end": "00:29.60",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "All this time?"
+          },
+          {
+            "start": "00:30.20",
+            "end": "00:33.00",
+            "character": "ALEXANDER",
+            "kind": "dialogue",
+            "text": "You chose me when you believed I was nobody."
+          },
+          {
+            "start": "00:33.20",
+            "end": "00:34.90",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "I chose you because you were kind."
+          },
+          {
+            "start": "00:35.10",
+            "end": "00:36.80",
+            "character": "ALEXANDER",
+            "kind": "dialogue",
+            "text": "You chose me when I had nothing."
+          },
+          {
+            "start": "00:37.00",
+            "end": "00:38.70",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "I chose you because you had honor."
+          },
+          {
+            "start": "00:38.80",
+            "end": "00:41.80",
+            "character": "ALEXANDER",
+            "kind": "dialogue",
+            "text": "And I chose you because you saw the man before the title."
+          },
+          {
+            "start": "00:42.20",
+            "end": "00:48.50",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "Alexander and Juliana close their eyes, breathing together with their foreheads pressed gently against one another."
+          },
+          {
+            "start": "00:43.80",
+            "end": "00:46.00",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "I loved you before I ever knew who you were."
+          },
+          {
+            "start": "00:46.10",
+            "end": "00:48.80",
+            "character": "ALEXANDER",
+            "kind": "dialogue",
+            "text": "And I loved you before I ever dared to tell you."
+          },
+          {
+            "start": "00:49.00",
+            "end": "00:51.50",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "Catherine takes a desperate step forward, clutching her skirts and weeping."
+          },
+          {
+            "start": "00:49.80",
+            "end": "00:51.50",
+            "character": "CATHERINE",
+            "kind": "dialogue",
+            "text": "Alexander..."
+          },
+          {
+            "start": "00:54.00",
+            "end": "00:58.00",
+            "character": "ALEXANDER",
+            "kind": "dialogue",
+            "text": "You poisoned my mother. You tortured my wife."
+          }
+        ]
+      }
+    ],
+    "opening_hook": {
+      "score": 0.6911,
+      "evidence": [
+        "charged question",
+        "00:22.90 JULIANA: “You're the Duke?”",
+        "model: surprise 0.88, arousal 0.95",
+        "cues: ",
+        "script tag 'Shocked, Wondering' (1.00)",
+        "zero-shot conflict/reveal 0.37"
+      ],
+      "timestamp": 22.9,
+      "episode_id": "episode-045-Episode 1686805",
+      "text": "You're the Duke?",
+      "timestamp_fmt": "00:22.90"
+    },
+    "ending_cliffhanger": {
+      "score": 0.8823,
+      "evidence": [
+        "zero-shot reads an unresolved threat (0.96)",
+        "00:54.00–00:58.00 ALEXANDER: “You poisoned my mother. You tortured my wife.”",
+        "closing tension 1.00",
+        "zero-shot suspense/threat/reveal 0.96",
+        "withheld next beat: CATHERINE “I didn't know!” (payoff 0.91)"
+      ],
+      "timestamp": 58.0,
+      "episode_id": "episode-045-Episode 1686805",
+      "text": "You poisoned my mother. You tortured my wife.",
+      "timestamp_fmt": "00:58.00"
+    },
+    "standalone_coherence": {
+      "score": 0.825,
+      "evidence": [
+        "clear who/what/why",
+        "who: 3 speaking character(s), names on screen: alexander, catherine, juliana",
+        "what: 12 dialogue lines, 85 words",
+        "why: stakes (duke, honor, mother, title); logline overlap 0.33",
+        "structure: continuous, 1 scene switch(es)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "emotional_intensity": {
+      "score": 0.8097,
+      "evidence": [
+        "peak 1.00 at 00:54.00, mean 0.62 (emotion model)"
+      ],
+      "timestamp": 54.0,
+      "episode_id": "episode-045-Episode 1686805",
+      "text": "",
+      "timestamp_fmt": "00:54.00"
+    },
+    "narrative_continuity": {
+      "score": 0.9,
+      "evidence": [
+        "one unbroken stretch, 2 scene(s)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "dialogue_quality": {
+      "score": 0.975,
+      "evidence": [
+        "speech covers 77% of runtime, 8% filler lines, 7.1 words/line"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "score_breakdown": {
+      "hook": 0.6911,
+      "cliffhanger": 0.8823,
+      "coherence": 0.825,
+      "emotion": 0.8097,
+      "continuity": 0.9,
+      "dialogue_quality": 0.975
+    },
+    "passed_quality_gates": true,
+    "rejection_reasons": [],
+    "risk_flags": [],
+    "why_it_works": "Opens on charged question (ep 45 00:22.90: “You're the Duke?”) and cuts on zero-shot reads an unresolved threat (0.96) (ep 45 00:58.00: “You poisoned my mother. You tortured my wife.”); clear who/what/why.",
+    "llm_review": null
+  }
+}

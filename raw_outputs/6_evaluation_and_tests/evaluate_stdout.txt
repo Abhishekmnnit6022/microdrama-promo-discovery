@@ -1,0 +1,59 @@
+{
+  "automated_checks": {
+    "episodes_discovered": 50,
+    "episodes_failed": 0,
+    "candidates": 25771,
+    "candidate_valid_duration_rate": 1.0,
+    "candidate_valid_hook_rate": 0.5673,
+    "candidate_valid_cliffhanger_rate": 0.7344,
+    "candidate_poor_coherence_rate": 0.006,
+    "candidate_pass_all_gates_rate": 0.4694,
+    "recommended": 15,
+    "recommended_valid_duration_rate": 1.0,
+    "recommended_timestamp_validity_rate": 1.0,
+    "recommended_duplicate_pair_rate": 0.0,
+    "recommended_hook_gate_rate": 1.0,
+    "recommended_cliffhanger_gate_rate": 1.0,
+    "recommended_mean_coherence": 0.9064,
+    "processing_seconds_total": 102.177,
+    "processing_seconds_per_episode": 2.044,
+    "timings_seconds": {
+      "parse": 0.027,
+      "features_emotion": 0.447,
+      "candidates_continuous": 1.992,
+      "candidates_multi": 2.096,
+      "stage2_zeroshot": 34.591,
+      "llm_review": 62.815,
+      "total": 102.177
+    }
+  },
+  "silver_proxy_checks": {
+    "note": "Silver proxies derived from script structure; NOT human evaluation.",
+    "cliffhanger_proxy": {
+      "method": "per episode: final dialogue line vs 8 evenly spaced other dialogue lines as cut points",
+      "interpretation": "AUC 0.5 = no better than chance at preferring the writers' episode-ending line.",
+      "stage1_lexical_emotion": {
+        "episodes": 50,
+        "mean_auc_final_line_vs_other_cuts": 0.5,
+        "final_line_in_top_20pct_of_cuts": 0.34,
+        "mean_score_final_lines": 0.4638,
+        "mean_score_other_lines": 0.5083
+      },
+      "stage2_with_zeroshot": {
+        "episodes": 50,
+        "mean_auc_final_line_vs_other_cuts": 0.5425,
+        "final_line_in_top_20pct_of_cuts": 0.4,
+        "mean_score_final_lines": 0.4981,
+        "mean_score_other_lines": 0.4942
+      }
+    },
+    "emotion_model_vs_script_tags": {
+      "dialogue_lines": 1478,
+      "pearson_r_arousal_vs_tag_intensity": 0.2385
+    }
+  },
+  "human_evaluation": {
+    "editor_feedback": "no editor decisions recorded",
+    "labelled_promos": "no human-labelled promos found in eval/labels/ — recall@K, hook/cliffhanger precision not measured"
+  }
+}

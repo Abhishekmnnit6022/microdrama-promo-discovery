@@ -1,0 +1,218 @@
+{
+  "show": "I Married a Broken Soldier. He was a Duke",
+  "episode_id": "episode-013-Episode 1671715",
+  "episode_number": 13,
+  "source_path": "C:\\Users\\Dell\\Desktop\\kuku_fm_ass\\kuku_fm_assignment_project\\data\\I Married a Broken Soldier. He was a Duke\\episode-013-Episode 1671715.txt",
+  "status": "ok",
+  "error": "",
+  "traceback": "",
+  "warnings": [],
+  "lines_total": 75,
+  "dialogue_lines": 22,
+  "action_lines": 12,
+  "untimed_lines": 0,
+  "duration_seconds": 118.88,
+  "candidates": 695,
+  "candidates_passed": 473,
+  "best_promo_id": "cont-d38c80224f",
+  "best_score": 0.8487,
+  "no_promo_reason": "",
+  "seconds_features": 0.008,
+  "seconds_candidates": 0.029,
+  "logline": "Defying Alexander's desperate pleas, Juliana crawls barehanded into the razor-sharp blackthorn garden, enduring brutal lacerations under Clarissa and Gerald's cruel taunts until she unearths the lost emerald signet ring.",
+  "best_promo": {
+    "rank": 14,
+    "promo_id": "cont-d38c80224f",
+    "show": "I Married a Broken Soldier. He was a Duke",
+    "structure": "continuous",
+    "priority_score": 0.8487,
+    "total_duration_seconds": 32.0,
+    "episodes": [
+      "episode-013-Episode 1671715"
+    ],
+    "segments": [
+      {
+        "order": 1,
+        "episode_id": "episode-013-Episode 1671715",
+        "episode_number": 13,
+        "start_seconds": 74.5,
+        "end_seconds": 106.5,
+        "start": "01:14.50",
+        "end": "01:46.50",
+        "duration_seconds": 32.0,
+        "dialogue": [
+          {
+            "start": "01:14.50",
+            "end": "01:18.00",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "Juliana drags her body across the frozen, cracked soil beneath the dense roof of briars."
+          },
+          {
+            "start": "01:18.50",
+            "end": "01:20.50",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "Ah!"
+          },
+          {
+            "start": "01:20.50",
+            "end": "01:23.00",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "Alexander loses control, violently lunging past the Constable toward the briars."
+          },
+          {
+            "start": "01:20.80",
+            "end": "01:22.20",
+            "character": "ALEXANDER",
+            "kind": "dialogue",
+            "text": "Stop!"
+          },
+          {
+            "start": "01:23.00",
+            "end": "01:26.00",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "Juliana continues clawing forward, branches lacerating her arm and cheek."
+          },
+          {
+            "start": "01:23.80",
+            "end": "01:25.80",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "Ahhh!"
+          },
+          {
+            "start": "01:26.50",
+            "end": "01:28.80",
+            "character": "ALEXANDER",
+            "kind": "dialogue",
+            "text": "Juliana!"
+          },
+          {
+            "start": "01:29.20",
+            "end": "01:34.00",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "Juliana digs her torn fingers into the frost-hardened earth, turning over rocks and dead vegetation."
+          },
+          {
+            "start": "01:34.80",
+            "end": "01:36.40",
+            "character": "ALEXANDER",
+            "kind": "dialogue",
+            "text": "Juliana!"
+          },
+          {
+            "start": "01:38.20",
+            "end": "01:42.50",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "Please, ring... you have to be here."
+          },
+          {
+            "start": "01:43.00",
+            "end": "01:46.50",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "Her blood-smeared index finger brushes against a solid metallic object half-buried in the frozen dirt beneath a thorny branch."
+          }
+        ]
+      }
+    ],
+    "opening_hook": {
+      "score": 0.9428,
+      "evidence": [
+        "physical confrontation",
+        "01:14.50 ACTION: “Juliana drags her body across the frozen, cracked soil beneath the de…”",
+        "cues: physical ('drags'); shock ('frozen')",
+        "zero-shot conflict/reveal 0.87"
+      ],
+      "timestamp": 74.5,
+      "episode_id": "episode-013-Episode 1671715",
+      "text": "Juliana drags her body across the frozen, cracked soil beneath the dense roof of briars.",
+      "timestamp_fmt": "01:14.50"
+    },
+    "ending_cliffhanger": {
+      "score": 0.7849,
+      "evidence": [
+        "physical ('blood')",
+        "01:43.00–01:46.50 ACTION: “Her blood-smeared index finger brushes against a solid metallic objec…”",
+        "closing tension 0.80",
+        "zero-shot suspense/threat/reveal 0.57",
+        "cut matches the episode's own final beat (+0.12)",
+        "withheld next beat: ACTION “Juliana reaches out her torn, bloodied hand and w…” (payoff 0.50)"
+      ],
+      "timestamp": 106.5,
+      "episode_id": "episode-013-Episode 1671715",
+      "text": "Her blood-smeared index finger brushes against a solid metallic object half-buried in the frozen dirt beneath a thorny branch.",
+      "timestamp_fmt": "01:46.50"
+    },
+    "standalone_coherence": {
+      "score": 0.79,
+      "evidence": [
+        "clear who/what/why",
+        "who: 2 speaking character(s), names on screen: alexander, constable, juliana",
+        "what: 6 dialogue lines, 12 words",
+        "why: no explicit stakes words; conflict cue present; logline overlap 0.17",
+        "structure: continuous, 0 scene switch(es)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "emotional_intensity": {
+      "score": 0.8907,
+      "evidence": [
+        "peak 0.99 at 01:20.80, mean 0.79 (emotion model)"
+      ],
+      "timestamp": 80.8,
+      "episode_id": "episode-013-Episode 1671715",
+      "text": "",
+      "timestamp_fmt": "01:20.80"
+    },
+    "narrative_continuity": {
+      "score": 1.0,
+      "evidence": [
+        "one unbroken stretch, 1 scene(s)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "dialogue_quality": {
+      "score": 0.5042,
+      "evidence": [
+        "speech covers 43% of runtime, 83% filler lines, 2.0 words/line"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "score_breakdown": {
+      "hook": 0.9428,
+      "cliffhanger": 0.7849,
+      "coherence": 0.79,
+      "emotion": 0.8907,
+      "continuity": 1.0,
+      "dialogue_quality": 0.5042
+    },
+    "passed_quality_gates": true,
+    "rejection_reasons": [],
+    "risk_flags": [],
+    "why_it_works": "Opens on physical confrontation (ep 13 01:14.50: “Juliana drags her body across the frozen, cracked soil be…”) and cuts on physical ('blood') (ep 13 01:46.50: “Her blood-smeared index finger brushes against a solid me…”); clear who/what/why.",
+    "llm_review": {
+      "hook_works": true,
+      "cliffhanger_works": true,
+      "standalone": false,
+      "one_line": "The promo immediately grabs attention with visceral survival action and high-stakes emotional yelling, but leaves the viewer without context for who the characters are or why she is searching the dirt.",
+      "concerns": "A new viewer has no explanation for who Juliana and Alexander are, why she is desperately crawling through the freezing mud, or what the significance of the ring is.",
+      "model": "gemini-3.5-flash-lite",
+      "status": "ok"
+    }
+  }
+}

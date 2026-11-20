@@ -1,0 +1,84 @@
+== summary ==
+shows                              1
+episodes_discovered                50
+episodes_processed_ok              50
+episodes_failed                    0
+episodes_without_valid_promo       7
+candidates_total                   25534
+candidates_continuous              15790
+candidates_multi_segment           1566
+candidates_cross_episode           8178
+passed_duration                    25534
+valid_hook                         14420
+valid_cliffhanger                  13824
+rejected_poor_coherence            151
+passed_all_gates                   9784
+stage2_shortlisted                 1550
+stage2_passed                      966
+recommended                        15
+
+== per structure (all candidates) ==
+continuous      n= 15790 passed=  1934 (12.2%) mean_score=0.617 max=0.900
+multi_segment   n=  1566 passed=  1239 (79.1%) mean_score=0.742 max=0.879
+cross_episode   n=  8178 passed=  6611 (80.8%) mean_score=0.715 max=0.866
+
+== stage-2 shortlist ==
+shortlisted=1550 passed=966
+rejection reasons (stage 2): [('no genuine cliffhanger', 394), ('weak opening hook', 285)]
+
+== rejection reasons (all) ==
+  11710  no genuine cliffhanger
+  11114  weak opening hook
+    151  poor standalone coherence
+
+== component score distribution (all candidates) ==
+hook         p25=0.24 median=0.51 p75=0.72
+cliffhanger  p25=0.34 median=0.58 p75=0.69
+coherence    p25=0.74 median=0.81 p75=0.86
+emotion      p25=0.77 median=0.82 p75=0.87
+
+== recommended ==
+# 1 0.900  57.9s continuous    ep28 01:10.80-02:08.70
+     hook: physical confrontation | cliff: unanswered question (charged) (just before the cut) | coh 0.97 | LLM hook=True cliff=True standalone=True
+# 2 0.898  56.7s continuous    ep28 00:15.30-01:12.00
+     hook: threat | cliff: physical ('yanks') | coh 0.96 | LLM hook=True cliff=True standalone=False
+# 3 0.897  24.9s continuous    ep27 02:03.10-02:28.00
+     hook: threat | cliff: physical ('drags') | coh 0.94 | LLM hook=True cliff=True standalone=False
+# 4 0.893  35.0s continuous    ep15 00:47.40-01:22.40
+     hook: physical confrontation | cliff: unanswered question (charged) | coh 0.83 | LLM hook=True cliff=True standalone=False
+# 5 0.890  55.2s continuous    ep35 01:29.80-02:25.00
+     hook: betrayal/accusation | cliff: unanswered question (charged) | coh 0.94 | LLM hook=True cliff=True standalone=True
+# 6 0.873  28.6s continuous    ep29 01:24.00-01:52.60
+     hook: physical confrontation | cliff: line breaks off (—/...) (just before the cut) | coh 0.88 | LLM hook=True cliff=True standalone=False
+# 7 0.871  41.9s continuous    ep15 00:07.60-00:49.50
+     hook: sudden arrival | cliff: physical ('shoves') | coh 0.85 | LLM hook=True cliff=True standalone=True
+# 8 0.870  25.0s continuous    ep3 01:00.50-01:25.50
+     hook: physical confrontation | cliff: physical ('strike') | coh 0.83 | LLM hook=True cliff=True standalone=False
+# 9 0.868  28.5s continuous    ep3 01:24.00-01:52.50
+     hook: physical confrontation | cliff: unanswered question (charged) | coh 0.94 | LLM hook=True cliff=True standalone=False
+#10 0.866  20.6s cross_episode ep24 00:31.00-00:38.80 + ep25 02:01.00-02:13.80
+     hook: physical confrontation | cliff: revelation ('never told') | coh 0.81 | LLM hook=True cliff=True standalone=False
+     flags: coherence: jumps between episodes; spans episodes 24, 25 — verify continuity of costumes/locations
+#11 0.866  46.5s multi_segment ep43 00:24.10-00:33.40 + ep43 01:09.00-01:46.20
+     hook: betrayal/accusation | cliff: unanswered question (charged) | coh 0.95 | LLM hook=True cliff=True standalone=False
+#12 0.860  59.5s continuous    ep26 00:56.00-01:55.50
+     hook: charged question | cliff: unanswered question (charged) | coh 0.97 | LLM hook=True cliff=True standalone=True
+#13 0.854  40.7s continuous    ep30 00:32.10-01:12.80
+     hook: exclamation | cliff: revelation ('secret') | coh 0.82 | LLM hook=True cliff=True standalone=False
+#14 0.849  32.0s continuous    ep13 01:14.50-01:46.50
+     hook: physical confrontation | cliff: physical ('blood') | coh 0.79 | LLM hook=True cliff=True standalone=False
+#15 0.845  20.1s continuous    ep11 01:12.10-01:32.20
+     hook: shock reaction | cliff: physical ('grabs') | coh 0.94 | LLM hook=True cliff=True standalone=False
+
+hook reasons: [('physical confrontation', 7), ('threat', 2), ('betrayal/accusation', 2), ('sudden arrival', 1), ('charged question', 1), ('exclamation', 1), ('shock reaction', 1)]
+cliff reasons: [('unanswered question', 6), ('physical', 6), ('revelation', 2), ('line breaks off', 1)]
+episodes covered: [3, 11, 13, 15, 24, 25, 26, 27, 28, 29, 30, 35, 43]
+
+== episodes without a valid single-episode promo ==
+ep 5: no_valid_promo  no genuine cliffhanger: 388/712 candidates; weak opening hook: 241/712 candidates; poor standalone coherence: 2/712 candidates
+ep 8: no_valid_promo  weak opening hook: 462/657 candidates; no genuine cliffhanger: 391/657 candidates; poor standalone coherence: 9/657 candidates
+ep 19: no_valid_promo  no genuine cliffhanger: 497/604 candidates; weak opening hook: 367/604 candidates; poor standalone coherence: 7/604 candidates
+ep 40: no_valid_promo  weak opening hook: 256/382 candidates; no genuine cliffhanger: 245/382 candidates; poor standalone coherence: 2/382 candidates
+ep 41: no_valid_promo  weak opening hook: 292/331 candidates; no genuine cliffhanger: 127/331 candidates
+ep 46: no_valid_promo  no genuine cliffhanger: 387/496 candidates; weak opening hook: 208/496 candidates
+ep 49: no_valid_promo  weak opening hook: 262/511 candidates; no genuine cliffhanger: 259/511 candidates

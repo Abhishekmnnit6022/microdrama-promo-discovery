@@ -1,0 +1,177 @@
+{
+  "summary": {
+    "status": "ok",
+    "reviewed": 15,
+    "failed": 0,
+    "agree_hook": 15,
+    "agree_cliffhanger": 13,
+    "agree_standalone": 10
+  },
+  "reviews": [
+    {
+      "rank": 1,
+      "promo_id": "cont-de86233235",
+      "hook_works": true,
+      "cliffhanger_works": true,
+      "standalone": true,
+      "one_line": "The clip instantly grabs attention with a violent confrontation and a dramatic identity reveal that sets up high-stakes revenge.",
+      "concerns": "It does not fully explain how Lady Juliana ended up working as a servant or the exact nature of the false accusation.",
+      "model": "gemini-3.5-flash-lite",
+      "status": "ok"
+    },
+    {
+      "rank": 2,
+      "promo_id": "cont-3dfb23cf98",
+      "hook_works": true,
+      "cliffhanger_works": true,
+      "standalone": true,
+      "one_line": "The clip successfully grabs attention with a high-stakes accusation and ends just as the heroine is about to be dragged away by the villains.",
+      "concerns": "It is slightly unclear who Catherine is and what her exact relationship to the plot is without prior context.",
+      "model": "gemini-3.5-flash-lite",
+      "status": "ok"
+    },
+    {
+      "rank": 3,
+      "promo_id": "cont-9982cfce4a",
+      "hook_works": true,
+      "cliffhanger_works": false,
+      "standalone": true,
+      "one_line": "The clip successfully grabs attention with high-stakes physical conflict and a mysterious stranger intervening, but resolves the immediate confrontation rather than ending on a true cliffhanger.",
+      "concerns": "The ending resolves the immediate rescue scene instead of cutting off on a high-tension cliffhanger that forces viewers to click through.",
+      "model": "gemini-3.5-flash-lite",
+      "status": "ok"
+    },
+    {
+      "rank": 4,
+      "promo_id": "cont-ecac2393f3",
+      "hook_works": true,
+      "cliffhanger_works": true,
+      "standalone": true,
+      "one_line": "The promo immediately grabs attention with a high-stakes accusation of poisoning and ends on an intense cliffhanger as the protagonist is dragged away.",
+      "concerns": "It is not entirely clear who the Duchess or the main characters are, relying heavily on melodramatic tropes to carry the narrative.",
+      "model": "gemini-3.5-flash-lite",
+      "status": "ok"
+    },
+    {
+      "rank": 5,
+      "promo_id": "cont-b7695929bb",
+      "hook_works": true,
+      "cliffhanger_works": true,
+      "standalone": false,
+      "one_line": "The violent opening and emotional desperation immediately grab attention, but new viewers lack context regarding who Juliana, the Duchess, and Alexander are.",
+      "concerns": "A new viewer is dropped into the middle of the plot without knowing why Juliana was imprisoned, who the Duchess is, or what role Alexander plays.",
+      "model": "gemini-3.5-flash-lite",
+      "status": "ok"
+    },
+    {
+      "rank": 6,
+      "promo_id": "cont-a53e381a5e",
+      "hook_works": true,
+      "cliffhanger_works": true,
+      "standalone": true,
+      "one_line": "The clip successfully grabs attention with physical violence against the protagonist and ends right before a high-stakes confrontation with the arriving protector, Alexander.",
+      "concerns": "A completely new viewer might lack backstory on why the thugs are targeting her mother's plants, but the emotional stakes are still clear.",
+      "model": "gemini-3.5-flash-lite",
+      "status": "ok"
+    },
+    {
+      "rank": 7,
+      "promo_id": "cont-519b3d5ba1",
+      "hook_works": true,
+      "cliffhanger_works": true,
+      "standalone": true,
+      "one_line": "The clip works well because it quickly establishes a high-stakes betrayal and builds intense dramatic tension leading up to a cliffhanger question.",
+      "concerns": "The specific identity of the traitor is not revealed within the clip, which might leave viewers wanting immediate answers that require app downloads.",
+      "model": "gemini-3.5-flash-lite",
+      "status": "ok"
+    },
+    {
+      "rank": 8,
+      "promo_id": "cont-c52aef732b",
+      "hook_works": true,
+      "cliffhanger_works": true,
+      "standalone": true,
+      "one_line": "The clip successfully hooks viewers with immediate dramatic conflict, high emotional stakes, and a painful cliffhanger as Juliana is shoved to the ground.",
+      "concerns": "The exact backstory of why the thugs are targeting her garden is not fully explained within the clip.",
+      "model": "gemini-3.5-flash-lite",
+      "status": "ok"
+    },
+    {
+      "rank": 9,
+      "promo_id": "cont-f214d0796b",
+      "hook_works": true,
+      "cliffhanger_works": true,
+      "standalone": false,
+      "one_line": "The clip successfully hooks the viewer with a dramatic public accusation and ends right as a damaging wartime secret is revealed, but new viewers lack context on the underlying feud.",
+      "concerns": "A viewer who has never watched the show will not understand who betrayed Duke Alexander or why his unit's compromise matters to the current dispute.",
+      "model": "gemini-3.5-flash-lite",
+      "status": "ok"
+    },
+    {
+      "rank": 10,
+      "promo_id": "cont-77f9424e8a",
+      "hook_works": true,
+      "cliffhanger_works": true,
+      "standalone": true,
+      "one_line": "The clip successfully grabs attention with a murder plot accusation and ends on a suspenseful discovery regarding a mysterious ring.",
+      "concerns": "A first-time viewer might not fully understand the backstory of the noble family or why Juliana was cast out.",
+      "model": "gemini-3.5-flash-lite",
+      "status": "ok"
+    },
+    {
+      "rank": 11,
+      "promo_id": "cont-49e2467c1d",
+      "hook_works": true,
+      "cliffhanger_works": true,
+      "standalone": true,
+      "one_line": "The clip successfully grabs attention with an intense confrontation and ends on a high-stakes expulsion order that leaves viewers eager to see Catherine's fate.",
+      "concerns": "",
+      "model": "gemini-3.5-flash-lite",
+      "status": "ok"
+    },
+    {
+      "rank": 12,
+      "promo_id": "cont-400831c351",
+      "hook_works": true,
+      "cliffhanger_works": false,
+      "standalone": true,
+      "one_line": "The clip successfully grabs attention with a high-stakes medical emergency and a desperate plea, but it loses momentum by resolving the immediate crisis at the end rather than cutting on a cliffhanger.",
+      "concerns": "The clip ends on a resolution (\"We go now\") instead of a cliffhanger, reducing the urgency for viewers to click through to the app.",
+      "model": "gemini-3.5-flash-lite",
+      "status": "ok"
+    },
+    {
+      "rank": 13,
+      "promo_id": "cros-65ba548972",
+      "hook_works": true,
+      "cliffhanger_works": true,
+      "standalone": false,
+      "one_line": "The clip successfully grabs attention with a violent physical assault and ends on a high-stakes confrontation, but lacks the necessary context for a brand-new viewer to understand the relationships and motives.",
+      "concerns": "A new viewer has no context for who Lady Juliana, the noblewoman, or Alexander are, nor why Juliana is being blamed for a poisoning.",
+      "model": "gemini-3.5-flash-lite",
+      "status": "ok"
+    },
+    {
+      "rank": 14,
+      "promo_id": "cont-b026a8a6b9",
+      "hook_works": true,
+      "cliffhanger_works": true,
+      "standalone": false,
+      "one_line": "The clip successfully builds high stakes around an impending execution and betrayal, but fails to establish who Juliana or Rupert are for a new viewer.",
+      "concerns": "A viewer with no prior knowledge of the show will be confused about who Juliana, Rupert, and Catherine are, as well as why Alexander lost his home and name.",
+      "model": "gemini-3.5-flash-lite",
+      "status": "ok"
+    },
+    {
+      "rank": 15,
+      "promo_id": "cont-f57a5950c4",
+      "hook_works": true,
+      "cliffhanger_works": true,
+      "standalone": false,
+      "one_line": "The promo successfully hooks viewers with immediate physical conflict and a sinister plot to destroy the prisoner, but lacks necessary context for a completely new audience.",
+      "concerns": "A new viewer has no context about who the prisoner is, what the law being used against her is, or why the noblemen want her destroyed.",
+      "model": "gemini-3.5-flash-lite",
+      "status": "ok"
+    }
+  ]
+}

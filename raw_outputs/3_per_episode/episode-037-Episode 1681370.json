@@ -1,0 +1,174 @@
+{
+  "show": "I Married a Broken Soldier. He was a Duke",
+  "episode_id": "episode-037-Episode 1681370",
+  "episode_number": 37,
+  "source_path": "C:\\Users\\Dell\\Desktop\\kuku_fm_ass\\kuku_fm_assignment_project\\data\\I Married a Broken Soldier. He was a Duke\\episode-037-Episode 1681370.txt",
+  "status": "ok",
+  "error": "",
+  "traceback": "",
+  "warnings": [],
+  "lines_total": 79,
+  "dialogue_lines": 33,
+  "action_lines": 5,
+  "untimed_lines": 0,
+  "duration_seconds": 156.47,
+  "candidates": 357,
+  "candidates_passed": 78,
+  "best_promo_id": "cont-3da8688935",
+  "best_score": 0.7579,
+  "no_promo_reason": "",
+  "seconds_features": 0.009,
+  "seconds_candidates": 0.032,
+  "logline": "As Rupert and Catherine issue wedding invitations paired with Juliana's public execution decree to terrorize the county, Juliana endures starvation in the dungeon, refusing to break her spirit.",
+  "best_promo": {
+    "rank": null,
+    "promo_id": "cont-3da8688935",
+    "show": "I Married a Broken Soldier. He was a Duke",
+    "structure": "continuous",
+    "priority_score": 0.7579,
+    "total_duration_seconds": 23.8,
+    "episodes": [
+      "episode-037-Episode 1681370"
+    ],
+    "segments": [
+      {
+        "order": 1,
+        "episode_id": "episode-037-Episode 1681370",
+        "episode_number": 37,
+        "start_seconds": 117.2,
+        "end_seconds": 141.0,
+        "start": "01:57.20",
+        "end": "02:21.00",
+        "duration_seconds": 23.8,
+        "dialogue": [
+          {
+            "start": "01:57.20",
+            "end": "01:59.80",
+            "character": "NOBLEMAN",
+            "kind": "dialogue",
+            "text": "Do you think she'll actually be executed?"
+          },
+          {
+            "start": "02:00.50",
+            "end": "02:04.20",
+            "character": "LADY CLARISSA",
+            "kind": "dialogue",
+            "text": "After what she has been accused of? Of course."
+          },
+          {
+            "start": "02:04.80",
+            "end": "02:06.50",
+            "character": "NOBLEMAN",
+            "kind": "dialogue",
+            "text": "She was always stubborn."
+          },
+          {
+            "start": "02:07.50",
+            "end": "02:12.00",
+            "character": "LADY CLARISSA",
+            "kind": "dialogue",
+            "text": "That was her greatest mistake. She could have accepted what happened. She could have disappeared quietly."
+          },
+          {
+            "start": "02:12.50",
+            "end": "02:16.00",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "Clarissa rises from her armchair holding a cut crystal glass filled with dark red wine, pacing toward the fireplace."
+          },
+          {
+            "start": "02:14.00",
+            "end": "02:21.00",
+            "character": "LADY CLARISSA",
+            "kind": "dialogue",
+            "text": "Instead she married a nobody, played healer to peasants, challenged people above her. And now the whole county will watch her pay for it."
+          }
+        ]
+      }
+    ],
+    "opening_hook": {
+      "score": 0.6216,
+      "evidence": [
+        "charged question",
+        "01:57.20 NOBLEMAN: “Do you think she'll actually be executed?”",
+        "model: surprise 0.65, arousal 0.76",
+        "zero-shot conflict/reveal 0.92"
+      ],
+      "timestamp": 117.2,
+      "episode_id": "episode-037-Episode 1681370",
+      "text": "Do you think she'll actually be executed?",
+      "timestamp_fmt": "01:57.20"
+    },
+    "ending_cliffhanger": {
+      "score": 0.6529,
+      "evidence": [
+        "zero-shot reads an unresolved threat (0.67)",
+        "02:14.00–02:21.00 LADY CLARISSA: “Instead she married a nobody, played healer to peasants, challenged p…”",
+        "closing tension 1.00",
+        "zero-shot suspense/threat/reveal 0.67",
+        "withheld next beat: LADY CLARISSA “Let them see what happens when a woman forgets he…” (payoff 0.44)"
+      ],
+      "timestamp": 141.0,
+      "episode_id": "episode-037-Episode 1681370",
+      "text": "Instead she married a nobody, played healer to peasants, challenged people above her. And now the whole county will watch her pay for it.",
+      "timestamp_fmt": "02:21.00"
+    },
+    "standalone_coherence": {
+      "score": 0.8438,
+      "evidence": [
+        "clear who/what/why",
+        "who: 2 speaking character(s), names on screen: clarissa",
+        "what: 5 dialogue lines, 60 words",
+        "why: stakes (married); logline overlap 0.08",
+        "structure: continuous, 0 scene switch(es)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "emotional_intensity": {
+      "score": 0.8033,
+      "evidence": [
+        "peak 0.91 at 02:00.50, mean 0.70 (emotion model)"
+      ],
+      "timestamp": 120.5,
+      "episode_id": "episode-037-Episode 1681370",
+      "text": "",
+      "timestamp_fmt": "02:00.50"
+    },
+    "narrative_continuity": {
+      "score": 1.0,
+      "evidence": [
+        "one unbroken stretch, 1 scene(s)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "dialogue_quality": {
+      "score": 1.0,
+      "evidence": [
+        "speech covers 82% of runtime, 0% filler lines, 12.0 words/line"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "score_breakdown": {
+      "hook": 0.6216,
+      "cliffhanger": 0.6529,
+      "coherence": 0.8438,
+      "emotion": 0.8033,
+      "continuity": 1.0,
+      "dialogue_quality": 1.0
+    },
+    "passed_quality_gates": true,
+    "rejection_reasons": [],
+    "risk_flags": [],
+    "why_it_works": "Opens on charged question (ep 37 01:57.20: “Do you think she'll actually be executed?”) and cuts on zero-shot reads an unresolved threat (0.67) (ep 37 02:21.00: “Instead she married a nobody, played healer to peasants, …”); clear who/what/why.",
+    "llm_review": null
+  }
+}

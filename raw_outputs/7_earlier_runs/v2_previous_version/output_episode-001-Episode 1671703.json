@@ -1,0 +1,120 @@
+{
+  "file": "episode-001-Episode 1671703.txt",
+  "hooks": [
+    {
+      "rank": 1,
+      "filename": "episode-001-Episode 1671703.txt",
+      "score": 1.0,
+      "start_time": "00:54",
+      "end_time": "01:18",
+      "duration_seconds": 23.8,
+      "dominant_emotion": "anger",
+      "emotional_intensity": 0.9159,
+      "curiosity_score": 0.9,
+      "dialogue": "You let me dress in my mother's gown... You let me believe I was walking toward my husband! I changed my mind. You swore you loved me! People change their minds, sister. And you knew? Of course I knew. How long? Long enough to know he was never going to marry you.",
+      "explanation": [
+        "Emotional intensity: 92% (dominant: anger)",
+        "Contains unanswered question near end of segment",
+        "Revelation keyword(s): 'you knew', 'how long'",
+        "Confrontation detected: 'you swore', 'enough', 'you let me'",
+        "Cliffhanger indicator: '...'",
+        "Emotional shift detected: Betrayed, Piercing, Cold, Callous, Cruel, Poised"
+      ],
+      "headline": "Betrayed at the altar by her own sister!",
+      "hook": "\"You let me believe I was walking toward my husband!\" 💔 Watch the sisterhood shatter in seconds—link in bio to binge the full series!",
+      "caption": "She wore her mother's gown, walking blindly toward the ultimate betrayal. When the veil is ripped away, the truth is deadlier than she ever imagined. Don't miss this explosive confrontation at 00:54! Stream the ultimate revenge drama now.",
+      "promo_is_fallback": false
+    },
+    {
+      "rank": 2,
+      "filename": "episode-001-Episode 1671703.txt",
+      "score": 0.7692,
+      "start_time": "01:26",
+      "end_time": "01:47",
+      "duration_seconds": 21.3,
+      "dominant_emotion": "disgust",
+      "emotional_intensity": 0.9503,
+      "curiosity_score": 0.65,
+      "dialogue": "Father... please look at me. The father tightens his jaw and stony expression, refusing to offer a single word or look. Enough! You have embarrassed this family long enough. Embarrassed you? Clarissa knows how to carry herself. She has beauty, connections, and a future worth protecting. And I am what?",
+      "explanation": [
+        "Emotional intensity: 95% (dominant: disgust)",
+        "Contains unanswered question near end of segment",
+        "Confrontation detected: 'enough', 'embarrassed'",
+        "Cliffhanger indicator: '...'",
+        "Emotional shift detected: Choking, Broken, Disgusted, Haughty"
+      ],
+      "headline": "Disowned by her own blood for a sister who has it all!",
+      "hook": "\"And I am what?\" — Watch the ultimate betrayal unfold right now!",
+      "caption": "Years of loyalty, broken in a single glance. When a father looks at his own flesh and blood with pure disgust, choosing golden-child Clarissa over everything else, the war for respect officially begins. Watch the heartbreaking confrontation everyone is talking about!",
+      "promo_is_fallback": false
+    },
+    {
+      "rank": 3,
+      "filename": "episode-001-Episode 1671703.txt",
+      "score": 0.7308,
+      "start_time": "00:33",
+      "end_time": "00:50",
+      "duration_seconds": 16.2,
+      "dominant_emotion": "surprise",
+      "emotional_intensity": 0.976,
+      "curiosity_score": 0.6,
+      "dialogue": "Gerald? Why are you holding her hand? Because he is marrying me. No... You knew this before I walked through those doors!",
+      "explanation": [
+        "Emotional intensity: 98% (dominant: surprise)",
+        "Contains 2 question(s)",
+        "Revelation keyword(s): 'you knew'",
+        "Cliffhanger indicator: '...'",
+        "Emotional shift detected: Gasping, Devastated, Gloating, Smug, Heartbroken"
+      ],
+      "headline": "The ultimate betrayal: Unmasked at the altar!",
+      "hook": "\"You knew this before I walked through those doors!\"—Can she survive this devastating heartbreak? Stream the next episode immediately!",
+      "caption": "Just when she thought she found her happily ever after, the truth shatters everything at 00:33. Watch the jaw-dropping confrontation that changes it all on our microdrama app now!",
+      "promo_is_fallback": false
+    },
+    {
+      "rank": 4,
+      "filename": "episode-001-Episode 1671703.txt",
+      "score": 0.3462,
+      "start_time": "00:11",
+      "end_time": "00:29",
+      "duration_seconds": 18.5,
+      "dominant_emotion": "surprise",
+      "emotional_intensity": 0.9904,
+      "curiosity_score": 0.1,
+      "dialogue": "You should turn around, Juliana. Why? Gerald is waiting for me. Not anymore. What do you mean? Look for yourself. Juliana walks forward past the Matriarch, her breath hitching as she approaches the altar steps, looking up in shock.",
+      "explanation": [
+        "Emotional intensity: 99% (dominant: surprise)",
+        "Contains 2 question(s)",
+        "Emotional shift detected: Blunt, Unforgiving, Cold, Commanding, Confused, Breathless",
+        "Position bonus: opening"
+      ],
+      "headline": "She thought she was walking to her wedding... until she looked at the altar.",
+      "hook": "\"Gerald is waiting for me.\" \"Not anymore.\" 😱 Drop everything and stream the twist everyone is talking about right now!",
+      "caption": "No warning. No mercy. Just the ultimate betrayal at 00:11. Watch the jaw-dropping moment Juliana's world shatters completely.",
+      "promo_is_fallback": false
+    },
+    {
+      "rank": 5,
+      "filename": "episode-001-Episode 1671703.txt",
+      "score": 0.2308,
+      "start_time": "01:51",
+      "end_time": "02:11",
+      "duration_seconds": 20.1,
+      "dominant_emotion": "anger",
+      "emotional_intensity": 0.885,
+      "curiosity_score": 0.3,
+      "dialogue": "I am the daughter they choose. Clarissa is the jewel of this family. So that is what I was worth to you? You have nothing to offer me anymore. I cannot marry a woman of such plainness and low value... ...when Clarissa is the true jewel of the county.",
+      "explanation": [
+        "Emotional intensity: 88% (dominant: anger)",
+        "Contains 1 question(s)",
+        "Cliffhanger indicator: '...'",
+        "Emotional shift detected: Arrogant, Dismissive, Firm, Gloating",
+        "Position bonus: closing cliffhanger"
+      ],
+      "headline": "Replaced by her \"golden\" sister—until he finds out her true identity! 🔥",
+      "hook": "\"You have nothing to offer me anymore...\" Oh, really? Wait until he finds out who she *really* is. 😤 Watch what happens next at 02:11!",
+      "caption": "Traded away like property, she’s about to make them regret every single word. Watch the ultimate revenge unfold in the latest episode of our hit microdrama. Stream now! 📲✨ #Revenge #Microdrama #FamilyBetrayal #PlotTwist",
+      "promo_is_fallback": false
+    }
+  ]
+}

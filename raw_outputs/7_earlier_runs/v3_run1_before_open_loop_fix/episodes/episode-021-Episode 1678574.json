@@ -1,0 +1,288 @@
+{
+  "show": "I Married a Broken Soldier. He was a Duke",
+  "episode_id": "episode-021-Episode 1678574",
+  "episode_number": 21,
+  "source_path": "C:\\Users\\Dell\\Desktop\\kuku_fm_ass\\kuku_fm_assignment_project\\data\\I Married a Broken Soldier. He was a Duke\\episode-021-Episode 1678574.txt",
+  "status": "ok",
+  "error": "",
+  "traceback": "",
+  "warnings": [],
+  "lines_total": 76,
+  "dialogue_lines": 28,
+  "action_lines": 15,
+  "untimed_lines": 0,
+  "duration_seconds": 114.0,
+  "candidates": 829,
+  "candidates_passed": 335,
+  "best_promo_id": "cont-b0cf7d5389",
+  "best_score": 0.7731,
+  "no_promo_reason": "",
+  "seconds_features": 0.016,
+  "seconds_candidates": 0.069,
+  "logline": "After defying her own despair to cure a fever-stricken village boy with her mother's herbal remedies, Lady Juliana learns that the Dowager Duchess is secretly withering away from a mysterious illness inside Ashbury Manor.",
+  "best_promo": {
+    "rank": null,
+    "promo_id": "cont-b0cf7d5389",
+    "show": "I Married a Broken Soldier. He was a Duke",
+    "structure": "continuous",
+    "priority_score": 0.7731,
+    "total_duration_seconds": 55.4,
+    "episodes": [
+      "episode-021-Episode 1678574"
+    ],
+    "segments": [
+      {
+        "order": 1,
+        "episode_id": "episode-021-Episode 1678574",
+        "episode_number": 21,
+        "start_seconds": 11.2,
+        "end_seconds": 66.6,
+        "start": "00:11.20",
+        "end": "01:06.60",
+        "duration_seconds": 55.4,
+        "dialogue": [
+          {
+            "start": "00:11.20",
+            "end": "00:15.00",
+            "character": "PRUDENCE",
+            "kind": "dialogue",
+            "text": "My little brother Toby... his chest is burning! He cannot breathe!"
+          },
+          {
+            "start": "00:15.00",
+            "end": "00:18.20",
+            "character": "LADY JULIANA",
+            "kind": "dialogue",
+            "text": "Tell me what the apothecary said. Did he not give you medicine?"
+          },
+          {
+            "start": "00:18.20",
+            "end": "00:21.70",
+            "character": "PRUDENCE",
+            "kind": "dialogue",
+            "text": "He shut the door in my face because we have no silver!"
+          },
+          {
+            "start": "00:21.80",
+            "end": "00:25.30",
+            "character": "PRUDENCE",
+            "kind": "dialogue",
+            "text": "The manor doctor laughed! He said village boys are not worth his time!"
+          },
+          {
+            "start": "00:25.10",
+            "end": "00:27.40",
+            "character": "LADY JULIANA",
+            "kind": "dialogue",
+            "text": "We have no clinic now."
+          },
+          {
+            "start": "00:27.50",
+            "end": "00:30.80",
+            "character": "LADY JULIANA",
+            "kind": "dialogue",
+            "text": "Our cottage is ashes. I have nothing left but this coltsfoot."
+          },
+          {
+            "start": "00:31.00",
+            "end": "00:33.00",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "Prudence drops desperately to her knees onto the hay-strewn barn floor, clasping her hands in tearful supplication."
+          },
+          {
+            "start": "00:31.00",
+            "end": "00:35.80",
+            "character": "PRUDENCE",
+            "kind": "dialogue",
+            "text": "He is only seven! If you do not come, he will die! You are his only hope, Lady Juliana!"
+          },
+          {
+            "start": "00:35.80",
+            "end": "00:39.50",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "Lady Juliana immediately reaches down and pulls Prudence firmly back to her feet, then turns to snatch her heavy leather-bound herbal ledger from the wooden workbench."
+          },
+          {
+            "start": "00:35.90",
+            "end": "00:40.40",
+            "character": "LADY JULIANA",
+            "kind": "dialogue",
+            "text": "Stand up. Sinking to your knees will not save him. Let me grab my ledger. We go now."
+          },
+          {
+            "start": "00:40.50",
+            "end": "00:42.80",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "Lady Juliana clutches the thick book to her chest as she and Prudence sprint swiftly through the village."
+          },
+          {
+            "start": "00:45.50",
+            "end": "00:48.00",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "Lady Juliana rushes in, sets the ledger on the rustic wooden table, and quickly flips open the pages."
+          },
+          {
+            "start": "00:47.30",
+            "end": "00:48.80",
+            "character": "LADY JULIANA",
+            "kind": "dialogue",
+            "text": "His skin is burning hot."
+          },
+          {
+            "start": "00:48.80",
+            "end": "00:50.50",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "Lady Juliana places her bandaged hand against Toby's flushed, sweating forehead as he wheezes painfully."
+          },
+          {
+            "start": "00:48.90",
+            "end": "00:50.80",
+            "character": "LADY JULIANA",
+            "kind": "dialogue",
+            "text": "Prudence, fetch hot water immediately!"
+          },
+          {
+            "start": "00:51.20",
+            "end": "00:53.00",
+            "character": "PRUDENCE",
+            "kind": "dialogue",
+            "text": "Yes! Right away, I will get it!"
+          },
+          {
+            "start": "00:53.00",
+            "end": "00:55.00",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "Prudence wraps a cloth around the iron handle of the steaming kettle resting over the hearth fire and lifts it."
+          },
+          {
+            "start": "00:54.10",
+            "end": "00:58.20",
+            "character": "LADY JULIANA",
+            "kind": "dialogue",
+            "text": "I cannot let my own weariness stop me. This boy needs my mother's knowledge."
+          },
+          {
+            "start": "00:58.20",
+            "end": "01:00.50",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "Lady Juliana crushes dried herbal leaves into a dark wooden bowl between her bandaged hands, then pours steaming water over them from the kettle."
+          },
+          {
+            "start": "01:00.80",
+            "end": "01:04.00",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "Lady Juliana sits beside the pallet and brings the steaming herbal bowl close to Toby's face while Prudence cradles his shoulders."
+          },
+          {
+            "start": "01:01.00",
+            "end": "01:04.00",
+            "character": "LADY JULIANA",
+            "kind": "dialogue",
+            "text": "Lift his shoulders, Prudence. Hold the steam close. Let him inhale."
+          },
+          {
+            "start": "01:04.50",
+            "end": "01:06.60",
+            "character": "PRUDENCE",
+            "kind": "dialogue",
+            "text": "Like this? Toby, breathe it in, sweet boy."
+          }
+        ]
+      }
+    ],
+    "opening_hook": {
+      "score": 0.7716,
+      "evidence": [
+        "exclamation",
+        "00:11.20 PRUDENCE: “My little brother Toby... his chest is burning! He cannot breathe!”",
+        "model: anger 0.77, arousal 0.92",
+        "cues: ",
+        "script tag 'Sobbing, Breathless' (1.00)",
+        "zero-shot conflict/reveal 0.85"
+      ],
+      "timestamp": 11.2,
+      "episode_id": "episode-021-Episode 1678574",
+      "text": "My little brother Toby... his chest is burning! He cannot breathe!",
+      "timestamp_fmt": "00:11.20"
+    },
+    "ending_cliffhanger": {
+      "score": 0.5358,
+      "evidence": [
+        "unanswered question (charged)",
+        "01:04.50–01:06.60 PRUDENCE: “Like this? Toby, breathe it in, sweet boy.”",
+        "closing tension 0.67",
+        "zero-shot suspense/threat/reveal 0.08",
+        "withheld next beat: LADY JULIANA “Yes, just like that. Keep breathing, Toby. Let th…” (payoff 0.48)"
+      ],
+      "timestamp": 66.6,
+      "episode_id": "episode-021-Episode 1678574",
+      "text": "Like this? Toby, breathe it in, sweet boy.",
+      "timestamp_fmt": "01:06.60"
+    },
+    "standalone_coherence": {
+      "score": 0.9,
+      "evidence": [
+        "clear who/what/why",
+        "who: 2 speaking character(s), names on screen: juliana, prudence",
+        "what: 14 dialogue lines, 151 words",
+        "why: stakes (brother, die); conflict cue present; logline overlap 0.67",
+        "structure: continuous, 2 scene switch(es)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "emotional_intensity": {
+      "score": 0.9084,
+      "evidence": [
+        "peak 0.99 at 00:18.20, mean 0.83 (emotion model)"
+      ],
+      "timestamp": 18.2,
+      "episode_id": "episode-021-Episode 1678574",
+      "text": "",
+      "timestamp_fmt": "00:18.20"
+    },
+    "narrative_continuity": {
+      "score": 0.8,
+      "evidence": [
+        "one unbroken stretch, 3 scene(s)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "dialogue_quality": {
+      "score": 1.0,
+      "evidence": [
+        "speech covers 78% of runtime, 0% filler lines, 10.8 words/line"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "score_breakdown": {
+      "hook": 0.7716,
+      "cliffhanger": 0.5358,
+      "coherence": 0.9,
+      "emotion": 0.9084,
+      "continuity": 0.8,
+      "dialogue_quality": 1.0
+    },
+    "passed_quality_gates": true,
+    "rejection_reasons": [],
+    "risk_flags": [],
+    "why_it_works": "Opens on exclamation (ep 21 00:11.20: “My little brother Toby... his chest is burning! He cannot…”) and cuts on unanswered question (charged) (ep 21 01:06.60: “Like this? Toby, breathe it in, sweet boy.”); clear who/what/why.",
+    "llm_review": null
+  }
+}

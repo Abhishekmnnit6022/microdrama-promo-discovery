@@ -1,0 +1,188 @@
+{
+  "show": "I Married a Broken Soldier. He was a Duke",
+  "episode_id": "episode-014-Episode 1671716",
+  "episode_number": 14,
+  "source_path": "C:\\Users\\Dell\\Desktop\\kuku_fm_ass\\kuku_fm_assignment_project\\data\\I Married a Broken Soldier. He was a Duke\\episode-014-Episode 1671716.txt",
+  "status": "ok",
+  "error": "",
+  "traceback": "",
+  "warnings": [],
+  "lines_total": 51,
+  "dialogue_lines": 14,
+  "action_lines": 9,
+  "untimed_lines": 0,
+  "duration_seconds": 87.63,
+  "candidates": 487,
+  "candidates_passed": 283,
+  "best_promo_id": "cont-b14afef4bf",
+  "best_score": 0.786,
+  "no_promo_reason": "",
+  "seconds_features": 0.006,
+  "seconds_candidates": 0.014,
+  "logline": "After Juliana secures Alexander's freedom with the unearthed emerald signet ring, he carries her home to bandage her torn hands, silently swearing that no one will ever harm her again.",
+  "best_promo": {
+    "rank": null,
+    "promo_id": "cont-b14afef4bf",
+    "show": "I Married a Broken Soldier. He was a Duke",
+    "structure": "continuous",
+    "priority_score": 0.786,
+    "total_duration_seconds": 24.5,
+    "episodes": [
+      "episode-014-Episode 1671716"
+    ],
+    "segments": [
+      {
+        "order": 1,
+        "episode_id": "episode-014-Episode 1671716",
+        "episode_number": 14,
+        "start_seconds": 0.5,
+        "end_seconds": 25.0,
+        "start": "00:00.50",
+        "end": "00:25.00",
+        "duration_seconds": 24.5,
+        "dialogue": [
+          {
+            "start": "00:00.50",
+            "end": "00:05.50",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "Juliana's blood-streaked, mud-caked hand slowly uncurls amidst the thorns, revealing the ornate emerald signet ring resting in her palm."
+          },
+          {
+            "start": "00:07.70",
+            "end": "00:09.00",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "I found it."
+          },
+          {
+            "start": "00:10.50",
+            "end": "00:12.70",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "Now release my husband."
+          },
+          {
+            "start": "00:12.50",
+            "end": "00:13.50",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "The Constable takes the ring from her bloodied fingers."
+          },
+          {
+            "start": "00:14.50",
+            "end": "00:15.60",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "The Constable unlocks the cuffs, freeing Alexander's large hands."
+          },
+          {
+            "start": "00:16.80",
+            "end": "00:18.00",
+            "character": "ALEXANDER",
+            "kind": "dialogue",
+            "text": "Juliana."
+          },
+          {
+            "start": "00:18.80",
+            "end": "00:23.00",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "Alexander gently turns her palms up, his thumbs trembling as he inspects the deep, bleeding gashes gouged into her skin."
+          },
+          {
+            "start": "00:23.10",
+            "end": "00:25.00",
+            "character": "ALEXANDER",
+            "kind": "dialogue",
+            "text": "What have they done to you?"
+          }
+        ]
+      }
+    ],
+    "opening_hook": {
+      "score": 0.8177,
+      "evidence": [
+        "physical confrontation",
+        "00:00.50 ACTION: “Juliana's blood-streaked, mud-caked hand slowly uncurls amidst the th…”",
+        "cues: physical ('blood')",
+        "zero-shot conflict/reveal 0.59"
+      ],
+      "timestamp": 0.5,
+      "episode_id": "episode-014-Episode 1671716",
+      "text": "Juliana's blood-streaked, mud-caked hand slowly uncurls amidst the thorns, revealing the ornate emerald signet ring resting in her palm.",
+      "timestamp_fmt": "00:00.50"
+    },
+    "ending_cliffhanger": {
+      "score": 0.5965,
+      "evidence": [
+        "unanswered question (charged)",
+        "00:23.10–00:25.00 ALEXANDER: “What have they done to you?”",
+        "closing tension 0.80",
+        "zero-shot suspense/threat/reveal 0.35",
+        "withheld next beat: JULIANA “Nothing they didn't promise.” (payoff 0.32)"
+      ],
+      "timestamp": 25.0,
+      "episode_id": "episode-014-Episode 1671716",
+      "text": "What have they done to you?",
+      "timestamp_fmt": "00:25.00"
+    },
+    "standalone_coherence": {
+      "score": 0.9092,
+      "evidence": [
+        "clear who/what/why",
+        "who: 2 speaking character(s), names on screen: alexander, alexander's, constable, juliana",
+        "what: 4 dialogue lines, 14 words",
+        "why: stakes (husband); conflict cue present; logline overlap 0.50",
+        "structure: continuous, 0 scene switch(es)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "emotional_intensity": {
+      "score": 0.7875,
+      "evidence": [
+        "peak 0.94 at 00:10.50, mean 0.64 (emotion model)"
+      ],
+      "timestamp": 10.5,
+      "episode_id": "episode-014-Episode 1671716",
+      "text": "",
+      "timestamp_fmt": "00:10.50"
+    },
+    "narrative_continuity": {
+      "score": 1.0,
+      "evidence": [
+        "one unbroken stretch, 1 scene(s)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "dialogue_quality": {
+      "score": 0.6495,
+      "evidence": [
+        "speech covers 27% of runtime, 25% filler lines, 3.5 words/line"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "score_breakdown": {
+      "hook": 0.8177,
+      "cliffhanger": 0.5965,
+      "coherence": 0.9092,
+      "emotion": 0.7875,
+      "continuity": 1.0,
+      "dialogue_quality": 0.6495
+    },
+    "passed_quality_gates": true,
+    "rejection_reasons": [],
+    "risk_flags": [],
+    "why_it_works": "Opens on physical confrontation (ep 14 00:00.50: “Juliana's blood-streaked, mud-caked hand slowly uncurls a…”) and cuts on unanswered question (charged) (ep 14 00:25.00: “What have they done to you?”); clear who/what/why.",
+    "llm_review": null
+  }
+}

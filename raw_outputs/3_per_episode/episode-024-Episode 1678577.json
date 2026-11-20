@@ -1,0 +1,259 @@
+{
+  "show": "I Married a Broken Soldier. He was a Duke",
+  "episode_id": "episode-024-Episode 1678577",
+  "episode_number": 24,
+  "source_path": "C:\\Users\\Dell\\Desktop\\kuku_fm_ass\\kuku_fm_assignment_project\\data\\I Married a Broken Soldier. He was a Duke\\episode-024-Episode 1678577.txt",
+  "status": "ok",
+  "error": "",
+  "traceback": "",
+  "warnings": [],
+  "lines_total": 69,
+  "dialogue_lines": 23,
+  "action_lines": 12,
+  "untimed_lines": 0,
+  "duration_seconds": 92.0,
+  "candidates": 770,
+  "candidates_passed": 544,
+  "best_promo_id": "cont-c9bf742829",
+  "best_score": 0.8227,
+  "no_promo_reason": "",
+  "seconds_features": 0.01,
+  "seconds_candidates": 0.04,
+  "logline": "When an arrogant noblewoman catches Juliana in the poisoned Dowager Duchess's chambers, she strikes Juliana with a riding crop and sentences her to scrub the hearth, unaware that Juliana has secretly hidden the antidote and remedy journal to finish the Duchess's cure.",
+  "best_promo": {
+    "rank": null,
+    "promo_id": "cont-c9bf742829",
+    "show": "I Married a Broken Soldier. He was a Duke",
+    "structure": "continuous",
+    "priority_score": 0.8227,
+    "total_duration_seconds": 39.5,
+    "episodes": [
+      "episode-024-Episode 1678577"
+    ],
+    "segments": [
+      {
+        "order": 1,
+        "episode_id": "episode-024-Episode 1678577",
+        "episode_number": 24,
+        "start_seconds": 31.0,
+        "end_seconds": 70.5,
+        "start": "00:31.00",
+        "end": "01:10.50",
+        "duration_seconds": 39.5,
+        "dialogue": [
+          {
+            "start": "00:31.00",
+            "end": "00:32.50",
+            "character": "LADY JULIANA",
+            "kind": "dialogue",
+            "text": "I cannot do that."
+          },
+          {
+            "start": "00:32.50",
+            "end": "00:34.50",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "The noblewoman suddenly rears back her riding crop and strikes Juliana violently across the torso."
+          },
+          {
+            "start": "00:33.80",
+            "end": "00:36.50",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "Juliana gasps in pain, clutching her stomach and bending over as she absorbs the brutal strike."
+          },
+          {
+            "start": "00:35.00",
+            "end": "00:36.80",
+            "character": "NOBLEWOMAN",
+            "kind": "dialogue",
+            "text": "You are a maid."
+          },
+          {
+            "start": "00:37.00",
+            "end": "00:38.80",
+            "character": "NOBLEWOMAN",
+            "kind": "dialogue",
+            "text": "Not a physician. Not a lady."
+          },
+          {
+            "start": "00:39.00",
+            "end": "00:42.80",
+            "character": "NOBLEWOMAN",
+            "kind": "dialogue",
+            "text": "And certainly not a woman whose opinion matters."
+          },
+          {
+            "start": "00:43.20",
+            "end": "00:44.80",
+            "character": "LADY JULIANA",
+            "kind": "dialogue",
+            "text": "Yes, my lady."
+          },
+          {
+            "start": "00:45.50",
+            "end": "00:48.00",
+            "character": "NOBLEWOMAN",
+            "kind": "dialogue",
+            "text": "Good. Perhaps we can teach you your place."
+          },
+          {
+            "start": "00:48.50",
+            "end": "00:51.50",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "The noblewoman leads Juliana and a frightened Prudence down a dark flagstone hallway."
+          },
+          {
+            "start": "00:51.50",
+            "end": "00:53.50",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "Juliana's boots step down into a dark, rustic chamber dominated by an enormous, blackened stone hearth."
+          },
+          {
+            "start": "00:53.60",
+            "end": "00:55.20",
+            "character": "NOBLEWOMAN",
+            "kind": "dialogue",
+            "text": "Clean it."
+          },
+          {
+            "start": "00:56.20",
+            "end": "00:57.60",
+            "character": "LADY JULIANA",
+            "kind": "dialogue",
+            "text": "All of it, my lady?"
+          },
+          {
+            "start": "00:57.80",
+            "end": "01:03.50",
+            "character": "NOBLEWOMAN",
+            "kind": "dialogue",
+            "text": "Every stone. Perhaps when your hands are black enough, you will finally remember what you are."
+          },
+          {
+            "start": "01:03.80",
+            "end": "01:06.00",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "Juliana slowly drops to her knees on the cold flagstones before the soot-filled fireplace."
+          },
+          {
+            "start": "01:06.00",
+            "end": "01:07.50",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "Prudence steps toward the noblewoman in distress, her hands clasped tightly."
+          },
+          {
+            "start": "01:06.20",
+            "end": "01:07.50",
+            "character": "PRUDENCE",
+            "kind": "dialogue",
+            "text": "My lady—"
+          },
+          {
+            "start": "01:07.50",
+            "end": "01:09.50",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "The noblewoman whips around sharply, thrusting the tip of her riding crop directly into Prudence's face."
+          },
+          {
+            "start": "01:08.00",
+            "end": "01:10.50",
+            "character": "NOBLEWOMAN",
+            "kind": "dialogue",
+            "text": "Do you want the same punishment?"
+          }
+        ]
+      }
+    ],
+    "opening_hook": {
+      "score": 1.0,
+      "evidence": [
+        "physical confrontation",
+        "00:32.50 ACTION: “The noblewoman suddenly rears back her riding crop and strikes Julian…”",
+        "cues: physical ('strikes')",
+        "zero-shot conflict/reveal 0.89",
+        "second strong beat within 3 s (+0.08)"
+      ],
+      "timestamp": 32.5,
+      "episode_id": "episode-024-Episode 1678577",
+      "text": "The noblewoman suddenly rears back her riding crop and strikes Juliana violently across the torso.",
+      "timestamp_fmt": "00:32.50"
+    },
+    "ending_cliffhanger": {
+      "score": 0.6265,
+      "evidence": [
+        "unanswered question (charged)",
+        "01:08.00–01:10.50 NOBLEWOMAN: “Do you want the same punishment?”",
+        "closing tension 1.00",
+        "zero-shot suspense/threat/reveal 0.16",
+        "withheld next beat: PRUDENCE “No, my lady.” (payoff 0.36)"
+      ],
+      "timestamp": 70.5,
+      "episode_id": "episode-024-Episode 1678577",
+      "text": "Do you want the same punishment?",
+      "timestamp_fmt": "01:10.50"
+    },
+    "standalone_coherence": {
+      "score": 0.8375,
+      "evidence": [
+        "clear who/what/why",
+        "who: 3 speaking character(s), names on screen: juliana, prudence",
+        "what: 11 dialogue lines, 64 words",
+        "why: no explicit stakes words; conflict cue present; logline overlap 0.50",
+        "structure: continuous, 1 scene switch(es)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "emotional_intensity": {
+      "score": 0.7418,
+      "evidence": [
+        "peak 0.98 at 00:35.00, mean 0.50 (emotion model)"
+      ],
+      "timestamp": 35.0,
+      "episode_id": "episode-024-Episode 1678577",
+      "text": "",
+      "timestamp_fmt": "00:35.00"
+    },
+    "narrative_continuity": {
+      "score": 0.9,
+      "evidence": [
+        "one unbroken stretch, 2 scene(s)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "dialogue_quality": {
+      "score": 0.9455,
+      "evidence": [
+        "speech covers 65% of runtime, 18% filler lines, 5.8 words/line"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "score_breakdown": {
+      "hook": 1.0,
+      "cliffhanger": 0.6265,
+      "coherence": 0.8375,
+      "emotion": 0.7418,
+      "continuity": 0.9,
+      "dialogue_quality": 0.9455
+    },
+    "passed_quality_gates": true,
+    "rejection_reasons": [],
+    "risk_flags": [],
+    "why_it_works": "Opens on physical confrontation (ep 24 00:32.50: “The noblewoman suddenly rears back her riding crop and st…”) and cuts on unanswered question (charged) (ep 24 01:10.50: “Do you want the same punishment?”); clear who/what/why.",
+    "llm_review": null
+  }
+}

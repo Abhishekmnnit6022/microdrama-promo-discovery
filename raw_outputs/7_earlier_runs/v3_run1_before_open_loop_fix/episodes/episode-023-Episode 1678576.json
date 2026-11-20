@@ -1,0 +1,171 @@
+{
+  "show": "I Married a Broken Soldier. He was a Duke",
+  "episode_id": "episode-023-Episode 1678576",
+  "episode_number": 23,
+  "source_path": "C:\\Users\\Dell\\Desktop\\kuku_fm_ass\\kuku_fm_assignment_project\\data\\I Married a Broken Soldier. He was a Duke\\episode-023-Episode 1678576.txt",
+  "status": "ok",
+  "error": "",
+  "traceback": "",
+  "warnings": [],
+  "lines_total": 67,
+  "dialogue_lines": 20,
+  "action_lines": 2,
+  "untimed_lines": 0,
+  "duration_seconds": 131.5,
+  "candidates": 649,
+  "candidates_passed": 524,
+  "best_promo_id": "cont-df9f53ec16",
+  "best_score": 0.7314,
+  "no_promo_reason": "",
+  "seconds_features": 0.003,
+  "seconds_candidates": 0.011,
+  "logline": "After examining the dying Dowager Duchess's blackened fingernails and consulting her late mother's remedy journal, Lady Juliana discovers the Duchess is being poisoned with arsenic—only for someone to arrive at the bedroom door just as she begins concocting the antidote.",
+  "best_promo": {
+    "rank": null,
+    "promo_id": "cont-df9f53ec16",
+    "show": "I Married a Broken Soldier. He was a Duke",
+    "structure": "continuous",
+    "priority_score": 0.7314,
+    "total_duration_seconds": 23.2,
+    "episodes": [
+      "episode-023-Episode 1678576"
+    ],
+    "segments": [
+      {
+        "order": 1,
+        "episode_id": "episode-023-Episode 1678576",
+        "episode_number": 23,
+        "start_seconds": 73.8,
+        "end_seconds": 97.0,
+        "start": "01:13.80",
+        "end": "01:37.00",
+        "duration_seconds": 23.2,
+        "dialogue": [
+          {
+            "start": "01:13.80",
+            "end": "01:15.80",
+            "character": "PRUDENCE",
+            "kind": "dialogue",
+            "text": "What are you saying?"
+          },
+          {
+            "start": "01:19.00",
+            "end": "01:21.50",
+            "character": "LADY JULIANA",
+            "kind": "dialogue",
+            "text": "Someone is poisoning her."
+          },
+          {
+            "start": "01:22.00",
+            "end": "01:24.00",
+            "character": "PRUDENCE",
+            "kind": "dialogue",
+            "text": "Poison?"
+          },
+          {
+            "start": "01:26.00",
+            "end": "01:28.00",
+            "character": "LADY JULIANA",
+            "kind": "dialogue",
+            "text": "Arsenic."
+          },
+          {
+            "start": "01:34.50",
+            "end": "01:37.00",
+            "character": "PRUDENCE",
+            "kind": "dialogue",
+            "text": "Can you save her?"
+          }
+        ]
+      }
+    ],
+    "opening_hook": {
+      "score": 0.6001,
+      "evidence": [
+        "charged question",
+        "01:13.80 PRUDENCE: “What are you saying?”",
+        "model: surprise 0.67, arousal 0.94",
+        "script tag 'Panicked, Shaken' (1.00)",
+        "zero-shot conflict/reveal 0.01"
+      ],
+      "timestamp": 73.8,
+      "episode_id": "episode-023-Episode 1678576",
+      "text": "What are you saying?",
+      "timestamp_fmt": "01:13.80"
+    },
+    "ending_cliffhanger": {
+      "score": 0.686,
+      "evidence": [
+        "unanswered question (charged)",
+        "01:34.50–01:37.00 PRUDENCE: “Can you save her?”",
+        "closing tension 1.00",
+        "zero-shot suspense/threat/reveal 0.92",
+        "withheld next beat: LADY JULIANA “I can try.” (payoff 0.19)",
+        "penalty: next line answers it at once (“I can try.”)"
+      ],
+      "timestamp": 97.0,
+      "episode_id": "episode-023-Episode 1678576",
+      "text": "Can you save her?",
+      "timestamp_fmt": "01:37.00"
+    },
+    "standalone_coherence": {
+      "score": 0.7217,
+      "evidence": [
+        "clear who/what/why",
+        "who: 2 speaking character(s), no names said aloud",
+        "what: 5 dialogue lines, 14 words",
+        "why: no explicit stakes words; conflict cue present; logline overlap 0.17",
+        "structure: continuous, 0 scene switch(es)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "emotional_intensity": {
+      "score": 0.8785,
+      "evidence": [
+        "peak 0.98 at 01:19.00, mean 0.77 (emotion model)"
+      ],
+      "timestamp": 79.0,
+      "episode_id": "episode-023-Episode 1678576",
+      "text": "",
+      "timestamp_fmt": "01:19.00"
+    },
+    "narrative_continuity": {
+      "score": 1.0,
+      "evidence": [
+        "one unbroken stretch, 1 scene(s)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "dialogue_quality": {
+      "score": 0.6751,
+      "evidence": [
+        "speech covers 47% of runtime, 40% filler lines, 2.8 words/line"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "score_breakdown": {
+      "hook": 0.6001,
+      "cliffhanger": 0.686,
+      "coherence": 0.7217,
+      "emotion": 0.8785,
+      "continuity": 1.0,
+      "dialogue_quality": 0.6751
+    },
+    "passed_quality_gates": true,
+    "rejection_reasons": [],
+    "risk_flags": [
+      "the source resolves the cut almost immediately"
+    ],
+    "why_it_works": "Opens on charged question (ep 23 01:13.80: “What are you saying?”) and cuts on unanswered question (charged) (ep 23 01:37.00: “Can you save her?”); clear who/what/why.",
+    "llm_review": null
+  }
+}

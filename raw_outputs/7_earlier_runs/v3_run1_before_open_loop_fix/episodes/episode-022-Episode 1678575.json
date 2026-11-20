@@ -1,0 +1,225 @@
+{
+  "show": "I Married a Broken Soldier. He was a Duke",
+  "episode_id": "episode-022-Episode 1678575",
+  "episode_number": 22,
+  "source_path": "C:\\Users\\Dell\\Desktop\\kuku_fm_ass\\kuku_fm_assignment_project\\data\\I Married a Broken Soldier. He was a Duke\\episode-022-Episode 1678575.txt",
+  "status": "ok",
+  "error": "",
+  "traceback": "",
+  "warnings": [],
+  "lines_total": 81,
+  "dialogue_lines": 30,
+  "action_lines": 11,
+  "untimed_lines": 0,
+  "duration_seconds": 131.0,
+  "candidates": 796,
+  "candidates_passed": 432,
+  "best_promo_id": "cont-a361087255",
+  "best_score": 0.7009,
+  "no_promo_reason": "",
+  "seconds_features": 0.01,
+  "seconds_candidates": 0.044,
+  "logline": "Disguised as a common scullery maid, Lady Juliana infiltrates Ashbury Manor alongside Prudence and slips into the forbidden West Wing, where she discovers the dying Dowager Duchess suffering from an unnatural, poisoned affliction.",
+  "best_promo": {
+    "rank": null,
+    "promo_id": "cont-a361087255",
+    "show": "I Married a Broken Soldier. He was a Duke",
+    "structure": "continuous",
+    "priority_score": 0.7009,
+    "total_duration_seconds": 39.1,
+    "episodes": [
+      "episode-022-Episode 1678575"
+    ],
+    "segments": [
+      {
+        "order": 1,
+        "episode_id": "episode-022-Episode 1678575",
+        "episode_number": 22,
+        "start_seconds": 6.5,
+        "end_seconds": 45.6,
+        "start": "00:06.50",
+        "end": "00:45.60",
+        "duration_seconds": 39.1,
+        "dialogue": [
+          {
+            "start": "00:06.50",
+            "end": "00:08.50",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "Prudence rushes up behind Lady Juliana, pulling her into the shelter of the stone archway."
+          },
+          {
+            "start": "00:07.00",
+            "end": "00:11.10",
+            "character": "PRUDENCE",
+            "kind": "dialogue",
+            "text": "Keep your head down. If anyone recognizes you, everything is over."
+          },
+          {
+            "start": "00:11.20",
+            "end": "00:14.20",
+            "character": "LADY JULIANA",
+            "kind": "dialogue",
+            "text": "No one will recognize me dressed like this."
+          },
+          {
+            "start": "00:14.20",
+            "end": "00:19.00",
+            "character": "PRUDENCE",
+            "kind": "dialogue",
+            "text": "This is Ashburton Manor. The housekeeper watches everyone. Lady Catherine watches everyone, and Lord Rupert..."
+          },
+          {
+            "start": "00:19.10",
+            "end": "00:21.00",
+            "character": "LADY JULIANA",
+            "kind": "dialogue",
+            "text": "The Duchess is dying."
+          },
+          {
+            "start": "00:22.00",
+            "end": "00:25.50",
+            "character": "LADY JULIANA",
+            "kind": "dialogue",
+            "text": "I saved Toby. I can save her."
+          },
+          {
+            "start": "00:26.00",
+            "end": "00:28.10",
+            "character": "PRUDENCE",
+            "kind": "dialogue",
+            "text": "And if they discover who you are?"
+          },
+          {
+            "start": "00:28.20",
+            "end": "00:31.00",
+            "character": "LADY JULIANA",
+            "kind": "dialogue",
+            "text": "Then I will face that when she is breathing again."
+          },
+          {
+            "start": "00:33.80",
+            "end": "00:36.00",
+            "character": "PRUDENCE",
+            "kind": "dialogue",
+            "text": "Then forget you were ever a lady."
+          },
+          {
+            "start": "00:37.00",
+            "end": "00:39.50",
+            "character": "LADY JULIANA",
+            "kind": "dialogue",
+            "text": "Today, I am only a maid."
+          },
+          {
+            "start": "00:39.80",
+            "end": "00:42.50",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "Prudence opens the heavy wooden service door, and both women step inside into the dark servants' corridor as the door shuts firmly behind them."
+          },
+          {
+            "start": "00:43.00",
+            "end": "00:44.20",
+            "character": "HOUSEKEEPER",
+            "kind": "dialogue",
+            "text": "Prudence."
+          },
+          {
+            "start": "00:44.30",
+            "end": "00:45.60",
+            "character": "HOUSEKEEPER",
+            "kind": "dialogue",
+            "text": "Who is this?"
+          }
+        ]
+      }
+    ],
+    "opening_hook": {
+      "score": 0.5342,
+      "evidence": [
+        "discovery",
+        "00:07.00 PRUDENCE: “Keep your head down. If anyone recognizes you, everything is over.”",
+        "model: anger 0.57, arousal 0.75",
+        "cues: discovery ('recognizes')",
+        "script tag 'Urgent, Whispering' (0.67)",
+        "zero-shot conflict/reveal 0.11"
+      ],
+      "timestamp": 7.0,
+      "episode_id": "episode-022-Episode 1678575",
+      "text": "Keep your head down. If anyone recognizes you, everything is over.",
+      "timestamp_fmt": "00:07.00"
+    },
+    "ending_cliffhanger": {
+      "score": 0.5958,
+      "evidence": [
+        "unanswered question (charged)",
+        "00:44.30–00:45.60 HOUSEKEEPER: “Who is this?”",
+        "closing tension 0.92",
+        "zero-shot suspense/threat/reveal 0.02",
+        "withheld next beat: PRUDENCE “Julian, ma'am. New help for the winter cleaning.” (payoff 0.42)"
+      ],
+      "timestamp": 45.6,
+      "episode_id": "episode-022-Episode 1678575",
+      "text": "Who is this?",
+      "timestamp_fmt": "00:45.60"
+    },
+    "standalone_coherence": {
+      "score": 0.8438,
+      "evidence": [
+        "clear who/what/why",
+        "who: 3 speaking character(s), names on screen: catherine, juliana, prudence, rupert",
+        "what: 11 dialogue lines, 79 words",
+        "why: stakes (duchess); logline overlap 0.58",
+        "structure: continuous, 1 scene switch(es)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "emotional_intensity": {
+      "score": 0.7402,
+      "evidence": [
+        "peak 0.97 at 00:19.10, mean 0.51 (emotion model)"
+      ],
+      "timestamp": 19.1,
+      "episode_id": "episode-022-Episode 1678575",
+      "text": "",
+      "timestamp_fmt": "00:19.10"
+    },
+    "narrative_continuity": {
+      "score": 0.9,
+      "evidence": [
+        "one unbroken stretch, 2 scene(s)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "dialogue_quality": {
+      "score": 0.9727,
+      "evidence": [
+        "speech covers 75% of runtime, 9% filler lines, 7.2 words/line"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "score_breakdown": {
+      "hook": 0.5342,
+      "cliffhanger": 0.5958,
+      "coherence": 0.8438,
+      "emotion": 0.7402,
+      "continuity": 0.9,
+      "dialogue_quality": 0.9727
+    },
+    "passed_quality_gates": true,
+    "rejection_reasons": [],
+    "risk_flags": [],
+    "why_it_works": "Opens on discovery (ep 22 00:07.00: “Keep your head down. If anyone recognizes you, everything…”) and cuts on unanswered question (charged) (ep 22 00:45.60: “Who is this?”); clear who/what/why.",
+    "llm_review": null
+  }
+}

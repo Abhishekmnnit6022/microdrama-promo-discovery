@@ -1,0 +1,50 @@
+{
+  "file": "episode_sample.srt",
+  "hooks": [
+    {
+      "rank": 1,
+      "filename": "episode_sample.srt",
+      "score": 1.0,
+      "start_time": "00:31",
+      "end_time": "00:55",
+      "duration_seconds": 24.0,
+      "dominant_emotion": "anger",
+      "emotional_intensity": 0.9875,
+      "curiosity_score": 0.6,
+      "dialogue": "Liar! You swore an oath to me. You betrayed everything we built! Marcus, what is he talking about? What oath? He hid a wife. She is alive.",
+      "explanation": [
+        "Emotional intensity: 99% (dominant: anger)",
+        "Contains unanswered question near end of segment",
+        "Revelation keyword(s): 'alive'",
+        "Confrontation detected: 'you swore', 'liar', 'betrayed'",
+        "Position bonus: closing cliffhanger"
+      ],
+      "headline": "The Ultimate Betrayal: A Secret Wife Exposed!",
+      "hook": "He swore an oath, built an empire with her, and kept one deadly secret: his first wife is still alive. Watch the drama unfold!",
+      "caption": "Years of lies, a broken oath, and a shattering truth. When the past catches up, nowhere is safe. Stream the ultimate confrontation now!",
+      "promo_is_fallback": false
+    },
+    {
+      "rank": 2,
+      "filename": "episode_sample.srt",
+      "score": 0.4444,
+      "start_time": "00:01",
+      "end_time": "00:24",
+      "duration_seconds": 23.0,
+      "dominant_emotion": "joy",
+      "emotional_intensity": 0.9879,
+      "curiosity_score": 0.35,
+      "dialogue": "This is the happiest night of my life! And it shall only grow brighter, my love. You celebrate too soon, Lady Elara. Who are you? How dare you come here uninvited!",
+      "explanation": [
+        "Emotional intensity: 99% (dominant: joy)",
+        "Contains unanswered question near end of segment",
+        "Confrontation detected: 'how dare'",
+        "Position bonus: opening"
+      ],
+      "headline": "She thought it was her fairytale ending—until a stranger crashed the throne room!",
+      "hook": "Who dares ruin the happiest night of her life?",
+      "caption": "Pure joy turns to pure shock in a heartbeat. Watch the drama unfold in our newest binge-worthy microdrama, streaming now! ✨👑",
+      "promo_is_fallback": false
+    }
+  ]
+}

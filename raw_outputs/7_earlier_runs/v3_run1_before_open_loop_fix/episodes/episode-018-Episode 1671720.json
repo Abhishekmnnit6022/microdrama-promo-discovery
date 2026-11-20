@@ -1,0 +1,190 @@
+{
+  "show": "I Married a Broken Soldier. He was a Duke",
+  "episode_id": "episode-018-Episode 1671720",
+  "episode_number": 18,
+  "source_path": "C:\\Users\\Dell\\Desktop\\kuku_fm_ass\\kuku_fm_assignment_project\\data\\I Married a Broken Soldier. He was a Duke\\episode-018-Episode 1671720.txt",
+  "status": "ok",
+  "error": "",
+  "traceback": "",
+  "warnings": [],
+  "lines_total": 81,
+  "dialogue_lines": 28,
+  "action_lines": 20,
+  "untimed_lines": 0,
+  "duration_seconds": 192.0,
+  "candidates": 645,
+  "candidates_passed": 203,
+  "best_promo_id": "cont-1ee09665df",
+  "best_score": 0.7618,
+  "no_promo_reason": "",
+  "seconds_features": 0.011,
+  "seconds_candidates": 0.031,
+  "logline": "When their cottage is deliberately set ablaze in the dead of night, Alexander risks his life to rescue Juliana and her mother's cherished ledger from the inferno, vowing relentless vengeance against those responsible.",
+  "best_promo": {
+    "rank": null,
+    "promo_id": "cont-1ee09665df",
+    "show": "I Married a Broken Soldier. He was a Duke",
+    "structure": "continuous",
+    "priority_score": 0.7618,
+    "total_duration_seconds": 40.7,
+    "episodes": [
+      "episode-018-Episode 1671720"
+    ],
+    "segments": [
+      {
+        "order": 1,
+        "episode_id": "episode-018-Episode 1671720",
+        "episode_number": 18,
+        "start_seconds": 145.8,
+        "end_seconds": 186.5,
+        "start": "02:25.80",
+        "end": "03:06.50",
+        "duration_seconds": 40.7,
+        "dialogue": [
+          {
+            "start": "02:25.80",
+            "end": "02:28.50",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "Why would anyone do this?"
+          },
+          {
+            "start": "02:33.20",
+            "end": "02:34.80",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "Alexander..."
+          },
+          {
+            "start": "02:35.00",
+            "end": "02:41.00",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "Alexander draws her firmly into his arms, wrapping both burly arms around her as she buries her face into his shoulder, weeping uncontrollably."
+          },
+          {
+            "start": "02:38.00",
+            "end": "02:40.80",
+            "character": "ALEXANDER",
+            "kind": "dialogue",
+            "text": "Someone wanted us out."
+          },
+          {
+            "start": "02:43.00",
+            "end": "02:45.50",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "We have nowhere to go."
+          },
+          {
+            "start": "02:51.80",
+            "end": "02:57.20",
+            "character": "ALEXANDER",
+            "kind": "dialogue",
+            "text": "They took our home. I will not let them take anything else now."
+          },
+          {
+            "start": "02:59.50",
+            "end": "03:04.00",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "Juliana slowly pulls back slightly from his embrace, her tear-filled blue eyes looking up into his hardened features."
+          },
+          {
+            "start": "03:04.20",
+            "end": "03:06.50",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "What are you going to do?"
+          }
+        ]
+      }
+    ],
+    "opening_hook": {
+      "score": 0.6107,
+      "evidence": [
+        "charged question",
+        "02:25.80 JULIANA: “Why would anyone do this?”",
+        "model: anger 0.58, arousal 0.97",
+        "script tag 'Voice Breaking, Anguished' (1.00)",
+        "zero-shot conflict/reveal 0.02"
+      ],
+      "timestamp": 145.8,
+      "episode_id": "episode-018-Episode 1671720",
+      "text": "Why would anyone do this?",
+      "timestamp_fmt": "02:25.80"
+    },
+    "ending_cliffhanger": {
+      "score": 0.7278,
+      "evidence": [
+        "unanswered question (charged)",
+        "03:04.20–03:06.50 JULIANA: “What are you going to do?”",
+        "closing tension 0.86",
+        "zero-shot suspense/threat/reveal 0.10",
+        "cut matches the episode's own final beat (+0.12)",
+        "withheld next beat: ACTION “Juliana clutches her mother's scorched leather-bo…” (payoff 0.49)"
+      ],
+      "timestamp": 186.5,
+      "episode_id": "episode-018-Episode 1671720",
+      "text": "What are you going to do?",
+      "timestamp_fmt": "03:06.50"
+    },
+    "standalone_coherence": {
+      "score": 0.7625,
+      "evidence": [
+        "clear who/what/why",
+        "who: 2 speaking character(s), names on screen: alexander, juliana",
+        "what: 6 dialogue lines, 34 words",
+        "why: no explicit stakes words; logline overlap 0.17",
+        "structure: continuous, 0 scene switch(es)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "emotional_intensity": {
+      "score": 0.8963,
+      "evidence": [
+        "peak 0.97 at 02:25.80, mean 0.82 (emotion model)"
+      ],
+      "timestamp": 145.8,
+      "episode_id": "episode-018-Episode 1671720",
+      "text": "",
+      "timestamp_fmt": "02:25.80"
+    },
+    "narrative_continuity": {
+      "score": 1.0,
+      "evidence": [
+        "one unbroken stretch, 1 scene(s)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "dialogue_quality": {
+      "score": 0.8042,
+      "evidence": [
+        "speech covers 43% of runtime, 17% filler lines, 5.7 words/line"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "score_breakdown": {
+      "hook": 0.6107,
+      "cliffhanger": 0.7278,
+      "coherence": 0.7625,
+      "emotion": 0.8963,
+      "continuity": 1.0,
+      "dialogue_quality": 0.8042
+    },
+    "passed_quality_gates": true,
+    "rejection_reasons": [],
+    "risk_flags": [],
+    "why_it_works": "Opens on charged question (ep 18 02:25.80: “Why would anyone do this?”) and cuts on unanswered question (charged) (ep 18 03:06.50: “What are you going to do?”); clear who/what/why.",
+    "llm_review": null
+  }
+}

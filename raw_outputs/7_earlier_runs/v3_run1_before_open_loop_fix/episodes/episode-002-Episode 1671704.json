@@ -1,0 +1,225 @@
+{
+  "show": "I Married a Broken Soldier. He was a Duke",
+  "episode_id": "episode-002-Episode 1671704",
+  "episode_number": 2,
+  "source_path": "C:\\Users\\Dell\\Desktop\\kuku_fm_ass\\kuku_fm_assignment_project\\data\\I Married a Broken Soldier. He was a Duke\\episode-002-Episode 1671704.txt",
+  "status": "ok",
+  "error": "",
+  "traceback": "",
+  "warnings": [],
+  "lines_total": 74,
+  "dialogue_lines": 31,
+  "action_lines": 4,
+  "untimed_lines": 0,
+  "duration_seconds": 110.0,
+  "candidates": 654,
+  "candidates_passed": 385,
+  "best_promo_id": "cont-3bf951a2e9",
+  "best_score": 0.75,
+  "no_promo_reason": "",
+  "seconds_features": 0.009,
+  "seconds_candidates": 0.034,
+  "logline": "Publicly cast aside at the altar by Gerald for her sister Clarissa and abandoned by her own family, Juliana stands tall and turns her public humiliation into an unyielding indictment of Gerald's honor.",
+  "best_promo": {
+    "rank": null,
+    "promo_id": "cont-3bf951a2e9",
+    "show": "I Married a Broken Soldier. He was a Duke",
+    "structure": "continuous",
+    "priority_score": 0.75,
+    "total_duration_seconds": 34.7,
+    "episodes": [
+      "episode-002-Episode 1671704"
+    ],
+    "segments": [
+      {
+        "order": 1,
+        "episode_id": "episode-002-Episode 1671704",
+        "episode_number": 2,
+        "start_seconds": 47.8,
+        "end_seconds": 82.5,
+        "start": "00:47.80",
+        "end": "01:22.50",
+        "duration_seconds": 34.7,
+        "dialogue": [
+          {
+            "start": "00:47.80",
+            "end": "00:51.40",
+            "character": "LADY IN GOLD GOWN",
+            "kind": "dialogue",
+            "text": "Why are you surprised, sister? Look at you."
+          },
+          {
+            "start": "00:51.60",
+            "end": "00:53.20",
+            "character": "LADY IN GOLD GOWN",
+            "kind": "dialogue",
+            "text": "That plain, old-fashioned gown."
+          },
+          {
+            "start": "00:53.50",
+            "end": "00:56.70",
+            "character": "LADY IN GOLD GOWN",
+            "kind": "dialogue",
+            "text": "You look like a kitchen maid who wandered into the wrong wedding."
+          },
+          {
+            "start": "00:56.80",
+            "end": "00:58.20",
+            "character": "LADY IN GOLD GOWN",
+            "kind": "dialogue",
+            "text": "And that quiet little face."
+          },
+          {
+            "start": "00:58.70",
+            "end": "01:00.50",
+            "character": "LADY IN GOLD GOWN",
+            "kind": "dialogue",
+            "text": "Gerald needs a real lady..."
+          },
+          {
+            "start": "01:00.60",
+            "end": "01:03.50",
+            "character": "LADY IN GOLD GOWN",
+            "kind": "dialogue",
+            "text": "...not a dull creature who hides in her mother's apothecary herbs."
+          },
+          {
+            "start": "01:03.50",
+            "end": "01:06.00",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "The matriarch steps into the center aisle, glaring down at Juliana with cold superiority."
+          },
+          {
+            "start": "01:03.60",
+            "end": "01:05.80",
+            "character": "OFF-SCREEN VOICE",
+            "kind": "dialogue",
+            "text": "Oh, don't look so wounded, Juliana."
+          },
+          {
+            "start": "01:06.10",
+            "end": "01:09.30",
+            "character": "OFF-SCREEN VOICE",
+            "kind": "dialogue",
+            "text": "You should be grateful you're at least allowed to attend the wedding."
+          },
+          {
+            "start": "01:09.40",
+            "end": "01:12.70",
+            "character": "THE FORMER GROOM",
+            "kind": "dialogue",
+            "text": "Go home quietly, Juliana. At least leave this chapel with some dignity."
+          },
+          {
+            "start": "01:14.40",
+            "end": "01:16.40",
+            "character": "LADY JULIANA",
+            "kind": "dialogue",
+            "text": "Dignity?"
+          },
+          {
+            "start": "01:16.50",
+            "end": "01:19.00",
+            "character": "LADY JULIANA",
+            "kind": "dialogue",
+            "text": "You abandoned a woman who trusted you..."
+          },
+          {
+            "start": "01:19.20",
+            "end": "01:22.50",
+            "character": "LADY JULIANA",
+            "kind": "dialogue",
+            "text": "...because another woman promised you greater beauty and wealth."
+          }
+        ]
+      }
+    ],
+    "opening_hook": {
+      "score": 0.6133,
+      "evidence": [
+        "charged question",
+        "00:47.80 LADY IN GOLD GOWN: “Why are you surprised, sister? Look at you.”",
+        "model: surprise 0.98, arousal 0.99",
+        "cues: ",
+        "script tag 'Mocking, Spiteful' (0.67)",
+        "zero-shot conflict/reveal 0.21"
+      ],
+      "timestamp": 47.8,
+      "episode_id": "episode-002-Episode 1671704",
+      "text": "Why are you surprised, sister? Look at you.",
+      "timestamp_fmt": "00:47.80"
+    },
+    "ending_cliffhanger": {
+      "score": 0.5338,
+      "evidence": [
+        "betrayal ('abandoned') (just before the cut)",
+        "01:19.20–01:22.50 LADY JULIANA: “...because another woman promised you greater beauty and wealth.”",
+        "closing tension 0.85",
+        "zero-shot suspense/threat/reveal 0.14",
+        "withheld next beat: LADY JULIANA “Do not mistake my heartbreak for your victory, Ge…” (payoff 0.49)"
+      ],
+      "timestamp": 82.5,
+      "episode_id": "episode-002-Episode 1671704",
+      "text": "...because another woman promised you greater beauty and wealth.",
+      "timestamp_fmt": "01:22.50"
+    },
+    "standalone_coherence": {
+      "score": 0.95,
+      "evidence": [
+        "clear who/what/why",
+        "who: 4 speaking character(s), names on screen: gerald, juliana",
+        "what: 12 dialogue lines, 92 words",
+        "why: stakes (sister, wedding); conflict cue present; logline overlap 0.33",
+        "structure: continuous, 0 scene switch(es)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "emotional_intensity": {
+      "score": 0.8297,
+      "evidence": [
+        "peak 0.99 at 00:47.80, mean 0.67 (emotion model)"
+      ],
+      "timestamp": 47.8,
+      "episode_id": "episode-002-Episode 1671704",
+      "text": "",
+      "timestamp_fmt": "00:47.80"
+    },
+    "narrative_continuity": {
+      "score": 1.0,
+      "evidence": [
+        "one unbroken stretch, 1 scene(s)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "dialogue_quality": {
+      "score": 0.975,
+      "evidence": [
+        "speech covers 89% of runtime, 8% filler lines, 7.7 words/line"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "score_breakdown": {
+      "hook": 0.6133,
+      "cliffhanger": 0.5338,
+      "coherence": 0.95,
+      "emotion": 0.8297,
+      "continuity": 1.0,
+      "dialogue_quality": 0.975
+    },
+    "passed_quality_gates": true,
+    "rejection_reasons": [],
+    "risk_flags": [],
+    "why_it_works": "Opens on charged question (ep 2 00:47.80: “Why are you surprised, sister? Look at you.”) and cuts on betrayal ('abandoned') (just before the cut) (ep 2 01:22.50: “...because another woman promised you greater beauty and …”); clear who/what/why.",
+    "llm_review": null
+  }
+}

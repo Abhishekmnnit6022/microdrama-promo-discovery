@@ -1,0 +1,203 @@
+{
+  "show": "I Married a Broken Soldier. He was a Duke",
+  "episode_id": "episode-025-Episode 1678578",
+  "episode_number": 25,
+  "source_path": "C:\\Users\\Dell\\Desktop\\kuku_fm_ass\\kuku_fm_assignment_project\\data\\I Married a Broken Soldier. He was a Duke\\episode-025-Episode 1678578.txt",
+  "status": "ok",
+  "error": "",
+  "traceback": "",
+  "warnings": [],
+  "lines_total": 95,
+  "dialogue_lines": 42,
+  "action_lines": 9,
+  "untimed_lines": 0,
+  "duration_seconds": 168.0,
+  "candidates": 998,
+  "candidates_passed": 681,
+  "best_promo_id": "cont-3cac5cd46c",
+  "best_score": 0.8355,
+  "no_promo_reason": "",
+  "seconds_features": 0.011,
+  "seconds_candidates": 0.049,
+  "logline": "Deep in the misty forest, Alexander confronts an injured Juliana and uncovers the wound inflicted by Lady Catherine, reacting with fury and protective concern upon learning that someone is systematically poisoning the Dowager Duchess with arsenic.",
+  "best_promo": {
+    "rank": null,
+    "promo_id": "cont-3cac5cd46c",
+    "show": "I Married a Broken Soldier. He was a Duke",
+    "structure": "continuous",
+    "priority_score": 0.8355,
+    "total_duration_seconds": 34.8,
+    "episodes": [
+      "episode-025-Episode 1678578"
+    ],
+    "segments": [
+      {
+        "order": 1,
+        "episode_id": "episode-025-Episode 1678578",
+        "episode_number": 25,
+        "start_seconds": 47.0,
+        "end_seconds": 81.8,
+        "start": "00:47.00",
+        "end": "01:21.80",
+        "duration_seconds": 34.8,
+        "dialogue": [
+          {
+            "start": "00:47.00",
+            "end": "00:51.20",
+            "character": "ALEXANDER",
+            "kind": "dialogue",
+            "text": "Juliana... why were you inside Ashburg Manor?"
+          },
+          {
+            "start": "00:52.20",
+            "end": "00:54.20",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "I went there to help someone."
+          },
+          {
+            "start": "00:54.40",
+            "end": "00:55.20",
+            "character": "ALEXANDER",
+            "kind": "dialogue",
+            "text": "Who?"
+          },
+          {
+            "start": "00:55.60",
+            "end": "00:57.20",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "The Dowager Duchess."
+          },
+          {
+            "start": "01:00.80",
+            "end": "01:02.50",
+            "character": "ALEXANDER",
+            "kind": "dialogue",
+            "text": "The Dowager?"
+          },
+          {
+            "start": "01:06.20",
+            "end": "01:08.50",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "Prudence told me she was dying."
+          },
+          {
+            "start": "01:08.80",
+            "end": "01:13.80",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "She was barely breathing when I found her. The doctor said she was simply growing old."
+          },
+          {
+            "start": "01:14.20",
+            "end": "01:15.80",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "But it wasn't age."
+          },
+          {
+            "start": "01:17.40",
+            "end": "01:18.90",
+            "character": "ALEXANDER",
+            "kind": "dialogue",
+            "text": "What did you find?"
+          },
+          {
+            "start": "01:20.20",
+            "end": "01:21.80",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "Poison."
+          }
+        ]
+      }
+    ],
+    "opening_hook": {
+      "score": 0.7274,
+      "evidence": [
+        "charged question",
+        "00:47.00 ALEXANDER: “Juliana... why were you inside Ashburg Manor?”",
+        "model: surprise 0.87, arousal 0.90",
+        "script tag 'Fierce, Urgent' (0.67)",
+        "zero-shot conflict/reveal 0.76"
+      ],
+      "timestamp": 47.0,
+      "episode_id": "episode-025-Episode 1678578",
+      "text": "Juliana... why were you inside Ashburg Manor?",
+      "timestamp_fmt": "00:47.00"
+    },
+    "ending_cliffhanger": {
+      "score": 0.7241,
+      "evidence": [
+        "threat ('poison')",
+        "01:20.20–01:21.80 JULIANA: “Poison.”",
+        "closing tension 1.00",
+        "zero-shot suspense/threat/reveal 0.43",
+        "withheld next beat: JULIANA “Arsenic.” (payoff 0.35)"
+      ],
+      "timestamp": 81.8,
+      "episode_id": "episode-025-Episode 1678578",
+      "text": "Poison.",
+      "timestamp_fmt": "01:21.80"
+    },
+    "standalone_coherence": {
+      "score": 0.95,
+      "evidence": [
+        "clear who/what/why",
+        "who: 2 speaking character(s), names on screen: juliana, prudence",
+        "what: 10 dialogue lines, 50 words",
+        "why: stakes (duchess); conflict cue present; logline overlap 0.33",
+        "structure: continuous, 0 scene switch(es)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "emotional_intensity": {
+      "score": 0.9143,
+      "evidence": [
+        "peak 0.98 at 01:06.20, mean 0.85 (emotion model)"
+      ],
+      "timestamp": 66.2,
+      "episode_id": "episode-025-Episode 1678578",
+      "text": "",
+      "timestamp_fmt": "01:06.20"
+    },
+    "narrative_continuity": {
+      "score": 1.0,
+      "evidence": [
+        "one unbroken stretch, 1 scene(s)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "dialogue_quality": {
+      "score": 0.91,
+      "evidence": [
+        "speech covers 64% of runtime, 30% filler lines, 5.0 words/line"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "score_breakdown": {
+      "hook": 0.7274,
+      "cliffhanger": 0.7241,
+      "coherence": 0.95,
+      "emotion": 0.9143,
+      "continuity": 1.0,
+      "dialogue_quality": 0.91
+    },
+    "passed_quality_gates": true,
+    "rejection_reasons": [],
+    "risk_flags": [],
+    "why_it_works": "Opens on charged question (ep 25 00:47.00: “Juliana... why were you inside Ashburg Manor?”) and cuts on threat ('poison') (ep 25 01:21.80: “Poison.”); clear who/what/why.",
+    "llm_review": null
+  }
+}

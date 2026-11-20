@@ -1,0 +1,177 @@
+{
+  "show": "I Married a Broken Soldier. He was a Duke",
+  "episode_id": "episode-023-Episode 1678576",
+  "episode_number": 23,
+  "source_path": "C:\\Users\\Dell\\Desktop\\kuku_fm_ass\\kuku_fm_assignment_project\\data\\I Married a Broken Soldier. He was a Duke\\episode-023-Episode 1678576.txt",
+  "status": "ok",
+  "error": "",
+  "traceback": "",
+  "warnings": [],
+  "lines_total": 67,
+  "dialogue_lines": 20,
+  "action_lines": 2,
+  "untimed_lines": 0,
+  "duration_seconds": 131.5,
+  "candidates": 635,
+  "candidates_passed": 515,
+  "best_promo_id": "cont-55f14af5a1",
+  "best_score": 0.8139,
+  "no_promo_reason": "",
+  "seconds_features": 0.004,
+  "seconds_candidates": 0.01,
+  "logline": "After examining the dying Dowager Duchess's blackened fingernails and consulting her late mother's remedy journal, Lady Juliana discovers the Duchess is being poisoned with arsenic—only for someone to arrive at the bedroom door just as she begins concocting the antidote.",
+  "best_promo": {
+    "rank": null,
+    "promo_id": "cont-55f14af5a1",
+    "show": "I Married a Broken Soldier. He was a Duke",
+    "structure": "continuous",
+    "priority_score": 0.8139,
+    "total_duration_seconds": 42.0,
+    "episodes": [
+      "episode-023-Episode 1678576"
+    ],
+    "segments": [
+      {
+        "order": 1,
+        "episode_id": "episode-023-Episode 1678576",
+        "episode_number": 23,
+        "start_seconds": 82.0,
+        "end_seconds": 124.0,
+        "start": "01:22.00",
+        "end": "02:04.00",
+        "duration_seconds": 42.0,
+        "dialogue": [
+          {
+            "start": "01:22.00",
+            "end": "01:24.00",
+            "character": "PRUDENCE",
+            "kind": "dialogue",
+            "text": "Poison?"
+          },
+          {
+            "start": "01:26.00",
+            "end": "01:28.00",
+            "character": "LADY JULIANA",
+            "kind": "dialogue",
+            "text": "Arsenic."
+          },
+          {
+            "start": "01:34.50",
+            "end": "01:37.00",
+            "character": "PRUDENCE",
+            "kind": "dialogue",
+            "text": "Can you save her?"
+          },
+          {
+            "start": "01:37.50",
+            "end": "01:40.00",
+            "character": "LADY JULIANA",
+            "kind": "dialogue",
+            "text": "I can try."
+          },
+          {
+            "start": "01:47.50",
+            "end": "01:52.00",
+            "character": "LADY JULIANA",
+            "kind": "dialogue",
+            "text": "The charcoal may help remove what is still inside her. We must act quickly."
+          },
+          {
+            "start": "01:58.80",
+            "end": "02:04.00",
+            "character": "PRUDENCE",
+            "kind": "dialogue",
+            "text": "Juliana... someone is coming."
+          }
+        ]
+      }
+    ],
+    "opening_hook": {
+      "score": 0.6937,
+      "evidence": [
+        "threat",
+        "01:22.00 PRUDENCE: “Poison?”",
+        "model: surprise 0.54, arousal 0.60",
+        "cues: threat ('poison')",
+        "script tag 'Muffled, Horrified' (1.00)",
+        "zero-shot conflict/reveal 0.37"
+      ],
+      "timestamp": 82.0,
+      "episode_id": "episode-023-Episode 1678576",
+      "text": "Poison?",
+      "timestamp_fmt": "01:22.00"
+    },
+    "ending_cliffhanger": {
+      "score": 0.8809,
+      "evidence": [
+        "zero-shot reads an unresolved threat (0.90)",
+        "01:58.80–02:04.00 PRUDENCE: “Juliana... someone is coming.”",
+        "closing tension 1.00",
+        "zero-shot suspense/threat/reveal 0.90",
+        "cut matches the episode's own final beat (+0.12)",
+        "withheld next beat: ACTION “The noblewoman halts in the center of the chamber…” (payoff 0.44)"
+      ],
+      "timestamp": 124.0,
+      "episode_id": "episode-023-Episode 1678576",
+      "text": "Juliana... someone is coming.",
+      "timestamp_fmt": "02:04.00"
+    },
+    "standalone_coherence": {
+      "score": 0.8462,
+      "evidence": [
+        "clear who/what/why",
+        "who: 2 speaking character(s), names on screen: juliana",
+        "what: 6 dialogue lines, 27 words",
+        "why: no explicit stakes words; conflict cue present; logline overlap 0.25",
+        "structure: continuous, 0 scene switch(es)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "emotional_intensity": {
+      "score": 0.7497,
+      "evidence": [
+        "peak 0.96 at 01:34.50, mean 0.54 (emotion model)"
+      ],
+      "timestamp": 94.5,
+      "episode_id": "episode-023-Episode 1678576",
+      "text": "",
+      "timestamp_fmt": "01:34.50"
+    },
+    "narrative_continuity": {
+      "score": 1.0,
+      "evidence": [
+        "one unbroken stretch, 1 scene(s)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "dialogue_quality": {
+      "score": 0.771,
+      "evidence": [
+        "speech covers 45% of runtime, 33% filler lines, 4.5 words/line"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "score_breakdown": {
+      "hook": 0.6937,
+      "cliffhanger": 0.8809,
+      "coherence": 0.8462,
+      "emotion": 0.7497,
+      "continuity": 1.0,
+      "dialogue_quality": 0.771
+    },
+    "passed_quality_gates": true,
+    "rejection_reasons": [],
+    "risk_flags": [],
+    "why_it_works": "Opens on threat (ep 23 01:22.00: “Poison?”) and cuts on zero-shot reads an unresolved threat (0.90) (ep 23 02:04.00: “Juliana... someone is coming.”); clear who/what/why.",
+    "llm_review": null
+  }
+}

@@ -1,0 +1,212 @@
+{
+  "show": "I Married a Broken Soldier. He was a Duke",
+  "episode_id": "episode-026-Episode 1678579",
+  "episode_number": 26,
+  "source_path": "C:\\Users\\Dell\\Desktop\\kuku_fm_ass\\kuku_fm_assignment_project\\data\\I Married a Broken Soldier. He was a Duke\\episode-026-Episode 1678579.txt",
+  "status": "ok",
+  "error": "",
+  "traceback": "",
+  "warnings": [],
+  "lines_total": 51,
+  "dialogue_lines": 14,
+  "action_lines": 7,
+  "untimed_lines": 0,
+  "duration_seconds": 120.88,
+  "candidates": 557,
+  "candidates_passed": 480,
+  "best_promo_id": "cont-77f9424e8a",
+  "best_score": 0.8747,
+  "no_promo_reason": "",
+  "seconds_features": 0.007,
+  "seconds_candidates": 0.01,
+  "logline": "While secretly administering a charcoal antidote to the poisoned Dowager Duchess in the dead of night, Juliana is stunned when the Duchess suddenly recognizes a distinctive family ring on her hand and fiercely demands the truth about her identity.",
+  "best_promo": {
+    "rank": 10,
+    "promo_id": "cont-77f9424e8a",
+    "show": "I Married a Broken Soldier. He was a Duke",
+    "structure": "continuous",
+    "priority_score": 0.8747,
+    "total_duration_seconds": 54.6,
+    "episodes": [
+      "episode-026-Episode 1678579"
+    ],
+    "segments": [
+      {
+        "order": 1,
+        "episode_id": "episode-026-Episode 1678579",
+        "episode_number": 26,
+        "start_seconds": 56.0,
+        "end_seconds": 110.6,
+        "start": "00:56.00",
+        "end": "01:50.60",
+        "duration_seconds": 54.6,
+        "dialogue": [
+          {
+            "start": "00:56.00",
+            "end": "01:02.00",
+            "character": "DOWAGER DUCHESS",
+            "kind": "dialogue",
+            "text": "Rupert and Catherine want me dead. They are poisoning me in my own bed, aren't they?"
+          },
+          {
+            "start": "01:02.60",
+            "end": "01:06.70",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "Yes. But the charcoal is fighting the poison. You are safe now."
+          },
+          {
+            "start": "01:13.80",
+            "end": "01:19.40",
+            "character": "DOWAGER DUCHESS",
+            "kind": "dialogue",
+            "text": "Then tell me... why is a girl of such noble spirit working as a common maid?"
+          },
+          {
+            "start": "01:20.00",
+            "end": "01:25.80",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "Because my family cast me out to rot. I have nothing left in this world but my honor."
+          },
+          {
+            "start": "01:27.00",
+            "end": "01:30.50",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "Juliana rests her right hand against the edge of the bedcover, unwittingly placing the unique ring directly within the Duchess's line of sight."
+          },
+          {
+            "start": "01:30.80",
+            "end": "01:35.00",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "The Duchess's mouth hangs open in pure disbelief as she stares fixedly at Juliana's hand."
+          },
+          {
+            "start": "01:36.00",
+            "end": "01:39.80",
+            "character": "DOWAGER DUCHESS",
+            "kind": "dialogue",
+            "text": "Your hand... Let me see your hand."
+          },
+          {
+            "start": "01:40.50",
+            "end": "01:45.00",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "Your Grace? What is wrong? You look as though you've seen a ghost."
+          },
+          {
+            "start": "01:46.00",
+            "end": "01:49.00",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "The Duchess reaches outward with trembling fingers, grasping frantically for Juliana."
+          },
+          {
+            "start": "01:49.20",
+            "end": "01:50.60",
+            "character": "DOWAGER DUCHESS",
+            "kind": "dialogue",
+            "text": "Do not move!"
+          }
+        ]
+      }
+    ],
+    "opening_hook": {
+      "score": 0.79,
+      "evidence": [
+        "charged question",
+        "00:56.00 DOWAGER DUCHESS: “Rupert and Catherine want me dead. They are poisoning me in my own be…”",
+        "model: anger 0.51, arousal 0.93",
+        "script tag 'Trembling, Heartbroken' (0.67)",
+        "zero-shot conflict/reveal 0.99"
+      ],
+      "timestamp": 56.0,
+      "episode_id": "episode-026-Episode 1678579",
+      "text": "Rupert and Catherine want me dead. They are poisoning me in my own bed, aren't they?",
+      "timestamp_fmt": "00:56.00"
+    },
+    "ending_cliffhanger": {
+      "score": 0.7978,
+      "evidence": [
+        "zero-shot reads an unresolved threat (0.70)",
+        "01:49.20–01:50.60 DOWAGER DUCHESS: “Do not move!”",
+        "closing tension 1.00",
+        "zero-shot suspense/threat/reveal 0.70",
+        "cut matches the episode's own final beat (+0.12)",
+        "withheld next beat: DOWAGER DUCHESS “Where... where... Where did you get this ring? Sp…” (payoff 0.48)"
+      ],
+      "timestamp": 110.6,
+      "episode_id": "episode-026-Episode 1678579",
+      "text": "Do not move!",
+      "timestamp_fmt": "01:50.60"
+    },
+    "standalone_coherence": {
+      "score": 0.9688,
+      "evidence": [
+        "clear who/what/why",
+        "who: 2 speaking character(s), names on screen: catherine, juliana, rupert",
+        "what: 7 dialogue lines, 85 words",
+        "why: stakes (duchess, family, honor); conflict cue present; logline overlap 0.58",
+        "structure: continuous, 0 scene switch(es)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "emotional_intensity": {
+      "score": 0.901,
+      "evidence": [
+        "peak 0.98 at 01:49.20, mean 0.82 (emotion model)"
+      ],
+      "timestamp": 109.2,
+      "episode_id": "episode-026-Episode 1678579",
+      "text": "",
+      "timestamp_fmt": "01:49.20"
+    },
+    "narrative_continuity": {
+      "score": 1.0,
+      "evidence": [
+        "one unbroken stretch, 1 scene(s)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "dialogue_quality": {
+      "score": 0.9762,
+      "evidence": [
+        "speech covers 57% of runtime, 0% filler lines, 12.1 words/line"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "score_breakdown": {
+      "hook": 0.79,
+      "cliffhanger": 0.7978,
+      "coherence": 0.9688,
+      "emotion": 0.901,
+      "continuity": 1.0,
+      "dialogue_quality": 0.9762
+    },
+    "passed_quality_gates": true,
+    "rejection_reasons": [],
+    "risk_flags": [],
+    "why_it_works": "Opens on charged question (ep 26 00:56.00: “Rupert and Catherine want me dead. They are poisoning me …”) and cuts on zero-shot reads an unresolved threat (0.70) (ep 26 01:50.60: “Do not move!”); clear who/what/why.",
+    "llm_review": {
+      "hook_works": true,
+      "cliffhanger_works": true,
+      "standalone": true,
+      "one_line": "The clip successfully grabs attention with a murder plot accusation and ends on a suspenseful discovery regarding a mysterious ring.",
+      "concerns": "A first-time viewer might not fully understand the backstory of the noble family or why Juliana was cast out.",
+      "model": "gemini-3.5-flash-lite",
+      "status": "ok"
+    }
+  }
+}

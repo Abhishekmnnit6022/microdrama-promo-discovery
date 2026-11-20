@@ -1,0 +1,191 @@
+{
+  "show": "I Married a Broken Soldier. He was a Duke",
+  "episode_id": "episode-011-Episode 1671713",
+  "episode_number": 11,
+  "source_path": "C:\\Users\\Dell\\Desktop\\kuku_fm_ass\\kuku_fm_assignment_project\\data\\I Married a Broken Soldier. He was a Duke\\episode-011-Episode 1671713.txt",
+  "status": "ok",
+  "error": "",
+  "traceback": "",
+  "warnings": [],
+  "lines_total": 85,
+  "dialogue_lines": 33,
+  "action_lines": 6,
+  "untimed_lines": 0,
+  "duration_seconds": 112.75,
+  "candidates": 834,
+  "candidates_passed": 536,
+  "best_promo_id": "cont-061f890062",
+  "best_score": 0.8451,
+  "no_promo_reason": "",
+  "seconds_features": 0.008,
+  "seconds_candidates": 0.053,
+  "logline": "Gerald and Clarissa arrive at the cottage with an armed constable accusing Alexander of grand theft, culminating in a devastating planted discovery that threatens to tear the newlyweds apart.",
+  "best_promo": {
+    "rank": 15,
+    "promo_id": "cont-061f890062",
+    "show": "I Married a Broken Soldier. He was a Duke",
+    "structure": "continuous",
+    "priority_score": 0.8451,
+    "total_duration_seconds": 20.1,
+    "episodes": [
+      "episode-011-Episode 1671713"
+    ],
+    "segments": [
+      {
+        "order": 1,
+        "episode_id": "episode-011-Episode 1671713",
+        "episode_number": 11,
+        "start_seconds": 72.1,
+        "end_seconds": 92.2,
+        "start": "01:12.10",
+        "end": "01:32.20",
+        "duration_seconds": 20.1,
+        "dialogue": [
+          {
+            "start": "01:12.10",
+            "end": "01:15.00",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "You planted this accusation because you cannot bear that I am happy without you!"
+          },
+          {
+            "start": "01:15.50",
+            "end": "01:16.80",
+            "character": "GERALD",
+            "kind": "dialogue",
+            "text": "Happy?"
+          },
+          {
+            "start": "01:21.30",
+            "end": "01:24.00",
+            "character": "GERALD",
+            "kind": "dialogue",
+            "text": "What is it, soldier? Going to strike a gentleman in front of his wife?"
+          },
+          {
+            "start": "01:24.20",
+            "end": "01:25.00",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "Don't!"
+          },
+          {
+            "start": "01:26.00",
+            "end": "01:27.50",
+            "character": "ALEXANDER",
+            "kind": "dialogue",
+            "text": "One blow would end this."
+          },
+          {
+            "start": "01:28.00",
+            "end": "01:30.00",
+            "character": "ALEXANDER",
+            "kind": "dialogue",
+            "text": "But one blow would destroy her life."
+          },
+          {
+            "start": "01:31.00",
+            "end": "01:32.20",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "The Constable grabs the coat by the collar and begins rummaging through its deep pockets."
+          }
+        ]
+      }
+    ],
+    "opening_hook": {
+      "score": 0.8489,
+      "evidence": [
+        "shock reaction",
+        "01:12.10 JULIANA: “You planted this accusation because you cannot bear that I am happy w…”",
+        "model: anger 0.90, arousal 0.95",
+        "cues: shock ('you!')",
+        "script tag 'Furious, Accusatory' (1.00)",
+        "zero-shot conflict/reveal 0.81"
+      ],
+      "timestamp": 72.1,
+      "episode_id": "episode-011-Episode 1671713",
+      "text": "You planted this accusation because you cannot bear that I am happy without you!",
+      "timestamp_fmt": "01:12.10"
+    },
+    "ending_cliffhanger": {
+      "score": 0.6297,
+      "evidence": [
+        "physical ('grabs')",
+        "01:31.00–01:32.20 ACTION: “The Constable grabs the coat by the collar and begins rummaging throu…”",
+        "closing tension 0.88",
+        "zero-shot suspense/threat/reveal 0.23",
+        "withheld next beat: JULIANA “That is his coat!” (payoff 0.47)"
+      ],
+      "timestamp": 92.2,
+      "episode_id": "episode-011-Episode 1671713",
+      "text": "The Constable grabs the coat by the collar and begins rummaging through its deep pockets.",
+      "timestamp_fmt": "01:32.20"
+    },
+    "standalone_coherence": {
+      "score": 0.9375,
+      "evidence": [
+        "clear who/what/why",
+        "who: 3 speaking character(s), names on screen: constable",
+        "what: 6 dialogue lines, 42 words",
+        "why: stakes (life, soldier, wife); conflict cue present; logline overlap 0.17",
+        "structure: continuous, 0 scene switch(es)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "emotional_intensity": {
+      "score": 0.965,
+      "evidence": [
+        "peak 0.99 at 01:12.10, mean 0.94 (emotion model)"
+      ],
+      "timestamp": 72.1,
+      "episode_id": "episode-011-Episode 1671713",
+      "text": "",
+      "timestamp_fmt": "01:12.10"
+    },
+    "narrative_continuity": {
+      "score": 1.0,
+      "evidence": [
+        "one unbroken stretch, 1 scene(s)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "dialogue_quality": {
+      "score": 0.8643,
+      "evidence": [
+        "speech covers 56% of runtime, 33% filler lines, 7.0 words/line"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "score_breakdown": {
+      "hook": 0.8489,
+      "cliffhanger": 0.6297,
+      "coherence": 0.9375,
+      "emotion": 0.965,
+      "continuity": 1.0,
+      "dialogue_quality": 0.8643
+    },
+    "passed_quality_gates": true,
+    "rejection_reasons": [],
+    "risk_flags": [],
+    "why_it_works": "Opens on shock reaction (ep 11 01:12.10: “You planted this accusation because you cannot bear that …”) and cuts on physical ('grabs') (ep 11 01:32.20: “The Constable grabs the coat by the collar and begins rum…”); clear who/what/why.",
+    "llm_review": {
+      "hook_works": true,
+      "cliffhanger_works": true,
+      "standalone": false,
+      "one_line": "The clip immediately captures attention with a dramatic accusation and a tense physical confrontation, ending right as an authority figure searches a coat.",
+      "concerns": "A new viewer has no context regarding who Juliana, Gerald, and Alexander are or what accusation was made.",
+      "model": "gemini-3.5-flash-lite",
+      "status": "ok"
+    }
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "show": "I Married a Broken Soldier. He was a Duke",
+  "episode_id": "episode-018-Episode 1671720",
+  "episode_number": 18,
+  "source_path": "C:\\Users\\Dell\\Desktop\\kuku_fm_ass\\kuku_fm_assignment_project\\data\\I Married a Broken Soldier. He was a Duke\\episode-018-Episode 1671720.txt",
+  "status": "ok",
+  "error": "",
+  "traceback": "",
+  "warnings": [],
+  "lines_total": 81,
+  "dialogue_lines": 28,
+  "action_lines": 20,
+  "untimed_lines": 0,
+  "duration_seconds": 192.0,
+  "candidates": 706,
+  "candidates_passed": 424,
+  "best_promo_id": "cont-a2a9eacc77",
+  "best_score": 0.7857,
+  "no_promo_reason": "",
+  "seconds_features": 0.011,
+  "seconds_candidates": 0.033,
+  "logline": "When their cottage is deliberately set ablaze in the dead of night, Alexander risks his life to rescue Juliana and her mother's cherished ledger from the inferno, vowing relentless vengeance against those responsible.",
+  "best_promo": {
+    "rank": null,
+    "promo_id": "cont-a2a9eacc77",
+    "show": "I Married a Broken Soldier. He was a Duke",
+    "structure": "continuous",
+    "priority_score": 0.7857,
+    "total_duration_seconds": 31.5,
+    "episodes": [
+      "episode-018-Episode 1671720"
+    ],
+    "segments": [
+      {
+        "order": 1,
+        "episode_id": "episode-018-Episode 1671720",
+        "episode_number": 18,
+        "start_seconds": 58.0,
+        "end_seconds": 89.5,
+        "start": "00:58.00",
+        "end": "01:29.50",
+        "duration_seconds": 31.5,
+        "dialogue": [
+          {
+            "start": "00:58.00",
+            "end": "00:59.20",
+            "character": "ALEXANDER",
+            "kind": "dialogue",
+            "text": "Leave it!"
+          },
+          {
+            "start": "00:59.30",
+            "end": "01:02.50",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "No! No!"
+          },
+          {
+            "start": "01:05.50",
+            "end": "01:08.00",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "Alexander points upward with urgency, pulling her under his arm."
+          },
+          {
+            "start": "01:05.80",
+            "end": "01:08.00",
+            "character": "ALEXANDER",
+            "kind": "dialogue",
+            "text": "Juliana, the ceiling is coming down!"
+          },
+          {
+            "start": "01:08.00",
+            "end": "01:10.50",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "Juliana wrests her hand from his grasp and charges straight toward the burning desk."
+          },
+          {
+            "start": "01:13.50",
+            "end": "01:15.50",
+            "character": "ALEXANDER",
+            "kind": "dialogue",
+            "text": "Juliana!"
+          },
+          {
+            "start": "01:15.00",
+            "end": "01:16.80",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "It's my mother's!"
+          },
+          {
+            "start": "01:16.80",
+            "end": "01:21.50",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "Juliana snatches the scorched leather ledger from the burning table, pulling it tightly against her chest with both bandaged hands."
+          },
+          {
+            "start": "01:24.00",
+            "end": "01:26.20",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "Alexander!"
+          },
+          {
+            "start": "01:26.50",
+            "end": "01:29.50",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "Alexander lunges across the room, tackling her to the wooden floor and covering her body entirely with his own."
+          }
+        ]
+      }
+    ],
+    "opening_hook": {
+      "score": 0.6873,
+      "evidence": [
+        "shock reaction",
+        "00:59.30 JULIANA: “No! No!”",
+        "model: anger 0.52, arousal 0.83",
+        "cues: shock ('no!')",
+        "script tag 'Hysterical, Screaming' (1.00)",
+        "zero-shot conflict/reveal 0.13",
+        "second strong beat within 3 s (+0.05)"
+      ],
+      "timestamp": 59.3,
+      "episode_id": "episode-018-Episode 1671720",
+      "text": "No! No!",
+      "timestamp_fmt": "00:59.30"
+    },
+    "ending_cliffhanger": {
+      "score": 0.7872,
+      "evidence": [
+        "zero-shot reads an unresolved threat (0.94)",
+        "01:26.50–01:29.50 ACTION: “Alexander lunges across the room, tackling her to the wooden floor an…”",
+        "closing tension 1.00",
+        "zero-shot suspense/threat/reveal 0.94",
+        "withheld next beat: ALEXANDER “Down!” (payoff 0.47)"
+      ],
+      "timestamp": 89.5,
+      "episode_id": "episode-018-Episode 1671720",
+      "text": "Alexander lunges across the room, tackling her to the wooden floor and covering her body entirely with his own.",
+      "timestamp_fmt": "01:29.50"
+    },
+    "standalone_coherence": {
+      "score": 0.7312,
+      "evidence": [
+        "clear who/what/why",
+        "who: 2 speaking character(s), names on screen: alexander, juliana",
+        "what: 6 dialogue lines, 15 words",
+        "why: no explicit stakes words; logline overlap 0.42",
+        "structure: continuous, 0 scene switch(es)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "emotional_intensity": {
+      "score": 0.9612,
+      "evidence": [
+        "peak 0.98 at 01:05.80, mean 0.94 (emotion model)"
+      ],
+      "timestamp": 65.8,
+      "episode_id": "episode-018-Episode 1671720",
+      "text": "",
+      "timestamp_fmt": "01:05.80"
+    },
+    "narrative_continuity": {
+      "score": 1.0,
+      "evidence": [
+        "one unbroken stretch, 1 scene(s)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "dialogue_quality": {
+      "score": 0.5333,
+      "evidence": [
+        "speech covers 40% of runtime, 67% filler lines, 2.5 words/line"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "score_breakdown": {
+      "hook": 0.6873,
+      "cliffhanger": 0.7872,
+      "coherence": 0.7312,
+      "emotion": 0.9612,
+      "continuity": 1.0,
+      "dialogue_quality": 0.5333
+    },
+    "passed_quality_gates": true,
+    "rejection_reasons": [],
+    "risk_flags": [],
+    "why_it_works": "Opens on shock reaction (ep 18 00:59.30: “No! No!”) and cuts on zero-shot reads an unresolved threat (0.94) (ep 18 01:29.50: “Alexander lunges across the room, tackling her to the woo…”); clear who/what/why.",
+    "llm_review": null
+  }
+}

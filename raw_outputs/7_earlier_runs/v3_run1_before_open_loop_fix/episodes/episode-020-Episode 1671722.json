@@ -1,0 +1,247 @@
+{
+  "show": "I Married a Broken Soldier. He was a Duke",
+  "episode_id": "episode-020-Episode 1671722",
+  "episode_number": 20,
+  "source_path": "C:\\Users\\Dell\\Desktop\\kuku_fm_ass\\kuku_fm_assignment_project\\data\\I Married a Broken Soldier. He was a Duke\\episode-020-Episode 1671722.txt",
+  "status": "ok",
+  "error": "",
+  "traceback": "",
+  "warnings": [],
+  "lines_total": 68,
+  "dialogue_lines": 41,
+  "action_lines": 4,
+  "untimed_lines": 0,
+  "duration_seconds": 114.75,
+  "candidates": 590,
+  "candidates_passed": 80,
+  "best_promo_id": "cont-9d530a0959",
+  "best_score": 0.7344,
+  "no_promo_reason": "",
+  "seconds_features": 0.011,
+  "seconds_candidates": 0.068,
+  "logline": "Inside the opulent Ashbury estate, the treacherous Rupert and Catherine plot to seize the ducal title as the Dowager Duchess slowly withers, while in an icy barn, Juliana defiantly prepares remedies to save the fever-stricken villagers.",
+  "best_promo": {
+    "rank": null,
+    "promo_id": "cont-9d530a0959",
+    "show": "I Married a Broken Soldier. He was a Duke",
+    "structure": "continuous",
+    "priority_score": 0.7344,
+    "total_duration_seconds": 36.2,
+    "episodes": [
+      "episode-020-Episode 1671722"
+    ],
+    "segments": [
+      {
+        "order": 1,
+        "episode_id": "episode-020-Episode 1671722",
+        "episode_number": 20,
+        "start_seconds": 2.9,
+        "end_seconds": 39.1,
+        "start": "00:02.90",
+        "end": "00:39.10",
+        "duration_seconds": 36.2,
+        "dialogue": [
+          {
+            "start": "00:02.90",
+            "end": "00:04.40",
+            "character": "CATHERINE",
+            "kind": "dialogue",
+            "text": "Two lumps of sugar, Rupert?"
+          },
+          {
+            "start": "00:04.60",
+            "end": "00:07.80",
+            "character": "CATHERINE",
+            "kind": "dialogue",
+            "text": "Or has your sudden climb to power sweetened your taste already?"
+          },
+          {
+            "start": "00:08.20",
+            "end": "00:10.80",
+            "character": "RUPERT",
+            "kind": "dialogue",
+            "text": "Only if it sweetens your disposition, Catherine."
+          },
+          {
+            "start": "00:10.90",
+            "end": "00:12.70",
+            "character": "RUPERT",
+            "kind": "dialogue",
+            "text": "The estate is practically ours."
+          },
+          {
+            "start": "00:12.80",
+            "end": "00:15.10",
+            "character": "RUPERT",
+            "kind": "dialogue",
+            "text": "The succession papers are being finalized as we speak."
+          },
+          {
+            "start": "00:15.40",
+            "end": "00:18.70",
+            "character": "CATHERINE",
+            "kind": "dialogue",
+            "text": "'Practically' is a word for beggars. I do not marry a practical Duke."
+          },
+          {
+            "start": "00:18.80",
+            "end": "00:20.10",
+            "character": "CATHERINE",
+            "kind": "dialogue",
+            "text": "I marry the Lord of Ashbury."
+          },
+          {
+            "start": "00:20.10",
+            "end": "00:21.20",
+            "character": "RUPERT",
+            "kind": "dialogue",
+            "text": "And so you shall."
+          },
+          {
+            "start": "00:21.30",
+            "end": "00:24.20",
+            "character": "RUPERT",
+            "kind": "dialogue",
+            "text": "Once my cousin Alexander's death is formally sealed by the Crown..."
+          },
+          {
+            "start": "00:24.30",
+            "end": "00:25.40",
+            "character": "RUPERT",
+            "kind": "dialogue",
+            "text": "...the title is mine."
+          },
+          {
+            "start": "00:25.50",
+            "end": "00:28.20",
+            "character": "CATHERINE",
+            "kind": "dialogue",
+            "text": "And what of the Dowager? The old woman still breathes."
+          },
+          {
+            "start": "00:28.30",
+            "end": "00:30.20",
+            "character": "CATHERINE",
+            "kind": "dialogue",
+            "text": "Her shadow still hangs over this house."
+          },
+          {
+            "start": "00:30.20",
+            "end": "00:32.80",
+            "character": "RUPERT",
+            "kind": "dialogue",
+            "text": "Her health fails more each day. The physicians are baffled."
+          },
+          {
+            "start": "00:32.90",
+            "end": "00:34.40",
+            "character": "RUPERT",
+            "kind": "dialogue",
+            "text": "They call it a wasting of the lungs."
+          },
+          {
+            "start": "00:34.20",
+            "end": "00:36.80",
+            "character": "CATHERINE",
+            "kind": "dialogue",
+            "text": "How tragic. The slow, quiet decline."
+          },
+          {
+            "start": "00:36.90",
+            "end": "00:39.10",
+            "character": "CATHERINE",
+            "kind": "dialogue",
+            "text": "How much longer can the frail thing survive?"
+          }
+        ]
+      }
+    ],
+    "opening_hook": {
+      "score": 0.5554,
+      "evidence": [
+        "charged question",
+        "00:02.90 CATHERINE: “Two lumps of sugar, Rupert?”",
+        "model: surprise 0.70, arousal 0.77",
+        "script tag 'Smug, Prim' (0.67)",
+        "zero-shot conflict/reveal 0.24"
+      ],
+      "timestamp": 2.9,
+      "episode_id": "episode-020-Episode 1671722",
+      "text": "Two lumps of sugar, Rupert?",
+      "timestamp_fmt": "00:02.90"
+    },
+    "ending_cliffhanger": {
+      "score": 0.6136,
+      "evidence": [
+        "unanswered question",
+        "00:36.90–00:39.10 CATHERINE: “How much longer can the frail thing survive?”",
+        "closing tension 0.67",
+        "zero-shot suspense/threat/reveal 0.87",
+        "withheld next beat: RUPERT “Not through the winter. I've ensured her quiet co…” (payoff 0.48)"
+      ],
+      "timestamp": 39.1,
+      "episode_id": "episode-020-Episode 1671722",
+      "text": "How much longer can the frail thing survive?",
+      "timestamp_fmt": "00:39.10"
+    },
+    "standalone_coherence": {
+      "score": 0.875,
+      "evidence": [
+        "clear who/what/why",
+        "who: 2 speaking character(s), names on screen: alexander's, catherine, crown, rupert",
+        "what: 16 dialogue lines, 124 words",
+        "why: stakes (death, duke, estate, marry); logline overlap 0.50",
+        "structure: continuous, 0 scene switch(es)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "emotional_intensity": {
+      "score": 0.7809,
+      "evidence": [
+        "peak 1.00 at 00:18.80, mean 0.56 (emotion model)"
+      ],
+      "timestamp": 18.8,
+      "episode_id": "episode-020-Episode 1671722",
+      "text": "",
+      "timestamp_fmt": "00:18.80"
+    },
+    "narrative_continuity": {
+      "score": 1.0,
+      "evidence": [
+        "one unbroken stretch, 1 scene(s)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "dialogue_quality": {
+      "score": 1.0,
+      "evidence": [
+        "speech covers 96% of runtime, 0% filler lines, 7.8 words/line"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "score_breakdown": {
+      "hook": 0.5554,
+      "cliffhanger": 0.6136,
+      "coherence": 0.875,
+      "emotion": 0.7809,
+      "continuity": 1.0,
+      "dialogue_quality": 1.0
+    },
+    "passed_quality_gates": true,
+    "rejection_reasons": [],
+    "risk_flags": [
+      "cliffhanger rests on a single uncharged question"
+    ],
+    "why_it_works": "Opens on charged question (ep 20 00:02.90: “Two lumps of sugar, Rupert?”) and cuts on unanswered question (ep 20 00:39.10: “How much longer can the frail thing survive?”); clear who/what/why.",
+    "llm_review": null
+  }
+}

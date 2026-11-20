@@ -1,0 +1,238 @@
+{
+  "show": "I Married a Broken Soldier. He was a Duke",
+  "episode_id": "episode-044-Episode 1686804",
+  "episode_number": 44,
+  "source_path": "C:\\Users\\Dell\\Desktop\\kuku_fm_ass\\kuku_fm_assignment_project\\data\\I Married a Broken Soldier. He was a Duke\\episode-044-Episode 1686804.txt",
+  "status": "ok",
+  "error": "",
+  "traceback": "",
+  "warnings": [],
+  "lines_total": 54,
+  "dialogue_lines": 20,
+  "action_lines": 5,
+  "untimed_lines": 0,
+  "duration_seconds": 70.5,
+  "candidates": 532,
+  "candidates_passed": 399,
+  "best_promo_id": "cont-e2742169e3",
+  "best_score": 0.8171,
+  "no_promo_reason": "",
+  "seconds_features": 0.005,
+  "seconds_candidates": 0.019,
+  "logline": "As Lord Sterling and Rupert are apprehended by the Crown, Catherine pleads with Alexander for their past love, only to be coldly rejected as he walks toward his chained bride, Juliana.",
+  "best_promo": {
+    "rank": null,
+    "promo_id": "cont-e2742169e3",
+    "show": "I Married a Broken Soldier. He was a Duke",
+    "structure": "continuous",
+    "priority_score": 0.8171,
+    "total_duration_seconds": 38.8,
+    "episodes": [
+      "episode-044-Episode 1686804"
+    ],
+    "segments": [
+      {
+        "order": 1,
+        "episode_id": "episode-044-Episode 1686804",
+        "episode_number": 44,
+        "start_seconds": 14.0,
+        "end_seconds": 52.8,
+        "start": "00:14.00",
+        "end": "00:52.80",
+        "duration_seconds": 38.8,
+        "dialogue": [
+          {
+            "start": "00:14.00",
+            "end": "00:16.40",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "A royal redcoat guard firmly forces Rupert down into the stone dust."
+          },
+          {
+            "start": "00:14.00",
+            "end": "00:16.80",
+            "character": "BLOND NOBLEMAN",
+            "kind": "dialogue",
+            "text": "Get your hands off me! Catherine!"
+          },
+          {
+            "start": "00:17.40",
+            "end": "00:19.30",
+            "character": "BLOND NOBLEMAN",
+            "kind": "dialogue",
+            "text": "Do something!"
+          },
+          {
+            "start": "00:21.80",
+            "end": "00:24.40",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "Catherine's satin-gloved hand clenches tightly into a trembling fist against the folds of her ornate gown."
+          },
+          {
+            "start": "00:25.20",
+            "end": "00:28.00",
+            "character": "CATHERINE",
+            "kind": "dialogue",
+            "text": "Alexander... I thought you had died."
+          },
+          {
+            "start": "00:28.40",
+            "end": "00:31.00",
+            "character": "CATHERINE",
+            "kind": "dialogue",
+            "text": "Do you know what this did to me?"
+          },
+          {
+            "start": "00:31.20",
+            "end": "00:32.40",
+            "character": "CATHERINE",
+            "kind": "dialogue",
+            "text": "I mourned you."
+          },
+          {
+            "start": "00:32.40",
+            "end": "00:34.00",
+            "character": "CATHERINE",
+            "kind": "dialogue",
+            "text": "I waited for you."
+          },
+          {
+            "start": "00:34.20",
+            "end": "00:38.80",
+            "character": "CATHERINE",
+            "kind": "dialogue",
+            "text": "For three years, I believed the man I loved was buried somewhere across the sea."
+          },
+          {
+            "start": "00:38.90",
+            "end": "00:41.20",
+            "character": "CATHERINE",
+            "kind": "dialogue",
+            "text": "I never stopped loving you."
+          },
+          {
+            "start": "00:41.20",
+            "end": "00:42.80",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "Alexander abruptly pulls his face back, refusing her touch and leaving her hand suspended in mid-air."
+          },
+          {
+            "start": "00:44.20",
+            "end": "00:46.40",
+            "character": "CATHERINE",
+            "kind": "dialogue",
+            "text": "You don't remember?"
+          },
+          {
+            "start": "00:46.60",
+            "end": "00:48.80",
+            "character": "CATHERINE",
+            "kind": "dialogue",
+            "text": "I was supposed to be your Duchess!"
+          },
+          {
+            "start": "00:49.20",
+            "end": "00:51.00",
+            "character": "ALEXANDER",
+            "kind": "dialogue",
+            "text": "You were never my Duchess."
+          },
+          {
+            "start": "00:51.10",
+            "end": "00:52.80",
+            "character": "CATHERINE",
+            "kind": "dialogue",
+            "text": "But I loved you!"
+          }
+        ]
+      }
+    ],
+    "opening_hook": {
+      "score": 0.6997,
+      "evidence": [
+        "exclamation",
+        "00:14.00 BLOND NOBLEMAN: “Get your hands off me! Catherine!”",
+        "model: anger 0.89, arousal 0.97",
+        "zero-shot conflict/reveal 0.93",
+        "second strong beat within 3 s (+0.04)"
+      ],
+      "timestamp": 14.0,
+      "episode_id": "episode-044-Episode 1686804",
+      "text": "Get your hands off me! Catherine!",
+      "timestamp_fmt": "00:14.00"
+    },
+    "ending_cliffhanger": {
+      "score": 0.68,
+      "evidence": [
+        "shock ('you!')",
+        "00:51.10–00:52.80 CATHERINE: “But I loved you!”",
+        "closing tension 1.00",
+        "zero-shot suspense/threat/reveal 0.03",
+        "withheld next beat: ALEXANDER “You loved the Duke you thought you would marry.” (payoff 0.83)"
+      ],
+      "timestamp": 52.8,
+      "episode_id": "episode-044-Episode 1686804",
+      "text": "But I loved you!",
+      "timestamp_fmt": "00:52.80"
+    },
+    "standalone_coherence": {
+      "score": 0.9437,
+      "evidence": [
+        "clear who/what/why",
+        "who: 3 speaking character(s), names on screen: alexander, catherine, rupert",
+        "what: 12 dialogue lines, 68 words",
+        "why: stakes (duchess); conflict cue present; logline overlap 0.25",
+        "structure: continuous, 0 scene switch(es)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "emotional_intensity": {
+      "score": 0.8976,
+      "evidence": [
+        "peak 0.99 at 00:17.40, mean 0.80 (emotion model)"
+      ],
+      "timestamp": 17.4,
+      "episode_id": "episode-044-Episode 1686804",
+      "text": "",
+      "timestamp_fmt": "00:17.40"
+    },
+    "narrative_continuity": {
+      "score": 1.0,
+      "evidence": [
+        "one unbroken stretch, 1 scene(s)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "dialogue_quality": {
+      "score": 0.975,
+      "evidence": [
+        "speech covers 71% of runtime, 8% filler lines, 5.7 words/line"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "score_breakdown": {
+      "hook": 0.6997,
+      "cliffhanger": 0.68,
+      "coherence": 0.9437,
+      "emotion": 0.8976,
+      "continuity": 1.0,
+      "dialogue_quality": 0.975
+    },
+    "passed_quality_gates": true,
+    "rejection_reasons": [],
+    "risk_flags": [],
+    "why_it_works": "Opens on exclamation (ep 44 00:14.00: “Get your hands off me! Catherine!”) and cuts on shock ('you!') (ep 44 00:52.80: “But I loved you!”); clear who/what/why.",
+    "llm_review": null
+  }
+}

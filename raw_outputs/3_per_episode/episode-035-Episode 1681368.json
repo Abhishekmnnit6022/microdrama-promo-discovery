@@ -1,0 +1,290 @@
+{
+  "show": "I Married a Broken Soldier. He was a Duke",
+  "episode_id": "episode-035-Episode 1681368",
+  "episode_number": 35,
+  "source_path": "C:\\Users\\Dell\\Desktop\\kuku_fm_ass\\kuku_fm_assignment_project\\data\\I Married a Broken Soldier. He was a Duke\\episode-035-Episode 1681368.txt",
+  "status": "ok",
+  "error": "",
+  "traceback": "",
+  "warnings": [],
+  "lines_total": 72,
+  "dialogue_lines": 33,
+  "action_lines": 12,
+  "untimed_lines": 0,
+  "duration_seconds": 157.5,
+  "candidates": 553,
+  "candidates_passed": 254,
+  "best_promo_id": "cont-519b3d5ba1",
+  "best_score": 0.8896,
+  "no_promo_reason": "",
+  "seconds_features": 0.011,
+  "seconds_candidates": 0.042,
+  "logline": "Fleeing her captivity through a secret passage, Alexander's elderly mother treks through a bitter blizzard to a secluded cabin, where she tearfully reunites with her presumed-dead son and learns the horrifying conspiracy behind his supposed demise.",
+  "best_promo": {
+    "rank": 7,
+    "promo_id": "cont-519b3d5ba1",
+    "show": "I Married a Broken Soldier. He was a Duke",
+    "structure": "continuous",
+    "priority_score": 0.8896,
+    "total_duration_seconds": 55.2,
+    "episodes": [
+      "episode-035-Episode 1681368"
+    ],
+    "segments": [
+      {
+        "order": 1,
+        "episode_id": "episode-035-Episode 1681368",
+        "episode_number": 35,
+        "start_seconds": 89.8,
+        "end_seconds": 145.0,
+        "start": "01:29.80",
+        "end": "02:25.00",
+        "duration_seconds": 55.2,
+        "dialogue": [
+          {
+            "start": "01:29.80",
+            "end": "01:31.50",
+            "character": "ALEXANDER'S MOTHER",
+            "kind": "dialogue",
+            "text": "A traitor?"
+          },
+          {
+            "start": "01:32.00",
+            "end": "01:33.20",
+            "character": "ALEXANDER",
+            "kind": "dialogue",
+            "text": "Yes."
+          },
+          {
+            "start": "01:34.50",
+            "end": "01:37.00",
+            "character": "ALEXANDER",
+            "kind": "dialogue",
+            "text": "We were close to finding him."
+          },
+          {
+            "start": "01:38.50",
+            "end": "01:41.00",
+            "character": "ALEXANDER",
+            "kind": "dialogue",
+            "text": "Then came the ambush."
+          },
+          {
+            "start": "01:41.50",
+            "end": "01:44.20",
+            "character": "ALEXANDER",
+            "kind": "dialogue",
+            "text": "My men were slaughtered."
+          },
+          {
+            "start": "01:44.50",
+            "end": "01:46.00",
+            "character": "ALEXANDER'S MOTHER",
+            "kind": "dialogue",
+            "text": "And you?"
+          },
+          {
+            "start": "01:47.00",
+            "end": "01:50.00",
+            "character": "ALEXANDER",
+            "kind": "dialogue",
+            "text": "I was shot. Left for dead."
+          },
+          {
+            "start": "01:51.00",
+            "end": "01:53.00",
+            "character": "ALEXANDER'S MOTHER",
+            "kind": "dialogue",
+            "text": "How did you escape?"
+          },
+          {
+            "start": "01:54.00",
+            "end": "01:58.00",
+            "character": "ALEXANDER",
+            "kind": "dialogue",
+            "text": "I crawled away from the battlefield, half dead, alone."
+          },
+          {
+            "start": "01:58.20",
+            "end": "02:02.00",
+            "character": "ALEXANDER",
+            "kind": "dialogue",
+            "text": "I survived because the men who came looking for me believed I was already dead."
+          },
+          {
+            "start": "02:02.00",
+            "end": "02:05.50",
+            "character": "ALEXANDER'S MOTHER",
+            "kind": "dialogue",
+            "text": "Then why did they never tell us?"
+          },
+          {
+            "start": "02:06.00",
+            "end": "02:09.50",
+            "character": "ALEXANDER",
+            "kind": "dialogue",
+            "text": "Because someone wanted you to believe I was dead."
+          },
+          {
+            "start": "02:09.50",
+            "end": "02:10.50",
+            "character": "ALEXANDER'S MOTHER",
+            "kind": "dialogue",
+            "text": "Who?"
+          },
+          {
+            "start": "02:10.50",
+            "end": "02:14.00",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "Alexander turns away toward the frosted window, staring out into the dark raging blizzard outside."
+          },
+          {
+            "start": "02:11.00",
+            "end": "02:14.00",
+            "character": "ALEXANDER",
+            "kind": "dialogue",
+            "text": "I spent three years trying to find out."
+          },
+          {
+            "start": "02:14.00",
+            "end": "02:16.80",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "Alexander abruptly pushes away from the window, storming back toward the table with burning rage."
+          },
+          {
+            "start": "02:14.00",
+            "end": "02:17.00",
+            "character": "ALEXANDER",
+            "kind": "dialogue",
+            "text": "The ambush was not an accident."
+          },
+          {
+            "start": "02:17.00",
+            "end": "02:24.00",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "He leans heavily over the wooden table, looming close as his fury boils over."
+          },
+          {
+            "start": "02:17.00",
+            "end": "02:20.50",
+            "character": "ALEXANDER",
+            "kind": "dialogue",
+            "text": "Someone ordered my men to die."
+          },
+          {
+            "start": "02:21.00",
+            "end": "02:24.00",
+            "character": "ALEXANDER",
+            "kind": "dialogue",
+            "text": "Someone wanted me erased."
+          },
+          {
+            "start": "02:24.00",
+            "end": "02:25.00",
+            "character": "ALEXANDER'S MOTHER",
+            "kind": "dialogue",
+            "text": "Who?"
+          }
+        ]
+      }
+    ],
+    "opening_hook": {
+      "score": 0.9279,
+      "evidence": [
+        "betrayal/accusation",
+        "01:29.80 ALEXANDER'S MOTHER: “A traitor?”",
+        "model: anger 0.60, arousal 0.95",
+        "cues: betrayal ('traitor')",
+        "script tag 'Shocked' (1.00)",
+        "zero-shot conflict/reveal 0.89"
+      ],
+      "timestamp": 89.8,
+      "episode_id": "episode-035-Episode 1681368",
+      "text": "A traitor?",
+      "timestamp_fmt": "01:29.80"
+    },
+    "ending_cliffhanger": {
+      "score": 0.7483,
+      "evidence": [
+        "unanswered question (charged)",
+        "02:24.00–02:25.00 ALEXANDER'S MOTHER: “Who?”",
+        "closing tension 1.00",
+        "zero-shot suspense/threat/reveal 0.02",
+        "cut matches the episode's own final beat (+0.12)",
+        "withheld next beat: ALEXANDER “The men behind it... are the same men ruling Ashw…” (payoff 0.47)"
+      ],
+      "timestamp": 145.0,
+      "episode_id": "episode-035-Episode 1681368",
+      "text": "Who?",
+      "timestamp_fmt": "02:25.00"
+    },
+    "standalone_coherence": {
+      "score": 0.9375,
+      "evidence": [
+        "clear who/what/why",
+        "who: 2 speaking character(s), names on screen: alexander",
+        "what: 18 dialogue lines, 95 words",
+        "why: stakes (die); conflict cue present; logline overlap 0.17",
+        "structure: continuous, 0 scene switch(es)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "emotional_intensity": {
+      "score": 0.9145,
+      "evidence": [
+        "peak 1.00 at 01:41.50, mean 0.83 (emotion model)"
+      ],
+      "timestamp": 101.5,
+      "episode_id": "episode-035-Episode 1681368",
+      "text": "",
+      "timestamp_fmt": "01:41.50"
+    },
+    "narrative_continuity": {
+      "score": 1.0,
+      "evidence": [
+        "one unbroken stretch, 1 scene(s)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "dialogue_quality": {
+      "score": 0.9167,
+      "evidence": [
+        "speech covers 84% of runtime, 28% filler lines, 5.3 words/line"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "score_breakdown": {
+      "hook": 0.9279,
+      "cliffhanger": 0.7483,
+      "coherence": 0.9375,
+      "emotion": 0.9145,
+      "continuity": 1.0,
+      "dialogue_quality": 0.9167
+    },
+    "passed_quality_gates": true,
+    "rejection_reasons": [],
+    "risk_flags": [],
+    "why_it_works": "Opens on betrayal/accusation (ep 35 01:29.80: “A traitor?”) and cuts on unanswered question (charged) (ep 35 02:25.00: “Who?”); clear who/what/why.",
+    "llm_review": {
+      "hook_works": true,
+      "cliffhanger_works": true,
+      "standalone": true,
+      "one_line": "The clip works well because it quickly establishes a high-stakes betrayal and builds intense dramatic tension leading up to a cliffhanger question.",
+      "concerns": "The specific identity of the traitor is not revealed within the clip, which might leave viewers wanting immediate answers that require app downloads.",
+      "model": "gemini-3.5-flash-lite",
+      "status": "ok"
+    }
+  }
+}

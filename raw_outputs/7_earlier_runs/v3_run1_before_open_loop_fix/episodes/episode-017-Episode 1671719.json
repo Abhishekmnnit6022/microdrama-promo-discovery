@@ -1,0 +1,188 @@
+{
+  "show": "I Married a Broken Soldier. He was a Duke",
+  "episode_id": "episode-017-Episode 1671719",
+  "episode_number": 17,
+  "source_path": "C:\\Users\\Dell\\Desktop\\kuku_fm_ass\\kuku_fm_assignment_project\\data\\I Married a Broken Soldier. He was a Duke\\episode-017-Episode 1671719.txt",
+  "status": "ok",
+  "error": "",
+  "traceback": "",
+  "warnings": [],
+  "lines_total": 75,
+  "dialogue_lines": 26,
+  "action_lines": 13,
+  "untimed_lines": 0,
+  "duration_seconds": 118.88,
+  "candidates": 671,
+  "candidates_passed": 293,
+  "best_promo_id": "cont-43912b8c00",
+  "best_score": 0.6893,
+  "no_promo_reason": "",
+  "seconds_features": 0.011,
+  "seconds_candidates": 0.032,
+  "logline": "In the aftermath of the brutal attack, Alexander repairs Juliana's devastated garden and swears to protect her with his life, drawing them into a tender, intimate embrace by the hearth.",
+  "best_promo": {
+    "rank": null,
+    "promo_id": "cont-43912b8c00",
+    "show": "I Married a Broken Soldier. He was a Duke",
+    "structure": "continuous",
+    "priority_score": 0.6893,
+    "total_duration_seconds": 22.7,
+    "episodes": [
+      "episode-017-Episode 1671719"
+    ],
+    "segments": [
+      {
+        "order": 1,
+        "episode_id": "episode-017-Episode 1671719",
+        "episode_number": 17,
+        "start_seconds": 3.0,
+        "end_seconds": 25.7,
+        "start": "00:03.00",
+        "end": "00:25.70",
+        "duration_seconds": 22.7,
+        "dialogue": [
+          {
+            "start": "00:03.00",
+            "end": "00:07.00",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "Juliana gently lifts a tiny, delicate white daisy clinging to its exposed roots out of the soil, cupping it in her palm."
+          },
+          {
+            "start": "00:09.30",
+            "end": "00:11.30",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "Some of them survived."
+          },
+          {
+            "start": "00:11.50",
+            "end": "00:14.00",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "Alexander firmly drives nails into a fractured fence post, his brow furrowed with focused determination."
+          },
+          {
+            "start": "00:14.30",
+            "end": "00:15.30",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "Thank you."
+          },
+          {
+            "start": "00:16.80",
+            "end": "00:17.80",
+            "character": "ALEXANDER",
+            "kind": "dialogue",
+            "text": "For what?"
+          },
+          {
+            "start": "00:18.20",
+            "end": "00:20.50",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "For standing between me and those men."
+          },
+          {
+            "start": "00:21.50",
+            "end": "00:23.00",
+            "character": "ALEXANDER",
+            "kind": "dialogue",
+            "text": "I would do it again."
+          },
+          {
+            "start": "00:24.00",
+            "end": "00:25.70",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "Even if there were ten of them?"
+          }
+        ]
+      }
+    ],
+    "opening_hook": {
+      "score": 0.4864,
+      "evidence": [
+        "revelation",
+        "00:03.00 ACTION: “Juliana gently lifts a tiny, delicate white daisy clinging to its exp…”",
+        "cues: revelation ('exposed')",
+        "zero-shot conflict/reveal 0.04"
+      ],
+      "timestamp": 3.0,
+      "episode_id": "episode-017-Episode 1671719",
+      "text": "Juliana gently lifts a tiny, delicate white daisy clinging to its exposed roots out of the soil, cupping it in her palm.",
+      "timestamp_fmt": "00:03.00"
+    },
+    "ending_cliffhanger": {
+      "score": 0.5495,
+      "evidence": [
+        "unanswered question (charged)",
+        "00:24.00–00:25.70 JULIANA: “Even if there were ten of them?”",
+        "closing tension 0.80",
+        "zero-shot suspense/threat/reveal 0.05",
+        "withheld next beat: ALEXANDER “As long as I draw breath...” (payoff 0.41)"
+      ],
+      "timestamp": 25.7,
+      "episode_id": "episode-017-Episode 1671719",
+      "text": "Even if there were ten of them?",
+      "timestamp_fmt": "00:25.70"
+    },
+    "standalone_coherence": {
+      "score": 0.8337,
+      "evidence": [
+        "clear who/what/why",
+        "who: 2 speaking character(s), names on screen: alexander, juliana",
+        "what: 6 dialogue lines, 27 words",
+        "why: no explicit stakes words; conflict cue present; logline overlap 0.08",
+        "structure: continuous, 0 scene switch(es)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "emotional_intensity": {
+      "score": 0.8408,
+      "evidence": [
+        "peak 0.99 at 00:18.20, mean 0.69 (emotion model)"
+      ],
+      "timestamp": 18.2,
+      "episode_id": "episode-017-Episode 1671719",
+      "text": "",
+      "timestamp_fmt": "00:18.20"
+    },
+    "narrative_continuity": {
+      "score": 1.0,
+      "evidence": [
+        "one unbroken stretch, 1 scene(s)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "dialogue_quality": {
+      "score": 0.7488,
+      "evidence": [
+        "speech covers 42% of runtime, 33% filler lines, 4.5 words/line"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "score_breakdown": {
+      "hook": 0.4864,
+      "cliffhanger": 0.5495,
+      "coherence": 0.8337,
+      "emotion": 0.8408,
+      "continuity": 1.0,
+      "dialogue_quality": 0.7488
+    },
+    "passed_quality_gates": true,
+    "rejection_reasons": [],
+    "risk_flags": [],
+    "why_it_works": "Opens on revelation (ep 17 00:03.00: “Juliana gently lifts a tiny, delicate white daisy clingin…”) and cuts on unanswered question (charged) (ep 17 00:25.70: “Even if there were ten of them?”); clear who/what/why.",
+    "llm_review": null
+  }
+}

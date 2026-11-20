@@ -1,0 +1,259 @@
+{
+  "show": "I Married a Broken Soldier. He was a Duke",
+  "episode_id": "episode-039-Episode 1686799",
+  "episode_number": 39,
+  "source_path": "C:\\Users\\Dell\\Desktop\\kuku_fm_ass\\kuku_fm_assignment_project\\data\\I Married a Broken Soldier. He was a Duke\\episode-039-Episode 1686799.txt",
+  "status": "ok",
+  "error": "",
+  "traceback": "",
+  "warnings": [],
+  "lines_total": 59,
+  "dialogue_lines": 18,
+  "action_lines": 12,
+  "untimed_lines": 0,
+  "duration_seconds": 98.41,
+  "candidates": 224,
+  "candidates_passed": 22,
+  "best_promo_id": "cont-55f4e82e33",
+  "best_score": 0.661,
+  "no_promo_reason": "",
+  "seconds_features": 0.008,
+  "seconds_candidates": 0.022,
+  "logline": "While Alexander's loyal men infiltrate and neutralize the royal guards stationed outside the cathedral, Alexander sheds his rugged disguise, dons his ducal regalia, and marches forth to reclaim his house and rescue Juliana.",
+  "best_promo": {
+    "rank": null,
+    "promo_id": "cont-55f4e82e33",
+    "show": "I Married a Broken Soldier. He was a Duke",
+    "structure": "continuous",
+    "priority_score": 0.661,
+    "total_duration_seconds": 57.4,
+    "episodes": [
+      "episode-039-Episode 1686799"
+    ],
+    "segments": [
+      {
+        "order": 1,
+        "episode_id": "episode-039-Episode 1686799",
+        "episode_number": 39,
+        "start_seconds": 29.8,
+        "end_seconds": 87.2,
+        "start": "00:29.80",
+        "end": "01:27.20",
+        "duration_seconds": 57.4,
+        "dialogue": [
+          {
+            "start": "00:29.80",
+            "end": "00:30.60",
+            "character": "ROYAL SENTRY",
+            "kind": "dialogue",
+            "text": "Stop!"
+          },
+          {
+            "start": "00:30.80",
+            "end": "00:32.40",
+            "character": "CART DRIVER",
+            "kind": "dialogue",
+            "text": "Firewood for the kitchens, sir."
+          },
+          {
+            "start": "00:32.80",
+            "end": "00:36.50",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "The driver leaps off the cart, striking the sentry across the chest, seizing his neck, and tackling him violently against the wooden carriage wheel."
+          },
+          {
+            "start": "00:37.00",
+            "end": "00:42.50",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "The loyalist locks the sentry into a tight sleeper hold, clamping a hand firmly over his mouth until his eyes roll back and he goes limp."
+          },
+          {
+            "start": "00:41.00",
+            "end": "00:42.20",
+            "character": "LOYALIST FIGHTER",
+            "kind": "dialogue",
+            "text": "Sleep."
+          },
+          {
+            "start": "00:47.00",
+            "end": "00:48.10",
+            "character": "CART DRIVER",
+            "kind": "dialogue",
+            "text": "The road is clear."
+          },
+          {
+            "start": "00:48.20",
+            "end": "00:49.20",
+            "character": "LOYALIST FIGHTER",
+            "kind": "dialogue",
+            "text": "Tell the Duke."
+          },
+          {
+            "start": "00:50.00",
+            "end": "00:52.80",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "Alexander stares solemnly at his rugged reflection, his expression dark and resolute."
+          },
+          {
+            "start": "00:56.50",
+            "end": "00:59.80",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "Alexander snips through his overgrown locks, shedding the years of exile and camouflage."
+          },
+          {
+            "start": "01:02.00",
+            "end": "01:06.60",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "Alexander lightly traces the jagged combat scar across his cheek, eyes burning with reclaimed power."
+          },
+          {
+            "start": "01:02.00",
+            "end": "01:02.80",
+            "character": "ALEXANDER",
+            "kind": "dialogue",
+            "text": "Enough hiding."
+          },
+          {
+            "start": "01:03.00",
+            "end": "01:05.50",
+            "character": "ALEXANDER",
+            "kind": "dialogue",
+            "text": "They buried Alexander Ashwin three years ago."
+          },
+          {
+            "start": "01:05.60",
+            "end": "01:06.90",
+            "character": "ALEXANDER",
+            "kind": "dialogue",
+            "text": "Today, he comes home."
+          },
+          {
+            "start": "01:08.50",
+            "end": "01:11.80",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "Alexander emerges in full ducal splendor—dressed in an immaculate navy tailcoat lined with gold embroidery, double-breasted brass buttons, and a crisp white cravat."
+          },
+          {
+            "start": "01:15.80",
+            "end": "01:17.20",
+            "character": "LOYALIST",
+            "kind": "dialogue",
+            "text": "Your Grace."
+          },
+          {
+            "start": "01:20.50",
+            "end": "01:22.20",
+            "character": "ALEXANDER",
+            "kind": "dialogue",
+            "text": "Secure the chapel."
+          },
+          {
+            "start": "01:23.80",
+            "end": "01:25.20",
+            "character": "LOYALIST",
+            "kind": "dialogue",
+            "text": "Yes, Your Grace."
+          },
+          {
+            "start": "01:25.50",
+            "end": "01:27.20",
+            "character": "ALEXANDER",
+            "kind": "dialogue",
+            "text": "No more hiding."
+          }
+        ]
+      }
+    ],
+    "opening_hook": {
+      "score": 0.563,
+      "evidence": [
+        "exclamation",
+        "00:29.80 ROYAL SENTRY: “Stop!”",
+        "model: anger 0.93, arousal 0.98",
+        "script tag 'Commanding' (0.67)",
+        "zero-shot conflict/reveal 0.14"
+      ],
+      "timestamp": 29.8,
+      "episode_id": "episode-039-Episode 1686799",
+      "text": "Stop!",
+      "timestamp_fmt": "00:29.80"
+    },
+    "ending_cliffhanger": {
+      "score": 0.5822,
+      "evidence": [
+        "charged statement left hanging",
+        "01:25.50–01:27.20 ALEXANDER: “No more hiding.”",
+        "closing tension 1.00",
+        "zero-shot suspense/threat/reveal 0.23",
+        "withheld next beat: ALEXANDER “I am taking back my house.” (payoff 0.49)"
+      ],
+      "timestamp": 87.2,
+      "episode_id": "episode-039-Episode 1686799",
+      "text": "No more hiding.",
+      "timestamp_fmt": "01:27.20"
+    },
+    "standalone_coherence": {
+      "score": 0.7812,
+      "evidence": [
+        "clear who/what/why",
+        "who: 5 speaking character(s), names on screen: alexander",
+        "what: 12 dialogue lines, 38 words",
+        "why: stakes (duke); logline overlap 0.25",
+        "structure: continuous, 2 scene switch(es)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "emotional_intensity": {
+      "score": 0.7098,
+      "evidence": [
+        "peak 0.99 at 00:29.80, mean 0.43 (emotion model)"
+      ],
+      "timestamp": 29.8,
+      "episode_id": "episode-039-Episode 1686799",
+      "text": "",
+      "timestamp_fmt": "00:29.80"
+    },
+    "narrative_continuity": {
+      "score": 0.8,
+      "evidence": [
+        "one unbroken stretch, 3 scene(s)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "dialogue_quality": {
+      "score": 0.6395,
+      "evidence": [
+        "speech covers 29% of runtime, 33% filler lines, 3.2 words/line"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "score_breakdown": {
+      "hook": 0.563,
+      "cliffhanger": 0.5822,
+      "coherence": 0.7812,
+      "emotion": 0.7098,
+      "continuity": 0.8,
+      "dialogue_quality": 0.6395
+    },
+    "passed_quality_gates": true,
+    "rejection_reasons": [],
+    "risk_flags": [],
+    "why_it_works": "Opens on exclamation (ep 39 00:29.80: “Stop!”) and cuts on charged statement left hanging (ep 39 01:27.20: “No more hiding.”); clear who/what/why.",
+    "llm_review": null
+  }
+}

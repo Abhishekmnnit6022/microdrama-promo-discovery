@@ -1,0 +1,292 @@
+============================= test session starts =============================
+platform win32 -- Python 3.12.10, pytest-9.1.1, pluggy-1.6.0 -- C:\Users\Dell\AppData\Local\Programs\Python\Python312\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\Dell\Desktop\kuku_fm_ass\kuku_fm_assignment_project
+plugins: anyio-4.15.1
+collecting ... collected 56 items
+
+tests/test_emotion_classifier.py::test_classify_returns_all_labels PASSED [  1%]
+tests/test_emotion_classifier.py::test_classify_scores_sum_near_one PASSED [  3%]
+tests/test_emotion_classifier.py::test_dominant_emotion_is_highest PASSED [  5%]
+tests/test_emotion_classifier.py::test_emotional_intensity_range PASSED  [  7%]
+tests/test_emotion_classifier.py::test_fallback_on_missing_model PASSED  [  8%]
+tests/test_eval_metrics.py::test_time_iou_perfect PASSED                 [ 10%]
+tests/test_eval_metrics.py::test_time_iou_no_overlap PASSED              [ 12%]
+tests/test_eval_metrics.py::test_time_iou_partial PASSED                 [ 14%]
+tests/test_eval_metrics.py::test_precision_perfect PASSED                [ 16%]
+tests/test_eval_metrics.py::test_precision_zero PASSED                   [ 17%]
+tests/test_eval_metrics.py::test_recall_perfect PASSED                   [ 19%]
+tests/test_eval_metrics.py::test_ndcg_at_k_perfect PASSED                [ 21%]
+tests/test_eval_metrics.py::test_ndcg_at_k_zero PASSED                   [ 23%]
+tests/test_eval_metrics.py::test_cohen_kappa_perfect PASSED              [ 25%]
+tests/test_eval_metrics.py::test_cohen_kappa_zero PASSED                 [ 26%]
+tests/test_eval_metrics.py::test_fleiss_kappa_perfect PASSED             [ 28%]
+tests/test_eval_metrics.py::test_fleiss_kappa_range PASSED               [ 30%]
+tests/test_hook_scorer.py::test_score_range PASSED                       [ 32%]
+tests/test_hook_scorer.py::test_higher_emotion_means_higher_score PASSED [ 33%]
+tests/test_hook_scorer.py::test_rank_returns_top_n PASSED                [ 35%]
+tests/test_hook_scorer.py::test_deduplication_overlapping_windows PASSED [ 37%]
+tests/test_hook_scorer.py::test_explanation_never_claims_virality PASSED [ 39%]
+tests/test_hook_scorer.py::test_scoring_weights_config PASSED            [ 41%]
+tests/test_hook_scorer.py::test_rescore_from_signals PASSED              [ 42%]
+tests/test_hook_scorer.py::test_weights_roundtrip PASSED                 [ 44%]
+tests/test_hook_scorer.py::test_normalise_scores PASSED                  [ 46%]
+tests/test_hook_scorer.py::test_min_gap_diversity PASSED                 [ 48%]
+tests/test_pipeline.py::test_pipeline_basic_execution PASSED             [ 50%]
+tests/test_pipeline.py::test_pipeline_detects_hindi PASSED               [ 51%]
+tests/test_pipeline.py::test_pipeline_empty_transcript PASSED            [ 53%]
+tests/test_pipeline.py::test_pipeline_custom_weights PASSED              [ 55%]
+tests/test_pipeline.py::test_pipeline_min_gap PASSED                     [ 57%]
+tests/test_promo_generator.py::test_fallback_copy_structure PASSED       [ 58%]
+tests/test_promo_generator.py::test_format_timestamp PASSED              [ 60%]
+tests/test_promo_generator.py::test_generate_promo_no_api_key PASSED     [ 62%]
+tests/test_suspense_detector.py::test_question_detection PASSED          [ 64%]
+tests/test_suspense_detector.py::test_revelation_keywords PASSED         [ 66%]
+tests/test_suspense_detector.py::test_confrontation_keywords PASSED      [ 67%]
+tests/test_suspense_detector.py::test_no_signals_for_neutral_text PASSED [ 69%]
+tests/test_suspense_detector.py::test_curiosity_score_range PASSED       [ 71%]
+tests/test_suspense_detector.py::test_explanation_is_populated PASSED    [ 73%]
+tests/test_suspense_detector.py::test_disjoint_keywords PASSED           [ 75%]
+tests/test_suspense_detector.py::test_r_confrontation_does_not_inflate_curiosity PASSED [ 76%]
+tests/test_suspense_detector.py::test_hindi_tension_detected PASSED      [ 78%]
+tests/test_transcript_parser.py::test_parse_txt_extracts_dialogue PASSED [ 80%]
+tests/test_transcript_parser.py::test_parse_txt_skips_camera_lines PASSED [ 82%]
+tests/test_transcript_parser.py::test_parse_txt_preserves_timestamps PASSED [ 83%]
+tests/test_transcript_parser.py::test_parse_srt_basic PASSED             [ 85%]
+tests/test_transcript_parser.py::test_parse_srt_timestamp_conversion PASSED [ 87%]
+tests/test_transcript_parser.py::test_parse_transcript_routes_by_extension PASSED [ 89%]
+tests/test_transcript_parser.py::test_parse_empty_content_returns_empty PASSED [ 91%]
+tests/test_windowing.py::test_create_windows_basic PASSED                [ 92%]
+tests/test_windowing.py::test_window_duration_bounds PASSED              [ 94%]
+tests/test_windowing.py::test_window_has_combined_text PASSED            [ 96%]
+tests/test_windowing.py::test_short_transcript_no_windows PASSED         [ 98%]
+tests/test_windowing.py::test_windows_contain_overlapping_segments PASSED [100%]
+
+============================= 56 passed in 43.06s =============================
+python : Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate 
+limits and faster downloads.
+At line:3 char:1
++ python run_demo.py > demo_log.txt 2>&1
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Warning: You ar...ster downloads.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+
+================================================================================
+ANALYZING: episode_sample.txt
+PATH: sample_data\episode_sample.txt
+================================================================================
+[1] PARSE: Extracted 25 total segments
+    - Dialogue lines: 19
+    - Action beats: 5
+    - Total duration: 01:50 (110.00s)
+[2] WINDOWING: Generated 20 candidate windows (10–20s)
+[3] SCORING: Running Hugging Face DistilRoBERTa + NLP Suspense Engine...
+
+Loading weights:   0%|          | 0/105 [00:00<?, ?it/s]
+Loading weights: 100%|¦¦¦¦¦¦¦¦¦¦| 105/105 [00:00<?, ?it/s]
+[4] RANKING: Selected top 4 promotional moments
+[5] PROMO GENERATION: Using Google Gemini 3.8 Flash API
+
+--- TOP 4 RECOMMENDATIONS ---
+
+RANK #1 | Score: 100.0% | 01:11 - 01:32 (21.0s)
+Dominant Emotion: SURPRISE (95.4%) | Curiosity: 95.0%
+Dialogue Preview: "Elara, please, you must believe me— Believe you? You let me plan our wedding while hiding this? He did not just hide a l..."
+Attributions:
+  * Emotional intensity: 95% (dominant: surprise)
+  * Contains unanswered question near end of segment
+  * Revelation keyword(s): 'alive'
+  * Confrontation detected: 'you let me'
+  * Cliffhanger indicator: '...', '—'
+  * Emotional shift detected: Betrayed, Furious, Devastated, Whispering, Panicked
+Promotional Packaging:
+  Headline : The wedding dress was already ordered... but he forgot to mention his first wife!
+  Hook     : Wait... he has a WIFE?! ?? Drop everything and watch the explosive confrontation everyone is talking about!
+  Caption  : She spent months tasting cakes and picking flowers, completely blind to the ultimate betrayal. When the truth shatters on the marble floor at 01:11, nothing will ever be the same. Can Elara walk away, or is she trapped in a web of lies? Stream the full episode now to find out! ???? #Microdrama #Betrayal #PlotTwist #DramaAlert #BingeWatch
+  Fallback : False
+
+RANK #2 | Score: 70.0% | 00:31 - 00:53 (22.0s)
+Dominant Emotion: ANGER (98.5%) | Curiosity: 55.0%
+Dialogue Preview: "Oh, but I was invited... by your beloved Marcus himself. I have never seen this man before in my life! Liar! You swore a..."
+Attributions:
+  * Emotional intensity: 99% (dominant: anger)
+  * Contains unanswered question near end of segment
+  * Confrontation detected: 'you swore', 'liar', 'betrayed'
+  * Cliffhanger indicator: '...'
+  * Emotional shift detected: Angry, Accusatory, Mocking, Nervous, Defensive
+Promotional Packaging:
+  Headline : Caught Red-Handed! The Ultimate Wedding Day Betrayal ????
+  Hook     : "I have never seen this man before in my life!" Watch the explosive confrontation unfold right now before the secret gets out! ????
+  Caption  : Elara thought she was marrying the man of her dreams—until a total stranger dropped a bombshell that changed everything. Shook the whole room! Can Marcus talk his way out of this one?
+  Fallback : False
+
+RANK #3 | Score: 30.0% | 01:33 - 01:50 (17.0s)
+Dominant Emotion: ANGER (68.1%) | Curiosity: 55.0%
+Dialogue Preview: "I can explain everything, just give me a chance— You had every chance. And you chose to lie. We are done. Elara rips off..."
+Attributions:
+  * Emotional intensity: 68% (dominant: anger)
+  * Revelation keyword(s): 'reveal'
+  * Cliffhanger indicator: '—'
+  * Emotional shift detected: Broken, Cold, Final, Quiet, Ominous
+  * Position bonus: closing cliffhanger
+Promotional Packaging:
+  Headline : Hell hath no fury like a betrayed fiancée. ????
+  Hook     : "And that, Lord Marcus, is only the beginning..." ?? Drop everything and watch what happens next!
+  Caption  : Marcus thought he could play her for a fool, but Elara isn't playing anymore. Watch the ultimate payback unfold in this jaw-dropping microdrama moment! ??? #Microdrama #Betrayal #Revenge #PlotTwist
+  Fallback : False
+
+RANK #4 | Score: 10.0% | 00:03 - 00:20 (17.0s)
+Dominant Emotion: JOY (99.5%) | Curiosity: 0.0%
+Dialogue Preview: "The night of Lady Elara's engagement ball began like any other. This is the happiest night of my life! And it shall only..."
+Attributions:
+  * Emotional intensity: 99% (dominant: joy)
+  * Emotional shift detected: Calm, Joyful, Warm
+  * Position bonus: opening
+Promotional Packaging:
+  Headline : Her Happiest Night Just Shattered.
+  Hook     : "This is the happiest night of my life!"... Until the uninvited guest steps inside. Who is he, and why is everyone terrified? Watch now!
+  Caption  : Lady Elara thought she had it all—true love, a grand ballroom, and a future glowing as bright as her engagement ring. But at 00:03, the doors swing open. A stranger arrives. And the fairytale ends. Stream the microdrama everyone is obsessing over right now!
+  Fallback : False
+Saved: output_episode_sample.json
+Saved: output_episode_sample.csv
+
+================================================================================
+ANALYZING: episode_sample.srt
+PATH: sample_data\episode_sample.srt
+================================================================================
+[1] PARSE: Extracted 8 total segments
+    - Dialogue lines: 8
+    - Action beats: 0
+    - Total duration: 00:54 (54.00s)
+[2] WINDOWING: Generated 9 candidate windows (10–20s)
+[3] SCORING: Running Hugging Face DistilRoBERTa + NLP Suspense Engine...
+[4] RANKING: Selected top 2 promotional moments
+[5] PROMO GENERATION: Using Google Gemini 3.8 Flash API
+
+--- TOP 2 RECOMMENDATIONS ---
+
+RANK #1 | Score: 100.0% | 00:31 - 00:55 (24.0s)
+Dominant Emotion: ANGER (98.8%) | Curiosity: 60.0%
+Dialogue Preview: "Liar! You swore an oath to me. You betrayed everything we built! Marcus, what is he talking about? What oath? He hid a w..."
+Attributions:
+  * Emotional intensity: 99% (dominant: anger)
+  * Contains unanswered question near end of segment
+  * Revelation keyword(s): 'alive'
+  * Confrontation detected: 'you swore', 'liar', 'betrayed'
+  * Position bonus: closing cliffhanger
+Promotional Packaging:
+  Headline : Exposed! The Ultimate Betrayal at the Altar!
+  Hook     : "Liar! You swore an oath to me..." Wait, his first wife is STILL ALIVE?! ?? Find out what happens next!
+  Caption  : Two women. One lying groom. The ultimate web of deceit unravels in the most explosive confrontation of the year. Can she survive the truth, or will vengeance consume them all? Stream the drama everyone is talking about right now! ???? #Microdrama #Betrayal #PlotTwist #MustWatch
+  Fallback : False
+
+RANK #2 | Score: 44.4% | 00:01 - 00:24 (23.0s)
+Dominant Emotion: JOY (98.8%) | Curiosity: 35.0%
+Dialogue Preview: "This is the happiest night of my life! And it shall only grow brighter, my love. You celebrate too soon, Lady Elara. Who..."
+Attributions:
+  * Emotional intensity: 99% (dominant: joy)
+  * Contains unanswered question near end of segment
+  * Confrontation detected: 'how dare'
+  * Position bonus: opening
+Promotional Packaging:
+  Headline : Pure Bliss Shattered in a Single Second!
+  Hook     : Wait, who just ruined the happiest night of her life?!
+  Caption  : From the absolute peak of romance to a chilling confrontation, Lady Elara’s dream night turns into a nightmare when an uninvited stranger crashes the celebration. Who is this mysterious intruder, and what do they want? Don't miss a single second of the drama—watch the full episode right now!
+  Fallback : False
+Saved: output_episode_sample.json
+Saved: output_episode_sample.csv
+
+================================================================================
+ANALYZING: episode-001-Episode 1671703.txt
+PATH: I Married a Broken Soldier. He was a Duke\episode-001-Episode 1671703.txt
+================================================================================
+[1] PARSE: Extracted 45 total segments
+    - Dialogue lines: 37
+    - Action beats: 7
+    - Total duration: 02:16 (136.50s)
+[2] WINDOWING: Generated 26 candidate windows (10–20s)
+[3] SCORING: Running Hugging Face DistilRoBERTa + NLP Suspense Engine...
+[4] RANKING: Selected top 5 promotional moments
+[5] PROMO GENERATION: Using Google Gemini 3.8 Flash API
+
+--- TOP 5 RECOMMENDATIONS ---
+
+RANK #1 | Score: 100.0% | 00:54 - 01:18 (23.8s)
+Dominant Emotion: ANGER (91.6%) | Curiosity: 90.0%
+Dialogue Preview: "You let me dress in my mother's gown... You let me believe I was walking toward my husband! I changed my mind. You swore..."
+Attributions:
+  * Emotional intensity: 92% (dominant: anger)
+  * Contains unanswered question near end of segment
+  * Revelation keyword(s): 'you knew', 'how long'
+  * Confrontation detected: 'you swore', 'enough', 'you let me'
+  * Cliffhanger indicator: '...'
+  * Emotional shift detected: Betrayed, Piercing, Cold, Callous, Cruel, Poised
+Promotional Packaging:
+  Headline : Betrayed at the Altar by Her Own Blood!
+  Hook     : "You let me believe I was walking toward my husband... and you knew the whole time?!"
+  Caption  : She wore her mother’s wedding gown, walking blindly toward a stolen future—only to find her own sister orchestrated the ultimate betrayal. Watch the jaw-dropping confrontation that changes everything at 00:54!
+  Fallback : False
+
+RANK #2 | Score: 76.9% | 01:26 - 01:47 (21.3s)
+Dominant Emotion: DISGUST (95.0%) | Curiosity: 65.0%
+Dialogue Preview: "Father... please look at me. The father tightens his jaw and stony expression, refusing to offer a single word or look. ..."
+Attributions:
+  * Emotional intensity: 95% (dominant: disgust)
+  * Contains unanswered question near end of segment
+  * Confrontation detected: 'enough', 'embarrassed'
+  * Cliffhanger indicator: '...'
+  * Emotional shift detected: Choking, Broken, Disgusted, Haughty
+Promotional Packaging:
+  Headline : The ultimate betrayal: when the father chooses his favorite daughter and leaves the other to choke on her own tears.
+  Hook     : How far would your own father go to pretend you don't exist?
+  Caption  : Blood is supposed to be thicker than water, but for Clarissa, it’s just another weapon to cut her down. Watch the heartbreaking confrontation that leaves an empire divided and a daughter completely broken. Stream the full episode now! #Microdrama #FamilyBetrayal #EmotionalMoments #FamilySecrets #WatchNow
+  Fallback : False
+
+RANK #3 | Score: 73.1% | 00:33 - 00:50 (16.2s)
+Dominant Emotion: SURPRISE (97.6%) | Curiosity: 60.0%
+Dialogue Preview: "Gerald? Why are you holding her hand? Because he is marrying me. No... You knew this before I walked through those doors..."
+Attributions:
+  * Emotional intensity: 98% (dominant: surprise)
+  * Contains 2 question(s)
+  * Revelation keyword(s): 'you knew'
+  * Cliffhanger indicator: '...'
+  * Emotional shift detected: Gasping, Devastated, Gloating, Smug, Heartbroken
+Promotional Packaging:
+  Headline : The ultimate betrayal: Unmasked at the altar!
+  Hook     : "You knew this before I walked through those doors!" ?? Watch the devastating secret unravel now!
+  Caption  : Just when she thought it was her happy ending, the truth drops like a bomb at 00:33. Was it all a setup from the start? Stream the heartbreak everyone is talking about right now! ????
+  Fallback : False
+
+RANK #4 | Score: 34.6% | 00:11 - 00:29 (18.5s)
+Dominant Emotion: SURPRISE (99.0%) | Curiosity: 10.0%
+Dialogue Preview: "You should turn around, Juliana. Why? Gerald is waiting for me. Not anymore. What do you mean? Look for yourself. Julian..."
+Attributions:
+  * Emotional intensity: 99% (dominant: surprise)
+  * Contains 2 question(s)
+  * Emotional shift detected: Blunt, Unforgiving, Cold, Commanding, Confused, Breathless
+  * Position bonus: opening
+Promotional Packaging:
+  Headline : The wedding dress is still white, but the groom is gone.
+  Hook     : "Not anymore." Juliana turns around... and her entire world shatters. ????
+  Caption  : Juliana thought she was walking toward her happily ever after. But at the altar, a cold command shatters her reality. With a breathless gasp and 99% pure shock, everything she knew changes in a single second. Stream the twist everyone is screaming about right now!
+  Fallback : False
+
+RANK #5 | Score: 23.1% | 01:51 - 02:11 (20.1s)
+Dominant Emotion: ANGER (88.5%) | Curiosity: 30.0%
+Dialogue Preview: "I am the daughter they choose. Clarissa is the jewel of this family. So that is what I was worth to you? You have nothin..."
+Attributions:
+  * Emotional intensity: 88% (dominant: anger)
+  * Contains 1 question(s)
+  * Cliffhanger indicator: '...'
+  * Emotional shift detected: Arrogant, Dismissive, Firm, Gloating
+  * Position bonus: closing cliffhanger
+Promotional Packaging:
+  Headline : Tossed aside for the "favorite daughter"—until she reveals her true worth! ??
+  Hook     : "So that is what I was worth to you?" ?? Watch the scene everyone is talking about at 01:51!
+  Caption  : They traded her away like damaged goods, calling her "plain" and "low value." But they have no idea who they just walked away from. Revenge is coming, and it looks breathtaking. ??? Don't miss the ultimate betrayal! Watch the full episode now.
+  Fallback : False
+Saved: output_episode-001-Episode 1671703.json
+Saved: output_episode-001-Episode 1671703.csv
+
+[ALL ANALYSES COMPLETED SUCCESSFULLY]

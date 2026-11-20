@@ -1,0 +1,203 @@
+{
+  "show": "I Married a Broken Soldier. He was a Duke",
+  "episode_id": "episode-006-Episode 1671708",
+  "episode_number": 6,
+  "source_path": "C:\\Users\\Dell\\Desktop\\kuku_fm_ass\\kuku_fm_assignment_project\\data\\I Married a Broken Soldier. He was a Duke\\episode-006-Episode 1671708.txt",
+  "status": "ok",
+  "error": "",
+  "traceback": "",
+  "warnings": [],
+  "lines_total": 97,
+  "dialogue_lines": 28,
+  "action_lines": 11,
+  "untimed_lines": 0,
+  "duration_seconds": 115.0,
+  "candidates": 818,
+  "candidates_passed": 318,
+  "best_promo_id": "cont-f508b17c80",
+  "best_score": 0.7334,
+  "no_promo_reason": "",
+  "seconds_features": 0.008,
+  "seconds_candidates": 0.041,
+  "logline": "Seeking shelter from the cold rain, Juliana arrives at her new husband's modest woodland cottage and discovers an unexpected sense of peace beside the hearth.",
+  "best_promo": {
+    "rank": null,
+    "promo_id": "cont-f508b17c80",
+    "show": "I Married a Broken Soldier. He was a Duke",
+    "structure": "continuous",
+    "priority_score": 0.7334,
+    "total_duration_seconds": 28.0,
+    "episodes": [
+      "episode-006-Episode 1671708"
+    ],
+    "segments": [
+      {
+        "order": 1,
+        "episode_id": "episode-006-Episode 1671708",
+        "episode_number": 6,
+        "start_seconds": 81.0,
+        "end_seconds": 109.0,
+        "start": "01:21.00",
+        "end": "01:49.00",
+        "duration_seconds": 28.0,
+        "dialogue": [
+          {
+            "start": "01:21.00",
+            "end": "01:23.80",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "He strikes flint and steel together over dry kindling, igniting bright sparks that catch into a flickering flame."
+          },
+          {
+            "start": "01:27.50",
+            "end": "01:29.80",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "The Mysterious Bearded Man stands up from the hearth, dusting his hands on his coat."
+          },
+          {
+            "start": "01:29.00",
+            "end": "01:29.80",
+            "character": "MYSTERIOUS BEARDED MAN",
+            "kind": "dialogue",
+            "text": "There."
+          },
+          {
+            "start": "01:32.10",
+            "end": "01:33.60",
+            "character": "MYSTERIOUS BEARDED MAN",
+            "kind": "dialogue",
+            "text": "It is not much."
+          },
+          {
+            "start": "01:34.20",
+            "end": "01:36.20",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "It is enough for tonight."
+          },
+          {
+            "start": "01:38.40",
+            "end": "01:40.40",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "I lost my home today."
+          },
+          {
+            "start": "01:40.60",
+            "end": "01:41.80",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "My family."
+          },
+          {
+            "start": "01:42.00",
+            "end": "01:44.80",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "Everything I thought my life would be."
+          },
+          {
+            "start": "01:45.00",
+            "end": "01:46.00",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "And yet..."
+          },
+          {
+            "start": "01:46.20",
+            "end": "01:49.00",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "Sitting here with him, I don't feel afraid."
+          }
+        ]
+      }
+    ],
+    "opening_hook": {
+      "score": 0.6126,
+      "evidence": [
+        "physical confrontation",
+        "01:21.00 ACTION: “He strikes flint and steel together over dry kindling, igniting brigh…”",
+        "cues: physical ('strikes')",
+        "zero-shot conflict/reveal 0.14"
+      ],
+      "timestamp": 81.0,
+      "episode_id": "episode-006-Episode 1671708",
+      "text": "He strikes flint and steel together over dry kindling, igniting bright sparks that catch into a flickering flame.",
+      "timestamp_fmt": "01:21.00"
+    },
+    "ending_cliffhanger": {
+      "score": 0.5846,
+      "evidence": [
+        "line breaks off (—/...) (just before the cut)",
+        "01:46.20–01:49.00 JULIANA: “Sitting here with him, I don't feel afraid.”",
+        "closing tension 0.99",
+        "zero-shot suspense/threat/reveal 0.08",
+        "cut matches the episode's own final beat (+0.12)",
+        "withheld next beat: ACTION “Juliana, dressed in her simple grey long-sleeved…” (payoff 0.00)"
+      ],
+      "timestamp": 109.0,
+      "episode_id": "episode-006-Episode 1671708",
+      "text": "Sitting here with him, I don't feel afraid.",
+      "timestamp_fmt": "01:49.00"
+    },
+    "standalone_coherence": {
+      "score": 0.8562,
+      "evidence": [
+        "clear who/what/why",
+        "who: 2 speaking character(s), no names said aloud",
+        "what: 8 dialogue lines, 34 words",
+        "why: stakes (family, life); conflict cue present; logline overlap 0.08",
+        "structure: continuous, 0 scene switch(es)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "emotional_intensity": {
+      "score": 0.8168,
+      "evidence": [
+        "peak 1.00 at 01:46.20, mean 0.64 (emotion model)"
+      ],
+      "timestamp": 106.2,
+      "episode_id": "episode-006-Episode 1671708",
+      "text": "",
+      "timestamp_fmt": "01:46.20"
+    },
+    "narrative_continuity": {
+      "score": 1.0,
+      "evidence": [
+        "one unbroken stretch, 1 scene(s)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "dialogue_quality": {
+      "score": 0.8071,
+      "evidence": [
+        "speech covers 50% of runtime, 38% filler lines, 4.2 words/line"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "score_breakdown": {
+      "hook": 0.6126,
+      "cliffhanger": 0.5846,
+      "coherence": 0.8562,
+      "emotion": 0.8168,
+      "continuity": 1.0,
+      "dialogue_quality": 0.8071
+    },
+    "passed_quality_gates": true,
+    "rejection_reasons": [],
+    "risk_flags": [],
+    "why_it_works": "Opens on physical confrontation (ep 6 01:21.00: “He strikes flint and steel together over dry kindling, ig…”) and cuts on line breaks off (—/...) (just before the cut) (ep 6 01:49.00: “Sitting here with him, I don't feel afraid.”); clear who/what/why.",
+    "llm_review": null
+  }
+}

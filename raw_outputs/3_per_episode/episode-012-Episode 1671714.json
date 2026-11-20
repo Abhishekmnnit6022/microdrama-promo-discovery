@@ -1,0 +1,281 @@
+{
+  "show": "I Married a Broken Soldier. He was a Duke",
+  "episode_id": "episode-012-Episode 1671714",
+  "episode_number": 12,
+  "source_path": "C:\\Users\\Dell\\Desktop\\kuku_fm_ass\\kuku_fm_assignment_project\\data\\I Married a Broken Soldier. He was a Duke\\episode-012-Episode 1671714.txt",
+  "status": "ok",
+  "error": "",
+  "traceback": "",
+  "warnings": [],
+  "lines_total": 55,
+  "dialogue_lines": 24,
+  "action_lines": 7,
+  "untimed_lines": 0,
+  "duration_seconds": 87.21,
+  "candidates": 660,
+  "candidates_passed": 493,
+  "best_promo_id": "cont-353bceafcf",
+  "best_score": 0.8217,
+  "no_promo_reason": "",
+  "seconds_features": 0.008,
+  "seconds_candidates": 0.033,
+  "logline": "When the Constable attempts to arrest Alexander for grand theft, Clarissa offers Juliana a sadistic ultimatum: retrieve a signet ring from frozen, razor-sharp blackthorn briars with her bare hands, or watch her husband hang.",
+  "best_promo": {
+    "rank": null,
+    "promo_id": "cont-353bceafcf",
+    "show": "I Married a Broken Soldier. He was a Duke",
+    "structure": "continuous",
+    "priority_score": 0.8217,
+    "total_duration_seconds": 58.3,
+    "episodes": [
+      "episode-012-Episode 1671714"
+    ],
+    "segments": [
+      {
+        "order": 1,
+        "episode_id": "episode-012-Episode 1671714",
+        "episode_number": 12,
+        "start_seconds": 4.8,
+        "end_seconds": 63.1,
+        "start": "00:04.80",
+        "end": "01:03.10",
+        "duration_seconds": 58.3,
+        "dialogue": [
+          {
+            "start": "00:04.80",
+            "end": "00:06.00",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "Juliana steps firmly forward, shielding Alexander with her body."
+          },
+          {
+            "start": "00:05.70",
+            "end": "00:08.80",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "No! That watch was not in his coat!"
+          },
+          {
+            "start": "00:10.00",
+            "end": "00:11.70",
+            "character": "CONSTABLE",
+            "kind": "dialogue",
+            "text": "I found it there myself."
+          },
+          {
+            "start": "00:12.30",
+            "end": "00:13.90",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "Then someone put it there!"
+          },
+          {
+            "start": "00:14.30",
+            "end": "00:20.60",
+            "character": "GERALD",
+            "kind": "dialogue",
+            "text": "The proof is in his coat, Juliana. A valuable pocket watch doesn't just walk into a beggar's pocket."
+          },
+          {
+            "start": "00:21.60",
+            "end": "00:23.60",
+            "character": "ALEXANDER",
+            "kind": "dialogue",
+            "text": "I have never touched your property."
+          },
+          {
+            "start": "00:23.70",
+            "end": "00:26.80",
+            "character": "GERALD",
+            "kind": "dialogue",
+            "text": "Then perhaps your wife should explain why it was found in your coat."
+          },
+          {
+            "start": "00:26.80",
+            "end": "00:28.00",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "Juliana lunges a step forward, jabbing an accusing finger toward Gerald."
+          },
+          {
+            "start": "00:26.80",
+            "end": "00:27.90",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "You planted it!"
+          },
+          {
+            "start": "00:28.10",
+            "end": "00:30.00",
+            "character": "CLARISSA",
+            "kind": "dialogue",
+            "text": "Oh, dear sister..."
+          },
+          {
+            "start": "00:30.00",
+            "end": "00:32.40",
+            "character": "CLARISSA",
+            "kind": "dialogue",
+            "text": "...still defending your broken scrap of a man?"
+          },
+          {
+            "start": "00:32.40",
+            "end": "00:35.20",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "Name your price, Clarissa. I know you."
+          },
+          {
+            "start": "00:35.40",
+            "end": "00:40.00",
+            "character": "CLARISSA",
+            "kind": "dialogue",
+            "text": "You always were clever, Juliana. Always searching for some way to escape."
+          },
+          {
+            "start": "00:40.10",
+            "end": "00:41.50",
+            "character": "CLARISSA",
+            "kind": "dialogue",
+            "text": "Perhaps I can give you one."
+          },
+          {
+            "start": "00:42.20",
+            "end": "00:43.50",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "What do you want?"
+          },
+          {
+            "start": "00:44.00",
+            "end": "00:46.40",
+            "character": "CLARISSA",
+            "kind": "dialogue",
+            "text": "I want to see you crawl, sister."
+          },
+          {
+            "start": "00:46.70",
+            "end": "00:52.30",
+            "character": "CLARISSA",
+            "kind": "dialogue",
+            "text": "My emerald signet ring fell deep into the frozen blackthorn briars at Ashworth Manor. The thorns have grown over it..."
+          },
+          {
+            "start": "00:52.40",
+            "end": "00:56.70",
+            "character": "CLARISSA",
+            "kind": "dialogue",
+            "text": "...sharp as steel. The ground is frozen, like pure ice."
+          },
+          {
+            "start": "00:56.80",
+            "end": "00:58.00",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "Gerald bursts into a loud, mocking laugh beside the stony Constable."
+          },
+          {
+            "start": "00:57.30",
+            "end": "01:00.60",
+            "character": "CLARISSA",
+            "kind": "dialogue",
+            "text": "You will retrieve it with your bare hands before the magistrate arrives."
+          },
+          {
+            "start": "01:00.80",
+            "end": "01:03.10",
+            "character": "GERALD",
+            "kind": "dialogue",
+            "text": "A lady's hands will be shredded to ribbons!"
+          }
+        ]
+      }
+    ],
+    "opening_hook": {
+      "score": 0.6688,
+      "evidence": [
+        "shock reaction",
+        "00:05.70 JULIANA: “No! That watch was not in his coat!”",
+        "model: surprise 0.67, arousal 0.96",
+        "cues: shock ('no!')",
+        "script tag 'Furious, Defiant' (1.00)",
+        "zero-shot conflict/reveal 0.08"
+      ],
+      "timestamp": 5.7,
+      "episode_id": "episode-012-Episode 1671714",
+      "text": "No! That watch was not in his coat!",
+      "timestamp_fmt": "00:05.70"
+    },
+    "ending_cliffhanger": {
+      "score": 0.7598,
+      "evidence": [
+        "zero-shot reads an unresolved threat (0.89)",
+        "01:00.80–01:03.10 GERALD: “A lady's hands will be shredded to ribbons!”",
+        "closing tension 0.98",
+        "zero-shot suspense/threat/reveal 0.89",
+        "withheld next beat: CLARISSA “Do it, and we withdraw the charges.” (payoff 0.48)"
+      ],
+      "timestamp": 63.1,
+      "episode_id": "episode-012-Episode 1671714",
+      "text": "A lady's hands will be shredded to ribbons!",
+      "timestamp_fmt": "01:03.10"
+    },
+    "standalone_coherence": {
+      "score": 1.0,
+      "evidence": [
+        "clear who/what/why",
+        "who: 5 speaking character(s), names on screen: alexander, clarissa, constable, gerald",
+        "what: 18 dialogue lines, 155 words",
+        "why: stakes (sister, wife); conflict cue present; logline overlap 1.00",
+        "structure: continuous, 0 scene switch(es)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "emotional_intensity": {
+      "score": 0.7636,
+      "evidence": [
+        "peak 0.99 at 01:00.80, mean 0.54 (emotion model)"
+      ],
+      "timestamp": 60.8,
+      "episode_id": "episode-012-Episode 1671714",
+      "text": "",
+      "timestamp_fmt": "01:00.80"
+    },
+    "narrative_continuity": {
+      "score": 1.0,
+      "evidence": [
+        "one unbroken stretch, 1 scene(s)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "dialogue_quality": {
+      "score": 1.0,
+      "evidence": [
+        "speech covers 88% of runtime, 0% filler lines, 8.6 words/line"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "score_breakdown": {
+      "hook": 0.6688,
+      "cliffhanger": 0.7598,
+      "coherence": 1.0,
+      "emotion": 0.7636,
+      "continuity": 1.0,
+      "dialogue_quality": 1.0
+    },
+    "passed_quality_gates": true,
+    "rejection_reasons": [],
+    "risk_flags": [],
+    "why_it_works": "Opens on shock reaction (ep 12 00:05.70: “No! That watch was not in his coat!”) and cuts on zero-shot reads an unresolved threat (0.89) (ep 12 01:03.10: “A lady's hands will be shredded to ribbons!”); clear who/what/why.",
+    "llm_review": null
+  }
+}

@@ -1,0 +1,219 @@
+{
+  "show": "I Married a Broken Soldier. He was a Duke",
+  "episode_id": "episode-033-Episode 1681366",
+  "episode_number": 33,
+  "source_path": "C:\\Users\\Dell\\Desktop\\kuku_fm_ass\\kuku_fm_assignment_project\\data\\I Married a Broken Soldier. He was a Duke\\episode-033-Episode 1681366.txt",
+  "status": "ok",
+  "error": "",
+  "traceback": "",
+  "warnings": [],
+  "lines_total": 99,
+  "dialogue_lines": 50,
+  "action_lines": 4,
+  "untimed_lines": 0,
+  "duration_seconds": 174.04,
+  "candidates": 701,
+  "candidates_passed": 223,
+  "best_promo_id": "cont-da61eef453",
+  "best_score": 0.828,
+  "no_promo_reason": "",
+  "seconds_features": 0.009,
+  "seconds_candidates": 0.059,
+  "logline": "Under cruel coercion and threats to send her seven-year-old brother to the county gaol, a young maid is manipulated into giving false testimony framing Juliana for witchcraft.",
+  "best_promo": {
+    "rank": null,
+    "promo_id": "cont-da61eef453",
+    "show": "I Married a Broken Soldier. He was a Duke",
+    "structure": "continuous",
+    "priority_score": 0.828,
+    "total_duration_seconds": 37.7,
+    "episodes": [
+      "episode-033-Episode 1681366"
+    ],
+    "segments": [
+      {
+        "order": 1,
+        "episode_id": "episode-033-Episode 1681366",
+        "episode_number": 33,
+        "start_seconds": 126.8,
+        "end_seconds": 164.5,
+        "start": "02:06.80",
+        "end": "02:44.50",
+        "duration_seconds": 37.7,
+        "dialogue": [
+          {
+            "start": "02:06.80",
+            "end": "02:11.50",
+            "character": "MAID",
+            "kind": "dialogue",
+            "text": "No! She saved Toby! She made him breathe again!"
+          },
+          {
+            "start": "02:12.00",
+            "end": "02:14.00",
+            "character": "LORD",
+            "kind": "dialogue",
+            "text": "That will be your testimony."
+          },
+          {
+            "start": "02:14.50",
+            "end": "02:17.00",
+            "character": "MAID",
+            "kind": "dialogue",
+            "text": "My testimony?!"
+          },
+          {
+            "start": "02:18.00",
+            "end": "02:20.00",
+            "character": "LORD",
+            "kind": "dialogue",
+            "text": "Before the magistrate."
+          },
+          {
+            "start": "02:20.50",
+            "end": "02:24.00",
+            "character": "MAID",
+            "kind": "dialogue",
+            "text": "I never said she was a witch!"
+          },
+          {
+            "start": "02:25.00",
+            "end": "02:26.50",
+            "character": "LORD",
+            "kind": "dialogue",
+            "text": "You do not need to."
+          },
+          {
+            "start": "02:26.80",
+            "end": "02:29.00",
+            "character": "LORD",
+            "kind": "dialogue",
+            "text": "I have already written the story for you."
+          },
+          {
+            "start": "02:29.50",
+            "end": "02:32.00",
+            "character": "MAID",
+            "kind": "dialogue",
+            "text": "She saved my brother..."
+          },
+          {
+            "start": "02:32.50",
+            "end": "02:36.00",
+            "character": "LORD",
+            "kind": "dialogue",
+            "text": "And now... you will save your brother."
+          },
+          {
+            "start": "02:36.20",
+            "end": "02:39.50",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "The maid's knees buckle completely. She collapses forward onto the polished dark wood floor, groveling in total despair."
+          },
+          {
+            "start": "02:39.00",
+            "end": "02:41.50",
+            "character": "MAID",
+            "kind": "dialogue",
+            "text": "I am sorry, Lady Juliana..."
+          },
+          {
+            "start": "02:41.80",
+            "end": "02:44.50",
+            "character": "LORD",
+            "kind": "dialogue",
+            "text": "Save your tears for the trial."
+          }
+        ]
+      }
+    ],
+    "opening_hook": {
+      "score": 0.7899,
+      "evidence": [
+        "shock reaction",
+        "02:06.80 MAID: “No! She saved Toby! She made him breathe again!”",
+        "model: anger 0.47, arousal 0.81",
+        "cues: shock ('no!')",
+        "script tag 'Crying Out, Desperate' (1.00)",
+        "zero-shot conflict/reveal 0.75"
+      ],
+      "timestamp": 126.8,
+      "episode_id": "episode-033-Episode 1681366",
+      "text": "No! She saved Toby! She made him breathe again!",
+      "timestamp_fmt": "02:06.80"
+    },
+    "ending_cliffhanger": {
+      "score": 0.6996,
+      "evidence": [
+        "line breaks off (—/...) (just before the cut)",
+        "02:41.80–02:44.50 LORD: “Save your tears for the trial.”",
+        "closing tension 1.00",
+        "zero-shot suspense/threat/reveal 0.18",
+        "cut matches the episode's own final beat (+0.12)",
+        "withheld next beat: ACTION “The heartbroken maid weeps silently in the shadow…” (payoff 0.49)"
+      ],
+      "timestamp": 164.5,
+      "episode_id": "episode-033-Episode 1681366",
+      "text": "Save your tears for the trial.",
+      "timestamp_fmt": "02:44.50"
+    },
+    "standalone_coherence": {
+      "score": 0.9437,
+      "evidence": [
+        "clear who/what/why",
+        "who: 2 speaking character(s), names on screen: juliana",
+        "what: 11 dialogue lines, 61 words",
+        "why: stakes (brother); conflict cue present; logline overlap 0.25",
+        "structure: continuous, 0 scene switch(es)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "emotional_intensity": {
+      "score": 0.7881,
+      "evidence": [
+        "peak 0.99 at 02:14.50, mean 0.59 (emotion model)"
+      ],
+      "timestamp": 134.5,
+      "episode_id": "episode-033-Episode 1681366",
+      "text": "",
+      "timestamp_fmt": "02:14.50"
+    },
+    "narrative_continuity": {
+      "score": 1.0,
+      "evidence": [
+        "one unbroken stretch, 1 scene(s)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "dialogue_quality": {
+      "score": 0.9727,
+      "evidence": [
+        "speech covers 79% of runtime, 9% filler lines, 5.5 words/line"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "score_breakdown": {
+      "hook": 0.7899,
+      "cliffhanger": 0.6996,
+      "coherence": 0.9437,
+      "emotion": 0.7881,
+      "continuity": 1.0,
+      "dialogue_quality": 0.9727
+    },
+    "passed_quality_gates": true,
+    "rejection_reasons": [],
+    "risk_flags": [],
+    "why_it_works": "Opens on shock reaction (ep 33 02:06.80: “No! She saved Toby! She made him breathe again!”) and cuts on line breaks off (—/...) (just before the cut) (ep 33 02:44.50: “Save your tears for the trial.”); clear who/what/why.",
+    "llm_review": null
+  }
+}

@@ -1,0 +1,204 @@
+{
+  "show": "I Married a Broken Soldier. He was a Duke",
+  "episode_id": "episode-042-Episode 1686802",
+  "episode_number": 42,
+  "source_path": "C:\\Users\\Dell\\Desktop\\kuku_fm_ass\\kuku_fm_assignment_project\\data\\I Married a Broken Soldier. He was a Duke\\episode-042-Episode 1686802.txt",
+  "status": "ok",
+  "error": "",
+  "traceback": "",
+  "warnings": [],
+  "lines_total": 37,
+  "dialogue_lines": 19,
+  "action_lines": 4,
+  "untimed_lines": 0,
+  "duration_seconds": 77.8,
+  "candidates": 428,
+  "candidates_passed": 261,
+  "best_promo_id": "cont-547f7b3349",
+  "best_score": 0.7959,
+  "no_promo_reason": "",
+  "seconds_features": 0.005,
+  "seconds_candidates": 0.013,
+  "logline": "Emerging from the smoke of the shattered cathedral gates in full ducal regalia, Alexander confronts Rupert, wins the loyalty of the royal guards, and is proclaimed the rightful Duke of Ashburn by his weeping mother.",
+  "best_promo": {
+    "rank": null,
+    "promo_id": "cont-547f7b3349",
+    "show": "I Married a Broken Soldier. He was a Duke",
+    "structure": "continuous",
+    "priority_score": 0.7959,
+    "total_duration_seconds": 30.5,
+    "episodes": [
+      "episode-042-Episode 1686802"
+    ],
+    "segments": [
+      {
+        "order": 1,
+        "episode_id": "episode-042-Episode 1686802",
+        "episode_number": 42,
+        "start_seconds": 23.5,
+        "end_seconds": 54.0,
+        "start": "00:23.50",
+        "end": "00:54.00",
+        "duration_seconds": 30.5,
+        "dialogue": [
+          {
+            "start": "00:23.50",
+            "end": "00:25.20",
+            "character": "BLOND NOBLEMAN",
+            "kind": "dialogue",
+            "text": "I said arrest him!"
+          },
+          {
+            "start": "00:25.50",
+            "end": "00:26.50",
+            "character": "BLOND NOBLEMAN",
+            "kind": "dialogue",
+            "text": "Why?!"
+          },
+          {
+            "start": "00:26.70",
+            "end": "00:28.80",
+            "character": "ROYAL GUARD",
+            "kind": "dialogue",
+            "text": "Because we know who he is."
+          },
+          {
+            "start": "00:29.00",
+            "end": "00:30.30",
+            "character": "CATHERINE",
+            "kind": "dialogue",
+            "text": "Rupert..."
+          },
+          {
+            "start": "00:30.50",
+            "end": "00:33.80",
+            "character": "BLOND NOBLEMAN",
+            "kind": "dialogue",
+            "text": "You cannot be him. Alexander died!"
+          },
+          {
+            "start": "00:34.00",
+            "end": "00:39.80",
+            "character": "ALEXANDER",
+            "kind": "dialogue",
+            "text": "And yet, here I stand. That is the lie you built your life upon."
+          },
+          {
+            "start": "00:40.20",
+            "end": "00:42.50",
+            "character": "ALEXANDER'S MOTHER",
+            "kind": "dialogue",
+            "text": "Alexander..."
+          },
+          {
+            "start": "00:44.80",
+            "end": "00:48.00",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "Alexander halts his march as his mother reaches him, placing her frail hands gently upon his chest."
+          },
+          {
+            "start": "00:48.00",
+            "end": "00:49.00",
+            "character": "ALEXANDER",
+            "kind": "dialogue",
+            "text": "Mother."
+          },
+          {
+            "start": "00:49.00",
+            "end": "00:54.00",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "His mother gently cradles Alexander's scarred cheek, tears streaming down her face as guests in the background watch in stunned silence."
+          }
+        ]
+      }
+    ],
+    "opening_hook": {
+      "score": 0.8472,
+      "evidence": [
+        "exclamation",
+        "00:23.50 BLOND NOBLEMAN: “I said arrest him!”",
+        "model: anger 0.86, arousal 0.98",
+        "script tag 'Screaming, Outraged' (1.00)",
+        "zero-shot conflict/reveal 0.87",
+        "second strong beat within 3 s (+0.05)"
+      ],
+      "timestamp": 23.5,
+      "episode_id": "episode-042-Episode 1686802",
+      "text": "I said arrest him!",
+      "timestamp_fmt": "00:23.50"
+    },
+    "ending_cliffhanger": {
+      "score": 0.5928,
+      "evidence": [
+        "shock ('stunned')",
+        "00:49.00–00:54.00 ACTION: “His mother gently cradles Alexander's scarred cheek, tears streaming…”",
+        "closing tension 0.56",
+        "zero-shot suspense/threat/reveal 0.65",
+        "withheld next beat: ALEXANDER'S MOTHER “Look at you... my beautiful boy.” (payoff 0.48)"
+      ],
+      "timestamp": 54.0,
+      "episode_id": "episode-042-Episode 1686802",
+      "text": "His mother gently cradles Alexander's scarred cheek, tears streaming down her face as guests in the background watch in stunned silence.",
+      "timestamp_fmt": "00:54.00"
+    },
+    "standalone_coherence": {
+      "score": 0.8562,
+      "evidence": [
+        "clear who/what/why",
+        "who: 5 speaking character(s), names on screen: alexander, alexander's, rupert",
+        "what: 8 dialogue lines, 34 words",
+        "why: stakes (life, mother); logline overlap 0.25",
+        "structure: continuous, 0 scene switch(es)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "emotional_intensity": {
+      "score": 0.8143,
+      "evidence": [
+        "peak 0.99 at 00:23.50, mean 0.64 (emotion model)"
+      ],
+      "timestamp": 23.5,
+      "episode_id": "episode-042-Episode 1686802",
+      "text": "",
+      "timestamp_fmt": "00:23.50"
+    },
+    "narrative_continuity": {
+      "score": 1.0,
+      "evidence": [
+        "one unbroken stretch, 1 scene(s)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "dialogue_quality": {
+      "score": 0.85,
+      "evidence": [
+        "speech covers 61% of runtime, 50% filler lines, 4.2 words/line"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "score_breakdown": {
+      "hook": 0.8472,
+      "cliffhanger": 0.5928,
+      "coherence": 0.8562,
+      "emotion": 0.8143,
+      "continuity": 1.0,
+      "dialogue_quality": 0.85
+    },
+    "passed_quality_gates": true,
+    "rejection_reasons": [],
+    "risk_flags": [],
+    "why_it_works": "Opens on exclamation (ep 42 00:23.50: “I said arrest him!”) and cuts on shock ('stunned') (ep 42 00:54.00: “His mother gently cradles Alexander's scarred cheek, tear…”); clear who/what/why.",
+    "llm_review": null
+  }
+}

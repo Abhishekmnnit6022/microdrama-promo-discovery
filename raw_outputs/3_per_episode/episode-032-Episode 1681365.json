@@ -1,0 +1,300 @@
+{
+  "show": "I Married a Broken Soldier. He was a Duke",
+  "episode_id": "episode-032-Episode 1681365",
+  "episode_number": 32,
+  "source_path": "C:\\Users\\Dell\\Desktop\\kuku_fm_ass\\kuku_fm_assignment_project\\data\\I Married a Broken Soldier. He was a Duke\\episode-032-Episode 1681365.txt",
+  "status": "ok",
+  "error": "",
+  "traceback": "",
+  "warnings": [],
+  "lines_total": 117,
+  "dialogue_lines": 50,
+  "action_lines": 3,
+  "untimed_lines": 0,
+  "duration_seconds": 154.38,
+  "candidates": 907,
+  "candidates_passed": 464,
+  "best_promo_id": "mult-b62c7fb220",
+  "best_score": 0.8474,
+  "no_promo_reason": "",
+  "seconds_features": 0.011,
+  "seconds_candidates": 0.067,
+  "logline": "Cornered and chained in the damp dungeon, Juliana shatters Catherine's cruelty with unshakeable dignity and the truth about love and worth, driving Catherine into a murderous fury.",
+  "best_promo": {
+    "rank": null,
+    "promo_id": "mult-b62c7fb220",
+    "show": "I Married a Broken Soldier. He was a Duke",
+    "structure": "multi_segment",
+    "priority_score": 0.8474,
+    "total_duration_seconds": 58.2,
+    "episodes": [
+      "episode-032-Episode 1681365"
+    ],
+    "segments": [
+      {
+        "order": 1,
+        "episode_id": "episode-032-Episode 1681365",
+        "episode_number": 32,
+        "start_seconds": 52.8,
+        "end_seconds": 61.0,
+        "start": "00:52.80",
+        "end": "01:01.00",
+        "duration_seconds": 8.2,
+        "dialogue": [
+          {
+            "start": "00:52.80",
+            "end": "00:54.20",
+            "character": "CATHERINE",
+            "kind": "dialogue",
+            "text": "You are lying!"
+          },
+          {
+            "start": "00:54.60",
+            "end": "00:58.00",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "Gerald leaving me was the best thing he ever did for me."
+          },
+          {
+            "start": "00:58.20",
+            "end": "01:01.00",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "He wanted a woman who looked beautiful beside his wealth."
+          }
+        ]
+      },
+      {
+        "order": 2,
+        "episode_id": "episode-032-Episode 1681365",
+        "episode_number": 32,
+        "start_seconds": 101.2,
+        "end_seconds": 151.2,
+        "start": "01:41.20",
+        "end": "02:31.20",
+        "duration_seconds": 50.0,
+        "dialogue": [
+          {
+            "start": "01:41.20",
+            "end": "01:43.50",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "Family. A perfect name."
+          },
+          {
+            "start": "01:43.80",
+            "end": "01:47.20",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "And a woman who never embarrasses the people standing behind her."
+          },
+          {
+            "start": "01:47.20",
+            "end": "01:48.80",
+            "character": "CATHERINE",
+            "kind": "dialogue",
+            "text": "And what is wrong with that?!"
+          },
+          {
+            "start": "01:49.50",
+            "end": "01:52.80",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "Nothing. Until you have nothing left beneath it."
+          },
+          {
+            "start": "01:52.80",
+            "end": "01:56.00",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "You have spent your whole life collecting things that make people bow..."
+          },
+          {
+            "start": "01:56.90",
+            "end": "01:59.50",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "...but you have never learned how to make anyone love you."
+          },
+          {
+            "start": "01:59.60",
+            "end": "02:01.80",
+            "character": "CATHERINE",
+            "kind": "dialogue",
+            "text": "Silence! Silence!"
+          },
+          {
+            "start": "02:01.80",
+            "end": "02:02.80",
+            "character": "CATHERINE",
+            "kind": "dialogue",
+            "text": "Why?!"
+          },
+          {
+            "start": "02:03.00",
+            "end": "02:05.20",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "Because I am right!"
+          },
+          {
+            "start": "02:05.40",
+            "end": "02:08.80",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "You want everyone to believe you are powerful."
+          },
+          {
+            "start": "02:09.00",
+            "end": "02:11.60",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "You want everyone to fear you."
+          },
+          {
+            "start": "02:12.00",
+            "end": "02:14.00",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "But look at you."
+          },
+          {
+            "start": "02:15.00",
+            "end": "02:18.60",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "You have to threaten a chained woman to feel powerful!"
+          },
+          {
+            "start": "02:18.60",
+            "end": "02:20.20",
+            "character": "CATHERINE",
+            "kind": "dialogue",
+            "text": "You insolent—!"
+          },
+          {
+            "start": "02:20.40",
+            "end": "02:22.30",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "You may have the title you have always wanted..."
+          },
+          {
+            "start": "02:22.40",
+            "end": "02:26.50",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "...but you will never have the courage to earn what you demand from everyone else."
+          },
+          {
+            "start": "02:26.60",
+            "end": "02:28.10",
+            "character": "CATHERINE",
+            "kind": "dialogue",
+            "text": "You think you can lecture me?!"
+          },
+          {
+            "start": "02:28.00",
+            "end": "02:30.80",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "Catherine hoists the searing branding rod over Juliana with frantic fury."
+          },
+          {
+            "start": "02:28.10",
+            "end": "02:31.20",
+            "character": "CATHERINE",
+            "kind": "dialogue",
+            "text": "Then let's see how brave you are when it touches your skin!"
+          }
+        ]
+      }
+    ],
+    "opening_hook": {
+      "score": 0.785,
+      "evidence": [
+        "exclamation",
+        "00:52.80 CATHERINE: “You are lying!”",
+        "model: anger 0.84, arousal 0.98",
+        "script tag 'Screaming, Enraged' (1.00)",
+        "zero-shot conflict/reveal 0.83"
+      ],
+      "timestamp": 52.8,
+      "episode_id": "episode-032-Episode 1681365",
+      "text": "You are lying!",
+      "timestamp_fmt": "00:52.80"
+    },
+    "ending_cliffhanger": {
+      "score": 0.8275,
+      "evidence": [
+        "zero-shot reads an unresolved threat (0.82)",
+        "02:28.10–02:31.20 CATHERINE: “Then let's see how brave you are when it touches your skin!”",
+        "closing tension 1.00",
+        "zero-shot suspense/threat/reveal 0.82",
+        "cut matches the episode's own final beat (+0.12)",
+        "withheld next beat: ACTION “Juliana gasps, freezing as the glowing tip of the…” (payoff 0.35)"
+      ],
+      "timestamp": 151.2,
+      "episode_id": "episode-032-Episode 1681365",
+      "text": "Then let's see how brave you are when it touches your skin!",
+      "timestamp_fmt": "02:31.20"
+    },
+    "standalone_coherence": {
+      "score": 0.9563,
+      "evidence": [
+        "clear who/what/why",
+        "who: 2 speaking character(s), names on screen: catherine, gerald, juliana",
+        "what: 21 dialogue lines, 156 words",
+        "why: stakes (family, life, love, title); conflict cue present; logline overlap 0.42",
+        "structure: 2 segments, shared characters ['catherine', 'juliana'], vocab overlap 0.03"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "emotional_intensity": {
+      "score": 0.8346,
+      "evidence": [
+        "peak 0.99 at 02:18.60, mean 0.68 (emotion model)"
+      ],
+      "timestamp": 138.6,
+      "episode_id": "episode-032-Episode 1681365",
+      "text": "",
+      "timestamp_fmt": "02:18.60"
+    },
+    "narrative_continuity": {
+      "score": 0.8,
+      "evidence": [
+        "same episode, 40.2s skipped between segments"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "dialogue_quality": {
+      "score": 0.9571,
+      "evidence": [
+        "speech covers 91% of runtime, 14% filler lines, 7.4 words/line"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "score_breakdown": {
+      "hook": 0.785,
+      "cliffhanger": 0.8275,
+      "coherence": 0.9563,
+      "emotion": 0.8346,
+      "continuity": 0.8,
+      "dialogue_quality": 0.9571
+    },
+    "passed_quality_gates": true,
+    "rejection_reasons": [],
+    "risk_flags": [],
+    "why_it_works": "Opens on exclamation (ep 32 00:52.80: “You are lying!”) and cuts on zero-shot reads an unresolved threat (0.82) (ep 32 02:31.20: “Then let's see how brave you are when it touches your skin!”); clear who/what/why.",
+    "llm_review": null
+  }
+}

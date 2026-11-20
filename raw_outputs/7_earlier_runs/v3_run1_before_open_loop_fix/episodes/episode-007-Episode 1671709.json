@@ -1,0 +1,217 @@
+{
+  "show": "I Married a Broken Soldier. He was a Duke",
+  "episode_id": "episode-007-Episode 1671709",
+  "episode_number": 7,
+  "source_path": "C:\\Users\\Dell\\Desktop\\kuku_fm_ass\\kuku_fm_assignment_project\\data\\I Married a Broken Soldier. He was a Duke\\episode-007-Episode 1671709.txt",
+  "status": "ok",
+  "error": "",
+  "traceback": "",
+  "warnings": [],
+  "lines_total": 58,
+  "dialogue_lines": 20,
+  "action_lines": 7,
+  "untimed_lines": 0,
+  "duration_seconds": 116.0,
+  "candidates": 480,
+  "candidates_passed": 228,
+  "best_promo_id": "cont-2b102db524",
+  "best_score": 0.7492,
+  "no_promo_reason": "",
+  "seconds_features": 0.007,
+  "seconds_candidates": 0.022,
+  "logline": "When Gerald and his spiteful companion arrive at the woodland cottage to mock Juliana's fallen status, her stoic new husband returns from the forest to silently send them fleeing.",
+  "best_promo": {
+    "rank": null,
+    "promo_id": "cont-2b102db524",
+    "show": "I Married a Broken Soldier. He was a Duke",
+    "structure": "continuous",
+    "priority_score": 0.7492,
+    "total_duration_seconds": 41.2,
+    "episodes": [
+      "episode-007-Episode 1671709"
+    ],
+    "segments": [
+      {
+        "order": 1,
+        "episode_id": "episode-007-Episode 1671709",
+        "episode_number": 7,
+        "start_seconds": 30.0,
+        "end_seconds": 71.2,
+        "start": "00:30.00",
+        "end": "01:11.20",
+        "duration_seconds": 41.2,
+        "dialogue": [
+          {
+            "start": "00:30.00",
+            "end": "00:32.60",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "You came all this way just to insult my home?"
+          },
+          {
+            "start": "00:33.20",
+            "end": "00:37.80",
+            "character": "ARISTOCRATIC WOMAN",
+            "kind": "dialogue",
+            "text": "Home? Look at your hands, Juliana."
+          },
+          {
+            "start": "00:38.20",
+            "end": "00:39.80",
+            "character": "ARISTOCRATIC WOMAN",
+            "kind": "dialogue",
+            "text": "You look like a servant."
+          },
+          {
+            "start": "00:41.20",
+            "end": "00:44.80",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "I work with my hands. There is no shame in that."
+          },
+          {
+            "start": "00:45.20",
+            "end": "00:46.80",
+            "character": "GERALD",
+            "kind": "dialogue",
+            "text": "You were born a lady."
+          },
+          {
+            "start": "00:48.80",
+            "end": "00:50.40",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "And I remain one."
+          },
+          {
+            "start": "00:51.50",
+            "end": "00:54.60",
+            "character": "GERALD",
+            "kind": "dialogue",
+            "text": "You chose that scarred beggar over a life of comfort."
+          },
+          {
+            "start": "00:57.80",
+            "end": "01:01.00",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "I chose a man who stood beside me when you walked away."
+          },
+          {
+            "start": "01:01.80",
+            "end": "01:04.80",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "You have no authority here. Leave."
+          },
+          {
+            "start": "01:05.60",
+            "end": "01:08.50",
+            "character": "GERALD",
+            "kind": "dialogue",
+            "text": "I have enough influence to make a beggar disappear."
+          },
+          {
+            "start": "01:08.60",
+            "end": "01:09.50",
+            "character": "GERALD",
+            "kind": "dialogue",
+            "text": "And your husband?"
+          },
+          {
+            "start": "01:09.50",
+            "end": "01:11.20",
+            "character": "GERALD",
+            "kind": "dialogue",
+            "text": "Where is that beggar husband?"
+          }
+        ]
+      }
+    ],
+    "opening_hook": {
+      "score": 0.6275,
+      "evidence": [
+        "charged question",
+        "00:30.00 JULIANA: “You came all this way just to insult my home?”",
+        "model: anger 0.71, arousal 0.96",
+        "script tag 'Sharp, Unintimidated' (0.33)",
+        "zero-shot conflict/reveal 0.50"
+      ],
+      "timestamp": 30.0,
+      "episode_id": "episode-007-Episode 1671709",
+      "text": "You came all this way just to insult my home?",
+      "timestamp_fmt": "00:30.00"
+    },
+    "ending_cliffhanger": {
+      "score": 0.6759,
+      "evidence": [
+        "unanswered question (charged) (just before the cut)",
+        "01:09.50–01:11.20 GERALD: “Where is that beggar husband?”",
+        "closing tension 1.00",
+        "zero-shot suspense/threat/reveal 0.71",
+        "withheld next beat: ACTION “The Scarred Bearded Man marches purposefully towa…” (payoff 0.49)"
+      ],
+      "timestamp": 71.2,
+      "episode_id": "episode-007-Episode 1671709",
+      "text": "Where is that beggar husband?",
+      "timestamp_fmt": "01:11.20"
+    },
+    "standalone_coherence": {
+      "score": 0.8063,
+      "evidence": [
+        "clear who/what/why",
+        "who: 3 speaking character(s), names on screen: juliana",
+        "what: 12 dialogue lines, 86 words",
+        "why: stakes (husband, life, shame); logline overlap 0.08",
+        "structure: continuous, 1 scene switch(es)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "emotional_intensity": {
+      "score": 0.8141,
+      "evidence": [
+        "peak 0.97 at 00:30.00, mean 0.66 (emotion model)"
+      ],
+      "timestamp": 30.0,
+      "episode_id": "episode-007-Episode 1671709",
+      "text": "",
+      "timestamp_fmt": "00:30.00"
+    },
+    "narrative_continuity": {
+      "score": 0.9,
+      "evidence": [
+        "one unbroken stretch, 2 scene(s)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "dialogue_quality": {
+      "score": 1.0,
+      "evidence": [
+        "speech covers 74% of runtime, 0% filler lines, 7.2 words/line"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "score_breakdown": {
+      "hook": 0.6275,
+      "cliffhanger": 0.6759,
+      "coherence": 0.8063,
+      "emotion": 0.8141,
+      "continuity": 0.9,
+      "dialogue_quality": 1.0
+    },
+    "passed_quality_gates": true,
+    "rejection_reasons": [],
+    "risk_flags": [],
+    "why_it_works": "Opens on charged question (ep 7 00:30.00: “You came all this way just to insult my home?”) and cuts on unanswered question (charged) (just before the cut) (ep 7 01:11.20: “Where is that beggar husband?”); clear who/what/why.",
+    "llm_review": null
+  }
+}

@@ -1,0 +1,216 @@
+{
+  "show": "I Married a Broken Soldier. He was a Duke",
+  "episode_id": "episode-050-Episode 1697563",
+  "episode_number": 50,
+  "source_path": "C:\\Users\\Dell\\Desktop\\kuku_fm_ass\\kuku_fm_assignment_project\\data\\I Married a Broken Soldier. He was a Duke\\episode-050-Episode 1697563.txt",
+  "status": "ok",
+  "error": "",
+  "traceback": "",
+  "warnings": [],
+  "lines_total": 40,
+  "dialogue_lines": 14,
+  "action_lines": 6,
+  "untimed_lines": 0,
+  "duration_seconds": 80.0,
+  "candidates": 396,
+  "candidates_passed": 87,
+  "best_promo_id": "cont-0b32d75175",
+  "best_score": 0.6823,
+  "no_promo_reason": "",
+  "seconds_features": 0.006,
+  "seconds_candidates": 0.012,
+  "logline": "Following their illicit passion in the abandoned manor wing, Catherine negotiates Father Thomas's corrupt silence with territorial control—unaware that Agnes has walked in and witnessed their scandalous intimacy.",
+  "best_promo": {
+    "rank": null,
+    "promo_id": "cont-0b32d75175",
+    "show": "I Married a Broken Soldier. He was a Duke",
+    "structure": "continuous",
+    "priority_score": 0.6823,
+    "total_duration_seconds": 50.7,
+    "episodes": [
+      "episode-050-Episode 1697563"
+    ],
+    "segments": [
+      {
+        "order": 1,
+        "episode_id": "episode-050-Episode 1697563",
+        "episode_number": 50,
+        "start_seconds": 5.8,
+        "end_seconds": 56.5,
+        "start": "00:05.80",
+        "end": "00:56.50",
+        "duration_seconds": 50.7,
+        "dialogue": [
+          {
+            "start": "00:05.80",
+            "end": "00:07.20",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "Catherine runs her hand gently down his chest, smiling with triumphant affection."
+          },
+          {
+            "start": "00:07.20",
+            "end": "00:11.20",
+            "character": "FATHER THOMAS",
+            "kind": "dialogue",
+            "text": "A man in my collar isn't supposed to be in this bed at all."
+          },
+          {
+            "start": "00:12.00",
+            "end": "00:15.50",
+            "character": "CATHERINE",
+            "kind": "dialogue",
+            "text": "Then let's stop pretending this was only appetite."
+          },
+          {
+            "start": "00:16.80",
+            "end": "00:18.50",
+            "character": "CATHERINE",
+            "kind": "dialogue",
+            "text": "Name your price."
+          },
+          {
+            "start": "00:19.40",
+            "end": "00:25.00",
+            "character": "FATHER THOMAS",
+            "kind": "dialogue",
+            "text": "The west territory. Tax collection, all of it. Routed through my office."
+          },
+          {
+            "start": "00:27.20",
+            "end": "00:30.20",
+            "character": "CATHERINE",
+            "kind": "dialogue",
+            "text": "That's not absolution, Thomas. That's a fortune."
+          },
+          {
+            "start": "00:31.00",
+            "end": "00:35.00",
+            "character": "FATHER THOMAS",
+            "kind": "dialogue",
+            "text": "Absolution is free. Discretion has a price."
+          },
+          {
+            "start": "00:36.50",
+            "end": "00:39.40",
+            "character": "CATHERINE",
+            "kind": "dialogue",
+            "text": "Unsupervised. In your hands alone."
+          },
+          {
+            "start": "00:40.40",
+            "end": "00:42.50",
+            "character": "FATHER THOMAS",
+            "kind": "dialogue",
+            "text": "For as long as it holds."
+          },
+          {
+            "start": "00:43.20",
+            "end": "00:48.00",
+            "character": "CATHERINE",
+            "kind": "dialogue",
+            "text": "Done. You told yourself this ends when the hearing does."
+          },
+          {
+            "start": "00:49.80",
+            "end": "00:54.00",
+            "character": "FATHER THOMAS",
+            "kind": "dialogue",
+            "text": "I've told myself that since the dawn in your bedchamber, and here we are again."
+          },
+          {
+            "start": "00:54.80",
+            "end": "00:56.50",
+            "character": "CATHERINE",
+            "kind": "dialogue",
+            "text": "In another room no one uses?"
+          }
+        ]
+      }
+    ],
+    "opening_hook": {
+      "score": 0.4738,
+      "evidence": [
+        "high-arousal line",
+        "00:07.20 FATHER THOMAS: “A man in my collar isn't supposed to be in this bed at all.”",
+        "model: disgust 0.89, arousal 0.94",
+        "zero-shot conflict/reveal 0.76"
+      ],
+      "timestamp": 7.2,
+      "episode_id": "episode-050-Episode 1697563",
+      "text": "A man in my collar isn't supposed to be in this bed at all.",
+      "timestamp_fmt": "00:07.20"
+    },
+    "ending_cliffhanger": {
+      "score": 0.5726,
+      "evidence": [
+        "unanswered question (charged)",
+        "00:54.80–00:56.50 CATHERINE: “In another room no one uses?”",
+        "closing tension 0.97",
+        "zero-shot suspense/threat/reveal 0.08",
+        "withheld next beat: FATHER THOMAS “Perhaps I like rooms no one uses.” (payoff 0.30)"
+      ],
+      "timestamp": 56.5,
+      "episode_id": "episode-050-Episode 1697563",
+      "text": "In another room no one uses?",
+      "timestamp_fmt": "00:56.50"
+    },
+    "standalone_coherence": {
+      "score": 0.8438,
+      "evidence": [
+        "clear who/what/why",
+        "who: 2 speaking character(s), names on screen: catherine, thomas",
+        "what: 11 dialogue lines, 93 words",
+        "why: stakes (fortune); logline overlap 0.08",
+        "structure: continuous, 0 scene switch(es)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "emotional_intensity": {
+      "score": 0.6793,
+      "evidence": [
+        "peak 0.98 at 00:54.80, mean 0.38 (emotion model)"
+      ],
+      "timestamp": 54.8,
+      "episode_id": "episode-050-Episode 1697563",
+      "text": "",
+      "timestamp_fmt": "00:54.80"
+    },
+    "narrative_continuity": {
+      "score": 1.0,
+      "evidence": [
+        "one unbroken stretch, 1 scene(s)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "dialogue_quality": {
+      "score": 1.0,
+      "evidence": [
+        "speech covers 74% of runtime, 0% filler lines, 8.5 words/line"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "score_breakdown": {
+      "hook": 0.4738,
+      "cliffhanger": 0.5726,
+      "coherence": 0.8438,
+      "emotion": 0.6793,
+      "continuity": 1.0,
+      "dialogue_quality": 1.0
+    },
+    "passed_quality_gates": true,
+    "rejection_reasons": [],
+    "risk_flags": [],
+    "why_it_works": "Opens on high-arousal line (ep 50 00:07.20: “A man in my collar isn't supposed to be in this bed at all.”) and cuts on unanswered question (charged) (ep 50 00:56.50: “In another room no one uses?”); clear who/what/why.",
+    "llm_review": null
+  }
+}

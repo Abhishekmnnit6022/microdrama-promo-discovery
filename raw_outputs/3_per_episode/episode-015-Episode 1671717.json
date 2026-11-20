@@ -1,0 +1,219 @@
+{
+  "show": "I Married a Broken Soldier. He was a Duke",
+  "episode_id": "episode-015-Episode 1671717",
+  "episode_number": 15,
+  "source_path": "C:\\Users\\Dell\\Desktop\\kuku_fm_ass\\kuku_fm_assignment_project\\data\\I Married a Broken Soldier. He was a Duke\\episode-015-Episode 1671717.txt",
+  "status": "ok",
+  "error": "",
+  "traceback": "",
+  "warnings": [],
+  "lines_total": 55,
+  "dialogue_lines": 17,
+  "action_lines": 11,
+  "untimed_lines": 0,
+  "duration_seconds": 86.0,
+  "candidates": 684,
+  "candidates_passed": 551,
+  "best_promo_id": "cont-a53e381a5e",
+  "best_score": 0.8934,
+  "no_promo_reason": "",
+  "seconds_features": 0.008,
+  "seconds_candidates": 0.021,
+  "logline": "When ruthless thugs desecrate Juliana's medicinal garden and trample her late mother's herbs, a protective Alexander charges into the night to defend her.",
+  "best_promo": {
+    "rank": 6,
+    "promo_id": "cont-a53e381a5e",
+    "show": "I Married a Broken Soldier. He was a Duke",
+    "structure": "continuous",
+    "priority_score": 0.8934,
+    "total_duration_seconds": 35.0,
+    "episodes": [
+      "episode-015-Episode 1671717"
+    ],
+    "segments": [
+      {
+        "order": 1,
+        "episode_id": "episode-015-Episode 1671717",
+        "episode_number": 15,
+        "start_seconds": 47.4,
+        "end_seconds": 82.4,
+        "start": "00:47.40",
+        "end": "01:22.40",
+        "duration_seconds": 35.0,
+        "dialogue": [
+          {
+            "start": "00:47.40",
+            "end": "00:49.50",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "The Thug with Cap violently shoves Juliana back with both hands; she cries out as she loses her balance and crashes hard onto the wet stone path."
+          },
+          {
+            "start": "00:47.80",
+            "end": "00:49.00",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "Ah!"
+          },
+          {
+            "start": "00:50.00",
+            "end": "00:53.50",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "Juliana crawls forward on her elbows; fresh crimson blood seeps profusely through her white gauze bandages as she reaches for the ruined blossoms."
+          },
+          {
+            "start": "00:53.50",
+            "end": "00:55.70",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "My mother's plants..."
+          },
+          {
+            "start": "00:57.30",
+            "end": "00:59.80",
+            "character": "BALD THUG",
+            "kind": "dialogue",
+            "text": "Look at her! Crying over weeds!"
+          },
+          {
+            "start": "01:00.00",
+            "end": "01:02.00",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "The Tall Thug hoists his heavy wooden club above his head to crush the remaining herbs right before Juliana."
+          },
+          {
+            "start": "01:00.00",
+            "end": "01:01.00",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "Stop!"
+          },
+          {
+            "start": "01:03.50",
+            "end": "01:07.50",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "Alexander storms forward with lethal intensity, dark hair flying, breath misting in the cold, radiating untamed rage."
+          },
+          {
+            "start": "01:10.50",
+            "end": "01:12.60",
+            "character": "JULIANA",
+            "kind": "dialogue",
+            "text": "Alexander..."
+          },
+          {
+            "start": "01:16.00",
+            "end": "01:18.50",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "Alexander places himself directly between Juliana and the three thugs, staring them down with cold, deadly intent."
+          },
+          {
+            "start": "01:19.00",
+            "end": "01:22.40",
+            "character": "THUG WITH CAP",
+            "kind": "dialogue",
+            "text": "What? You want to fight us, veteran?"
+          }
+        ]
+      }
+    ],
+    "opening_hook": {
+      "score": 1.0,
+      "evidence": [
+        "physical confrontation",
+        "00:47.40 ACTION: “The Thug with Cap violently shoves Juliana back with both hands; she…”",
+        "cues: physical ('shoves')",
+        "zero-shot conflict/reveal 0.97",
+        "second strong beat within 3 s (+0.08)"
+      ],
+      "timestamp": 47.4,
+      "episode_id": "episode-015-Episode 1671717",
+      "text": "The Thug with Cap violently shoves Juliana back with both hands; she cries out as she loses her balance and crashes hard onto the wet stone path.",
+      "timestamp_fmt": "00:47.40"
+    },
+    "ending_cliffhanger": {
+      "score": 0.8607,
+      "evidence": [
+        "zero-shot reads an unresolved threat (0.88)",
+        "01:19.00–01:22.40 THUG WITH CAP: “What? You want to fight us, veteran?”",
+        "closing tension 0.92",
+        "zero-shot suspense/threat/reveal 0.88",
+        "cut matches the episode's own final beat (+0.12)",
+        "withheld next beat: ACTION “Alexander stands tall and unyielding, blocking th…” (payoff 0.49)"
+      ],
+      "timestamp": 82.4,
+      "episode_id": "episode-015-Episode 1671717",
+      "text": "What? You want to fight us, veteran?",
+      "timestamp_fmt": "01:22.40"
+    },
+    "standalone_coherence": {
+      "score": 0.8258,
+      "evidence": [
+        "clear who/what/why",
+        "who: 3 speaking character(s), names on screen: alexander, cap, juliana, tall",
+        "what: 6 dialogue lines, 19 words",
+        "why: no explicit stakes words; conflict cue present; logline overlap 0.33",
+        "structure: continuous, 0 scene switch(es)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "emotional_intensity": {
+      "score": 0.8722,
+      "evidence": [
+        "peak 0.99 at 00:57.30, mean 0.75 (emotion model)"
+      ],
+      "timestamp": 57.3,
+      "episode_id": "episode-015-Episode 1671717",
+      "text": "",
+      "timestamp_fmt": "00:57.30"
+    },
+    "narrative_continuity": {
+      "score": 1.0,
+      "evidence": [
+        "one unbroken stretch, 1 scene(s)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "dialogue_quality": {
+      "score": 0.6452,
+      "evidence": [
+        "speech covers 35% of runtime, 50% filler lines, 3.2 words/line"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "score_breakdown": {
+      "hook": 1.0,
+      "cliffhanger": 0.8607,
+      "coherence": 0.8258,
+      "emotion": 0.8722,
+      "continuity": 1.0,
+      "dialogue_quality": 0.6452
+    },
+    "passed_quality_gates": true,
+    "rejection_reasons": [],
+    "risk_flags": [],
+    "why_it_works": "Opens on physical confrontation (ep 15 00:47.40: “The Thug with Cap violently shoves Juliana back with both…”) and cuts on zero-shot reads an unresolved threat (0.88) (ep 15 01:22.40: “What? You want to fight us, veteran?”); clear who/what/why.",
+    "llm_review": {
+      "hook_works": true,
+      "cliffhanger_works": true,
+      "standalone": true,
+      "one_line": "The clip successfully grabs attention with physical violence against the protagonist and ends right before a high-stakes confrontation with the arriving protector, Alexander.",
+      "concerns": "A completely new viewer might lack backstory on why the thugs are targeting her mother's plants, but the emotional stakes are still clear.",
+      "model": "gemini-3.5-flash-lite",
+      "status": "ok"
+    }
+  }
+}

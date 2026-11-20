@@ -1,0 +1,231 @@
+{
+  "show": "I Married a Broken Soldier. He was a Duke",
+  "episode_id": "episode-048-Episode 1688397",
+  "episode_number": 48,
+  "source_path": "C:\\Users\\Dell\\Desktop\\kuku_fm_ass\\kuku_fm_assignment_project\\data\\I Married a Broken Soldier. He was a Duke\\episode-048-Episode 1688397.txt",
+  "status": "ok",
+  "error": "",
+  "traceback": "",
+  "warnings": [],
+  "lines_total": 43,
+  "dialogue_lines": 21,
+  "action_lines": 5,
+  "untimed_lines": 0,
+  "duration_seconds": 80.0,
+  "candidates": 642,
+  "candidates_passed": 324,
+  "best_promo_id": "cont-9faebdf626",
+  "best_score": 0.7621,
+  "no_promo_reason": "",
+  "seconds_features": 0.007,
+  "seconds_candidates": 0.024,
+  "logline": "While feigning submission after her public humiliation, Catherine schemes in secret, plotting to use the council's ten-day reprieve to strike back at Alexander and Juliana with the aid of Father Thomas.",
+  "best_promo": {
+    "rank": null,
+    "promo_id": "cont-9faebdf626",
+    "show": "I Married a Broken Soldier. He was a Duke",
+    "structure": "continuous",
+    "priority_score": 0.7621,
+    "total_duration_seconds": 41.3,
+    "episodes": [
+      "episode-048-Episode 1688397"
+    ],
+    "segments": [
+      {
+        "order": 1,
+        "episode_id": "episode-048-Episode 1688397",
+        "episode_number": 48,
+        "start_seconds": 29.2,
+        "end_seconds": 70.5,
+        "start": "00:29.20",
+        "end": "01:10.50",
+        "duration_seconds": 41.3,
+        "dialogue": [
+          {
+            "start": "00:29.20",
+            "end": "00:30.80",
+            "character": "AGNES",
+            "kind": "dialogue",
+            "text": "You sent for me, my lady?"
+          },
+          {
+            "start": "00:30.90",
+            "end": "00:32.00",
+            "character": "CATHERINE",
+            "kind": "dialogue",
+            "text": "Lock it."
+          },
+          {
+            "start": "00:34.00",
+            "end": "00:36.50",
+            "character": "ACTION",
+            "kind": "action",
+            "text": "Catherine strides forward and firmly grasps Agnes by both hands, stepping uncomfortably close."
+          },
+          {
+            "start": "00:34.20",
+            "end": "00:37.10",
+            "character": "CATHERINE",
+            "kind": "dialogue",
+            "text": "Everyone in that chapel saw me humiliated today."
+          },
+          {
+            "start": "00:37.30",
+            "end": "00:39.00",
+            "character": "CATHERINE",
+            "kind": "dialogue",
+            "text": "Good. Let them remember it."
+          },
+          {
+            "start": "00:39.20",
+            "end": "00:43.00",
+            "character": "CATHERINE",
+            "kind": "dialogue",
+            "text": "Grief makes people careless, and carelessness is exactly what I need from that household right now."
+          },
+          {
+            "start": "00:43.30",
+            "end": "00:46.80",
+            "character": "AGNES",
+            "kind": "dialogue",
+            "text": "My lady... the Duke has bailiffs watching every road out of the county."
+          },
+          {
+            "start": "00:47.00",
+            "end": "00:51.30",
+            "character": "CATHERINE",
+            "kind": "dialogue",
+            "text": "I'm not leaving the county, Agnes. I'm going back into that house."
+          },
+          {
+            "start": "00:52.00",
+            "end": "00:55.00",
+            "character": "CATHERINE",
+            "kind": "dialogue",
+            "text": "Father Thomas did his part beautifully today."
+          },
+          {
+            "start": "00:55.20",
+            "end": "00:58.20",
+            "character": "CATHERINE",
+            "kind": "dialogue",
+            "text": "Now I need him to do a little more before that hearing convenes."
+          },
+          {
+            "start": "00:58.50",
+            "end": "01:00.60",
+            "character": "AGNES",
+            "kind": "dialogue",
+            "text": "If someone sees him come to you..."
+          },
+          {
+            "start": "01:01.80",
+            "end": "01:04.00",
+            "character": "CATHERINE",
+            "kind": "dialogue",
+            "text": "Then no one sees him."
+          },
+          {
+            "start": "01:04.30",
+            "end": "01:06.90",
+            "character": "CATHERINE",
+            "kind": "dialogue",
+            "text": "That is precisely your job tonight."
+          },
+          {
+            "start": "01:07.80",
+            "end": "01:10.50",
+            "character": "CATHERINE",
+            "kind": "dialogue",
+            "text": "Send for the priest. Tonight."
+          }
+        ]
+      }
+    ],
+    "opening_hook": {
+      "score": 0.5064,
+      "evidence": [
+        "charged question",
+        "00:29.20 AGNES: “You sent for me, my lady?”",
+        "model: surprise 0.77, arousal 0.89",
+        "zero-shot conflict/reveal 0.30"
+      ],
+      "timestamp": 29.2,
+      "episode_id": "episode-048-Episode 1688397",
+      "text": "You sent for me, my lady?",
+      "timestamp_fmt": "00:29.20"
+    },
+    "ending_cliffhanger": {
+      "score": 0.7955,
+      "evidence": [
+        "zero-shot reads an unresolved threat (0.89)",
+        "01:07.80–01:10.50 CATHERINE: “Send for the priest. Tonight.”",
+        "closing tension 0.67",
+        "zero-shot suspense/threat/reveal 0.89",
+        "cut matches the episode's own final beat (+0.12)",
+        "withheld next beat: CATHERINE “And make sure no one sees him arrive.” (payoff 0.45)"
+      ],
+      "timestamp": 70.5,
+      "episode_id": "episode-048-Episode 1688397",
+      "text": "Send for the priest. Tonight.",
+      "timestamp_fmt": "01:10.50"
+    },
+    "standalone_coherence": {
+      "score": 0.8625,
+      "evidence": [
+        "clear who/what/why",
+        "who: 2 speaking character(s), names on screen: agnes, catherine, thomas",
+        "what: 13 dialogue lines, 105 words",
+        "why: stakes (duke, father); logline overlap 0.33",
+        "structure: continuous, 0 scene switch(es)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "emotional_intensity": {
+      "score": 0.7686,
+      "evidence": [
+        "peak 1.00 at 00:34.20, mean 0.54 (emotion model)"
+      ],
+      "timestamp": 34.2,
+      "episode_id": "episode-048-Episode 1688397",
+      "text": "",
+      "timestamp_fmt": "00:34.20"
+    },
+    "narrative_continuity": {
+      "score": 1.0,
+      "evidence": [
+        "one unbroken stretch, 1 scene(s)"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "dialogue_quality": {
+      "score": 0.9769,
+      "evidence": [
+        "speech covers 84% of runtime, 8% filler lines, 8.1 words/line"
+      ],
+      "timestamp": null,
+      "episode_id": "",
+      "text": "",
+      "timestamp_fmt": null
+    },
+    "score_breakdown": {
+      "hook": 0.5064,
+      "cliffhanger": 0.7955,
+      "coherence": 0.8625,
+      "emotion": 0.7686,
+      "continuity": 1.0,
+      "dialogue_quality": 0.9769
+    },
+    "passed_quality_gates": true,
+    "rejection_reasons": [],
+    "risk_flags": [],
+    "why_it_works": "Opens on charged question (ep 48 00:29.20: “You sent for me, my lady?”) and cuts on zero-shot reads an unresolved threat (0.89) (ep 48 01:10.50: “Send for the priest. Tonight.”); clear who/what/why.",
+    "llm_review": null
+  }
+}

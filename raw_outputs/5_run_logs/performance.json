@@ -1,0 +1,270 @@
+{
+  "timings_seconds": {
+    "parse": 0.027,
+    "features_emotion": 0.447,
+    "candidates_continuous": 1.992,
+    "candidates_multi": 2.096,
+    "stage2_zeroshot": 34.591,
+    "llm_review": 62.815,
+    "total": 102.177
+  },
+  "episodes": 50,
+  "seconds_per_episode_total": 2.044,
+  "per_episode": [
+    {
+      "episode_id": "episode-001-Episode 1671703",
+      "features_s": 0.019,
+      "candidates_s": 0.05
+    },
+    {
+      "episode_id": "episode-002-Episode 1671704",
+      "features_s": 0.009,
+      "candidates_s": 0.038
+    },
+    {
+      "episode_id": "episode-003-Episode 1671705",
+      "features_s": 0.01,
+      "candidates_s": 0.081
+    },
+    {
+      "episode_id": "episode-004-Episode 1671706",
+      "features_s": 0.009,
+      "candidates_s": 0.064
+    },
+    {
+      "episode_id": "episode-005-Episode 1671707",
+      "features_s": 0.007,
+      "candidates_s": 0.035
+    },
+    {
+      "episode_id": "episode-006-Episode 1671708",
+      "features_s": 0.008,
+      "candidates_s": 0.043
+    },
+    {
+      "episode_id": "episode-007-Episode 1671709",
+      "features_s": 0.007,
+      "candidates_s": 0.019
+    },
+    {
+      "episode_id": "episode-008-Episode 1671710",
+      "features_s": 0.005,
+      "candidates_s": 0.031
+    },
+    {
+      "episode_id": "episode-009-Episode 1671711",
+      "features_s": 0.011,
+      "candidates_s": 0.076
+    },
+    {
+      "episode_id": "episode-010-Episode 1671712",
+      "features_s": 0.004,
+      "candidates_s": 0.014
+    },
+    {
+      "episode_id": "episode-011-Episode 1671713",
+      "features_s": 0.008,
+      "candidates_s": 0.051
+    },
+    {
+      "episode_id": "episode-012-Episode 1671714",
+      "features_s": 0.008,
+      "candidates_s": 0.033
+    },
+    {
+      "episode_id": "episode-013-Episode 1671715",
+      "features_s": 0.009,
+      "candidates_s": 0.033
+    },
+    {
+      "episode_id": "episode-014-Episode 1671716",
+      "features_s": 0.006,
+      "candidates_s": 0.014
+    },
+    {
+      "episode_id": "episode-015-Episode 1671717",
+      "features_s": 0.008,
+      "candidates_s": 0.021
+    },
+    {
+      "episode_id": "episode-016-Episode 1671718",
+      "features_s": 0.008,
+      "candidates_s": 0.028
+    },
+    {
+      "episode_id": "episode-017-Episode 1671719",
+      "features_s": 0.01,
+      "candidates_s": 0.03
+    },
+    {
+      "episode_id": "episode-018-Episode 1671720",
+      "features_s": 0.011,
+      "candidates_s": 0.033
+    },
+    {
+      "episode_id": "episode-019-Episode 1671721",
+      "features_s": 0.012,
+      "candidates_s": 0.046
+    },
+    {
+      "episode_id": "episode-020-Episode 1671722",
+      "features_s": 0.011,
+      "candidates_s": 0.074
+    },
+    {
+      "episode_id": "episode-021-Episode 1678574",
+      "features_s": 0.016,
+      "candidates_s": 0.069
+    },
+    {
+      "episode_id": "episode-022-Episode 1678575",
+      "features_s": 0.009,
+      "candidates_s": 0.043
+    },
+    {
+      "episode_id": "episode-023-Episode 1678576",
+      "features_s": 0.004,
+      "candidates_s": 0.01
+    },
+    {
+      "episode_id": "episode-024-Episode 1678577",
+      "features_s": 0.01,
+      "candidates_s": 0.04
+    },
+    {
+      "episode_id": "episode-025-Episode 1678578",
+      "features_s": 0.011,
+      "candidates_s": 0.049
+    },
+    {
+      "episode_id": "episode-026-Episode 1678579",
+      "features_s": 0.007,
+      "candidates_s": 0.01
+    },
+    {
+      "episode_id": "episode-027-Episode 1678580",
+      "features_s": 0.009,
+      "candidates_s": 0.056
+    },
+    {
+      "episode_id": "episode-028-Episode 1678581",
+      "features_s": 0.01,
+      "candidates_s": 0.087
+    },
+    {
+      "episode_id": "episode-029-Episode 1678582",
+      "features_s": 0.007,
+      "candidates_s": 0.047
+    },
+    {
+      "episode_id": "episode-030-Episode 1678583",
+      "features_s": 0.01,
+      "candidates_s": 0.024
+    },
+    {
+      "episode_id": "episode-031-Episode 1681364",
+      "features_s": 0.011,
+      "candidates_s": 0.044
+    },
+    {
+      "episode_id": "episode-032-Episode 1681365",
+      "features_s": 0.011,
+      "candidates_s": 0.067
+    },
+    {
+      "episode_id": "episode-033-Episode 1681366",
+      "features_s": 0.008,
+      "candidates_s": 0.059
+    },
+    {
+      "episode_id": "episode-034-Episode 1681367",
+      "features_s": 0.011,
+      "candidates_s": 0.066
+    },
+    {
+      "episode_id": "episode-035-Episode 1681368",
+      "features_s": 0.011,
+      "candidates_s": 0.042
+    },
+    {
+      "episode_id": "episode-036-Episode 1681369",
+      "features_s": 0.01,
+      "candidates_s": 0.067
+    },
+    {
+      "episode_id": "episode-037-Episode 1681370",
+      "features_s": 0.009,
+      "candidates_s": 0.032
+    },
+    {
+      "episode_id": "episode-038-Episode 1681371",
+      "features_s": 0.008,
+      "candidates_s": 0.035
+    },
+    {
+      "episode_id": "episode-039-Episode 1686799",
+      "features_s": 0.008,
+      "candidates_s": 0.022
+    },
+    {
+      "episode_id": "episode-040-Episode 1686800",
+      "features_s": 0.006,
+      "candidates_s": 0.016
+    },
+    {
+      "episode_id": "episode-041-Episode 1686801",
+      "features_s": 0.006,
+      "candidates_s": 0.014
+    },
+    {
+      "episode_id": "episode-042-Episode 1686802",
+      "features_s": 0.005,
+      "candidates_s": 0.014
+    },
+    {
+      "episode_id": "episode-043-Episode 1686803",
+      "features_s": 0.008,
+      "candidates_s": 0.05
+    },
+    {
+      "episode_id": "episode-044-Episode 1686804",
+      "features_s": 0.005,
+      "candidates_s": 0.018
+    },
+    {
+      "episode_id": "episode-045-Episode 1686805",
+      "features_s": 0.011,
+      "candidates_s": 0.046
+    },
+    {
+      "episode_id": "episode-046-Episode 1688395",
+      "features_s": 0.011,
+      "candidates_s": 0.033
+    },
+    {
+      "episode_id": "episode-047-Episode 1688396",
+      "features_s": 0.01,
+      "candidates_s": 0.036
+    },
+    {
+      "episode_id": "episode-048-Episode 1688397",
+      "features_s": 0.007,
+      "candidates_s": 0.024
+    },
+    {
+      "episode_id": "episode-049-Episode 1688398",
+      "features_s": 0.012,
+      "candidates_s": 0.048
+    },
+    {
+      "episode_id": "episode-050-Episode 1697563",
+      "features_s": 0.006,
+      "candidates_s": 0.011
+    }
+  ],
+  "machine": {
+    "python": "3.12.10",
+    "platform": "Windows-11-10.0.26300-SP0",
+    "processor": "Intel64 Family 6 Model 154 Stepping 3, GenuineIntel"
+  }
+}

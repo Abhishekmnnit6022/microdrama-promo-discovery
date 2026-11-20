@@ -1,0 +1,49 @@
+{
+  "automated_checks": {
+    "episodes_discovered": 50,
+    "episodes_failed": 0,
+    "candidates": 25534,
+    "candidate_valid_duration_rate": 1.0,
+    "candidate_valid_hook_rate": 0.5647,
+    "candidate_valid_cliffhanger_rate": 0.5414,
+    "candidate_poor_coherence_rate": 0.0059,
+    "candidate_pass_all_gates_rate": 0.3832,
+    "recommended": 15,
+    "recommended_valid_duration_rate": 1.0,
+    "recommended_timestamp_validity_rate": 1.0,
+    "recommended_duplicate_pair_rate": 0.0,
+    "recommended_hook_gate_rate": 1.0,
+    "recommended_cliffhanger_gate_rate": 1.0,
+    "recommended_mean_coherence": 0.8947,
+    "processing_seconds_total": 78.455,
+    "processing_seconds_per_episode": 1.569,
+    "timings_seconds": {
+      "parse": 1.276,
+      "features_emotion": 0.454,
+      "candidates_continuous": 1.943,
+      "candidates_multi": 1.992,
+      "stage2_zeroshot": 24.371,
+      "llm_review": 48.206,
+      "total": 78.455
+    }
+  },
+  "silver_proxy_checks": {
+    "note": "Silver proxies derived from script structure; NOT human evaluation.",
+    "cliffhanger_proxy": {
+      "episodes": 50,
+      "mean_auc_final_line_vs_other_cuts": 0.4359,
+      "final_line_in_top_20pct_of_cuts": 0.24,
+      "mean_score_final_lines": 0.3665,
+      "mean_score_other_lines": 0.3925,
+      "interpretation": "AUC 0.5 = no better than chance at preferring the writers' episode-ending line."
+    },
+    "emotion_model_vs_script_tags": {
+      "dialogue_lines": 1478,
+      "pearson_r_arousal_vs_tag_intensity": 0.2385
+    }
+  },
+  "human_evaluation": {
+    "editor_feedback": "no editor decisions recorded",
+    "labelled_promos": "no human-labelled promos found in eval/labels/ — recall@K, hook/cliffhanger precision not measured"
+  }
+}
