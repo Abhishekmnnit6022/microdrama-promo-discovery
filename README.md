@@ -112,7 +112,7 @@ kuku_fm_assignment_project/
 ├── data/<show name>/           input dataset (50 episode scripts)
 ├── sample_data/                small synthetic .txt / .srt fixtures
 ├── raw_outputs/                unedited outputs of the full-dataset run (start with its README.md)
-├── docs/screenshots/           app screenshots used by the user guide
+├── docs/                       solution note and user guide (PDF)
 └── requirements.txt
 ```
 
