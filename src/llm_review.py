@@ -11,6 +11,7 @@ from __future__ import annotations
 import json
 import logging
 import os
+import time
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 from typing import Optional
@@ -19,8 +20,11 @@ from src.models import PromoCandidate, fmt_ts
 
 logger = logging.getLogger(__name__)
 
-MODELS = ("gemini-3.8-flash", "gemini-3.5-flash-lite")
+# Tried in order; Google often answers 503 "high demand" on one model while another is fine.
+MODELS = ("gemini-3.8-flash", "gemini-3.5-flash-lite", "gemini-3.5-flash", "gemini-2.5-flash")
 TIMEOUT_MS = 30_000
+RETRY_ROUNDS = 3          # full passes over MODELS
+RETRY_PAUSE_S = (0, 4, 10)  # pause before each pass (transient 429/503/504 errors)
 
 PROMPT = """You review short promotional clips for a vertical micro-drama app. The clip below is cut from the show's
 transcript and will be posted on Instagram/TikTok/YouTube to attract viewers who have NEVER watched the show.
@@ -72,24 +76,26 @@ def _render(c: PromoCandidate) -> str:
 def review_one(client, c: PromoCandidate) -> dict:
     from google.genai import types
     last_err = ""
-    for model in MODELS:
-        try:
-            resp = client.models.generate_content(
-                model=model, contents=PROMPT.format(lines=_render(c)),
-                config=types.GenerateContentConfig(response_mime_type="application/json", temperature=0.2),
-            )
-            data = json.loads(resp.text)
-            data = {k: data.get(k) for k in ("hook_works", "cliffhanger_works", "standalone", "one_line", "concerns")}
-            data["model"] = model
-            data["status"] = "ok"
-            return data
-        except Exception as exc:  # network, quota, bad JSON
-            last_err = f"{model}: {type(exc).__name__}: {str(exc)[:200]}"
-            logger.warning("Gemini review failed (%s)", last_err)
+    for rnd in range(RETRY_ROUNDS):
+        time.sleep(RETRY_PAUSE_S[min(rnd, len(RETRY_PAUSE_S) - 1)])
+        for model in MODELS:
+            try:
+                resp = client.models.generate_content(
+                    model=model, contents=PROMPT.format(lines=_render(c)),
+                    config=types.GenerateContentConfig(response_mime_type="application/json", temperature=0.2),
+                )
+                data = json.loads(resp.text)
+                data = {k: data.get(k) for k in ("hook_works", "cliffhanger_works", "standalone", "one_line", "concerns")}
+                data["model"] = model
+                data["status"] = "ok"
+                return data
+            except Exception as exc:  # network, quota, overload, bad JSON
+                last_err = f"{model}: {type(exc).__name__}: {str(exc)[:200]}"
+                logger.warning("Gemini review failed (%s)", last_err)
     return {"status": "failed", "error": last_err}
 
 
-def review_promos(promos: list, api_key: str, max_workers: int = 4) -> dict:
+def review_promos(promos: list, api_key: str, max_workers: int = 3) -> dict:
     """Attach ``llm_review`` to each promo. Returns a summary dict."""
     if not promos:
         return {"status": "skipped", "reason": "no promos"}

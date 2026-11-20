@@ -95,6 +95,14 @@ def weights() -> dict:
     return results().get("run_manifest", {}).get("config", {}).get("weights", {})
 
 
+def _secret_gemini_key() -> str:
+    """GEMINI_API_KEY from the host's secrets store (e.g. Streamlit Community Cloud); empty if none."""
+    try:
+        return str(st.secrets.get("GEMINI_API_KEY", "") or "")
+    except Exception:  # no secrets file configured
+        return ""
+
+
 def no_results_note():
     st.info("No results in the selected folder yet. Open **Dataset & processing** to run the pipeline, "
             "or pick the reference run in the sidebar.")
@@ -184,12 +192,12 @@ def page_dataset():
     top_k = c1.number_input("Promos to recommend", 3, 50, 15)
     zs = c2.toggle("Zero-shot NLI re-scoring (stage 2)", value=True, help="Slower on first run; cached afterwards.")
     llm = c3.toggle("Gemini second opinion on final list", value=False)
-    key = st.text_input("Gemini API key (optional; otherwise .env / environment is used)", type="password") if llm else ""
+    key = st.text_input("Gemini API key (optional; otherwise the app secret / environment / .env is used)", type="password") if llm else ""
     show_sel = st.multiselect("Shows to process", list(shows), default=list(shows))
     if st.button("Process all episodes", type="primary"):
         bar = st.progress(0.0, text="Starting…")
         cfg = RunConfig(dataset_dir=ds, cache_dir=str(ROOT / ".cache"), top_k=int(top_k), use_zeroshot=zs,
-                        use_llm=llm, api_key=resolve_api_key(key, ROOT / ".env") if llm else "", shows=show_sel)
+                        use_llm=llm, api_key=resolve_api_key(key or _secret_gemini_key(), ROOT / ".env") if llm else "", shows=show_sel)
         res = run(cfg, progress=lambda p, m: bar.progress(min(1.0, p), text=m))
         out = ROOT / "outputs" / "latest"
         if res.shows:

@@ -86,6 +86,7 @@ def test_llm_failure_is_recorded_not_fatal(tmp_path, monkeypatch):
             def generate_content(**kw):
                 raise RuntimeError("quota exceeded")
     monkeypatch.setattr(llm_review, "_client", lambda key: Boom())
+    monkeypatch.setattr(llm_review, "RETRY_PAUSE_S", (0, 0, 0))  # retries still happen, without waiting
     res = run(_cfg(tmp_path, use_llm=True, api_key="test-key"))
     assert res.llm_summary["status"] == "failed"
     assert all(c.llm_review["status"] == "failed" for c in res.recommended)

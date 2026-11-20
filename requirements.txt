@@ -1,6 +1,7 @@
-# CPU-only PyTorch (avoids ~2 GB of CUDA libraries on Linux hosts such as Streamlit Community Cloud)
---extra-index-url https://download.pytorch.org/whl/cpu
-torch>=2.2
+# PyTorch: on Linux hosts (Streamlit Community Cloud, Docker) use the CPU-only wheel (~210 MB instead of ~2 GB of
+# CUDA libraries). It is pinned by URL so no extra package index is needed. Elsewhere the normal PyPI build is used.
+torch @ https://download.pytorch.org/whl/cpu/torch-2.15.0%2Bcpu-cp312-cp312-manylinux_2_28_x86_64.whl ; sys_platform == "linux" and platform_machine == "x86_64" and python_version == "3.12"
+torch>=2.2 ; sys_platform != "linux" or platform_machine != "x86_64" or python_version != "3.12"
 transformers>=4.44
 sentencepiece>=0.2      # tokenizer support for the DeBERTa-v3 zero-shot model on clean installs
 protobuf>=4
