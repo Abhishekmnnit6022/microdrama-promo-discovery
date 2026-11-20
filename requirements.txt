@@ -2,6 +2,8 @@
 --extra-index-url https://download.pytorch.org/whl/cpu
 torch>=2.2
 transformers>=4.44
+sentencepiece>=0.2      # tokenizer support for the DeBERTa-v3 zero-shot model on clean installs
+protobuf>=4
 streamlit>=1.40
 google-genai>=1.0       # optional Gemini review
 python-dotenv>=1.0
