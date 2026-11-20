@@ -218,14 +218,3 @@ review uses temperature 0.2 and is advisory only. To reproduce `raw_outputs/` ex
 `pip install -r requirements.txt`, delete `.cache/`, run `python run_pipeline.py --out raw_outputs --llm`.
 Without the `--llm` flag, only `4_model_outputs/llm_review.json` changes. (Folder `7_earlier_runs/` is not regenerated.)
 
-## 10. Deployment (Streamlit Community Cloud)
-
-The live app runs from this repository on Streamlit Community Cloud (free tier):
-repository root, main file `app.py`, Python 3.12. `requirements.txt` installs the CPU-only build of PyTorch.
-
-* **No API key is stored in the repository.** `.env` is git-ignored, and the deployed app has no Gemini key
-  configured. Gemini is only an optional second opinion; its verdicts for the reference run are already in
-  `raw_outputs/4_model_outputs/llm_review.json`. A visitor who wants a new Gemini review types their own key on
-  the *Dataset & processing* screen, and that key is used only for that run.
-* Viewing results loads no ML model. *Process all episodes* downloads the two Hugging Face models on first use,
-  so a cloud run takes several minutes. Uploads and editor feedback on the cloud copy are temporary.
