@@ -19,3 +19,6 @@ venv/
 .vscode/
 .idea/
 .claude/
+
+# per-visitor uploads and results from the app
+workspace/

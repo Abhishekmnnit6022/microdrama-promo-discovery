@@ -2,7 +2,7 @@
 
 Screens: Overview · Dataset & processing · Promo results · Segment details · Quality review · Export.
 Every number shown comes from a results folder written by ``src.batch`` (``raw_outputs/`` for the full
-reference run, ``outputs/latest/`` for runs started from this UI). Nothing is hard-coded.
+reference run, a private per-visitor workspace for runs on uploaded files). Nothing is hard-coded.
 
 Run:  streamlit run app.py
 """
@@ -10,7 +10,9 @@ Run:  streamlit run app.py
 from __future__ import annotations
 
 import json
+import shutil
 import sys
+import uuid
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
@@ -46,16 +48,49 @@ for _name, _mod in list(sys.modules.items()):  # stamp load time for the stale-m
     if _name.split(".")[0] in ("ui", "src") and not hasattr(_mod, "_loaded_at"):
         _mod._loaded_at = time.time()
 
-DATA_DIR = ROOT / "data"
-UPLOAD_DIR = DATA_DIR / "uploads"
 FEEDBACK_FILE = ROOT / "feedback" / "editor_feedback.jsonl"
-RESULT_DIRS = {"Reference full-dataset run (raw_outputs/)": reference_results_dir(ROOT),
-               "Latest run from this app (outputs/latest/)": ROOT / "outputs" / "latest"}
+# Each visitor gets a private workspace (uploads + results). The app never processes the bundled example
+# dataset in data/; that is only used by run_pipeline.py and the tests to reproduce raw_outputs/.
+WORKSPACE_ROOT = ROOT / "workspace"
+WORKSPACE_TTL_S = 24 * 3600
+REFERENCE_LABEL = "Reference full-dataset run (raw_outputs/)"
+LATEST_LABEL = "Your latest run (from your uploads)"
+
+
+def _workspace() -> Path:
+    """This visitor's private folder: <workspace>/<session id>/{uploads,results}."""
+    if "workspace_id" not in st.session_state:
+        st.session_state["workspace_id"] = uuid.uuid4().hex[:16]
+        _cleanup_old_workspaces()
+    ws = WORKSPACE_ROOT / st.session_state["workspace_id"]
+    ws.mkdir(parents=True, exist_ok=True)
+    return ws
+
+
+def _cleanup_old_workspaces() -> None:
+    """Best effort: drop other visitors' workspaces untouched for a day."""
+    if not WORKSPACE_ROOT.exists():
+        return
+    now = time.time()
+    for d in WORKSPACE_ROOT.iterdir():
+        try:
+            if d.is_dir() and now - d.stat().st_mtime > WORKSPACE_TTL_S:
+                shutil.rmtree(d, ignore_errors=True)
+        except OSError:
+            pass
+
+
+def upload_dir() -> Path:
+    return _workspace() / "uploads"
+
+
+def result_dirs() -> dict:
+    return {REFERENCE_LABEL: reference_results_dir(ROOT), LATEST_LABEL: _workspace() / "results"}
 
 
 # ── state helpers ─────────────────────────────────────────────────────────
 def results_dir() -> Path:
-    return Path(st.session_state.get("results_dir", next(iter(RESULT_DIRS.values()))))
+    return Path(st.session_state.get("results_dir", str(reference_results_dir(ROOT))))
 
 
 @st.cache_data(show_spinner=False)
@@ -113,8 +148,8 @@ def _secret_gemini_key() -> str:
 
 
 def no_results_note():
-    st.info("No results in the selected folder yet. Open **Dataset & processing** to run the pipeline, "
-            "or pick the reference run in the sidebar.")
+    st.info("No results yet for your uploads. Open **Dataset & processing** to upload a show and process it, "
+            "or pick the reference full-dataset run in the sidebar.")
 
 
 def promo_title(p: dict) -> str:
@@ -165,21 +200,26 @@ def page_overview():
 
 
 def page_dataset():
-    header("Dataset & processing", "Discover episodes and run the pipeline",
-           "Each sub-folder of the dataset folder is one show; .txt scripts, .srt subtitles and .json transcripts are supported.")
-    ds = st.text_input("Dataset folder", value=str(DATA_DIR))
-    up = st.file_uploader("…or upload transcripts for a new show", type=["txt", "srt", "json"], accept_multiple_files=True)
-    show_name = st.text_input("Show name for uploaded files", value="Uploaded show")
-    if up and st.button("Save uploaded files into the dataset"):
-        target = UPLOAD_DIR / show_name.strip().replace("/", "_")
+    header("Dataset & processing", "Upload a show and find its promos",
+           "Upload the episode transcripts of one show (.txt scripts, .srt subtitles or .json). Only your files are "
+           "processed, and they are private to this browser session. The saved full-dataset run stays available "
+           "under “Reference full-dataset run” in the sidebar.")
+    up = st.file_uploader("Episode transcripts", type=["txt", "srt", "json"], accept_multiple_files=True)
+    show_name = st.text_input("Show name", value="My show")
+    if up and st.button("Use these files", type="primary"):
+        udir = upload_dir()
+        shutil.rmtree(udir, ignore_errors=True)  # a new upload replaces the previous one
+        target = udir / (show_name.strip().replace("/", "_").replace("\\", "_") or "My show")
         target.mkdir(parents=True, exist_ok=True)
         for f in up:
             (target / Path(f.name).name).write_bytes(f.getvalue())
-        st.success(f"Saved {len(up)} file(s) to {target.relative_to(ROOT)}. They are included in the next run.")
+        st.success(f"Loaded {len(up)} file(s) as “{target.name}”. Previous uploads in this session were replaced.")
 
-    shows = discover_shows(Path(ds))
+    ds = upload_dir()
+    shows = discover_shows(ds)
     if not shows:
-        st.warning("No transcripts found in that folder.")
+        st.info("No episodes uploaded yet. Choose transcript files above and click “Use these files”.")
+        _episode_status_table()
         return
     rows, warns = [], []
     for show, files in shows.items():
@@ -198,7 +238,7 @@ def page_dataset():
         with st.expander(f"Parse warnings and errors ({len(warns)})", expanded=False):
             st.dataframe(pd.DataFrame(warns), hide_index=True, use_container_width=True)
 
-    st.markdown("### Process all episodes")
+    st.markdown(f"### Process “{', '.join(shows)}”")
     c1, c2, c3 = st.columns(3)
     top_k = c1.number_input("Promos to recommend", 3, 50, 15)
     zs = c2.toggle("Zero-shot NLI re-scoring (stage 2)", value=True, help="Slower on first run; cached afterwards.")
@@ -212,26 +252,31 @@ def page_dataset():
         else:
             st.warning("No Gemini key found. Type one above, or add `GEMINI_API_KEY = \"...\"` to the app's secrets "
                        "(Streamlit Cloud: app Settings → Secrets). Without a key the Gemini review is skipped.")
-    show_sel = st.multiselect("Shows to process", list(shows), default=list(shows))
-    if st.button("Process all episodes", type="primary"):
+    if st.button("Process uploaded episodes", type="primary"):
         bar = st.progress(0.0, text="Starting…")
-        cfg = RunConfig(dataset_dir=ds, cache_dir=str(ROOT / ".cache"), top_k=int(top_k), use_zeroshot=zs,
-                        use_llm=llm, api_key=gemini_key, shows=show_sel)
+        cfg = RunConfig(dataset_dir=str(ds), cache_dir=str(ROOT / ".cache"), top_k=int(top_k), use_zeroshot=zs,
+                        use_llm=llm, api_key=gemini_key)
         res = run(cfg, progress=lambda p, m: bar.progress(min(1.0, p), text=m))
-        out = ROOT / "outputs" / "latest"
+        out = result_dirs()[LATEST_LABEL]
         if res.shows:
+            shutil.rmtree(out, ignore_errors=True)
             write_outputs(res, out)
             st.cache_data.clear()
             s = res.stats["summary"]
-            st.session_state["pending_results_choice"] = list(RESULT_DIRS)[1]
+            st.session_state["pending_results_choice"] = LATEST_LABEL
             st.session_state["flash"] = (f"Processed {s['episodes_processed_ok']} episode(s) in {res.timings.get('total', 0):.0f}s — "
-                       f"{s['candidates_total']:,} candidates, {s['recommended']} recommended. Results saved to outputs/latest/.")
+                       f"{s['candidates_total']:,} candidates, {s['recommended']} recommended.")
             st.rerun()
         else:
             st.error(res.stats.get("error", "Nothing processed"))
+    _episode_status_table()
+
+
+def _episode_status_table():
     r = results()
     if r:
-        st.markdown(f"### Episode status — {results_dir().name}/")
+        label = "your latest run" if results_dir() == result_dirs()[LATEST_LABEL] else "reference full-dataset run"
+        st.markdown(f"### Episode status — {label}")
         eps = r["run_manifest"]["episode_status"]
         df = pd.DataFrame([{ "Episode": e["episode_number"], "Status": e["status"], "Candidates": e["candidates"],
                              "Passed gates": e["candidates_passed"], "Best score": e["best_score"],
@@ -413,14 +458,15 @@ def main():
     with st.sidebar:
         st.markdown('<div class="eyebrow">Microdrama</div>', unsafe_allow_html=True)
         st.markdown("### Promo Discovery")
-        labels = list(RESULT_DIRS)
+        dirs = result_dirs()
+        labels = list(dirs)
         if "pending_results_choice" in st.session_state:
             st.session_state["results_choice"] = st.session_state.pop("pending_results_choice")
         if "results_choice" not in st.session_state:  # default to the first folder that has results
             st.session_state["results_choice"] = next(
-                (k for k in labels if output_path(RESULT_DIRS[k], "run_manifest.json").exists()), labels[0])
+                (k for k in labels if output_path(dirs[k], "run_manifest.json").exists()), labels[0])
         choice = st.radio("Results shown", labels, key="results_choice")
-        st.session_state["results_dir"] = str(RESULT_DIRS[choice])
+        st.session_state["results_dir"] = str(dirs[choice])
         if st.session_state.get("flash"):
             st.success(st.session_state.pop("flash"))
     pages = [

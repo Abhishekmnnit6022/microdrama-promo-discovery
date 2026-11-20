@@ -143,8 +143,11 @@ Launch the app:
 streamlit run app.py
 ```
 
-It opens on the reference full-dataset run in `raw_outputs/`. The *Dataset & processing* screen re-runs the
-pipeline on any folder or on uploaded files and writes to `outputs/latest/`.
+It opens on the reference full-dataset run in `raw_outputs/`. On the *Dataset & processing* screen a user uploads
+the episode transcripts of their own show and processes **only those files**. Uploads and results live in a private
+per-visitor folder (`workspace/<session>/`, removed after a day) and appear as "Your latest run" in the sidebar.
+The bundled 50-episode dataset in `data/` is not processed by the app; it is used by the command line below and
+by the tests to reproduce `raw_outputs/`.
 
 Process the full dataset from the command line:
 
