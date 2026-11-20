@@ -359,13 +359,123 @@ def page_segments():
                 mark += " ◀ cut (cliffhanger)"
             who = "*action*" if d["kind"] == "action" else f"**{d['character']}**"
             st.markdown(f"`{t}` {who}: {d['text']}{mark}")
+    _after_the_cut(p)
+    _alternative_endings(p)
+    _context_check(p)
     with st.expander("Detection evidence"):
         for k in ("opening_hook", "ending_cliffhanger", "standalone_coherence", "emotional_intensity", "narrative_continuity", "dialogue_quality"):
             c = p.get(k)
             if c:
                 st.markdown(f"**{k.replace('_', ' ').title()}** — {c['score']:.2f}")
-                for e in c["evidence"]:
+                for e in _dedupe_evidence(c["evidence"]):
                     st.markdown(f"- {e}")
+
+
+# ── segment-details helpers (read-only views of the source scripts and scored candidates) ──
+_TITLE_WORDS = {"lady", "lord", "sir", "the", "duke", "duchess", "dowager", "mr", "mrs", "miss", "old", "young", "former"}
+# speaker labels that describe a role rather than name a person — viewers don't need these named
+_ROLE_WORDS = {"guard", "guards", "nobleman", "noblewoman", "priest", "maid", "servant", "stranger", "man", "woman",
+               "girl", "boy", "villager", "soldier", "doctor", "bailiff", "crowd", "voice", "narrator", "matriarch",
+               "groom", "bride", "thug", "merchant", "officer", "butler", "footman", "child", "elder", "high"}
+
+
+def _episode_file(show: str, episode_id: str):
+    for base in (ROOT / "data", upload_dir()):
+        for ext in (".txt", ".srt", ".json"):
+            f = base / show / f"{episode_id}{ext}"
+            if f.exists():
+                return f
+    return None
+
+
+@st.cache_data(show_spinner=False)
+def _episode_content(path: str, mtime: float) -> list:
+    ep = parse_episode_file(Path(path), Path(path).parent.name)
+    return [{"start": u.start, "end": u.end, "character": u.character, "kind": u.kind, "text": u.text}
+            for u in ep.content]
+
+
+def _lines_for(show: str, episode_id: str) -> list:
+    f = _episode_file(show, episode_id)
+    return _episode_content(str(f), f.stat().st_mtime) if f else []
+
+
+def _after_the_cut(p: dict) -> None:
+    last = p["segments"][-1]
+    lines = _lines_for(p["show"], last["episode_id"])
+    if not lines:
+        return
+    cut = last["end_seconds"]
+    nxt = [u for u in lines if u["start"] >= cut - 0.05][:4]
+    st.markdown("### What the promo holds back")
+    st.caption("The script lines right after the cut. A good cliffhanger stops just before something the viewer wants to see.")
+    if not nxt:
+        st.markdown("_The cut is the last line of the episode._")
+    for u in nxt:
+        who = "*action*" if u["kind"] == "action" else f"**{u['character']}**"
+        st.markdown(f"`{fmt_ts(u['start'])}` {who}: {u['text']}")
+
+
+@st.cache_data(show_spinner=False)
+def _candidates_table(path: str, mtime: float) -> pd.DataFrame:
+    return pd.read_csv(path)
+
+
+def _alternative_endings(p: dict) -> None:
+    f = output_path(results_dir(), "candidates_all.csv")
+    if not f.exists():
+        return
+    df = _candidates_table(str(f), f.stat().st_mtime)
+    first = p["segments"][0]
+    start_key = f"{first['episode_number']}:{first['start']}-"
+    firsts = df["segments"].astype(str).str.split(" + ", regex=False).str[0]
+    alt = df[(df["structure"] == p["structure"]) & firsts.str.startswith(start_key) & (df["promo_id"] != p["promo_id"])]
+    if alt.empty:
+        return
+    alt = alt.sort_values(["passed", "priority_score"], ascending=[False, False]).head(5)
+    last = p["segments"][-1]
+    lines = _lines_for(p["show"], last["episode_id"])
+    rows = []
+    for _, r in alt.iterrows():
+        end_txt = str(r["segments"]).split(" + ")[-1].rsplit("-", 1)[-1]
+        ending = next((u for u in lines if fmt_ts(u["end"]) == end_txt), None)
+        rows.append({"Ends at": end_txt, "Duration (s)": r["total_duration"], "Priority": round(r["priority_score"], 3),
+                     "Cliffhanger": round(r["cliffhanger"], 2), "Passes checks": bool(r["passed"]),
+                     "Last line": (f"{ending['character']}: {ending['text']}" if ending else ""),
+                     "Scored with": "zero-shot (stage 2)" if int(r["stage"]) == 2 else "stage 1 only"})
+    st.markdown("### Alternative endings for the same opening")
+    st.caption(f"This promo ends at {last['end']} (priority {p['priority_score']:.3f}). Other cut points the system scored "
+               "for the same hook; scores from stage 1 only are not directly comparable with stage-2 scores.")
+    st.dataframe(pd.DataFrame(rows), hide_index=True, use_container_width=True,
+                 column_config={"Last line": st.column_config.TextColumn(width="large")})
+
+
+def _context_check(p: dict) -> None:
+    lines = [d for s in p["segments"] for d in s["dialogue"]]
+    spoken = " ".join(d["text"] for d in lines if d["kind"] == "dialogue").lower()
+    speakers = list(dict.fromkeys(d["character"] for d in lines if d["kind"] == "dialogue"))
+    unnamed = []
+    for sp in speakers:
+        words = [t.lower() for t in sp.replace("'", " ").split()]
+        if any(w in _ROLE_WORDS for w in words):
+            continue  # a role ("Blond Nobleman", "Royal Guard"), not a character the viewer must know by name
+        toks = [t for t in words if len(t) > 2 and t not in _TITLE_WORDS]
+        if toks and not any(t in spoken for t in toks):
+            unnamed.append(sp.title())
+    st.markdown("### Context check for a new viewer")
+    if unnamed:
+        st.markdown(f"Speaks but is **never named** in the clip: {', '.join(unnamed)}. A new viewer sees the face "
+                    "but may not know who this is; consider a caption or a slightly earlier start.")
+    else:
+        st.markdown("Every speaking character is named at least once in the clip.")
+
+
+def _dedupe_evidence(evidence: list) -> list:
+    """Drop the second zero-shot line when the label already states the same zero-shot score."""
+    out = list(evidence)
+    if out and out[0].startswith("zero-shot reads"):
+        out = [e for e in out if not e.startswith("zero-shot suspense/threat/reveal")]
+    return out
 
 
 def page_review():
