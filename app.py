@@ -96,11 +96,20 @@ def weights() -> dict:
 
 
 def _secret_gemini_key() -> str:
-    """GEMINI_API_KEY from the host's secrets store (e.g. Streamlit Community Cloud); empty if none."""
+    """Gemini key from the host's secrets store (e.g. Streamlit Community Cloud); empty if none.
+
+    Accepts GEMINI_API_KEY (preferred), GOOGLE_API_KEY, or a [gemini] section with api_key.
+    """
     try:
-        return str(st.secrets.get("GEMINI_API_KEY", "") or "")
+        for name in ("GEMINI_API_KEY", "GOOGLE_API_KEY", "gemini_api_key"):
+            if st.secrets.get(name):
+                return str(st.secrets[name]).strip()
+        section = st.secrets.get("gemini")
+        if section and section.get("api_key"):
+            return str(section["api_key"]).strip()
     except Exception:  # no secrets file configured
-        return ""
+        pass
+    return ""
 
 
 def no_results_note():
@@ -145,7 +154,9 @@ def page_overview():
             st.markdown(f'<div class="meta"><b>{k}</b>: {ui.esc(v)}</div>', unsafe_allow_html=True)
         llm = man.get("llm_review", {})
         st.markdown(f'<div class="meta"><b>Gemini review</b>: {ui.esc(llm.get("status"))}'
-                    + (f' — {llm.get("reviewed")} reviewed' if llm.get("reviewed") is not None else "") + "</div>", unsafe_allow_html=True)
+                    + (f' — {llm.get("reviewed")} reviewed' if llm.get("reviewed") is not None else "")
+                    + (f', {llm.get("failed")} failed' if llm.get("failed") else "")
+                    + (f' ({ui.esc(llm.get("reason"))})' if llm.get("reason") else "") + "</div>", unsafe_allow_html=True)
     st.markdown("### Top recommendations")
     top = promos()[:5]
     dec = decisions()
@@ -193,11 +204,19 @@ def page_dataset():
     zs = c2.toggle("Zero-shot NLI re-scoring (stage 2)", value=True, help="Slower on first run; cached afterwards.")
     llm = c3.toggle("Gemini second opinion on final list", value=False)
     key = st.text_input("Gemini API key (optional; otherwise the app secret / environment / .env is used)", type="password") if llm else ""
+    gemini_key = resolve_api_key(key or _secret_gemini_key(), ROOT / ".env") if llm else ""
+    if llm:
+        if gemini_key:
+            src = "the key you typed" if key.strip() else "the app's configured key"
+            st.caption(f"Gemini key found: using {src}.")
+        else:
+            st.warning("No Gemini key found. Type one above, or add `GEMINI_API_KEY = \"...\"` to the app's secrets "
+                       "(Streamlit Cloud: app Settings → Secrets). Without a key the Gemini review is skipped.")
     show_sel = st.multiselect("Shows to process", list(shows), default=list(shows))
     if st.button("Process all episodes", type="primary"):
         bar = st.progress(0.0, text="Starting…")
         cfg = RunConfig(dataset_dir=ds, cache_dir=str(ROOT / ".cache"), top_k=int(top_k), use_zeroshot=zs,
-                        use_llm=llm, api_key=resolve_api_key(key or _secret_gemini_key(), ROOT / ".env") if llm else "", shows=show_sel)
+                        use_llm=llm, api_key=gemini_key, shows=show_sel)
         res = run(cfg, progress=lambda p, m: bar.progress(min(1.0, p), text=m))
         out = ROOT / "outputs" / "latest"
         if res.shows:
