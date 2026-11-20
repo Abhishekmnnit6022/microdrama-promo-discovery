@@ -66,6 +66,8 @@ Each component is in [0, 1], and the full breakdown is exported with every promo
 open-loop signal ≥ 0.50 at the cut, coherence ≥ 0.55. When no candidate in an episode passes, the episode is
 marked `no_valid_promo` with the most common rejection reasons. It is not given an invalid recommendation.
 
+**Promo mix:** by default the final list is ranked purely by score, which favours single-episode promos (full continuity marks). `--mix include_multi_episode` (or *Promo mix* in the app) reserves up to 5 places for the best promos that join different episodes; `multi_episode_only` returns only those. Scores are not changed.
+
 **Diversity:** greedy best-first selection that skips a candidate if it reuses a hook or cut line already chosen,
 overlaps a chosen promo by more than 30 %, or exceeds 2 promos per episode.
 
@@ -155,6 +157,7 @@ Process the full dataset from the command line:
 python run_pipeline.py --out raw_outputs --llm   # reference run with Gemini review
 python run_pipeline.py                              # → outputs/latest, no LLM
 python run_pipeline.py --dataset D:\shows --top-k 25 --no-zeroshot
+python run_pipeline.py --mix include_multi_episode       # reserve up to 5 places for multi-episode promos
 ```
 
 The parse and inference caches live in `.cache/` and are flushed after every episode and every zero-shot chunk.

@@ -243,6 +243,12 @@ def page_dataset():
     top_k = c1.number_input("Promos to recommend", 3, 50, 15)
     zs = c2.toggle("Zero-shot NLI re-scoring (stage 2)", value=True, help="Slower on first run; cached afterwards.")
     llm = c3.toggle("Gemini second opinion on final list", value=False)
+    mix_labels = {"best": "Best overall", "include_multi_episode": "Include multi-episode promos",
+                  "multi_episode_only": "Multi-episode promos only"}
+    mix = st.radio("Promo mix", list(mix_labels), format_func=mix_labels.get, horizontal=True,
+                   help="Multi-episode promos open on a hook from one episode and end on a cliffhanger from the next "
+                        "one or two episodes. 'Include' reserves up to 5 places for them; scores are not changed. "
+                        "Needs at least 2 uploaded episodes.")
     key = st.text_input("Gemini API key (optional; otherwise the app secret / environment / .env is used)", type="password") if llm else ""
     gemini_key = resolve_api_key(key or _secret_gemini_key(), ROOT / ".env") if llm else ""
     if llm:
@@ -255,7 +261,7 @@ def page_dataset():
     if st.button("Process uploaded episodes", type="primary"):
         bar = st.progress(0.0, text="Starting…")
         cfg = RunConfig(dataset_dir=str(ds), cache_dir=str(ROOT / ".cache"), top_k=int(top_k), use_zeroshot=zs,
-                        use_llm=llm, api_key=gemini_key)
+                        use_llm=llm, api_key=gemini_key, mix=mix)
         res = run(cfg, progress=lambda p, m: bar.progress(min(1.0, p), text=m))
         out = result_dirs()[LATEST_LABEL]
         if res.shows:

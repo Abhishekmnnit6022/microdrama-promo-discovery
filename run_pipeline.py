@@ -27,6 +27,9 @@ def main(argv=None) -> int:
     ap.add_argument("--cache", default=str(ROOT / ".cache"), help="parse/inference cache folder")
     ap.add_argument("--top-k", type=int, default=15)
     ap.add_argument("--max-per-episode", type=int, default=2)
+    ap.add_argument("--mix", choices=["best", "include_multi_episode", "multi_episode_only"], default="best",
+                    help="which promos fill the final list; scores are unchanged")
+    ap.add_argument("--multi-episode-slots", type=int, default=5, help="slots reserved by --mix include_multi_episode")
     ap.add_argument("--max-episodes", type=int, default=None, help="limit episodes per show (debugging)")
     ap.add_argument("--no-emotion", action="store_true", help="skip the emotion model (script tags only)")
     ap.add_argument("--no-zeroshot", action="store_true", help="skip the zero-shot NLI stage")
@@ -50,7 +53,7 @@ def main(argv=None) -> int:
 
     cfg = RunConfig(
         dataset_dir=args.dataset, output_dir=str(out), cache_dir=args.cache, top_k=args.top_k,
-        max_per_episode=args.max_per_episode, use_emotion=not args.no_emotion, use_zeroshot=not args.no_zeroshot,
+        max_per_episode=args.max_per_episode, mix=args.mix, multi_episode_slots=args.multi_episode_slots, use_emotion=not args.no_emotion, use_zeroshot=not args.no_zeroshot,
         use_llm=args.llm, api_key=resolve_api_key(env_file=ROOT / ".env") if args.llm else "",
         max_episodes=args.max_episodes,
     )

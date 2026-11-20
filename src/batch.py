@@ -28,7 +28,7 @@ from src.features import add_zeroshot, build_features
 from src.ingest import PARSER_VERSION, discover_shows, parse_episode_file
 from src.llm_review import review_promos
 from src.models import fmt_ts
-from src.ranking import Gates, Scorer, Weights, select_diverse
+from src.ranking import Gates, Scorer, Weights, select_diverse, select_with_mix
 
 logger = logging.getLogger("promo")
 PIPELINE_VERSION = "3.0.0"
@@ -41,6 +41,8 @@ class RunConfig:
     cache_dir: str = ".cache"
     top_k: int = 15
     max_per_episode: int = 2
+    mix: str = "best"               # best | include_multi_episode | multi_episode_only
+    multi_episode_slots: int = 5     # used by include_multi_episode
     max_overlap: float = 0.3
     use_emotion: bool = True
     use_zeroshot: bool = True
@@ -258,7 +260,8 @@ def run(cfg: RunConfig, progress: Optional[Callable[[float, str], None]] = None)
         for c in show_cands:
             if not hasattr(c, "stage"):
                 c.stage = 1  # type: ignore[attr-defined]
-        res.recommended_by_show[show] = select_diverse(shortlist, cfg.top_k, cfg.max_per_episode, cfg.max_overlap)
+        res.recommended_by_show[show] = select_with_mix(shortlist, cfg.top_k, cfg.max_per_episode, cfg.max_overlap,
+                                                        cfg.mix, cfg.multi_episode_slots)
         for structure in ("continuous", "multi_segment", "cross_episode"):
             alt = select_diverse([c for c in shortlist if c.structure == structure], 5, 1, cfg.max_overlap, assign_rank=False)
             res.alternatives.setdefault(structure, []).extend(alt)

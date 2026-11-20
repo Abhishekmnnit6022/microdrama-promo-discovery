@@ -219,10 +219,18 @@ def conflicts(c: PromoCandidate, kept: PromoCandidate, max_overlap: float = 0.3)
 
 
 def select_diverse(cands: list, top_k: int = 15, max_per_episode: int = 2, max_overlap: float = 0.3,
-                   assign_rank: bool = True) -> list:
-    """Greedy: best-first, skipping candidates that reuse a hook/cut line or overlap a kept promo by > 30 %."""
-    chosen, per_ep = [], {}
+                   assign_rank: bool = True, preselected: list = None) -> list:
+    """Greedy: best-first, skipping candidates that reuse a hook/cut line or overlap a kept promo by > 30 %.
+
+    ``preselected`` promos are kept first and count towards the per-episode limit and the overlap checks.
+    """
+    chosen, per_ep = list(preselected or []), {}
+    for c in chosen:
+        for e in c.episodes:
+            per_ep[e] = per_ep.get(e, 0) + 1
     for c in sorted(cands, key=lambda x: -x.score):
+        if c in chosen:
+            continue
         if not c.passed:
             continue
         if any(per_ep.get(e, 0) >= max_per_episode for e in c.episodes):
@@ -237,4 +245,32 @@ def select_diverse(cands: list, top_k: int = 15, max_per_episode: int = 2, max_o
     if assign_rank:
         for i, c in enumerate(chosen, 1):
             c.rank = i
+    return chosen
+
+
+# ── promo mix (which kinds of promos fill the final list) ─────────────────
+MIX_OPTIONS = {
+    "best": "Best overall (ranked purely by priority score)",
+    "include_multi_episode": "Include multi-episode promos (reserve slots for promos that join different episodes)",
+    "multi_episode_only": "Multi-episode promos only (hook from one episode, ending from a later one)",
+}
+
+
+def select_with_mix(cands: list, top_k: int = 15, max_per_episode: int = 2, max_overlap: float = 0.3,
+                    mix: str = "best", multi_episode_slots: int = 5) -> list:
+    """Final selection with an optional quota for cross-episode promos. Scores are never changed;
+    only which candidates fill the list. The list is ranked by priority score."""
+    if mix not in MIX_OPTIONS:
+        raise ValueError(f"mix must be one of {list(MIX_OPTIONS)}")
+    cross = [c for c in cands if c.structure == "cross_episode"]
+    if mix == "multi_episode_only":
+        chosen = select_diverse(cross, top_k, max_per_episode, max_overlap, assign_rank=False)
+    elif mix == "include_multi_episode":
+        reserved = select_diverse(cross, min(multi_episode_slots, top_k), max_per_episode, max_overlap, assign_rank=False)
+        chosen = select_diverse(cands, top_k, max_per_episode, max_overlap, assign_rank=False, preselected=reserved)
+    else:
+        chosen = select_diverse(cands, top_k, max_per_episode, max_overlap, assign_rank=False)
+    chosen.sort(key=lambda c: -c.score)
+    for i, c in enumerate(chosen, 1):
+        c.rank = i
     return chosen
